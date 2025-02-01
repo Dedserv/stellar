@@ -4,7 +4,7 @@
       <div class="card__img-wrapper">
         <img loading="lazy" class="card__img" :src="props.img" :alt="title" />
       </div>
-      <img loading="lazy" class="card__bg" src="/_nuxt/assets/img/bg.webp" alt="" />
+      <img loading="lazy" class="card__bg" src="/img/bg.webp" alt="" />
     </div>
     <h4 v-if="props.title" class="card__title">{{ props.title }}</h4>
     <span v-if="props.description" class="card__description">{{ props.description }}</span>
