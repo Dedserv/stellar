@@ -16,7 +16,6 @@
         :false-value="falseValue"
         :disabled="disabled || readonly"
         :required="required"
-        @keydown.enter.stop.prevent="$refs.label.click()"
         @focus="onFocus"
         @blur="onBlur"
       />
