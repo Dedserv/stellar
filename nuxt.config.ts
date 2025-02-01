@@ -41,14 +41,6 @@ export default defineNuxtConfig({
       pathPrefix: false, // Отключает префикс для вложенных папок
     },
   ],
-  build: {
-    transpile: ['gsap'],
-  },
-  nitro: {
-    externals: {
-      inline: ['gsap'], // Важно для корректной работы с Nitro
-    },
-  },
   vite: {
     optimizeDeps: {
       include: ['gsap'], // Для правильного дерева зависимостей

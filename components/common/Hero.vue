@@ -37,14 +37,14 @@
     const { width } = useWindowSize();
 
     if (width.value > 768) {
-      $gsap.to('.hero__circle--big', {
+      $gsap().to('.hero__circle--big', {
         rotation: -180, // Вращение на 360 градусов
         duration: 10, // Длительность анимации в секундах
         ease: 'expo.out', // Линейная анимация для равномерного вращения
       });
     }
 
-    $gsap.to('.hero__circle--small', {
+    $gsap().to('.hero__circle--small', {
       rotation: 180, // Вращение на 360 градусов
       duration: 10, // Длительность анимации в секундах
       ease: 'expo.out', // Линейная анимация для равномерного вращения
