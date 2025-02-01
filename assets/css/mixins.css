@@ -1,0 +1,21 @@
+@define-mixin desktop {
+  @media (min-width: 1024px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin tablet {
+  @media (min-width: 768px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin responsive-font-size $mobile-size, $tablet-size, $desktop-size {
+  font-size: $mobile-size;
+  @media (min-width: 768px) {
+    font-size: $tablet-size;
+  }
+  @media (min-width: 1024px) {
+    font-size: $desktop-size;
+  }
+}

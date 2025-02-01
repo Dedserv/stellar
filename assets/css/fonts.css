@@ -1,0 +1,32 @@
+/* Применяем шрифт к body */
+body {
+  font-family: 'Alegreya Sans SC', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+/* Определяем шрифты */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-display: swap;
+  src: url('/fonts/AlegreyaThin.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-display: swap;
+  src: url('/fonts/AlegreyaRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-display: swap;
+  src: url('/fonts/AlegreyaBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
