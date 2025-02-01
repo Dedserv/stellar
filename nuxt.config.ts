@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  plugins: [{ src: '~/plugins/gsap.client.js', mode: 'client' }],
   devServer: {
     host: '0.0.0.0', // Доступен на всех сетевых интерфейсах
     port: 3000, // Порт, на котором будет запущен сервер
@@ -36,6 +37,16 @@ export default defineNuxtConfig({
   ],
   build: {
     transpile: ['gsap'],
+  },
+  nitro: {
+    externals: {
+      inline: ['gsap'], // Важно для корректной работы с Nitro
+    },
+  },
+  vite: {
+    optimizeDeps: {
+      include: ['gsap'], // Для правильного дерева зависимостей
+    },
   },
   devtools: { enabled: true },
 });

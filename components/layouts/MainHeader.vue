@@ -18,7 +18,7 @@
 
 <script setup>
   import { menuNav } from '~/assets/js/mockMenu';
-  import { gsap } from 'gsap';
+  const { $gsap } = useNuxtApp();
 
   import { modalStore } from '~/stores/modal';
 
@@ -31,7 +31,7 @@
 
   onMounted(() => {
     nextTick(() => {
-      gsap.to(star.value.iconRef, { duration: 2, rotate: 60 });
+      $gsap.to(star.value.iconRef, { duration: 2, rotate: 60 });
     });
   });
 

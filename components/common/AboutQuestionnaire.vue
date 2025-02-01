@@ -40,7 +40,7 @@
 </template>
 
 <script setup>
-  import { gsap } from 'gsap';
+  const { $gsap } = useNuxtApp();
   import stars from '~/assets/js/questionnaireStars';
 
   const isTablet = useMediaQuery('(min-width: 768px) and ( max-width: 1023px)', { ssrWidth: 768 });
@@ -61,7 +61,7 @@
   const animateIcons = () => {
     const icons = [...star.value]; // Получаем все иконки через ref
     const count = Math.floor(Math.random() * 3) + 1; // Случайное количество иконок (1, 2 или 3)
-    const shuffledIcons = gsap.utils.shuffle(icons); // Перемешиваем иконки
+    const shuffledIcons = $gsap.utils.shuffle(icons); // Перемешиваем иконки
 
     let selectedIcons = [];
     let selectedCount = 0;
@@ -86,7 +86,7 @@
     // Анимация для выбранных иконок
     selectedIcons.forEach((icon) => {
       const direction = Math.random() > 0.5 ? '+=' : '-='; // Случайное направление вращения
-      gsap.to(icon.$el, {
+      $gsap.to(icon.$el, {
         rotation: `${direction}90`, // Вращение на +90 или -90 градусов
         duration: 0.4, // Длительность анимации
         ease: 'easeOutElastic',

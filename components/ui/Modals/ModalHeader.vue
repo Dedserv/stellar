@@ -17,13 +17,13 @@
 </template>
 
 <script setup>
-  import gsap from 'gsap';
+  const { $gsap } = useNuxtApp();
 
   const circle = ref(null);
   const star = ref(null);
 
   onMounted(() => {
-    gsap.to(circle.value, {
+    $gsap.to(circle.value, {
       strokeDashoffset: 0, // Полностью отрисовываем круг
       duration: 3,
       delay: 3.2,
@@ -31,7 +31,7 @@
       opacity: 1,
     });
 
-    gsap.to(star.value, {
+    $gsap.to(star.value, {
       opacity: 1,
       scale: 1,
       duration: 3,
