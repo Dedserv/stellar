@@ -45,7 +45,7 @@
 
   const isTablet = useMediaQuery('(min-width: 768px) and ( max-width: 1023px)', { ssrWidth: 768 });
   const isMobile = useMediaQuery('(max-width: 767px)', { ssrWidth: 395 });
-  const star = ref([]);
+  const starRefs = templateRef('star');
   let animationInterval;
 
   const starsList = computed(() => {
@@ -58,10 +58,10 @@
 
   const rotationCount = ref({}); // Счетчик прокруток для каждой иконки
 
-  const animateIcons = () => {
-    const icons = [...star.value]; // Получаем все иконки через ref
+  function animateIcons() {
+    const icons = [...starRefs.value]; // Получаем все иконки через ref
     const count = Math.floor(Math.random() * 3) + 1; // Случайное количество иконок (1, 2 или 3)
-    const shuffledIcons = $gsap().utils.shuffle(icons); // Перемешиваем иконки
+    const shuffledIcons = $gsap.utils.shuffle(icons); // Перемешиваем иконки
 
     let selectedIcons = [];
     let selectedCount = 0;
@@ -70,7 +70,7 @@
     for (const icon of shuffledIcons) {
       if (selectedCount >= count) break; // Если уже выбрали нужное количество иконок
 
-      const iconId = icon.$el.id || icon.$el.dataset.id; // Уникальный идентификатор иконки
+      const iconId = icon.$el.dataset.id; // Уникальный идентификатор иконки
       if (!iconId) continue; // Если у иконки нет идентификатора, пропускаем
 
       // Если иконка уже прокручивалась 2 раза подряд, пропускаем её
@@ -86,14 +86,14 @@
     // Анимация для выбранных иконок
     selectedIcons.forEach((icon) => {
       const direction = Math.random() > 0.5 ? '+=' : '-='; // Случайное направление вращения
-      $gsap().to(icon.$el, {
+      $gsap.to(icon.$el, {
         rotation: `${direction}90`, // Вращение на +90 или -90 градусов
         duration: 0.4, // Длительность анимации
         ease: 'easeOutElastic',
         transformOrigin: 'center center', // Вращение вокруг центра
         onComplete: () => {
           // Сбрасываем счетчик прокруток для этой иконки через 3 секунды
-          const iconId = icon.$el.id || icon.$el.dataset.id;
+          const iconId = icon.$el.dataset.id;
           setTimeout(() => {
             if (rotationCount.value[iconId]) {
               rotationCount.value[iconId] = 0; // Сбрасываем счетчик
@@ -102,7 +102,7 @@
         },
       });
     });
-  };
+  }
 
   onMounted(() => {
     animateIcons();
