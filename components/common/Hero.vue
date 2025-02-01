@@ -27,7 +27,7 @@
 
 <script setup>
   import gsap from 'gsap';
-  const wrapper = templateRef('wrapper');
+  const wrapper = ref('wrapper');
 
   defineExpose({
     wrapper,

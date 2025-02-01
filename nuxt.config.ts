@@ -17,6 +17,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  ssr: true,
   devServer: {
     host: '0.0.0.0', // Доступен на всех сетевых интерфейсах
     port: 3000, // Порт, на котором будет запущен сервер
