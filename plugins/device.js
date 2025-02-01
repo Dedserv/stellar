@@ -1,4 +1,5 @@
 import { useWindowSize } from '@vueuse/core';
+import { ref, watchEffect } from 'vue';
 
 export default defineNuxtPlugin((nuxtApp) => {
   const isMobile = ref(false);
