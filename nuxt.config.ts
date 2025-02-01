@@ -34,5 +34,8 @@ export default defineNuxtConfig({
       pathPrefix: false, // Отключает префикс для вложенных папок
     },
   ],
+  build: {
+    transpile: ['gsap'],
+  },
   devtools: { enabled: true },
 });
