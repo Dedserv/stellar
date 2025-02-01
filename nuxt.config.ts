@@ -18,6 +18,12 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  routeRules: {
+    '/examples/*': { redirect: '/redirect-route' },
+    '/modify-headers-route': { headers: { 'x-magic-of': 'nuxt and vercel' } },
+    // Enables client-side rendering
+    '/spa': { ssr: false },
+  },
   plugins: [{ src: '~/plugins/gsap.client.js', mode: 'client' }],
   devServer: {
     host: '0.0.0.0', // Доступен на всех сетевых интерфейсах
