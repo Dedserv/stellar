@@ -6,10 +6,11 @@
           <div class="questions__wrapper" :class="questionClass(question)">
             <component
               v-for="(questionComponent, compIdx) in question.options ?? 1"
-              v-model="model[qIdx][question?.component === 'VueSelect' ? compIdx : 0]"
+              v-model="model[qIdx][question.component === 'VueSelect' ? compIdx : 0]"
               v-bind="getComponentProps(question, questionComponent)"
               :is="defineComponents[question.component]"
               :key="`${question.component}_${compIdx}`"
+              @menu-opened="onOpen(question.component)"
             >
               <component
                 v-if="question.subcomponent"
@@ -54,6 +55,19 @@
     )
   );
 
+  const onOpen = (component) => {
+    if (component !== 'VueSelect') {
+      return;
+    }
+
+    nextTick(() => {
+      document
+        ?.querySelector('[data-state="open"]')
+        ?.querySelector('input')
+        ?.setAttribute('readonly', true);
+    });
+  };
+
   const questionClass = (question) => {
     if (!question?.subcomponent || !question.options?.length) {
       return;
@@ -85,6 +99,7 @@
   useSwiper(container, {
     effect: 'fade',
     speed: 800,
+    allowTouchMove: false,
     fadeEffect: {
       crossFade: true,
     },
@@ -131,9 +146,12 @@
 
       &--small-gap {
         gap: 0.4rem;
+        overflow-y: auto;
+        max-height: 55.4dvh;
 
         @mixin tablet {
           gap: 1.6rem;
+          max-height: 100%;
         }
       }
 
@@ -150,6 +168,10 @@
           font-size: 3.6rem;
         }
       }
+    }
+
+    :deep(.search-input) {
+      min-width: 14vw;
     }
   }
 </style>

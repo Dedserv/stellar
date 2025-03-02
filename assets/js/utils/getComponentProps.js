@@ -7,8 +7,8 @@ const getComponentProps = (question, currentItem) => {
     },
 
     VueSelect: {
-      searchable: true,
-      clearable: false,
+      isSearchable: true,
+      isClearable: false,
       placeholder: currentItem.title,
       getOptionLabel: (e) => (e?.label ? e.label : e.value),
       options: currentItem.options,
@@ -16,6 +16,8 @@ const getComponentProps = (question, currentItem) => {
     },
 
     SelectInput: {
+      isSearchable: true,
+      isClearable: true,
       placeholder: question.title,
     },
 

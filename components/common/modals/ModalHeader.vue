@@ -102,6 +102,13 @@
       delay: 0.2,
       ease: 'power3.in',
     });
+
+    $gsap.to(star.value, {
+      rotate: 360,
+      duration: 6,
+      delay: 0.4,
+      ease: 'easy.out',
+    });
   });
 </script>
 
@@ -146,8 +153,10 @@
     }
 
     &__button {
+      opacity: 0.6;
+
       &:hover {
-        opacity: 0.8;
+        opacity: 1;
       }
     }
 

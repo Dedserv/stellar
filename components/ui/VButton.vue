@@ -16,7 +16,7 @@
     type: {
       type: String,
       default: 'default',
-      validator: (val) => ['default', 'icons', 'transparent'].includes(val),
+      validator: (val) => ['default', 'icons', 'transparent', 'bordered'].includes(val),
     },
 
     color: {

@@ -7,6 +7,7 @@
       type="transparent"
       color="gray"
       withoutIconMargin
+      :disabled="isFirstSlide"
       @click="onChangeSlideHandler()"
     >
       <UseIcon class="modal-menu__arrow" name="arrow" :width="8" :height="0.8" />
@@ -56,6 +57,8 @@
   const questionsCounter = computed(
     () => `${currentSlideIndex.value + 1} / ${props.questionsLength}`
   );
+
+  const isFirstSlide = computed(() => currentSlideIndex.value === 0);
 </script>
 
 <style scoped>
@@ -65,7 +68,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     z-index: 10;

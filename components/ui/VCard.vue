@@ -133,7 +133,7 @@
 
     &__size {
       &--small {
-        min-width: 17rem;
+        min-width: 15rem;
 
         @mixin tablet {
           min-width: 20rem;
