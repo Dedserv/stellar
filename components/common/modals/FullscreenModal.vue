@@ -3,39 +3,94 @@
     <Transition>
       <div class="modal">
         <div class="container">
-          <ModalHeader></ModalHeader>
-          <div class="question-group">
-            <ImgCheckbox value="[woman]" true-value="woman" :false-value="false" @input="input">
-              <VCard
-                img="/img/zodiacs/sagittarius.webp"
-                title="Женский"
-                type="textInside"
-                rounded
-              ></VCard>
-            </ImgCheckbox>
-
-            <ImgCheckbox value="[man]" true-value="man" :false-value="false" @input="input">
-              <VCard img="/img/zodiacs/leo.webp" title="Мужской" type="textInside" rounded></VCard>
-            </ImgCheckbox>
-          </div>
+          <Transition>
+            <div v-if="!isShowedResults" :key="`${isShowedResults}_modal`">
+              <ModalHeader :questions-length="data.length" @close-modal="clickExitButton" />
+              <div class="modal__wrapper">
+                <h3 class="modal__title">{{ currentTitle }}</h3>
+                <NatalQuestions
+                  ref="natalQuestionsRef"
+                  class="modal__questions"
+                  :questions="data"
+                  @getQuestionData="getQuestionData"
+                />
+                <VButton
+                  class="modal__button"
+                  size="s"
+                  type="transparent"
+                  color="gray"
+                  withoutIconMargin
+                  hover
+                  @click="changeSlideHandler"
+                >
+                  {{ buttonTitle }}
+                  <UseIcon class="modal__arrow" name="arrow" :width="10" :height="0.8" />
+                </VButton>
+              </div>
+            </div>
+            <ModalResults
+              v-else
+              :key="`${isShowedResults}_result`"
+              @close-modal="clickExitButton"
+            />
+          </Transition>
         </div>
+        <ModalMobileMenu
+          :questions-length="data.length"
+          @changeSlideHandler="changeSlideHandler"
+        ></ModalMobileMenu>
       </div>
     </Transition>
   </Teleport>
 </template>
 
 <script setup>
+  import scrollLock from '@/composables/scrollLock.js';
   import { modalStore } from '@/stores/modal';
-  import quastions from '@/assets/js/mockQuastions';
+  import { questionsStore } from '@/stores/questions';
+  import NatalQuestions from '../NatalQuestions.vue';
 
   const modal = modalStore();
-  const selectedGenders = ref([]);
+  const questionStores = questionsStore();
+  const natalQuestionsRef = ref(null);
 
-  onMounted(() => {});
+  const isShowedResults = ref(false);
 
-  const input = (value) => {
-    console.log(value);
+  onMounted(() => {
+    scrollLock(true);
+  });
+
+  const { data } = await useFetch('/api/questions');
+
+  const clickExitButton = () => {
+    scrollLock(false);
+    questionStores.setSlideIndex(0);
+    modal.closeModal();
   };
+
+  const getQuestionData = (data) => {
+    // console.log(data.value);
+  };
+
+  const changeSlideHandler = (next) => {
+    if (natalQuestionsRef.value) {
+      if (isLastSlide.value) {
+        isShowedResults.value = true;
+        return;
+      }
+
+      const { nextSlide, prevSlide } = natalQuestionsRef.value;
+      next ? nextSlide() : prevSlide();
+    }
+  };
+
+  const currentTitle = computed(() => data.value[questionStores.currentSlide].title);
+
+  const isLastSlide = computed(() => questionStores.currentSlide === data.value.length - 1);
+
+  const buttonTitle = computed(() =>
+    data.value.length === isLastSlide.value ? 'Получить результат' : 'Продолжить'
+  );
 </script>
 
 <style scoped>
@@ -47,19 +102,71 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 4rem 10rem;
+    padding: 1.4rem 1.6rem;
     width: 100%;
     height: 100%;
     background-color: $blackBlue;
     z-index: 9999;
     overflow: hidden;
-  }
 
-  .question-group {
-    display: flex;
-    height: 100%;
-    max-width: 48vw;
-    margin: auto;
-    margin-top: 8rem;
+    @mixin tablet {
+      padding: 4rem 1.6rem;
+    }
+
+    @mixin desktop {
+      padding: 4rem 10rem;
+    }
+
+    &__wrapper {
+      margin: auto;
+      margin-top: 3.2rem;
+
+      @mixin tablet {
+        margin-top: 8rem;
+      }
+
+      @mixin desktop {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &__questions {
+      @mixin desktop {
+        max-width: 44.4vw;
+      }
+    }
+
+    &__title {
+      font-size: 2rem;
+      line-height: 1.4;
+      text-align: center;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 2.4rem;
+      color: $gray;
+
+      @mixin desktop {
+        margin: 0;
+        width: 20.8vw;
+        text-align: left;
+      }
+    }
+
+    &__button {
+      display: none;
+
+      @mixin desktop {
+        display: flex;
+        width: 19vw;
+        height: fit-content;
+        gap: 0.6rem;
+      }
+    }
+
+    &__arrow {
+      color: $softOrange;
+      transform: rotate(180deg);
+    }
   }
 </style>

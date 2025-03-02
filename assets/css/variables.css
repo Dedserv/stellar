@@ -1,16 +1,20 @@
 $darkBlack: #0d0804;
+$blueBlack: #292d41;
 $primaryWhite: #fafafa;
 $lightGray: #d6d6de;
 $blackBlue: #141520;
 $darkBlue: #151522;
 $grayBlue: #3d404a;
 $gray: #bebec9;
+$grayDark: #a3a4a6;
+$greyMiddle: #6d6c6d;
 $darkGrayBlue: #212429;
 $whiteOrange: #e7dace;
 $lightGrayOrange: #e0d9d4;
 $softOrange: #e9a87c;
 $darkOrange: #b25b16;
 $blackOrange: #3b2c21;
+$orangeMuted: #3f3334;
 
 $tablet: 768px;
 $desktop: 1024px;

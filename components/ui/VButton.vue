@@ -30,9 +30,20 @@
       validator: (val) => ['s', 'm', 'default'].includes(val),
     },
 
+    display: {
+      type: String,
+      default: 'flex',
+      validator: (val) => ['flex', 'block'].includes(val),
+    },
+
     iconName: {
       type: String,
       default: '',
+    },
+
+    withoutIconMargin: {
+      type: Boolean,
+      default: false,
     },
 
     fullsized: {
@@ -44,6 +55,16 @@
       type: Boolean,
       default: false,
     },
+
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+
+    hover: {
+      type: Boolean,
+      default: false,
+    },
   });
 
   const tag = computed(() => (props.href ? 'NuxtLink' : 'button'));
@@ -52,8 +73,14 @@
     `button__color--${props.color}`,
     `button__size--${props.size}`,
     `button__type--${props.type}`,
-    { button__fullsized: props.fullsized },
-    { button__rounded: props.rounded },
+    `button__display--${props.display}`,
+    {
+      button__fullsized: props.fullsized,
+      button__rounded: props.rounded,
+      button__disabled: props.disabled,
+      'button__icon-margin': props.withoutIconMargin,
+      button__hover: props.hover,
+    },
   ]);
   const isIcons = computed(() => props.iconName && props.type === 'icons');
 </script>
@@ -62,11 +89,12 @@
   @import '~/assets/css/variables.css';
 
   .button {
-    display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    -webkit-tap-highlight-color: transparent;
 
     &__color {
       &--primary {
@@ -77,11 +105,69 @@
       &--gray {
         color: $gray;
       }
+
+      &--secondary {
+        color: $lightGrayOrange;
+      }
     }
 
     &__type {
       &--transparent {
         background-color: transparent;
+      }
+
+      &--bordered {
+        border: 1px solid transparent;
+        background-color: transparent;
+
+        &::after,
+        &::before {
+          content: '';
+          position: absolute;
+          border: 1px solid hsla(21, 30%, 91%, 0.3);
+          border-radius: 4px;
+          transition:
+            top 0.3s,
+            bottom 0.3s,
+            left 0.3s,
+            right 0.3s;
+        }
+
+        &::after {
+          top: 0;
+          left: -4px;
+          right: -4px;
+          bottom: 0;
+        }
+
+        &::before {
+          top: -4px;
+          bottom: -4px;
+          left: 0;
+          right: 0;
+        }
+
+        &:hover {
+          &::after {
+            top: -4px;
+            bottom: -4px;
+          }
+
+          &::before {
+            left: -4px;
+            right: -4px;
+          }
+        }
+      }
+    }
+
+    &__display {
+      &--flex {
+        display: flex;
+      }
+
+      &--block {
+        display: block;
       }
     }
 
@@ -100,9 +186,9 @@
 
       &--m {
         font-size: 1.6rem;
-        font-weight: 700;
+        font-weight: 400;
         line-height: 1.4;
-        padding: 0.6rem;
+        padding: 0.6rem 1.6rem;
         gap: 0.4rem;
 
         .button__type--icons {
@@ -122,12 +208,27 @@
       }
     }
 
+    &__disabled {
+      pointer-events: none;
+      opacity: 0.4;
+    }
+
     &__rounded {
       border-radius: 0.4rem;
     }
 
+    &__icon-margin {
+      gap: 0;
+    }
+
     &__fullsized {
       width: 100%;
+    }
+
+    &__hover {
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 </style>

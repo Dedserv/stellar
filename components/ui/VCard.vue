@@ -43,7 +43,7 @@
     size: {
       type: String,
       default: 'medium',
-      validator: (value) => ['medium', 'large'].includes(value),
+      validator: (value) => ['small', 'medium', 'large'].includes(value),
     },
 
     bordered: {
@@ -132,6 +132,18 @@
     }
 
     &__size {
+      &--small {
+        min-width: 17rem;
+
+        @mixin tablet {
+          min-width: 20rem;
+        }
+
+        @mixin desktop {
+          flex: 1 1;
+        }
+      }
+
       &--medium {
         min-width: 22rem;
 
@@ -235,6 +247,8 @@
       height: 100%;
       opacity: 1;
       transition: opacity 0.3s ease-in;
+      object-fit: cover;
+      border-radius: 1.2rem;
     }
   }
 </style>

@@ -3,7 +3,7 @@
     <VSlider v-if="!isDesktop && isMounted">
       <swiper-slide
         v-for="(card, index) in cards"
-        :key="`slide_${index + uid()}`"
+        :key="`slide_${index + uId}`"
         class="slider-adaptive__slider"
       >
         <VCard v-bind="card" :type="type" :size="size" :bordered="bordered" />
@@ -13,7 +13,7 @@
     <div v-else class="slider-adaptive__cards">
       <VCard
         v-for="(card, index) in cards"
-        :key="`card_${index + uid()}`"
+        :key="`card_${index + uId}`"
         v-bind="card"
         :type="type"
         :size="size"
@@ -24,8 +24,8 @@
 </template>
 
 <script setup>
-  import { ref, onMounted, computed } from 'vue';
   import { uid } from 'uid';
+  const uId = uid();
 
   const props = defineProps({
     cards: {

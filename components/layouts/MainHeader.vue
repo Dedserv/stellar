@@ -5,7 +5,8 @@
       <NavMenu :isShowMenu="isMenuOpen" :navList="menuNav" @menuClick="onMenuClick"></NavMenu>
       <VButton
         class="header__button"
-        type="icons"
+        type="bordered"
+        color="secondary"
         iconName="thinStar"
         rounded
         @click="openModalHandler"

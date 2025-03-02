@@ -16,7 +16,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 124rem;
+  /* max-width: 124rem; */
+  max-width: 144rem;
 }
 
 .layout-pattern {
@@ -95,4 +96,46 @@ a:hover::after {
 img {
   display: block;
   object-fit: contain;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+.vue-select {
+  --vs-border-radius: 0.8rem;
+  --vs-text-color: $grayDark;
+  --vs-placeholder-color: $grayDark;
+  --vs-background-color: $darkGrayBlue;
+  --vs-menu-background-color: $darkGrayBlue;
+  --vs-border: 0.1rem solid $orangeMuted;
+  --vs-padding: 1.8rem 1.7rem;
+  --vs-outline-color: $softOrange;
+
+  --vs-menu-border: none;
+  --vs-menu-box-shadow: box-shadow: 1px 5px 11px 0px #0000001a;
+  --vs-option-text-color: $lightGrayOrange;
+  --vs-option-hover-text-color: $lightGrayOrange;
+  --vs-option-focused-text-color: $lightGrayOrange;
+  --vs-option-selected-text-color: $lightGrayOrange;
+  --vs-option-background-color: $darkGrayBlue;
+  --vs-option-hover-background-color: $blueBlack;
+  --vs-option-focused-background-color: $blueBlack;
+  --vs-option-selected-background-color: $darkOrange;
+
+  --vs-indicator-icon-color: $softOrange;
+
+  @mixin tablet {
+    --vs-width: 100%;
+  }
+
+  @mixin desktop {
+    --vs-width: max(160px, 20%);
+  }
 }

@@ -11,10 +11,14 @@
         <VButton
           class="questionnaire__button"
           aria-label="Пройти астрологический тест"
+          type="bordered"
+          color="secondary"
           rounded
           fullsized
-          >Пройти тест</VButton
+          @click="openModalHandler"
         >
+          Пройти тест
+        </VButton>
       </div>
       <div>
         <img loading="lazy" class="questionnaire__img" src="@/assets/img/about.png" alt="" />
@@ -40,13 +44,24 @@
 </template>
 
 <script setup>
-  const { $gsap } = useNuxtApp();
+  import scrollLock from '@/composables/scrollLock.js';
+  import { modalStore } from '@/stores/modal';
+
   import stars from '~/assets/js/questionnaireStars';
+
+  const { $gsap } = useNuxtApp();
 
   const isTablet = useMediaQuery('(min-width: 768px) and ( max-width: 1023px)', { ssrWidth: 768 });
   const isMobile = useMediaQuery('(max-width: 767px)', { ssrWidth: 395 });
   const starRefs = templateRef('star');
   let animationInterval;
+
+  const modal = modalStore();
+
+  const openModalHandler = () => {
+    scrollLock(false);
+    modal.openModal();
+  };
 
   const starsList = computed(() => {
     return stars.filter((star) => {
@@ -186,6 +201,8 @@
     }
 
     &__button {
+      position: relative;
+      z-index: 10;
       max-width: 44rem;
     }
 
