@@ -21,6 +21,7 @@
                   color="gray"
                   withoutIconMargin
                   hover
+                  :disabled="!questionStores.isCompleted"
                   @click="changeSlideHandler"
                 >
                   {{ buttonTitle }}
