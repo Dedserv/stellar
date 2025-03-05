@@ -11,6 +11,7 @@
               :is="defineComponents[question.component]"
               :key="`${question.component}_${compIdx}`"
               @menu-opened="onOpen(question.component)"
+              @search="onChange(question.component)"
             >
               <component
                 v-if="question.subcomponent"
@@ -172,6 +173,14 @@
 
     :deep(.search-input) {
       min-width: 14vw;
+
+      @mixin tablet {
+        min-width: 6vw;
+      }
+    }
+
+    :deep(.single-value) {
+      display: inline-block;
     }
   }
 </style>

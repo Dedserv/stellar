@@ -5,6 +5,7 @@ const initialParams = {
   lang: 'ru_RU',
   type: 'geo',
   results: 10,
+  types: 'locality',
 };
 
 export default defineEventHandler(async (event) => {

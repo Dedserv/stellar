@@ -19,6 +19,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     yaKey: process.env.YA_API,
+    deepseekApiKey: process.env.DEEPSEEK_API,
   },
   ssr: true,
   plugins: [{ src: '~/plugins/gsap.client.js', mode: 'client' }],

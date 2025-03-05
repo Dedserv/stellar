@@ -57,8 +57,13 @@
 
   const isShowedResults = ref(false);
 
-  onMounted(() => {
+  onMounted(async () => {
     scrollLock(true);
+    // const results = await $fetch('/api/deepseek', {
+    //   query: {
+    //     message: 'Составь гороскоп в 4-5 предложений для скорпиона',
+    //   },
+    // });
   });
 
   const { data } = await useFetch('/api/questions');

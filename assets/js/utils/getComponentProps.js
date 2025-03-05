@@ -16,8 +16,8 @@ const getComponentProps = (question, currentItem) => {
     },
 
     SelectInput: {
-      isSearchable: true,
-      isClearable: true,
+      // isSearchable: true,
+      // isClearable: true,
       placeholder: question.title,
     },
 
