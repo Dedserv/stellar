@@ -23,7 +23,7 @@
     }
 
     @mixin desktop {
-      padding: 6rem 10rem;
+      padding: 8rem 10rem;
       border-radius: 4rem;
     }
 

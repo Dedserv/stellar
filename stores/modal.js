@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 
 export const modalStore = defineStore('modal', {
-  state: () => ({ isModalShow: true }),
+  state: () => ({ isModalShow: false }),
   actions: {
     openModal() {
       this.isModalShow = true;

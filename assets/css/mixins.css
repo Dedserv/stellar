@@ -19,3 +19,30 @@
     font-size: $desktop-size;
   }
 }
+
+@define-mixin custom-scroll {
+  &::-webkit-scrollbar {
+    width: 4px; /* Ширина вертикальной полосы */
+    height: 2px; /* Ширина горизонтальной полосы */
+  }
+
+  &::-webkit-scrollbar-track {
+    margin: 8px 0;
+    background: transparent; /* Прозрачный фон трека */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $greyMiddle; /* Цвет бегунка */
+    border-radius: 2px; /* Скругление углов */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $grayDark; /* Цвет бегунка при наведении */
+  }
+
+  /* Для Firefox */
+  &* {
+    scrollbar-width: thin; /* Автоматическая тонкая полоса */
+    scrollbar-color: $greyMiddle transparent; /* Цвет бегунка и трека */
+  }
+}

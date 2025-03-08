@@ -51,6 +51,7 @@
     },
   });
 
+  const isMobile = useMediaQuery('(max-width: 767px)');
   const address = ref('');
   const suggestions = ref([]);
   const emit = defineEmits(['update:modelValue']);
@@ -87,19 +88,25 @@
   }, 300);
 
   const isLoading = ref(false);
+  const isOptionSelected = ref(false);
 
-  const onSearch = async () => {
+  const onSearch = async (e) => {
+    if (isMobile.value && !isOptionSelected.value) {
+      address.value = e.target.value;
+    }
     await fetchSuggestions(address.value);
-    isShowSuggestion.value = true;
+    isShowSuggestion.value = !isOptionSelected.value ? true : false;
   };
 
   const onOptionClick = (item) => {
+    isOptionSelected.value = true;
     address.value = item.value;
     emit('update:modelValue', item.value);
     isShowSuggestion.value = false;
   };
 
   const clearInput = async () => {
+    isOptionSelected.value = false;
     address.value = '';
     await fetchSuggestions(address.value);
     emit('update:modelValue', '');
@@ -186,30 +193,7 @@
       font-size: 1.4rem;
       line-height: 1.4;
 
-      &::-webkit-scrollbar {
-        width: 4px; /* Ширина вертикальной полосы */
-        height: 2px; /* Ширина горизонтальной полосы */
-      }
-
-      &::-webkit-scrollbar-track {
-        margin: 8px 0;
-        background: transparent; /* Прозрачный фон трека */
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background: $greyMiddle; /* Цвет бегунка */
-        border-radius: 2px; /* Скругление углов */
-      }
-
-      &::-webkit-scrollbar-thumb:hover {
-        background: $grayDark; /* Цвет бегунка при наведении */
-      }
-
-      /* Для Firefox */
-      &* {
-        scrollbar-width: thin; /* Автоматическая тонкая полоса */
-        scrollbar-color: $greyMiddle transparent; /* Цвет бегунка и трека */
-      }
+      @mixin custom-scroll;
     }
 
     &__option {

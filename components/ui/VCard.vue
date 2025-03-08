@@ -171,7 +171,7 @@
 
     &--bordered {
       .card__img-wrapper {
-        border: 1px solid #eee6dd7e;
+        border: 1px solid $innertOrange;
       }
     }
 
@@ -181,7 +181,7 @@
 
     &__wrapper {
       position: relative;
-      padding: 1.2rem;
+      /* padding: 1.2rem; */
       margin-bottom: 1.2rem;
       border-radius: 1.2rem;
       background-color: $darkBlue;
@@ -192,6 +192,7 @@
       z-index: 2;
       opacity: 1;
       border-radius: 1.2rem;
+      overflow: hidden;
       transition: opacity 0.3s ease-in;
     }
 

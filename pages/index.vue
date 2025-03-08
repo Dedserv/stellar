@@ -4,14 +4,14 @@
       <Hero v-show="isShowHero" ref="hero-component" />
     </section>
 
-    <section>
+    <section id="horoscope">
       <Horoscope class="main__horoscope" />
     </section>
 
-    <section>
+    <section id="questionnaire">
       <AboutQuestionnaire />
     </section>
-    <section>
+    <section id="taro">
       <AboutProduct />
     </section>
   </main>

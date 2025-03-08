@@ -171,16 +171,12 @@
       }
     }
 
-    :deep(.search-input) {
-      min-width: 14vw;
-
-      @mixin tablet {
-        min-width: 6vw;
-      }
-    }
-
     :deep(.single-value) {
       display: inline-block;
+    }
+
+    :deep(#vue-select-1-listbox) {
+      @mixin custom-scroll;
     }
   }
 </style>
