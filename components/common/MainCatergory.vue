@@ -1,24 +1,28 @@
 <template>
   <ul class="category">
-    <li v-for="(zodiac, index) in zodiacSigns" :key="`zodiac_${index}`" class="category__item">
+    <li v-for="(zodiac, index) in horoscope" :key="`zodiac_${index}`" class="category__item">
       <div class="category__title">
-        <h3>{{ dictionary[zodiac.element] }}</h3>
+        <h3>{{ dictionaryElements[zodiac.element] }}</h3>
         <UseIcon class="category__icon" :name="zodiac.element" :width="2.4" :height="2.4"></UseIcon>
       </div>
-      <SliderAdaptive :cards="zodiac.signs" :type="zodiacSigns[0].type" bordered />
+      <SliderAdaptive :cards="zodiac.signs" :type="horoscope[0].type" bordered />
     </li>
   </ul>
 </template>
 
 <script setup>
-  import { zodiacSigns } from '@/assets/js/mockZodiacs.js';
-
-  const dictionary = {
+  const dictionaryElements = {
     fire: 'Огонь',
     water: 'Вода',
     earth: 'Земля',
     air: 'Воздух',
   };
+
+  const horoscope = ref([]);
+
+  onMounted(async () => {
+    horoscope.value = await $fetch('/api/horoscope');
+  });
 </script>
 
 <style scoped>

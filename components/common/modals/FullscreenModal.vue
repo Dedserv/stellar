@@ -32,6 +32,7 @@
             <ModalResults
               v-else
               :key="`${isShowedResults}_result`"
+              :natalResult="natalCard"
               @close-modal="clickExitButton"
             />
           </Transition>
@@ -56,17 +57,14 @@
   const natalQuestionsRef = ref(null);
 
   const isShowedResults = ref(false);
+  const natalCard = ref('');
 
   onMounted(async () => {
     scrollLock(true);
-    // const results = await $fetch('/api/deepseek', {
-    //   query: {
-    //     message: 'Составь гороскоп в 4-5 предложений для скорпиона',
-    //   },
-    // });
   });
 
   const { data } = await useFetch('/api/questions');
+  const finalResult = ref([]);
 
   const clickExitButton = () => {
     scrollLock(false);
@@ -74,14 +72,45 @@
     modal.closeModal();
   };
 
-  const getQuestionData = (data) => {
-    // console.log(data.value);
+  const getQuestionData = (data, index) => {
+    finalResult.value[index] = { ...data.value, value: data.value.value.join() };
   };
 
-  const changeSlideHandler = (next) => {
+  const getQuestionsResultData = () => {
+    return finalResult.value
+      .map((item) => {
+        let formattedValue = item.value;
+
+        if (item.name === 'Birthday') {
+          const [day, month, year] = item.value.split(',');
+          formattedValue = `${day.padStart(2, '0')}.${month.padStart(2, '0')}.${year}`;
+        }
+
+        if (item.name === 'Time') {
+          const [hours, minutes] = item.value.split(',');
+          formattedValue = `${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}`;
+        }
+
+        return `${item.title}: ${formattedValue}`;
+      })
+      .join(', ');
+  };
+
+  const getNatalCard = async () => {
+    const questionsResultData = getQuestionsResultData();
+
+    natalCard.value = await $fetch('/api/deepseek', {
+      query: {
+        message: questionsResultData,
+      },
+    });
+  };
+
+  const changeSlideHandler = async (next) => {
     if (natalQuestionsRef.value) {
       if (isLastSlide.value) {
         isShowedResults.value = true;
+        await getNatalCard();
         return;
       }
 

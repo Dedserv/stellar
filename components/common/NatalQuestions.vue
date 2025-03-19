@@ -109,7 +109,7 @@
 
   const nextSlide = () => {
     if (swiper.value) {
-      emit('getQuestionData', currentSlide);
+      emit('getQuestionData', currentSlide, slideIndex.value);
       swiper.value.slideNext();
       slideIndex.value += 1;
       questionStores.setSlideIndex(slideIndex.value);
