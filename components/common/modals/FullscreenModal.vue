@@ -98,12 +98,26 @@
 
   const getNatalCard = async () => {
     const questionsResultData = getQuestionsResultData();
+    let previousResponse = '';
+    let fullResponse = '';
 
-    natalCard.value = await $fetch('/api/deepseek', {
-      query: {
-        message: questionsResultData,
-      },
-    });
+    const sections = ['basics', 'personality', 'forecasting', 'personalization'];
+    
+    for (const section of sections) {
+      const response = await $fetch('/api/deepseek', {
+        method: 'POST',
+        body: {
+          message: questionsResultData,
+          section,
+          previousResponse: previousResponse || undefined
+        },
+      });
+      
+      previousResponse = response;
+      fullResponse += response + '\n\n';
+    }
+
+    natalCard.value = fullResponse;
   };
 
   const changeSlideHandler = async (next) => {

@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper'],
+  modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon'],
   postcss: {
     plugins: {
       'postcss-import': {}, // Позволяет использовать @import
