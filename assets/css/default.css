@@ -168,3 +168,11 @@ img {
     --vs-width: max(160px, 20%);
   }
 }
+
+.scroll-lock {
+  overflow: hidden;
+  display: block;
+  height: 100dvh;
+  max-width: 99.9vw;
+  min-height: 700px;
+}

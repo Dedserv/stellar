@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page scroll-lock">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

@@ -14,7 +14,7 @@
         />
       </div>
     </div>
-    <div class="tarot-deck__sections">
+    <div class="tarot-deck__sections" :class="{ 'tarot-deck__sections--bottom': selectedDeck }">
       <div
         v-for="(deck, deckIndex) in cardDecks"
         :key="deckIndex"
@@ -45,8 +45,6 @@
     parseResultToCards,
     getZodiacImage,
     selectDeck: selectDeckFn,
-    dealCard,
-    cleanTitle,
   } = useTarotDeck();
 
   const selectDeck = (deckIndex) => {
@@ -97,16 +95,25 @@
 
   .tarot-deck__sections {
     position: fixed;
-    bottom: -110px;
+    bottom: 50%;
     left: 0;
     width: 100%;
-    height: 36vh;
+    height: 412px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 2rem;
     transform-origin: bottom center;
-    transform: perspective(1000px) rotateX(30deg);
+    transform: perspective(6000px) rotateX(30deg) translateY(50%);
+    will-change: transform;
+    transition:
+      transform 0.6s ease,
+      bottom 0.6s ease;
+
+    &--bottom {
+      bottom: -110px;
+      transform: perspective(1000px) rotateX(30deg) translateY(0);
+    }
   }
 
   .tarot-deck__section {

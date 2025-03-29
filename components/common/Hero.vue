@@ -2,26 +2,16 @@
   <div class="hero" ref="wrapper">
     <div class="hero__wrapper container layout-upper">
       <div class="hero__title">
-        <UseIcon class="hero__star" name="star" :width="3.8" :height="3.8" />
-        <img loading="lazy" src="@/assets/img/logo.svg" />
+        <UseIcon class="hero__star" name="star" :width="6" :height="6" />
+        <img loading="lazy" src="/img/logo.svg" />
       </div>
       <p class="hero__description">
         Ваш мистический путеводитель по Вселенной. Получайте персонализированные ежедневные
         гороскопы, отчеты о совместимости и мистические озарения
       </p>
     </div>
-    <img
-      loading="lazy"
-      class="hero__circle hero__circle--big"
-      src="@/assets/img/big-circle.svg"
-      alt=""
-    />
-    <img
-      loading="lazy"
-      class="hero__circle hero__circle--small"
-      src="@/assets/img/small-circle.svg"
-      alt=""
-    />
+    <img class="hero__image hero__image--left layout-upper" src="/img/dark-girl.png" alt="" />
+    <img class="hero__image hero__image--right layout-upper" src="/img/bright-girl.png" alt="" />
   </div>
 </template>
 
@@ -34,20 +24,21 @@
   });
 
   onMounted(() => {
-    const { width } = useWindowSize();
+    $gsap.to('.hero__star', {
+      y: '-100%',
+      duration: 1,
+      ease: 'power1.inOut',
 
-    if (width.value > 768) {
-      $gsap.to('.hero__circle--big', {
-        rotation: -180, // Вращение на 360 градусов
-        duration: 10, // Длительность анимации в секундах
-        ease: 'expo.out', // Линейная анимация для равномерного вращения
-      });
-    }
+      onComplete: () => {
+        const page = document.querySelector('.page');
+        page.classList.remove('scroll-lock');
+      },
+    });
 
-    $gsap.to('.hero__circle--small', {
-      rotation: 180, // Вращение на 360 градусов
-      duration: 10, // Длительность анимации в секундах
-      ease: 'expo.out', // Линейная анимация для равномерного вращения
+    $gsap.to('.hero__image', {
+      opacity: 1,
+      duration: 2,
+      ease: 'power1.inOut',
     });
   });
 </script>
@@ -58,6 +49,26 @@
   .hero {
     position: relative;
     padding: 13rem 2rem 2.5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        60deg,
+        rgba(0, 0, 29, 1) 0%,
+        rgba(0, 0, 49, 0) 30%,
+        rgba(255, 219, 196, 0) 58%,
+        rgba(255, 173, 101, 1) 100%
+      );
+      opacity: 0.33;
+    }
 
     @mixin tablet {
       padding: 0rem 2.4rem;
@@ -86,8 +97,8 @@
     &__star {
       position: absolute;
       top: -1rem;
-      right: 40%;
-      transform: translate(50%, -100%);
+      right: 49.5%;
+      transform: translate(50%, -1000%);
     }
 
     &__description {
@@ -107,46 +118,18 @@
       }
     }
 
-    &__circle {
+    &__image {
       position: absolute;
-      z-index: 0;
-      will-change: transform;
+      bottom: 0;
+      max-height: 70vh;
+      opacity: 0;
 
-      &--big {
-        display: none;
-
-        @mixin tablet {
-          display: block;
-          width: 132vw;
-          height: 132vw;
-          top: 51%;
-          left: 50%;
-          transform: translate(-50%, -50%) rotate(0deg);
-        }
-
-        @mixin desktop {
-          top: 68%;
-        }
+      &--left {
+        left: 0;
       }
 
-      &--small {
-        width: 150vw;
-        height: 150vw;
-        top: 59%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(0deg);
-
-        @mixin tablet {
-          width: 82.4vw;
-          height: 82.4vw;
-          top: 51.2%;
-        }
-
-        @mixin desktop {
-          width: 83.4vw;
-          height: 83.4vw;
-          top: 68.2%;
-        }
+      &--right {
+        right: 0;
       }
     }
   }
