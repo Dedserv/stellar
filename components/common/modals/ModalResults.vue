@@ -25,61 +25,29 @@
     },
   });
 
-  const parseNatalResult = (text) => {
-    const sections = text
-      .split('###')
-      .filter(Boolean)
-      .map((section) => {
-        const [title, ...content] = section.trim().split('\n');
-        const contentText = content.join('\n');
+  // const parseNatalResult = (text) => {
+  //   const sections = text
+  //     .split('*')
+  //     .filter(Boolean)
+  //     .map((section) => {
+  //       const [titlePart, ...content] = section.trim().split('#');
+  //       const title = titlePart
+  //         .split(':')[0]
+  //         .replace(/^\d+\.\s*/, '')
+  //         .trim();
 
-        // Определяем иконку на основе заголовка
-        const getIcon = (title) => {
-          const icons = {
-            'Основы натальной карты': 'ph:planet-bold',
-            'Анализ личности': 'mdi:account-details',
-            Прогнозирование: 'mdi:crystal-ball',
-            Персонализация: 'mdi:account-cog',
-          };
-          return icons[title.trim()] || 'mdi:star';
-        };
+  //       const subsections = content.map((sub) => ({
+  //         text: sub.trim(),
+  //       }));
 
-        // Парсим подразделы
-        const subsections = contentText
-          .split('####')
-          .filter(Boolean)
-          .map((sub) => {
-            if (sub.includes(':')) {
-              const [subTitle, ...subContent] = sub.trim().split('\n');
-              const items = subContent
-                .join('\n')
-                .split('-')
-                .filter(Boolean)
-                .map((item) => ({
-                  text: item.trim(),
-                  icon: 'mdi:chevron-right',
-                }));
+  //       return {
+  //         title,
+  //         subsections,
+  //       };
+  //     });
 
-              return {
-                title: subTitle.trim(),
-                icon: 'mdi:subdirectory-arrow-right',
-                items,
-              };
-            }
-            return { text: sub.trim() };
-          });
-
-        return {
-          title: title.trim(),
-          icon: getIcon(title),
-          subsections,
-        };
-      });
-
-    return sections;
-  };
-
-  const parsedResult = computed(() => parseNatalResult(props.natalResult));
+  //   return sections;
+  // };
 
   const closeModalHandler = () => emit('closeModal');
 </script>

@@ -22,7 +22,7 @@
         :class="{ 'is-selected': selectedDeckIndex === deckIndex }"
         @click="selectDeck(deckIndex)"
       >
-        <img class="tarot-deck__section-image" src="/img/about.png" alt="" />
+        <img class="tarot-deck__section-image" src="/img/cards/bg-card.png" alt="" />
         <div class="tarot-deck__section-title">{{ deck.title }}</div>
       </div>
     </div>
@@ -156,11 +156,10 @@
   .tarot-deck__section-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 1;
+    opacity: 0.6;
   }
 
   .tarot-deck__section-title {
@@ -168,7 +167,7 @@
     z-index: 10;
     top: 7%;
     left: 50%;
-    width: 80%;
+    width: 82%;
     color: $softOrange;
     font-size: 2.2rem;
     transform: rotateX(-30deg) translateX(-50%);

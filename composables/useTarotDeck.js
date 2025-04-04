@@ -8,19 +8,11 @@ export const useTarotDeck = () => {
     selectedDeckIndex.value !== null ? cardDecks.value[selectedDeckIndex.value] : null
   );
 
-  // Очищаем заголовок от цифр и двоеточия
-  const cleanTitle = (title) => {
-    // Убираем цифры и точку в начале
-    let cleaned = title.replace(/^\d+\.\s*/, '');
-    // Убираем двоеточие в конце
-    cleaned = cleaned.replace(/:$/, '');
-    // Убираем лишние пробелы
-    cleaned = cleaned.trim();
-    return cleaned;
-  };
-
   // Разбиваем текст на части по ~680 символов
   const splitContent = (content) => {
+    // Сначала обработаем текст между ^ и сделаем его жирным
+    content = content.replace(/\^(.*?)\^/g, '<b>$1</b>');
+
     const maxLength = 680;
     const parts = [];
     let currentPart = '';
@@ -86,53 +78,36 @@ export const useTarotDeck = () => {
 
   // Парсим результат в карты
   const parseResultToCards = (text) => {
-    const sections = text.split('###').filter(Boolean);
+    const sections = text.split('*').filter(Boolean);
     const decks = [];
-    let currentDeck = { title: '', cards: [] };
-    let currentContent = '';
 
     sections.forEach((section) => {
-      const lines = section.trim().split('\n');
+      const [titlePart, ...contentSections] = section.trim().split('#');
+      const title = titlePart
+        .split(':')[0]
+        .replace(/^\d+\.\s*/, '')
+        .trim();
 
-      lines.forEach((line) => {
-        if (line.match(/^\d\./)) {
-          if (currentDeck.title && currentContent) {
-            const contentParts = splitContent(currentContent);
-            contentParts.forEach((part) => {
-              currentDeck.cards.push({
-                title: cleanTitle(currentDeck.title),
-                content: part,
-                isFlipped: false,
-              });
-            });
-            currentContent = '';
-          }
+      const deck = {
+        title,
+        cards: [],
+      };
 
-          if (currentDeck.cards.length > 0) {
-            decks.push({ ...currentDeck });
-          }
+      const fullContent = contentSections.join('\n').trim();
+      const splitParts = splitContent(fullContent);
 
-          currentDeck = {
-            title: cleanTitle(line.trim()),
-            cards: [],
-          };
-        } else if (line.trim()) {
-          currentContent += line + '\n';
-        }
-      });
-    });
-
-    if (currentDeck.title && currentContent) {
-      const contentParts = splitContent(currentContent);
-      contentParts.forEach((part) => {
-        currentDeck.cards.push({
-          title: cleanTitle(currentDeck.title),
-          content: part,
+      splitParts.forEach((part) => {
+        deck.cards.push({
+          title,
+          content: part.trim(),
           isFlipped: false,
         });
       });
-      decks.push(currentDeck);
-    }
+
+      if (deck.cards.length > 0) {
+        decks.push(deck);
+      }
+    });
 
     return decks;
   };
@@ -176,14 +151,15 @@ export const useTarotDeck = () => {
     const centerX = window.innerWidth / 2;
     const centerY = window.innerHeight / 2;
     const offsetX = (index - selectedDeck.value.cards.length / 2) * 300;
-    const offsetY = (index - selectedDeck.value.cards.length / 2) * 10;
+    const offsetY = (index - selectedDeck.value.cards.length / 2) * 2;
+    // const offsetX = (index - selectedDeck.value.cards.length / 2) * 300;
+    // const offsetY = (index - selectedDeck.value.cards.length / 2) * 10;
 
     gsap.fromTo(
       card.$el,
       {
         x: centerX,
         y: centerY,
-        rotation: 0,
         scale: 0.5,
         opacity: 0,
         zIndex: 0,
@@ -191,11 +167,10 @@ export const useTarotDeck = () => {
       {
         x: centerX + offsetX,
         y: centerY - 400 + offsetY,
-        rotation: -2 + index,
         scale: 1,
         opacity: 1,
         zIndex: index,
-        duration: 1,
+        duration: 2,
         ease: 'power2.out',
         onComplete: () => {
           setTimeout(() => {
