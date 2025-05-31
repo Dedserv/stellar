@@ -5,7 +5,11 @@
         <div class="container">
           <Transition>
             <div v-if="!isShowedResults" :key="`${isShowedResults}_modal`">
-              <ModalHeader :questions-length="data.length" @close-modal="clickExitButton" />
+              <ModalHeader
+                :count="data.length"
+                :currentSlideIndex="questionStores?.currentSlide || 0"
+                @close-modal="clickExitButton"
+              />
               <div class="modal__wrapper">
                 <h3 class="modal__title">{{ currentTitle }}</h3>
                 <NatalQuestions
@@ -38,6 +42,7 @@
           </Transition>
         </div>
         <ModalMobileMenu
+          v-if="!isShowedResults"
           :questions-length="data.length"
           @changeSlideHandler="changeSlideHandler"
         ></ModalMobileMenu>
@@ -102,22 +107,26 @@
     let fullResponse = '';
 
     const sections = ['basics', 'personality', 'forecasting', 'personalization'];
-    
-    for (const section of sections) {
-      const response = await $fetch('/api/deepseek', {
-        method: 'POST',
-        body: {
-          message: questionsResultData,
-          section,
-          previousResponse: previousResponse || undefined
-        },
-      });
-      
-      previousResponse = response;
-      fullResponse += response + '\n\n';
+    try {
+      for (const section of sections) {
+        const response = await $fetch('/api/deepseek', {
+          method: 'POST',
+          body: {
+            message: questionsResultData,
+            section,
+            previousResponse: previousResponse || undefined,
+          },
+        });
+
+        previousResponse = response;
+        fullResponse += response + '\n\n';
+      }
+    } catch (error) {
+      console.error(error);
     }
 
-    natalCard.value = fullResponse;
+    natalCard.value = fullResponse || '';
+    console.log('🚀 ~ getNatalCard ~ natalCard.value:', natalCard.value);
   };
 
   const changeSlideHandler = async (next) => {
@@ -151,7 +160,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.4rem 1.6rem;
+    padding: 1.2rem 0;
     width: 100%;
     height: 100%;
     background-color: $blackBlue;
@@ -196,6 +205,7 @@
       color: $gray;
 
       @mixin desktop {
+        font-size: 3rem;
         margin: 0;
         width: 20.8vw;
         text-align: left;

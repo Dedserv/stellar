@@ -1,26 +1,86 @@
 <template>
   <div class="article">
-    <div class="container">
+    <div class="container layout-upper">
       <div class="article__content">
-        <!-- <img :src="data?.image" :alt="data?.title" class="article__image" />
+        <img
+          :src="data?.img"
+          :alt="data?.title"
+          class="article__image"
+          :class="{ 'article__image--top': data?.position }"
+        />
         <h1 class="article__title">{{ data?.title }}</h1>
-        <div class="article__text" v-html="data?.content"></div> -->
+        <div class="article__text" v-html="data?.content"></div>
+        <VButton
+          class="article__button"
+          type="bordered"
+          color="secondary"
+          iconName="thinStar"
+          rounded
+          @click="openModalHandler"
+        >
+          Составить натальную карту
+        </VButton>
+        <VButton
+          class="article__back"
+          type="squared"
+          color="secondary"
+          rounded
+          @click="backToMainPage"
+        >
+          <Icon name="lets-icons:back" />
+        </VButton>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-  onMounted(async () => {
-    // const route = useRoute();
-    const { data } = await useFetch(`/api/article`, {
-      // query: {
-      //   key: route.params.id,
-      // },
-    });
+  const route = useRoute();
+  const isModalShow = modalStore();
+  const { $gsap } = useNuxtApp();
+  const backButton = ref(null);
 
-    console.log('🚀 ~ data:', data);
+  let scrollTimeout;
+
+  const { data } = await useFetch(`/api/article`, {
+    query: {
+      id: route.params.id,
+    },
   });
+
+  onMounted(() => {
+    backButton.value = document.querySelector('.article__back');
+    const page = document.querySelector('.page');
+    page.classList.remove('scroll-lock');
+
+    window.addEventListener('scroll', handleScroll);
+    scrollTimeout = setTimeout(showBackButton, 600);
+  });
+
+  onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll);
+    clearTimeout(scrollTimeout);
+  });
+
+  const handleScroll = () => {
+    // Hide button on scroll
+    $gsap.to(backButton.value, { opacity: 0, y: -20, duration: 0.2 });
+
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(showBackButton, 1000);
+  };
+
+  const showBackButton = () => {
+    $gsap.to(backButton.value, { opacity: 1, y: 10, duration: 0.2 });
+  };
+
+  const openModalHandler = () => {
+    isModalShow.openModal(true);
+  };
+
+  const backToMainPage = () => {
+    navigateTo('/');
+  };
 </script>
 
 <style scoped>
@@ -28,19 +88,15 @@
 
   .article {
     background-color: $darkBlack;
-    padding: 2rem 1.6rem;
+    padding: 8.3rem 1.6rem 4rem;
     min-height: 100vh;
 
-    @mixin tablet {
-      padding: 3rem 1.6rem;
-    }
-
     @mixin desktop {
-      padding: 4rem 10rem;
+      padding: 8.3rem 10rem;
     }
 
     &__content {
-      max-width: 900px;
+      position: relative;
       margin: 0 auto;
     }
 
@@ -51,9 +107,17 @@
       border-radius: 1.6rem;
       margin-bottom: 2rem;
 
+      &--top {
+        object-position: top top;
+      }
+
       @mixin tablet {
         height: 300px;
         margin-bottom: 3rem;
+
+        &--top {
+          object-position: 0 18%;
+        }
       }
 
       @mixin desktop {
@@ -80,6 +144,30 @@
         @mixin tablet {
           margin-bottom: 2rem;
         }
+      }
+    }
+
+    &__button {
+      width: 100%;
+      margin-top: 4rem;
+
+      @mixin desktop {
+        width: auto;
+        min-width: 28rem;
+      }
+    }
+
+    &__back {
+      position: fixed;
+      left: 16px;
+      top: 88px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+
+      @mixin desktop {
+        position: fixed;
+        left: 160px;
+        top: 80px;
       }
     }
   }

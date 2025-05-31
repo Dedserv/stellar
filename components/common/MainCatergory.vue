@@ -77,5 +77,9 @@
         color: #266b7a;
       }
     }
+
+    :deep(.card__title-wrapper) {
+      justify-content: flex-start;
+    }
   }
 </style>

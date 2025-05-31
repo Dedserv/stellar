@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <div class="header__wrapper container">
-      <UseIcon ref="star" class="header__logo" name="star" :width="3.6" :height="3.6" />
+      <a class="header__link" href="/">
+        <UseIcon ref="star" class="header__logo" name="star" :width="3.6" :height="3.6" />
+      </a>
       <NavMenu :isShowMenu="isMenuOpen" :navList="menuNav" @menuClick="onMenuClick"></NavMenu>
       <VButton
         class="header__button"
@@ -72,6 +74,12 @@
         display: block;
         color: $softOrange;
         margin-right: 3.6rem;
+      }
+    }
+
+    &__link {
+      &::after {
+        display: none;
       }
     }
 

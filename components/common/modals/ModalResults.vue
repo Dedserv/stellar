@@ -1,6 +1,15 @@
 <template>
   <div class="modal-results">
+    <ModalHeader
+      v-if="natalResultCards.length"
+      class="modal-results__header"
+      :count="cardsCount"
+      :currentSlideIndex="currentCard"
+      @close-modal="clickExitButton"
+    />
+
     <VButton
+      v-else="natalResultCards.length"
       class="modal-results__button"
       size="s"
       type="transparent"
@@ -10,13 +19,17 @@
       <UseIcon class="modal-results__arrow" name="exit" :width="3.3" :height="2.4" />
       Выход
     </VButton>
-
-    <NatalLoader v-if="!natalResult" />
-    <TarotDeck v-else :natal-result="natalResult" />
+    <Transition>
+      <NatalLoader v-if="!natalResultCards.length" />
+      <TarotDeck v-else :natal-result="natalResultCards" @card-change="cardChange" />
+    </Transition>
   </div>
 </template>
 
 <script setup>
+  import scrollLock from '@/composables/scrollLock.js';
+  import { modalStore } from '@/stores/modal';
+
   const emit = defineEmits(['closeModal']);
   const props = defineProps({
     natalResult: {
@@ -25,29 +38,30 @@
     },
   });
 
-  // const parseNatalResult = (text) => {
-  //   const sections = text
-  //     .split('*')
-  //     .filter(Boolean)
-  //     .map((section) => {
-  //       const [titlePart, ...content] = section.trim().split('#');
-  //       const title = titlePart
-  //         .split(':')[0]
-  //         .replace(/^\d+\.\s*/, '')
-  //         .trim();
+  import { questionsStore } from '@/stores/questions';
 
-  //       const subsections = content.map((sub) => ({
-  //         text: sub.trim(),
-  //       }));
+  const questionStores = questionsStore();
 
-  //       return {
-  //         title,
-  //         subsections,
-  //       };
-  //     });
+  const modal = modalStore();
 
-  //   return sections;
-  // };
+  const { parseResultToCards } = useTarotDeck();
+  const currentCard = ref(0);
+
+  const natalResultCards = computed(() => parseResultToCards(props.natalResult));
+
+  const cardsCount = computed(() =>
+    natalResultCards.value.reduce((acc, deck) => acc + deck.cards.length, 0)
+  );
+
+  const cardChange = (e) => {
+    currentCard.value = e.activeIndex;
+  };
+
+  const clickExitButton = () => {
+    scrollLock(false);
+    questionStores.setSlideIndex(0);
+    modal.closeModal();
+  };
 
   const closeModalHandler = () => emit('closeModal');
 </script>
@@ -124,7 +138,25 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    padding-top: 50px;
+    padding-top: 20px;
+
+    &__header {
+      position: fixed;
+      left: 16px;
+      right: 16px;
+      top: 0;
+      padding: 3.2rem 0;
+      color: $lightGrayOrange;
+
+      @mixin tablet {
+        display: none;
+      }
+
+      :deep(.modal-header__counter) {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
 
     &__button {
       position: absolute;

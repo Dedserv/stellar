@@ -21,7 +21,7 @@
       <CircleDivider
         class="modal-header__circle-divider"
         :active-index="currentSlideIndex"
-        :segments-count="questionsLength"
+        :segments-count="count"
         :radius="circleDividerRadius"
         :gapPercentage="0.5"
         stroke-color="#E9A87C"
@@ -49,23 +49,22 @@
 </template>
 
 <script setup>
-  import { questionsStore } from '@/stores/questions';
-
   const { $gsap } = useNuxtApp();
 
   const emit = defineEmits(['closeModal']);
   const props = defineProps({
-    questionsLength: {
+    count: {
+      type: Number,
+      required: true,
+    },
+
+    currentSlideIndex: {
       type: Number,
       required: true,
     },
   });
 
-  const store = questionsStore();
-  const currentSlideIndex = computed(() => store.currentSlide);
-  const questionsCounter = computed(
-    () => `${currentSlideIndex.value + 1} / ${props.questionsLength}`
-  );
+  const questionsCounter = computed(() => `${props.currentSlideIndex + 1} / ${props.count}`);
 
   const circle = ref(null);
   const star = ref(null);

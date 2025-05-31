@@ -28,6 +28,8 @@
 
   const container = ref(null);
 
+  const emit = defineEmits(['slideChange']);
+
   useSwiper(container, {
     effect: 'slide',
     slidesPerView: 'auto',
@@ -35,6 +37,10 @@
     on: {
       afterInit: () => {
         isSwiperLoaded.swiperLoaded(true);
+      },
+
+      slideChange: (slide) => {
+        emit('slideChange', slide);
       },
     },
     ...props.options, // Передача дополнительных опций
@@ -68,6 +74,7 @@
   .swiper-container {
     display: flex;
     overflow: hidden;
+    width: 100%;
   }
 
   :deep(.swiper-slide) {

@@ -4,7 +4,7 @@
       <h2 class="about__title title">О мистике</h2>
       <p v-html="mistyc.text"></p>
       <div class="about__cards">
-        <SliderAdaptive :cards="mistyc.cards" size="large" />
+        <SliderAdaptive :cards="data" size="large" />
       </div>
     </div>
   </div>
@@ -12,6 +12,8 @@
 
 <script setup>
   import mistyc from '~/assets/js/mockMystic.js';
+
+  const { data } = await useFetch('/api/article');
 </script>
 
 <style scoped>

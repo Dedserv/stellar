@@ -145,6 +145,10 @@
       height: 100%;
       gap: 1.6rem;
 
+      @mixin tablet {
+        padding: 1.2rem;
+      }
+
       &--small-gap {
         gap: 0.4rem;
         overflow-y: auto;
@@ -153,6 +157,7 @@
         @mixin tablet {
           gap: 1.6rem;
           max-height: 100%;
+          padding: 0;
         }
       }
 

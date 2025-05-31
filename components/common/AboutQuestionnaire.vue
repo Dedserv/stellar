@@ -1,5 +1,5 @@
 <template>
-  <div class="questionnaire">
+  <div ref="container" class="questionnaire">
     <div class="questionnaire__wrapper container layout-upper">
       <div class="questionnaire__text-wrapper">
         <h2 class="questionnaire__title">Узнайте, что звезды говорят о вас</h2>
@@ -20,8 +20,15 @@
           Пройти тест
         </VButton>
       </div>
-      <div>
-        <img loading="lazy" class="questionnaire__img" src="@/assets/img/about.png" alt="" />
+      <div class="questionnaire__img-wrapper">
+        <img
+          ref="moon"
+          loading="lazy"
+          class="questionnaire__moon"
+          src="@/assets/img/moon.webp"
+          alt=""
+        />
+        <img loading="lazy" class="questionnaire__img" src="@/assets/img/about.webp" alt="" />
       </div>
       <div v-if="starsList?.length" class="questionnaire__icons">
         <UseIcon
@@ -54,6 +61,9 @@
   const isTablet = useMediaQuery('(min-width: 768px) and ( max-width: 1023px)', { ssrWidth: 768 });
   const isMobile = useMediaQuery('(max-width: 767px)', { ssrWidth: 395 });
   const starRefs = templateRef('star');
+  const moon = ref(null);
+  const container = ref(null);
+
   let animationInterval;
 
   const modal = modalStore();
@@ -119,8 +129,32 @@
     });
   }
 
+  const animateMoon = () => {
+    const topOffset = isTablet.value ? '4%' : '10%';
+
+    $gsap.to(moon.value, {
+      top: topOffset,
+      duration: 3, // Длительность анимации
+      rotation: '+=180',
+      ease: 'power1.inOut',
+      onComplete: () => {
+        $gsap.to(moon.value, {
+          rotation: '+=360', // Вращение на 360 градусов
+          duration: 40, // Длительность анимации
+          ease: 'linear',
+          repeat: -1, // Повторять бесконечно
+        });
+      },
+    });
+  };
+
   onMounted(() => {
     animateIcons();
+    useIntersectionObserver(container.value, ([entry]) => {
+      if (entry.isIntersecting) {
+        animateMoon();
+      }
+    });
     animationInterval = setInterval(() => {
       animateIcons();
     }, 1000);
@@ -152,6 +186,11 @@
       @mixin tablet {
         display: flex;
         align-items: center;
+        padding: 5rem 0;
+      }
+
+      @mixin desktop {
+        min-height: 64rem;
       }
     }
 
@@ -188,15 +227,52 @@
       }
     }
 
+    &__img-wrapper {
+      position: relative;
+
+      @mixin tablet {
+        flex: 1 1 50%;
+      }
+    }
+
+    &__moon {
+      display: none;
+
+      @mixin tablet {
+        display: block;
+        position: absolute;
+        top: 4%;
+        left: 4%;
+        width: 140px;
+        height: 140px;
+        filter: drop-shadow(0 0 20px $softOrangeTrans);
+      }
+
+      @mixin desktop {
+        top: -60%;
+        left: 6%;
+        width: 220px;
+        height: 220px;
+        filter: drop-shadow(0 0 34px $softOrangeTrans);
+      }
+    }
+
     &__img {
       display: none;
 
       @mixin tablet {
-        flex: 1 1 50%;
+        position: relative;
+        bottom: -8rem;
         display: block;
-        width: 100%;
+        width: 120%;
         height: 100%;
         object-fit: contain;
+      }
+
+      @mixin desktop {
+        position: relative;
+        bottom: -16rem;
+        width: 100%;
       }
     }
 

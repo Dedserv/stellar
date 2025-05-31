@@ -9,7 +9,6 @@
 <script setup>
   const { $gsap } = useNuxtApp();
   const textContainer = ref(null);
-  const showImage = ref(false);
   const words = [
     'Идет',
     'составление',

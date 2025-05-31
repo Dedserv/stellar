@@ -156,7 +156,11 @@
     }
 
     &--checked {
-      border: 1px solid #d8b89594;
+      filter: drop-shadow(0 4px 6px #bcbcbc80);
+
+      :deep(.card__icon) {
+        opacity: 1;
+      }
     }
   }
 </style>

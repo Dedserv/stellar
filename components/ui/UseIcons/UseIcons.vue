@@ -106,5 +106,11 @@
       />
       <path stroke="currentColor" stroke-linecap="round" d="M13 17v4h11V3H13v4.5" />
     </symbol>
+    <symbol id="starTiny" viewBox="0 0 13 12" fill="none">
+      <path
+        d="M6.5 0L7.34853 5.15147L12.5 6L7.34853 6.84853L6.5 12L5.65147 6.84853L0.5 6L5.65147 5.15147L6.5 0Z"
+        fill="#E9A87C"
+      />
+    </symbol>
   </svg>
 </template>

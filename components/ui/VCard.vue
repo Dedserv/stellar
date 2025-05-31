@@ -1,18 +1,42 @@
 <template>
-  <div :class="['card', classList]">
+  <component :is="tag" :to="props.link" :class="['card', classList, { 'card--link': props.link }]">
     <div class="card__wrapper">
       <div class="card__img-wrapper">
         <img loading="lazy" class="card__img" :src="props.img" :alt="title" />
       </div>
-      <img loading="lazy" class="card__bg" src="/img/bg.webp" alt="" />
+      <img
+        v-if="props.type !== 'transparent'"
+        loading="lazy"
+        class="card__bg"
+        src="/img/bg.webp"
+        alt=""
+      />
     </div>
-    <h4 v-if="props.title" class="card__title">{{ props.title }}</h4>
+    <div class="card__title-wrapper">
+      <UseIcon
+        v-if="props.type === 'transparent'"
+        :width="1.2"
+        :height="1.2"
+        name="starTiny"
+        class="card__icon"
+      />
+      <h4 v-if="props.title" class="card__title">{{ props.title }}</h4>
+      <UseIcon
+        v-if="props.type === 'transparent'"
+        :width="1.2"
+        :height="1.2"
+        name="starTiny"
+        class="card__icon"
+      />
+    </div>
     <span v-if="props.description" class="card__description">{{ props.description }}</span>
     <p v-if="props.text" class="card__text" v-html="props.text" />
-  </div>
+  </component>
 </template>
 
 <script setup>
+  import { NuxtLink } from '#components';
+
   const props = defineProps({
     img: {
       type: String,
@@ -37,7 +61,7 @@
     type: {
       type: String,
       default: 'default',
-      validator: (value) => ['default', 'hover', 'textInside'].includes(value),
+      validator: (value) => ['default', 'hover', 'transparent', 'textInside'].includes(value),
     },
 
     size: {
@@ -55,7 +79,14 @@
       type: Boolean,
       default: false,
     },
+
+    link: {
+      type: String,
+      default: '',
+    },
   });
+
+  const tag = computed(() => (props.link ? NuxtLink : 'div'));
 
   const classList = computed(() => [
     `card__type--${props.type}`,
@@ -71,6 +102,7 @@
     position: relative;
     z-index: 1;
     transition: all 0.3s ease-in;
+    overflow: hidden;
 
     @mixin tablet {
       min-width: 26rem;
@@ -129,6 +161,10 @@
           font-weight: normal;
         }
       }
+
+      &--transparent {
+        background-color: transparent;
+      }
     }
 
     &__size {
@@ -169,6 +205,18 @@
       }
     }
 
+    &--link {
+      &::after {
+        display: none;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+
     &--bordered {
       .card__img-wrapper {
         border: 1px solid $innertOrange;
@@ -202,10 +250,19 @@
       width: 100%;
       height: 100%;
       max-height: 60vh;
+      transition: transform 0.3s ease-in;
+      transform: scale(1);
 
       @mixin desktop {
         max-height: 100%;
       }
+    }
+
+    &__title-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
     }
 
     &__title {
@@ -214,6 +271,11 @@
       font-size: 1.6rem;
       line-height: 1.5;
       color: $primaryWhite;
+    }
+
+    &__icon {
+      opacity: 0;
+      transition: opacity 0.3s ease-in;
     }
 
     &__description {

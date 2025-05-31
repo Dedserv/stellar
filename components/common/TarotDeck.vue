@@ -1,20 +1,44 @@
 <template>
   <div class="tarot-deck">
-    <div v-if="selectedDeck" class="tarot-deck__selected">
-      <h2 class="tarot-deck__title">{{ selectedDeck.title }}</h2>
-      <div class="tarot-deck__cards">
+    <div v-if="selectedDeck || $isMobile" class="tarot-deck__selected">
+      <h2 class="tarot-deck__title">
+        {{ $isMobile ? 'Ваша натальная карта' : selectedDeck?.title }}
+      </h2>
+      <div v-if="!$isMobile" class="tarot-deck__cards" ref="cards">
         <TarotCard
-          v-for="(card, index) in selectedDeck.cards"
+          v-for="(card, index) in $isMobile ? allCards : selectedDeck?.cards"
+          :ref="(el) => (cardRefs[index] = el)"
+          :id="index"
           :key="index"
           :title="card.title"
           :content="card.content"
           :image="getZodiacImage(card.title)"
           :is-flipped="card.isFlipped"
-          :ref="(el) => (cardRefs[index] = el)"
+          :category="card.category || selectedDeck?.title"
         />
       </div>
+      <VSlider v-else @slide-change="cardChange">
+        <swiper-slide
+          v-for="(card, index) in $isMobile ? allCards : selectedDeck?.cards"
+          :key="`slide_${index + uId}`"
+          :class="{ 'tarot-deck__cards--mobile': $isMobile }"
+        >
+          <TarotCard
+            :ref="(el) => (cardRefs[index] = el)"
+            :title="card.title"
+            :content="card.content"
+            :image="getZodiacImage(card.title)"
+            :is-flipped="card.isFlipped"
+            :category="card.category || selectedDeck?.title"
+          />
+        </swiper-slide>
+      </VSlider>
     </div>
-    <div class="tarot-deck__sections" :class="{ 'tarot-deck__sections--bottom': selectedDeck }">
+    <div
+      v-if="!$isMobile"
+      class="tarot-deck__sections"
+      :class="{ 'tarot-deck__sections--bottom': selectedDeck }"
+    >
       <div
         v-for="(deck, deckIndex) in cardDecks"
         :key="deckIndex"
@@ -30,11 +54,16 @@
 </template>
 
 <script setup>
+  import { uid } from 'uid';
+  const uId = uid();
   import { useTarotDeck } from '~/composables/useTarotDeck';
   const { $gsap } = useNuxtApp();
 
   const props = defineProps({
-    natalResult: String,
+    natalResult: {
+      type: Array,
+      required: true,
+    },
   });
 
   const {
@@ -42,18 +71,56 @@
     cardDecks,
     selectedDeckIndex,
     selectedDeck,
-    parseResultToCards,
     getZodiacImage,
     selectDeck: selectDeckFn,
   } = useTarotDeck();
+
+  const allCards = ref([]);
 
   const selectDeck = (deckIndex) => {
     selectDeckFn(deckIndex, $gsap);
   };
 
+  const emit = defineEmits(['cardChange']);
+
+  const cardChange = (e) => emit('cardChange', e);
+
+  const cards = ref(null);
+
+  const { $isMobile } = useNuxtApp();
+
   // Инициализация колоды
   onMounted(() => {
-    cardDecks.value = parseResultToCards(props.natalResult);
+    cardDecks.value = props.natalResult;
+
+    // Собираем все карты для мобильной версии
+    allCards.value = cardDecks.value.reduce((acc, deck) => [...acc, ...deck.cards], []);
+
+    // Анимация для мобильной версии
+    // if ($isMobile.value) {
+    //   nextTick(() => {
+    //     [...cards.value?.children].forEach((card, index) => {
+    //       if (card) {
+    //         $gsap.fromTo(
+    //           card,
+    //           {
+    //             opacity: 0,
+    //             x: 100,
+    //             scale: 0.8,
+    //           },
+    //           {
+    //             opacity: 1,
+    //             x: 0,
+    //             scale: 1,
+    //             duration: 0.6,
+    //             delay: index * 0.2,
+    //             ease: 'power2.out',
+    //           }
+    //         );
+    //       }
+    //     });
+    //   });
+    // }
   });
 </script>
 
@@ -63,14 +130,18 @@
   .tarot-deck {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
+
+    @mixin desktop {
+      width: calc(100vw - 3.2rem);
+    }
   }
 
   .tarot-deck__selected {
     position: absolute;
-    top: 0;
+    top: 8rem;
     left: 0;
     width: 100%;
     height: 100%;
@@ -80,10 +151,16 @@
   }
 
   .tarot-deck__title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: $softOrange;
-    margin-bottom: 1rem;
+    margin: 0;
+    margin-bottom: 1.8rem;
     text-align: center;
+
+    @mixin tablet {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
   }
 
   .tarot-deck__cards {
@@ -91,6 +168,28 @@
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;
+
+    &--mobile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 16px;
+      padding: 0 16px;
+      min-height: 70dvh;
+      height: 80%;
+      max-height: 880px;
+      width: 100%;
+      max-width: calc(360px + 10vw);
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .tarot-card {
+        scroll-snap-align: center;
+        margin: 0 auto;
+      }
+    }
   }
 
   .tarot-deck__sections {

@@ -18,15 +18,22 @@
 <script setup>
   const { $gsap } = useNuxtApp();
   const wrapper = ref(null);
+  const { width } = useWindowSize();
 
   defineExpose({
     wrapper,
   });
 
   onMounted(() => {
+    const isMobile = width.value < 1024;
+    const starSize = isMobile ? 3 : 6;
+
     $gsap.to('.hero__star', {
       y: '-100%',
-      duration: 1,
+      x: '50%',
+      width: `${starSize}rem`,
+      height: `${starSize}rem`,
+      duration: 1.4,
       ease: 'power1.inOut',
 
       onComplete: () => {
@@ -121,8 +128,18 @@
     &__image {
       position: absolute;
       bottom: 0;
-      max-height: 70vh;
+      max-height: 32vh;
       opacity: 0;
+      display: none;
+
+      @mixin tablet {
+        display: block;
+        max-height: 32dvh;
+      }
+
+      @mixin desktop {
+        max-height: 70vh;
+      }
 
       &--left {
         left: 0;

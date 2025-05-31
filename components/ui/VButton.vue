@@ -16,7 +16,7 @@
     type: {
       type: String,
       default: 'default',
-      validator: (val) => ['default', 'icons', 'transparent', 'bordered'].includes(val),
+      validator: (val) => ['default', 'icons', 'transparent', 'bordered', 'squared'].includes(val),
     },
 
     color: {
@@ -153,6 +153,37 @@
             bottom: -4px;
           }
 
+          &::before {
+            left: -4px;
+            right: -4px;
+          }
+        }
+      }
+
+      &--squared {
+        border: 1px solid transparent;
+        background-color: transparent;
+
+        &::before {
+          content: '';
+          position: absolute;
+          border: 1px solid hsla(21, 30%, 91%, 0.3);
+          border-radius: 4px;
+          transition:
+            top 0.3s,
+            bottom 0.3s,
+            left 0.3s,
+            right 0.3s;
+        }
+
+        &::before {
+          top: -4px;
+          bottom: -4px;
+          left: 0;
+          right: 0;
+        }
+
+        &:hover {
           &::before {
             left: -4px;
             right: -4px;
