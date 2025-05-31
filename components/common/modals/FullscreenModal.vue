@@ -1,7 +1,7 @@
 <template>
   <Teleport to="#teleports">
     <Transition>
-      <div class="modal">
+      <div class="modal" :class="{ 'modal--show-result': isShowedResults }">
         <div class="container">
           <Transition>
             <div v-if="!isShowedResults" :key="`${isShowedResults}_modal`">
@@ -103,30 +103,37 @@
 
   const getNatalCard = async () => {
     const questionsResultData = getQuestionsResultData();
-    let previousResponse = '';
     let fullResponse = '';
 
     const sections = ['basics', 'personality', 'forecasting', 'personalization'];
-    try {
-      for (const section of sections) {
-        const response = await $fetch('/api/deepseek', {
-          method: 'POST',
-          body: {
-            message: questionsResultData,
-            section,
-            previousResponse: previousResponse || undefined,
-          },
-        });
 
-        previousResponse = response;
-        fullResponse += response + '\n\n';
+    try {
+      // Разбиваем секции на группы по 2
+      for (let i = 0; i < sections.length; i += 2) {
+        const chunk = sections.slice(i, i + 2);
+
+        // Создаем массив промисов для текущей группы
+        const promises = chunk.map((section) =>
+          $fetch('/api/deepseek', {
+            method: 'POST',
+            body: {
+              message: questionsResultData,
+              section,
+            },
+          })
+        );
+
+        const responses = await Promise.all(promises);
+
+        responses.forEach((res) => {
+          fullResponse += res + '\n\n';
+        });
       }
     } catch (error) {
-      console.error(error);
+      console.error('Ошибка в группе запросов:', error);
     }
 
-    natalCard.value = fullResponse || '';
-    console.log('🚀 ~ getNatalCard ~ natalCard.value:', natalCard.value);
+    natalCard.value = fullResponse.trim();
   };
 
   const changeSlideHandler = async (next) => {
@@ -160,12 +167,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.2rem 0;
+    padding: 1.2rem 1.2rem;
     width: 100%;
     height: 100%;
     background-color: $blackBlue;
     z-index: 9999;
     overflow: hidden;
+
+    &--show-result {
+      padding: 1.2rem 0;
+    }
 
     @mixin tablet {
       padding: 4rem 1.6rem;
