@@ -145,7 +145,7 @@
       left: 16px;
       right: 16px;
       top: 0;
-      padding: 3.2rem 0;
+      padding: 2.6rem 0;
       color: $lightGrayOrange;
 
       @mixin tablet {
@@ -155,6 +155,10 @@
       :deep(.modal-header__counter) {
         opacity: 1;
         visibility: visible;
+      }
+
+      :deep(.modal-header__logo) {
+        transform: translateX(-50%) scale(0.8);
       }
     }
 
