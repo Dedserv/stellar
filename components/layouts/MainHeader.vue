@@ -59,7 +59,7 @@
     right: 0;
     top: 0;
 
-    .modal-header__logo {
+    .header__logo {
       display: none;
 
       @mixin tablet {
