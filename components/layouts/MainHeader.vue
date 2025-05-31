@@ -59,6 +59,14 @@
     right: 0;
     top: 0;
 
+    .modal-header__logo {
+      display: none;
+
+      @mixin tablet {
+        display: block;
+      }
+    }
+
     &__wrapper {
       display: flex;
       align-items: center;
