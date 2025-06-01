@@ -23,6 +23,39 @@
   const { height } = useElementSize(hero);
 
   const isShowHero = computed(() => y.value < height.value + 140);
+
+  useHead({
+    title: 'Stellara - Персональная натальная карта и астрологический прогноз',
+    meta: [
+      {
+        name: 'description',
+        content:
+          'Получите свою персональную натальную карту и узнайте, как звезды влияют на вашу судьбу. Точный астрологический прогноз и рекомендации для вашего развития.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'натальная карта, астрология, гороскоп, астрологический прогноз, составление натальной карты, персональный гороскоп',
+      },
+      {
+        property: 'og:title',
+        content: 'Stellara - Персональная натальная карта и астрологический прогноз',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Получите свою персональную натальную карту и узнайте, как звезды влияют на вашу судьбу. Точный астрологический прогноз и рекомендации для вашего развития.',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:url',
+        content: 'https://stellara.ru',
+      },
+    ],
+  });
 </script>
 
 <style scoped>
@@ -41,9 +74,11 @@
       align-items: center;
       justify-content: center;
       height: 40dvh;
+      min-height: 36rem;
 
       @mixin tablet {
         height: 44dvh;
+        min-height: auto;
       }
 
       @mixin desktop {
@@ -54,7 +89,7 @@
     &__horoscope {
       position: relative;
       z-index: 2;
-      margin-top: calc(40dvh + 8.2rem);
+      margin-top: max(46rem, 40dvh + 8.2rem);
 
       @mixin tablet {
         margin-top: calc(44dvh + 8.2rem);

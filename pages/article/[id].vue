@@ -20,13 +20,7 @@
         >
           Составить натальную карту
         </VButton>
-        <VButton
-          class="article__back"
-          type="squared"
-          color="secondary"
-          rounded
-          @click="backToMainPage"
-        >
+        <VButton class="article__back" color="bright" rounded @click="backToMainPage">
           <Icon name="lets-icons:back" />
         </VButton>
       </div>
@@ -48,13 +42,43 @@
     },
   });
 
+  useHead({
+    title: `${data.value?.title} | Stellara`,
+    meta: [
+      {
+        name: 'description',
+        content:
+          data.value?.description ||
+          'Узнайте свою натальную карту и получите персональный астрологический прогноз',
+      },
+      {
+        property: 'og:title',
+        content: `${data.value?.title} | Stellara`,
+      },
+      {
+        property: 'og:description',
+        content:
+          data.value?.description ||
+          'Узнайте свою натальную карту и получите персональный астрологический прогноз',
+      },
+      {
+        property: 'og:image',
+        content: data.value?.img || '/img/articles/astrology.webp',
+      },
+      {
+        property: 'og:url',
+        content: `https://stellara.ru/article/${route.params.id}`,
+      },
+    ],
+  });
+
   onMounted(() => {
     backButton.value = document.querySelector('.article__back');
     const page = document.querySelector('.page');
     page.classList.remove('scroll-lock');
 
     window.addEventListener('scroll', handleScroll);
-    scrollTimeout = setTimeout(showBackButton, 600);
+    scrollTimeout = setTimeout(showBackButton, 400);
   });
 
   onUnmounted(() => {

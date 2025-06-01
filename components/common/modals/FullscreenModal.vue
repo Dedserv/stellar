@@ -37,6 +37,7 @@
               v-else
               :key="`${isShowedResults}_result`"
               :natalResult="natalCard"
+              :loadingProgress="loadingProgress"
               @close-modal="clickExitButton"
             />
           </Transition>
@@ -63,6 +64,23 @@
 
   const isShowedResults = ref(false);
   const natalCard = ref('');
+  const loadingProgress = ref(0);
+  const progressInterval = ref(null);
+
+  const startProgressAnimation = () => {
+    loadingProgress.value = 0;
+    let currentProgress = 0;
+
+    // Первая секция - 15 секунд до 25%
+    progressInterval.value = setInterval(() => {
+      if (currentProgress < 99) {
+        currentProgress += 0.5;
+        loadingProgress.value = currentProgress;
+      } else {
+        clearInterval(progressInterval.value);
+      }
+    }, 300);
+  };
 
   onMounted(async () => {
     scrollLock(true);
@@ -104,6 +122,7 @@
   const getNatalCard = async () => {
     const questionsResultData = getQuestionsResultData();
     let fullResponse = '';
+    startProgressAnimation();
 
     const sections = ['basics', 'personality', 'forecasting', 'personalization'];
 
@@ -156,6 +175,12 @@
   const buttonTitle = computed(() =>
     data.value.length === isLastSlide.value ? 'Получить результат' : 'Продолжить'
   );
+
+  onUnmounted(() => {
+    if (progressInterval.value) {
+      clearInterval(progressInterval.value);
+    }
+  });
 </script>
 
 <style scoped>

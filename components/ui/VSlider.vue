@@ -33,7 +33,7 @@
   useSwiper(container, {
     effect: 'slide',
     slidesPerView: 'auto',
-    spaceBetween: 12,
+    // spaceBetween: 12,
     on: {
       afterInit: () => {
         isSwiperLoaded.swiperLoaded(true);

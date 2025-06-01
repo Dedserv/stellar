@@ -5,6 +5,49 @@ import path from 'path';
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon'],
+  app: {
+    head: {
+      title: 'Stellara - Ваша персональная натальная карта',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'натальная карта, астрология, гороскоп, астрологический прогноз, составление натальной карты',
+        },
+        { property: 'og:title', content: 'Stellara - Ваша персональная натальная карта' },
+        {
+          property: 'og:description',
+          content:
+            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+        },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://stellara.ru' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Stellara - Ваша персональная натальная карта' },
+        {
+          name: 'twitter:description',
+          content:
+            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+        },
+        { name: 'robots', content: 'index, follow' },
+        { name: 'author', content: 'Stellara' },
+        { name: 'format-detection', content: 'telephone=no' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'canonical', href: 'https://stellara.ru' },
+      ],
+    },
+  },
   postcss: {
     plugins: {
       'postcss-import': {}, // Позволяет использовать @import

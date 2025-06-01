@@ -94,6 +94,7 @@ export default defineEventHandler(async () => {
           value: 'married',
           img: '/img/questions/married.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
         {
@@ -101,6 +102,7 @@ export default defineEventHandler(async () => {
           value: 'engaged',
           img: '/img/questions/engaged.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
         {
@@ -108,6 +110,7 @@ export default defineEventHandler(async () => {
           value: 'relationship',
           img: '/img/questions/relationship.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
         {
@@ -115,6 +118,7 @@ export default defineEventHandler(async () => {
           value: 'complicated ',
           img: '/img/questions/complicated.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
         {
@@ -122,6 +126,7 @@ export default defineEventHandler(async () => {
           value: 'single',
           img: '/img/questions/single.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
         {
@@ -129,6 +134,7 @@ export default defineEventHandler(async () => {
           value: 'divorced',
           img: '/img/questions/divorced.webp',
           type: 'transparent',
+          size: 'small',
           bordered: true,
         },
       ],

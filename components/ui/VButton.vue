@@ -109,6 +109,15 @@
       &--secondary {
         color: $lightGrayOrange;
       }
+
+      &--bright {
+        background-color: $lightGrayOrange;
+        color: $darkGrayBlue;
+
+        &:hover {
+          background-color: $whiteOrange;
+        }
+      }
     }
 
     &__type {
@@ -162,7 +171,6 @@
 
       &--squared {
         border: 1px solid transparent;
-        background-color: transparent;
 
         &::before {
           content: '';

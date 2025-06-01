@@ -20,7 +20,7 @@
       Выход
     </VButton>
     <Transition>
-      <NatalLoader v-if="!natalResultCards.length" />
+      <NatalLoader v-if="!natalResultCards.length" :progress="loadingProgress" />
       <TarotDeck v-else :natal-result="natalResultCards" @card-change="cardChange" />
     </Transition>
   </div>
@@ -35,6 +35,10 @@
     natalResult: {
       type: String,
       default: '',
+    },
+    loadingProgress: {
+      type: Number,
+      default: 0,
     },
   });
 
