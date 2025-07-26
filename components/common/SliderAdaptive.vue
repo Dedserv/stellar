@@ -1,31 +1,46 @@
 <template>
   <div class="slider-adaptive">
-    <VSlider v-if="!isDesktop && isMounted">
-      <swiper-slide
-        v-for="(card, index) in cards"
-        :key="`slide_${index + uId}`"
-        class="slider-adaptive__slider"
-      >
-        <VCard v-bind="card" :type="type" :size="size" :bordered="bordered" />
-      </swiper-slide>
-    </VSlider>
+    <ClientOnly>
+      <VSlider v-if="!isDesktop" :options="SLIDER_OPTIONS">
+        <swiper-slide
+          v-for="(card, index) in cards"
+          :key="`slide_${index + uId}`"
+          class="slider-adaptive__slider"
+        >
+          <VCard
+            v-bind="card"
+            :type="type"
+            :size="size"
+            :bordered="bordered"
+            @cardClick="openCardModal"
+          />
+        </swiper-slide>
+      </VSlider>
 
-    <div v-else class="slider-adaptive__cards">
-      <VCard
-        v-for="(card, index) in cards"
-        :key="`card_${index + uId}`"
-        v-bind="card"
-        :type="type"
-        :size="size"
-        :bordered="bordered"
-      />
-    </div>
+      <div v-else class="slider-adaptive__cards">
+        <VCard
+          v-for="(card, index) in cards"
+          :key="`card_${index + uId}`"
+          v-bind="card"
+          :type="type"
+          :size="size"
+          :bordered="bordered"
+          @cardClick="openCardModal"
+        />
+      </div>
+    </ClientOnly>
+
+    <ModalCard :is-open="isCardModalOpen" :card-data="selectedCardData" @close="closeCardModal" />
   </div>
 </template>
 
 <script setup>
   import { uid } from 'uid';
   const uId = uid();
+
+  const SLIDER_OPTIONS = {
+    spaceBetween: 12,
+  };
 
   const props = defineProps({
     cards: {
@@ -48,12 +63,23 @@
   });
 
   const { width } = useWindowSize();
-  const isMounted = ref(false);
   const isDesktop = computed(() => width.value > 1023);
 
-  onMounted(() => {
-    isMounted.value = true;
-  });
+  // Состояние для модалки карточки
+  const isCardModalOpen = ref(false);
+  const selectedCardData = ref({});
+
+  // Открытие модалки карточки
+  const openCardModal = (cardData) => {
+    selectedCardData.value = cardData;
+    isCardModalOpen.value = true;
+  };
+
+  // Закрытие модалки карточки
+  const closeCardModal = () => {
+    isCardModalOpen.value = false;
+    selectedCardData.value = {};
+  };
 </script>
 
 <style scoped>

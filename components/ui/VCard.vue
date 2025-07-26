@@ -1,5 +1,10 @@
 <template>
-  <component :is="tag" :to="props.link" :class="['card', classList, { 'card--link': props.link }]">
+  <component
+    :is="tag"
+    :to="props.link"
+    :class="['card', classList, { 'card--link': props.link }]"
+    @click="handleCardClick"
+  >
     <div class="card__wrapper">
       <div class="card__img-wrapper">
         <img loading="lazy" class="card__img" :src="props.img" :alt="title" />
@@ -93,6 +98,33 @@
     `card__size--${props.size}`,
     { 'card--bordered': props.bordered, 'card--rounded': props.rounded },
   ]);
+
+  const emit = defineEmits(['cardClick']);
+
+  const handleCardClick = (event) => {
+    // Если есть ссылка, не открываем модалку
+    if (props.link) {
+      return;
+    }
+
+    // Открываем модалку только на мобильных устройствах
+    const isMobile = window.innerWidth <= 1023;
+    if (!isMobile) {
+      return;
+    }
+
+    // Предотвращаем всплытие события для ссылок
+    event.preventDefault();
+    event.stopPropagation();
+
+    // Эмитим событие с данными карточки
+    emit('cardClick', {
+      img: props.img,
+      title: props.title,
+      description: props.description,
+      text: props.text,
+    });
+  };
 </script>
 
 <style scoped>
@@ -214,6 +246,22 @@
         img {
           transform: scale(1.1);
         }
+      }
+    }
+
+    @mixin mobile {
+      cursor: pointer;
+
+      &:active {
+        transform: scale(0.98);
+      }
+
+      .card__img {
+        transition: transform 0.2s ease;
+      }
+
+      &:active .card__img {
+        transform: scale(1.05);
       }
     }
 
