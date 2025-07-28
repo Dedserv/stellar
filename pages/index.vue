@@ -52,7 +52,7 @@
       },
       {
         property: 'og:url',
-        content: 'https://stellara.ru',
+        content: 'https://www.stellara.ru',
       },
     ],
   });

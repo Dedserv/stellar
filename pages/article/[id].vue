@@ -67,7 +67,7 @@
       },
       {
         property: 'og:url',
-        content: `https://stellara.ru/article/${route.params.id}`,
+        content: `https://www.stellara.ru/article/${route.params.id}`,
       },
     ],
   });

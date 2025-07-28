@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
-  modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon'],
+  modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon', '@nuxtjs/sitemap'],
   app: {
     head: {
       title: 'Stellara - Ваша персональная натальная карта',
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
             'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
         },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://stellara.ru' },
+        { property: 'og:url', content: 'https://wwww.stellara.ru' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Stellara - Ваша персональная натальная карта' },
         {
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://stellara.ru' },
+        { rel: 'canonical', href: 'https://www.stellara.ru' },
       ],
     },
   },
@@ -64,6 +64,10 @@ export default defineNuxtConfig({
   runtimeConfig: {
     yaKey: process.env.YA_API,
     deepseekApiKey: process.env.DEEPSEEK_API,
+    public: {
+      NUXT_SITE_URL: 'https://www.stellara.ru',
+      NUXT_SITE_NAME: 'Stellara',
+    },
   },
   ssr: true,
   plugins: [{ src: '~/plugins/gsap.client.js', mode: 'client' }],
