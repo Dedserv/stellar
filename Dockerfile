@@ -4,22 +4,19 @@ FROM node:20-alpine
 # Устанавливаем рабочую директорию
 WORKDIR /app
 
-# Копируем package.json и package-lock.json
+# Копируем package.json и package-lock.json (если есть)
 COPY package*.json ./
 
 # Устанавливаем зависимости
-RUN npm ci --only=production
+RUN npm ci --only=production && npm cache clean --force
 
-# Копируем исходный код
+# Копируем весь проект
 COPY . .
 
-# Создаем .env файл (если нужно)
-# COPY .env.example .env
-
-# Собираем приложение для продакшена
+# Собираем приложение
 RUN npm run build
 
-# Открываем порт
+# Открываем порт 3000
 EXPOSE 3000
 
 # Запускаем приложение
