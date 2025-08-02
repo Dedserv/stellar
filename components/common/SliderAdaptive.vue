@@ -28,9 +28,9 @@
           @cardClick="openCardModal"
         />
       </div>
-    </ClientOnly>
 
-    <ModalCard :is-open="isCardModalOpen" :card-data="selectedCardData" @close="closeCardModal" />
+      <ModalCard :is-open="isCardModalOpen" :card-data="selectedCardData" @close="closeCardModal" />
+    </ClientOnly>
   </div>
 </template>
 
