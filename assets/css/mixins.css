@@ -47,7 +47,7 @@
   }
 
   /* Для Firefox */
-  &* {
+  & * {
     scrollbar-width: thin; /* Автоматическая тонкая полоса */
     scrollbar-color: $greyMiddle transparent; /* Цвет бегунка и трека */
   }

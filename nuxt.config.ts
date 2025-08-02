@@ -56,6 +56,7 @@ export default defineNuxtConfig({
       'postcss-nested': {}, // Позволяет вложенные правила
       'postcss-sorting': {}, // Упорядочивает стили
       'postcss-custom-properties': {},
+      autoprefixer: {},
       'postcss-mixins': {
         mixinsDir: path.resolve(__dirname, 'assets/css'),
       },
