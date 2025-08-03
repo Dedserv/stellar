@@ -1,7 +1,7 @@
 <template>
   <div class="slider-adaptive">
     <ClientOnly>
-      <VSlider v-if="!isDesktop" :options="SLIDER_OPTIONS">
+      <VSlider v-if="!isDesktop" key="slider" :options="SLIDER_OPTIONS">
         <swiper-slide
           v-for="(card, index) in cards"
           :key="`slide_${index + uId}`"
@@ -28,7 +28,8 @@
           @cardClick="openCardModal"
         />
       </div>
-
+    </ClientOnly>
+    <ClientOnly>
       <ModalCard :is-open="isCardModalOpen" :card-data="selectedCardData" @close="closeCardModal" />
     </ClientOnly>
   </div>

@@ -68,7 +68,6 @@
     () => props.isOpen,
     (newValue) => {
       if (newValue) {
-        console.log('open');
         scrollLock(true);
       }
     }

@@ -102,22 +102,18 @@
   const emit = defineEmits(['cardClick']);
 
   const handleCardClick = (event) => {
-    // Если есть ссылка, не открываем модалку
     if (props.link) {
       return;
     }
 
-    // Открываем модалку только на мобильных устройствах
     const isMobile = window.innerWidth <= 1023;
     if (!isMobile) {
       return;
     }
 
-    // Предотвращаем всплытие события для ссылок
     event.preventDefault();
     event.stopPropagation();
 
-    // Эмитим событие с данными карточки
     emit('cardClick', {
       img: props.img,
       title: props.title,
