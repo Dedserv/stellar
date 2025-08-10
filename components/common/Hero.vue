@@ -42,8 +42,10 @@
       },
     });
 
+    const isOpacityValue = isMobile ? 0.5 : 1;
+
     $gsap.to('.hero__image', {
-      opacity: 1,
+      opacity: isOpacityValue,
       duration: 2,
       ease: 'power1.inOut',
     });
@@ -128,12 +130,13 @@
     &__image {
       position: absolute;
       bottom: 0;
-      max-height: 32vh;
+      max-height: 28dvh;
       opacity: 0;
-      display: none;
+      z-index: -10;
 
       @mixin tablet {
         display: block;
+        bottom: 0;
         max-height: 32dvh;
       }
 
@@ -142,11 +145,19 @@
       }
 
       &--left {
-        left: 0;
+        left: -6%;
+
+        @mixin tablet {
+          left: 0;
+        }
       }
 
       &--right {
-        right: 0;
+        right: -6%;
+
+        @mixin tablet {
+          right: 0;
+        }
       }
     }
   }

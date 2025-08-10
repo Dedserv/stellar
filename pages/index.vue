@@ -122,8 +122,18 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 40dvh;
+      height: 44dvh;
       min-height: 36rem;
+
+      &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        content: '';
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33));
+      }
 
       @mixin tablet {
         height: 44dvh;
