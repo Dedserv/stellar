@@ -72,12 +72,12 @@ export default defineNuxtConfig({
         {
           hid: 'theme-color',
           name: 'theme-color',
-          content: '#FF6B35',
+          content: '#141520',
         },
         {
           hid: 'msapplication-TileColor',
           name: 'msapplication-TileColor',
-          content: '#FF6B35',
+          content: '#141520',
         },
       ],
       script: [
