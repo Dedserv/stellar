@@ -17,7 +17,7 @@
         alt=""
       />
     </div>
-    <div class="card__title-wrapper">
+    <div class="card__title-wrapper" :class="`card__title-wrapper--${props.textPosition}`">
       <UseIcon
         v-if="props.type === 'transparent'"
         :width="1.2"
@@ -25,7 +25,9 @@
         name="starTiny"
         class="card__icon"
       />
-      <h4 v-if="props.title" class="card__title">{{ props.title }}</h4>
+      <h4 v-if="props.title" class="card__title">
+        {{ props.title }}
+      </h4>
       <UseIcon
         v-if="props.type === 'transparent'"
         :width="1.2"
@@ -88,6 +90,12 @@
     link: {
       type: String,
       default: '',
+    },
+
+    textPosition: {
+      type: String,
+      default: 'center',
+      validator: (value) => ['left', 'center', 'right'].includes(value),
     },
   });
 
@@ -307,6 +315,18 @@
       align-items: center;
       justify-content: center;
       gap: 0.4rem;
+
+      &--left {
+        justify-content: flex-start;
+      }
+
+      &--center {
+        justify-content: center;
+      }
+
+      &--right {
+        justify-content: flex-end;
+      }
     }
 
     &__title {

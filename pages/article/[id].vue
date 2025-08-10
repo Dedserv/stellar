@@ -2,6 +2,7 @@
   <div class="article">
     <div class="container layout-upper">
       <div class="article__content">
+        <Breadcrumbs :items="breadcrumbItems" />
         <img
           :src="data?.img"
           :alt="data?.title"
@@ -20,7 +21,7 @@
         >
           Составить натальную карту
         </VButton>
-        <VButton class="article__back" color="bright" rounded @click="backToMainPage">
+        <VButton class="article__back" color="bright" rounded @click="backToPrevPage">
           <Icon name="lets-icons:back" />
         </VButton>
       </div>
@@ -41,6 +42,12 @@
       id: route.params.id,
     },
   });
+
+  const breadcrumbItems = computed(() => [
+    { name: 'Главная', path: '/' },
+    { name: 'Статьи', path: '/article' },
+    { name: data.value?.title || 'Статья', path: `/article/${route.params.id}` },
+  ]);
 
   useHead({
     title: `${data.value?.title} | Stellara`,
@@ -68,6 +75,54 @@
       {
         property: 'og:url',
         content: `https://www.stellara.ru/article/${route.params.id}`,
+      },
+      {
+        property: 'article:published_time',
+        content: new Date().toISOString(),
+      },
+      {
+        property: 'article:modified_time',
+        content: new Date().toISOString(),
+      },
+      {
+        property: 'article:author',
+        content: 'Stellara',
+      },
+      {
+        property: 'article:section',
+        content: 'Астрология',
+      },
+    ],
+    script: [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: data.value?.title,
+          description: data.value?.description,
+          image: data.value?.img
+            ? `https://www.stellara.ru${data.value.img}`
+            : 'https://www.stellara.ru/img/articles/astrology.webp',
+          author: {
+            '@type': 'Organization',
+            name: 'Stellara',
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: 'Stellara',
+            logo: {
+              '@type': 'ImageObject',
+              url: 'https://www.stellara.ru/logo.svg',
+            },
+          },
+          datePublished: new Date().toISOString(),
+          dateModified: new Date().toISOString(),
+          mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `https://www.stellara.ru/article/${route.params.id}`,
+          },
+        }),
       },
     ],
   });
@@ -102,8 +157,8 @@
     isModalShow.openModal(true);
   };
 
-  const backToMainPage = () => {
-    navigateTo('/');
+  const backToPrevPage = () => {
+    navigateTo('/article');
   };
 </script>
 

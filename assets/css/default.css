@@ -29,9 +29,10 @@ html {
 }
 
 .page {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   position: relative;
+  min-height: 100dvh;
 }
 
 body {
@@ -175,4 +176,8 @@ img {
   height: 100dvh;
   max-width: 99.9vw;
   min-height: 700px;
+
+  footer {
+    display: none;
+  }
 }

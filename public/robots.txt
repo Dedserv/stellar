@@ -1,3 +1,17 @@
 User-agent: *
 Allow: /
+
+# Запрещаем индексацию служебных страниц
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /_ipx/
+
+# Разрешаем индексацию статей
+Allow: /article/
+
+# Указываем расположение sitemap
 Sitemap: https://www.stellara.ru/sitemap.xml
+
+# Указываем время задержки между запросами (в секундах)
+Crawl-delay: 1

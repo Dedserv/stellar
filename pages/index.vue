@@ -54,6 +54,55 @@
         property: 'og:url',
         content: 'https://www.stellara.ru',
       },
+      {
+        property: 'og:image',
+        content: 'https://www.stellara.ru/img/articles/astrology.webp',
+      },
+      {
+        property: 'og:site_name',
+        content: 'Stellara',
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        name: 'twitter:title',
+        content: 'Stellara - Персональная натальная карта и астрологический прогноз',
+      },
+      {
+        name: 'twitter:description',
+        content:
+          'Получите свою персональную натальную карту и узнайте, как звезды влияют на вашу судьбу. Точный астрологический прогноз и рекомендации для вашего развития.',
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://www.stellara.ru/img/articles/astrology.webp',
+      },
+    ],
+    script: [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'WebPage',
+          name: 'Stellara - Персональная натальная карта',
+          description:
+            'Получите свою персональную натальную карту и узнайте, как звезды влияют на вашу судьбу',
+          url: 'https://www.stellara.ru',
+          mainEntity: {
+            '@type': 'Service',
+            name: 'Составление натальной карты',
+            description: 'Персональный астрологический анализ и прогноз',
+            provider: {
+              '@type': 'Organization',
+              name: 'Stellara',
+            },
+            areaServed: 'RU',
+            serviceType: 'Астрологические услуги',
+          },
+        }),
+      },
     ],
   });
 </script>

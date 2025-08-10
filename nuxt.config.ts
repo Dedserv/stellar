@@ -5,6 +5,28 @@ import path from 'path';
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon', '@nuxtjs/sitemap'],
+  sitemap: {
+    urls: [
+      {
+        loc: '/article/1',
+        lastmod: new Date().toISOString(),
+        changefreq: 'monthly',
+        priority: 0.8,
+      },
+      {
+        loc: '/article/2',
+        lastmod: new Date().toISOString(),
+        changefreq: 'monthly',
+        priority: 0.8,
+      },
+      {
+        loc: '/article/3',
+        lastmod: new Date().toISOString(),
+        changefreq: 'monthly',
+        priority: 0.8,
+      },
+    ],
+  },
   app: {
     head: {
       title: 'Stellara - Ваша персональная натальная карта',
@@ -31,7 +53,7 @@ export default defineNuxtConfig({
             'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
         },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://wwww.stellara.ru' },
+        { property: 'og:url', content: 'https://www.stellara.ru' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Stellara - Ваша персональная натальная карта' },
         {
@@ -42,6 +64,49 @@ export default defineNuxtConfig({
         { name: 'robots', content: 'index, follow' },
         { name: 'author', content: 'Stellara' },
         { name: 'format-detection', content: 'telephone=no' },
+        {
+          hid: 'application-name',
+          name: 'application-name',
+          content: 'Stellara',
+        },
+        {
+          hid: 'theme-color',
+          name: 'theme-color',
+          content: '#FF6B35',
+        },
+        {
+          hid: 'msapplication-TileColor',
+          name: 'msapplication-TileColor',
+          content: '#FF6B35',
+        },
+      ],
+      script: [
+        {
+          type: 'application/ld+json',
+          children: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Stellara',
+            url: 'https://www.stellara.ru',
+            description: 'Ваша персональная натальная карта и астрологический прогноз',
+            potentialAction: {
+              '@type': 'SearchAction',
+              target: 'https://www.stellara.ru/search?q={search_term_string}',
+              'query-input': 'required name=search_term_string',
+            },
+          }),
+        },
+        {
+          type: 'application/ld+json',
+          children: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'Stellara',
+            url: 'https://www.stellara.ru',
+            logo: 'https://www.stellara.ru/logo.svg',
+            sameAs: ['https://www.stellara.ru'],
+          }),
+        },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },

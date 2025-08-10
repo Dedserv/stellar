@@ -82,7 +82,7 @@
     }, 300);
   };
 
-  onMounted(async () => {
+  onMounted(() => {
     scrollLock(true);
   });
 

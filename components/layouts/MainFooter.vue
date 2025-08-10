@@ -1,15 +1,13 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     <div class="container">
       <nav class="footer__navigation">
         <li><a href="#">Политика конфиденциальности</a></li>
       </nav>
       <span>©2025 Stellar</span>
     </div>
-  </div>
+  </footer>
 </template>
-
-<script setup></script>
 
 <style scoped>
   @import '~/assets/css/variables.css';
@@ -19,6 +17,7 @@
     text-align: center;
     padding: 3rem 1.6rem 6rem;
     border-top: 1px solid $blackOrange;
+    margin-top: auto;
 
     &__navigation {
       margin-bottom: 4rem;

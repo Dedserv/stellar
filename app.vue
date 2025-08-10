@@ -16,4 +16,3 @@
     </noscript>
   </ClientOnly>
 </template>
-<style></style>
