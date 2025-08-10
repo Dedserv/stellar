@@ -28,6 +28,10 @@ html {
   }
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .page {
   display: flex !important;
   flex-direction: column;

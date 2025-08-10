@@ -129,10 +129,15 @@
 
     &__image {
       position: absolute;
-      bottom: 0;
-      max-height: 28dvh;
+      bottom: 8px;
+      max-height: 30dvh;
       opacity: 0;
       z-index: -10;
+
+      @mixin small-mobile {
+        bottom: -10%;
+        max-height: 30dvh;
+      }
 
       @mixin tablet {
         display: block;

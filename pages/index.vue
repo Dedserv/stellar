@@ -122,8 +122,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 44dvh;
+      height: 46dvh;
       min-height: 36rem;
+
+      @mixin small-mobile {
+        height: 40dvh;
+      }
 
       &::after {
         position: absolute;
