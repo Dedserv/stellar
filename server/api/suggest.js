@@ -1,7 +1,7 @@
 const config = useRuntimeConfig();
 
 const initialParams = {
-  apikey: config.yaKey,
+  apikey: config.yaKey || process.env.YA_API,
   lang: 'ru_RU',
   type: 'geo',
   results: 10,
