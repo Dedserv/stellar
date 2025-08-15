@@ -7,6 +7,12 @@ Disallow: /api/
 Disallow: /_nuxt/
 Disallow: /_ipx/
 
+# Запрещаем индексацию данных и сгенерированных файлов
+Disallow: /data/
+Disallow: /data/generated/
+Disallow: /data/generated/planet_sign/
+Disallow: /data/generated/planet_sign/raw/
+
 # Разрешаем индексацию статей
 Allow: /article/
 

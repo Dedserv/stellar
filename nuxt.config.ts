@@ -26,6 +26,7 @@ export default defineNuxtConfig({
         priority: 0.8,
       },
     ],
+    exclude: ['/generate', '/data/**', '/data/generated/**', '/data/generated/planet_sign/**'],
   },
   app: {
     head: {

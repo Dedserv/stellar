@@ -45,10 +45,6 @@ export default defineEventHandler(async (event) => {
       { role: 'user', content: message },
     ];
 
-    // if (previousResponse) {
-    //   messages.push({ role: 'assistant', content: previousResponse });
-    // }
-
     const answer = await openai.chat.completions.create({
       messages,
       model: 'deepseek-chat',
