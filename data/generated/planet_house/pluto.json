@@ -1,0 +1,2827 @@
+{
+  "house_1": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Плутон в 1 доме усиливает вашу личность и глубину.",
+      "full": "Плутон в 1 доме указывает на интенсивную личность с глубокими внутренними преобразованиями. Вы можете обладать сильной волей и способностью к самообновлению. Эта позиция также подчеркивает вашу склонность к исследованию тайн жизни.",
+      "strengths": [
+        "Глубокая интуиция",
+        "Сильная воля",
+        "Способность к трансформации"
+      ],
+      "challenges": [
+        "Склонность к контролю",
+        "Интенсивные эмоции"
+      ],
+      "actionable": [
+        "Практикуйте осознанность для управления эмоциями.",
+        "Исследуйте свои глубинные мотивы через журналинг."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "личность",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Ваша личность под влиянием Плутона в 1 доме уникальна.",
+      "full": "С Плутоном в 1 доме ваша личность может притягивать внимание своей глубиной и загадочностью. Вы обладаете способностью к значительным личным изменениям и можете быть очень убедительным. Однако, важно избегать манипуляций.",
+      "strengths": [
+        "Убедительность",
+        "Глубина личности",
+        "Способность к изменениям"
+      ],
+      "challenges": [
+        "Риск манипуляций",
+        "Сложности в поверхностных отношениях"
+      ],
+      "actionable": [
+        "Развивайте эмпатию для лучшего понимания других.",
+        "Уделяйте время саморефлексии."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "личность",
+        "изменения"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Плутон в 1 доме делает вас магнетической личностью.",
+      "full": "Наличие Плутона в 1 доме наделяет вас магнетической личностью, способной к глубоким трансформациям. Вы можете быть очень решительным и иметь сильную интуицию. Важно использовать эту энергию конструктивно.",
+      "strengths": [
+        "Магнетизм",
+        "Решительность",
+        "Сильная интуиция"
+      ],
+      "challenges": [
+        "Склонность к доминированию",
+        "Эмоциональная интенсивность"
+      ],
+      "actionable": [
+        "Практикуйте активное слушание.",
+        "Ищите здоровые выходы для интенсивных эмоций."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "магнетизм",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Глубина и сила характера с Плутоном в 1 доме.",
+      "full": "Плутон в 1 доме придает вашему характеру глубину и силу. Вы можете быть очень проницательным и обладать способностью к самообновлению. Однако, важно избегать излишней подозрительности.",
+      "strengths": [
+        "Проницательность",
+        "Сила характера",
+        "Способность к самообновлению"
+      ],
+      "challenges": [
+        "Подозрительность",
+        "Трудности в доверии"
+      ],
+      "actionable": [
+        "Работайте над доверием в отношениях.",
+        "Развивайте терпение к себе и другим."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "характер",
+        "проницательность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Плутон в 1 доме способствует глубокому самопознанию.",
+      "full": "Плутон в 1 доме способствует глубокому самопознанию и личностной трансформации. Вы можете обладать уникальной способностью понимать скрытые аспекты жизни. Важно использовать эту мудрость с осторожностью.",
+      "strengths": [
+        "Самопознание",
+        "Мудрость",
+        "Способность к трансформации"
+      ],
+      "challenges": [
+        "Склонность к изоляции",
+        "Интенсивные внутренние переживания"
+      ],
+      "actionable": [
+        "Делитесь своими знаниями с доверенными лицами.",
+        "Находите баланс между уединением и общением."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "самопознание",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Ваша личность под знаком Плутона в 1 доме мощная.",
+      "full": "Плутон в 1 доме делает вашу личность мощной и способной к значительным изменениям. Вы можете быть очень решительным и обладать глубоким пониманием жизни. Однако, важно избегать разрушительных паттернов.",
+      "strengths": [
+        "Мощная личность",
+        "Решительность",
+        "Глубокое понимание"
+      ],
+      "challenges": [
+        "Разрушительные паттерны",
+        "Сложности в принятии изменений"
+      ],
+      "actionable": [
+        "Работайте над позитивными изменениями.",
+        "Практикуйте благодарность."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "личность",
+        "изменения"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "Плутон в 1 доме придает вашей личности таинственность.",
+      "full": "Плутон в 1 доме придает вашей личности таинственность и глубину. Вы можете быть очень интуитивным и обладать способностью к значительным личным трансформациям. Важно использовать эту энергию мудро.",
+      "strengths": [
+        "Таинственность",
+        "Интуиция",
+        "Способность к трансформации"
+      ],
+      "challenges": [
+        "Сложности в выражении эмоций",
+        "Склонность к скрытности"
+      ],
+      "actionable": [
+        "Развивайте открытость в безопасных отношениях.",
+        "Исследуйте творческие выходы для самовыражения."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "таинственность",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_1",
+      "type": "planet_house",
+      "short": "С Плутоном в 1 доме вы обладаете силой возрождения.",
+      "full": "Плутон в 1 доме наделяет вас силой возрождения и глубокой трансформации. Вы можете быть очень устойчивым перед лицом изменений и обладать уникальной внутренней силой. Важно направлять эту энергию на позитивные цели.",
+      "strengths": [
+        "Сила возрождения",
+        "Устойчивость",
+        "Внутренняя сила"
+      ],
+      "challenges": [
+        "Склонность к крайностям",
+        "Трудности в отпускании прошлого"
+      ],
+      "actionable": [
+        "Фокусируйтесь на позитивных целях.",
+        "Практикуйте техники отпускания."
+      ],
+      "tags": [
+        "Плутон",
+        "1 дом",
+        "возрождение",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    }
+  ],
+  "house_2": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house highlights transformation through values and resources.",
+      "full": "Pluto's presence in the 2nd house suggests a deep, transformative relationship with personal values and material resources. This placement often indicates a journey of reevaluating what truly matters, leading to profound personal growth. It may bring intense experiences around finances or possessions, serving as catalysts for change.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "transformation",
+        "values"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep understanding of personal values",
+        "Ability to transform financial situations",
+        "Resilience in face of material changes"
+      ],
+      "challenges": [
+        "Over-attachment to possessions",
+        "Fear of financial instability"
+      ],
+      "actionable": [
+        "Reflect on what you truly value beyond material possessions.",
+        "Explore ways to create financial security that aligns with your deeper values."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house urges a reevaluation of self-worth and possessions.",
+      "full": "With Pluto in the 2nd house, there's an intense focus on self-worth and the material world. This placement can indicate periods of financial upheaval that ultimately lead to a stronger sense of personal value. It's about learning to detach self-esteem from material success and finding deeper meaning in what you own.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "self-worth",
+        "possessions"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Transformative understanding of self-worth",
+        "Ability to rebuild financial stability",
+        "Deep insight into the value of possessions"
+      ],
+      "challenges": [
+        "Materialism",
+        "Financial fears"
+      ],
+      "actionable": [
+        "Journal about what self-worth means to you beyond material assets.",
+        "Create a budget that reflects your true values and priorities."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house transforms your relationship with money and security.",
+      "full": "Pluto in the 2nd house signifies a powerful transformation in how you relate to money, possessions, and security. This placement often brings challenges that force you to confront your deepest fears around scarcity, leading to a more empowered and less materialistic approach to life.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "money",
+        "security"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Empowered relationship with money",
+        "Ability to let go of material attachments",
+        "Deepened sense of security"
+      ],
+      "challenges": [
+        "Fear of scarcity",
+        "Overemphasis on financial status"
+      ],
+      "actionable": [
+        "Practice gratitude for non-material blessings.",
+        "Invest time in understanding your financial fears and their roots."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house reveals the power of letting go to find true value.",
+      "full": "Pluto's placement in the 2nd house illuminates the transformative power of letting go of material attachments to discover what's truly valuable. This journey often involves facing financial or personal losses that teach the impermanence of possessions and the enduring nature of inner wealth.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "letting go",
+        "true value"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Discovery of inner wealth",
+        "Freedom from material attachments",
+        "Resilience in loss"
+      ],
+      "challenges": [
+        "Attachment to possessions",
+        "Fear of loss"
+      ],
+      "actionable": [
+        "Identify possessions you can live without and consider donating them.",
+        "Meditate on the concept of inner wealth and its sources."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house challenges you to redefine wealth and abundance.",
+      "full": "Having Pluto in the 2nd house challenges conventional notions of wealth and abundance, urging a deeper exploration of what truly enriches your life. This placement can bring about situations that test your financial security, pushing you towards a more sustainable and personally meaningful definition of prosperity.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "wealth",
+        "abundance"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Innovative approach to wealth",
+        "Deepened sense of abundance",
+        "Ability to thrive in financial uncertainty"
+      ],
+      "challenges": [
+        "Conventional views on wealth",
+        "Financial instability"
+      ],
+      "actionable": [
+        "Explore alternative forms of wealth beyond money.",
+        "Write down what abundance means to you personally."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house signifies deep healing around money and self-worth.",
+      "full": "Pluto in the 2nd house points to a profound healing journey concerning money, possessions, and self-worth. This placement often uncovers deep-seated beliefs about value and security, offering opportunities to heal and transform these areas for a more fulfilling life.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "healing",
+        "self-worth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Healing financial wounds",
+        "Transforming self-worth issues",
+        "Deep emotional resilience"
+      ],
+      "challenges": [
+        "Negative beliefs about money",
+        "Low self-esteem linked to finances"
+      ],
+      "actionable": [
+        "Identify and challenge any negative beliefs you hold about money.",
+        "Engage in activities that boost your self-esteem unrelated to financial status."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house encourages a minimalist approach to possessions.",
+      "full": "Pluto's influence in the 2nd house often encourages a minimalist approach to possessions, highlighting the freedom and clarity that comes with owning less. This placement can lead to significant lifestyle changes that prioritize experiences and relationships over material goods.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "minimalism",
+        "freedom"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Freedom from clutter",
+        "Clearer priorities",
+        "Enhanced appreciation for simplicity"
+      ],
+      "challenges": [
+        "Attachment to items",
+        "Fear of lacking"
+      ],
+      "actionable": [
+        "Start decluttering your living space, focusing on items that no longer serve you.",
+        "Reflect on how minimalism could benefit your life and relationships."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_2",
+      "type": "planet_house",
+      "short": "Pluto in the 2nd house reveals the spiritual dimension of material possessions.",
+      "full": "Pluto in the 2nd house uncovers the spiritual lessons hidden within our relationship with material possessions. This placement invites a journey where material losses or gains serve as mirrors reflecting deeper truths about attachment, impermanence, and the essence of true security.",
+      "tags": [
+        "pluto",
+        "2nd house",
+        "spirituality",
+        "material possessions"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Spiritual growth through material experiences",
+        "Detachment from possessions",
+        "Insight into true security"
+      ],
+      "challenges": [
+        "Material attachments",
+        "Misplaced sense of security"
+      ],
+      "actionable": [
+        "Contemplate the spiritual lessons in your current financial situation.",
+        "Practice detaching your sense of security from material possessions."
+      ]
+    }
+  ],
+  "house_3": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "Pluto in the 3rd house deepens communication, urging transformation through words.",
+      "full": "With Pluto in the 3rd house, your communication style is intense and transformative. You're drawn to uncovering truths and may have a powerful way with words that can influence others. This placement encourages deep conversations and a relentless pursuit of knowledge.",
+      "tags": [
+        "communication",
+        "transformation",
+        "knowledge"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep communicator",
+        "Influential speaker",
+        "Truth-seeker"
+      ],
+      "challenges": [
+        "May be overly intense in conversations",
+        "Struggles with superficial talk"
+      ],
+      "actionable": [
+        "Practice mindful listening to balance intensity.",
+        "Explore writing as a tool for personal transformation."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "Pluto's presence in the 3rd house signifies a profound curiosity and investigative mind.",
+      "full": "Pluto in the 3rd house marks a journey of intellectual depth and investigative prowess. Your mind seeks to delve beneath the surface, uncovering hidden meanings and truths. This placement fosters a powerful intellect capable of profound insights and transformative ideas.",
+      "tags": [
+        "intellect",
+        "investigation",
+        "depth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Investigative thinker",
+        "Deep intellect",
+        "Transformative ideas"
+      ],
+      "challenges": [
+        "May obsess over details",
+        "Potential for mental overload"
+      ],
+      "actionable": [
+        "Channel curiosity into learning new skills.",
+        "Take breaks to prevent mental exhaustion."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "In the 3rd house, Pluto empowers your words with the ability to heal and transform.",
+      "full": "Pluto in the 3rd house gifts you with words that can heal, transform, and deeply impact others. Your communication carries weight, often touching on themes of rebirth and renewal. This placement encourages using your voice as a tool for positive change.",
+      "tags": [
+        "healing",
+        "transformation",
+        "communication"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Healing communicator",
+        "Impactful speaker",
+        "Agent of change"
+      ],
+      "challenges": [
+        "May intimidate others with intensity",
+        "Difficulty in light-hearted communication"
+      ],
+      "actionable": [
+        "Use storytelling to share transformative messages.",
+        "Engage in dialogues that foster understanding."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "Pluto in the 3rd house reveals a mind that thrives on solving mysteries.",
+      "full": "With Pluto positioned in the 3rd house, your mind is naturally inclined towards solving mysteries and uncovering secrets. You possess a detective-like ability to see beyond the obvious, making you an excellent researcher or analyst. This placement highlights a relentless pursuit of truth.",
+      "tags": [
+        "mystery",
+        "analysis",
+        "truth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Analytical thinker",
+        "Detail-oriented",
+        "Truth-seeker"
+      ],
+      "challenges": [
+        "May become skeptical",
+        "Can be overly critical"
+      ],
+      "actionable": [
+        "Apply analytical skills to creative projects.",
+        "Balance skepticism with openness to new ideas."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "The 3rd house Pluto placement enhances your ability to communicate complex ideas simply.",
+      "full": "Pluto in the 3rd house enhances your ability to distill complex ideas into understandable concepts. Your communication style is both profound and accessible, allowing you to bridge gaps between diverse groups. This placement fosters a unique ability to enlighten and educate.",
+      "tags": [
+        "communication",
+        "education",
+        "clarity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Clear communicator",
+        "Educator",
+        "Bridge-builder"
+      ],
+      "challenges": [
+        "May oversimplify complex topics",
+        "Frustration with lack of depth in others"
+      ],
+      "actionable": [
+        "Teach or mentor to share your knowledge.",
+        "Seek out conversations that challenge your understanding."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "Pluto in the 3rd house drives a passion for uncovering and sharing hidden knowledge.",
+      "full": "Pluto's placement in the 3rd house ignites a passion for uncovering and disseminating hidden knowledge. You're drawn to esoteric subjects and may excel in fields requiring deep research. This position encourages sharing your findings to enlighten others.",
+      "tags": [
+        "knowledge",
+        "research",
+        "esoteric"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Passionate researcher",
+        "Deep thinker",
+        "Enlightener"
+      ],
+      "challenges": [
+        "May isolate in pursuit of knowledge",
+        "Risk of information overload"
+      ],
+      "actionable": [
+        "Join study groups to share insights.",
+        "Schedule regular intervals to digest information."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "With Pluto in the 3rd house, your words carry the power to initiate change.",
+      "full": "Pluto in the 3rd house means your words have the power to initiate significant change. You're adept at articulating deep truths that can shift perspectives. This placement encourages using your communicative gifts to foster transformation in yourself and others.",
+      "tags": [
+        "change",
+        "communication",
+        "transformation"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Change-maker",
+        "Persuasive speaker",
+        "Visionary"
+      ],
+      "challenges": [
+        "May encounter resistance to messages",
+        "Potential for manipulative communication"
+      ],
+      "actionable": [
+        "Focus on authenticity in your messages.",
+        "Engage in active listening to understand others' perspectives."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_3",
+      "type": "planet_house",
+      "short": "Pluto in the 3rd house fosters a deep connection between thought and transformation.",
+      "full": "Pluto in the 3rd house creates a deep connection between your thoughts and the process of transformation. Your mental processes are intense, often leading to profound personal evolution. This placement highlights the power of the mind to initiate and undergo significant change.",
+      "tags": [
+        "thought",
+        "transformation",
+        "mind"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep thinker",
+        "Transformative mindset",
+        "Intellectual evolution"
+      ],
+      "challenges": [
+        "May overanalyze",
+        "Tendency towards negative thinking"
+      ],
+      "actionable": [
+        "Practice meditation to clear the mind.",
+        "Journal to track and understand thought patterns."
+      ]
+    }
+  ],
+  "house_4": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Плутон в 4 доме подчеркивает глубину семейных связей.",
+      "full": "Плутон в 4 доме раскрывает потенциал для глубокого понимания семейных динамик и корней. Это положение может указывать на интенсивные эмоциональные переживания, связанные с домом и семьей, предлагая пути для трансформации и исцеления. Важно осознавать, как прошлое влияет на настоящее.",
+      "strengths": [
+        "Глубокое понимание семейных динамик",
+        "Способность к эмоциональной трансформации",
+        "Сильная связь с корнями"
+      ],
+      "challenges": [
+        "Интенсивные эмоциональные переживания",
+        "Сложности в отпускании прошлого"
+      ],
+      "actionable": [
+        "Исследуйте семейную историю для лучшего понимания себя.",
+        "Практикуйте техники эмоционального исцеления."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "семья",
+        "эмоции"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Глубинные преобразования дома и семьи с Плутоном в 4 доме.",
+      "full": "Плутон в 4 доме символизирует мощные преобразования в сфере дома и семьи. Это положение может принести глубокие изменения в понимании семейных ценностей и домашнего уюта, побуждая к переосмыслению того, что действительно важно. Эмоциональная устойчивость становится ключевой.",
+      "strengths": [
+        "Способность к глубоким преобразованиям",
+        "Усиление эмоциональной устойчивости",
+        "Переосмысление семейных ценностей"
+      ],
+      "challenges": [
+        "Сопротивление изменениям",
+        "Эмоциональные потрясения"
+      ],
+      "actionable": [
+        "Создайте безопасное пространство для выражения эмоций.",
+        "Изучайте новые подходы к семейным отношениям."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "преобразования",
+        "семейные ценности"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Плутон в 4 доме раскрывает тайны семейного прошлого.",
+      "full": "Наличие Плутона в 4 доме может указывать на необходимость раскрытия и принятия семейных тайн и скрытых аспектов прошлого. Это положение способствует глубокому эмоциональному очищению и пониманию, как семейные истории формируют личность. Важно идти по пути осознания и прощения.",
+      "strengths": [
+        "Раскрытие семейных тайн",
+        "Эмоциональное очищение",
+        "Глубокое самопознание"
+      ],
+      "challenges": [
+        "Сложности в принятии прошлого",
+        "Эмоциональные блоки"
+      ],
+      "actionable": [
+        "Ведите дневник для отслеживания эмоциональных реакций.",
+        "Ищите поддержку в терапии или группах."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "семейные тайны",
+        "эмоциональное очищение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Эмоциональная регенерация с Плутоном в 4 доме.",
+      "full": "Плутон в 4 доме предлагает путь эмоциональной регенерации через глубокое погружение в личные и семейные истории. Это положение может помочь в преодолении страхов, связанных с домом и семьей, открывая новые уровни понимания и принятия. Процесс требует времени и терпения.",
+      "strengths": [
+        "Эмоциональная регенерация",
+        "Преодоление страхов",
+        "Глубокое принятие"
+      ],
+      "challenges": [
+        "Длительный процесс исцеления",
+        "Необходимость терпения"
+      ],
+      "actionable": [
+        "Практикуйте медитацию для эмоционального равновесия.",
+        "Обсуждайте семейные истории с близкими."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "эмоциональная регенерация",
+        "принятие"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Плутон в 4 доме: сила домашнего очага.",
+      "full": "Плутон в 4 доме усиливает значимость домашнего очага как места силы и трансформации. Это положение может способствовать глубоким изменениям в восприятии дома и семьи, превращая обычное пространство в источник эмоциональной поддержки и роста. Важно ценить этот процесс.",
+      "strengths": [
+        "Усиление домашнего очага",
+        "Эмоциональная поддержка",
+        "Личностный рост"
+      ],
+      "challenges": [
+        "Изменения могут быть неожиданными",
+        "Необходимость адаптации"
+      ],
+      "actionable": [
+        "Создайте ритуалы для укрепления домашней энергии.",
+        "Открывайтесь новым формам семейного взаимодействия."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "домашний очаг",
+        "личностный рост"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Трансформация семейных отношений с Плутоном в 4 доме.",
+      "full": "Плутон в 4 доме активирует процессы трансформации в семейных отношениях, предлагая возможность пересмотреть и укрепить связи. Это положение может вдохновить на глубокие разговоры и взаимопонимание, открывая новые пути для близости. Важно оставаться открытым к изменениям.",
+      "strengths": [
+        "Трансформация отношений",
+        "Глубокие разговоры",
+        "Укрепление связей"
+      ],
+      "challenges": [
+        "Необходимость открытости",
+        "Эмоциональная уязвимость"
+      ],
+      "actionable": [
+        "Инициируйте важные разговоры с членами семьи.",
+        "Практикуйте активное слушание."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "трансформация",
+        "семейные отношения"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Плутон в 4 доме: исцеление родовых травм.",
+      "full": "Положение Плутона в 4 доме может указывать на возможность исцеления родовых травм и эмоциональных ран, передающихся через поколения. Это глубокий процесс, требующий смелости и готовности к изменениям, но он открывает путь к освобождению и новой жизни. Поддержка важна.",
+      "strengths": [
+        "Исцеление родовых травм",
+        "Освобождение от прошлого",
+        "Новые возможности"
+      ],
+      "challenges": [
+        "Глубина процесса",
+        "Необходимость смелости"
+      ],
+      "actionable": [
+        "Изучайте историю своей семьи для понимания паттернов.",
+        "Ищите профессиональную поддержку для исцеления."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "исцеление",
+        "родовые травмы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_4",
+      "type": "planet_house",
+      "short": "Плутон в 4 доме: переосмысление понятия дома.",
+      "full": "С Плутоном в 4 доме понятие дома и семьи может подвергнуться глубокому переосмыслению. Это положение побуждает искать новые определения безопасности и принадлежности, возможно, выходя за рамки традиционных представлений. Процесс требует гибкости и открытости к новому.",
+      "strengths": [
+        "Переосмысление дома",
+        "Гибкость",
+        "Открытость к новому"
+      ],
+      "challenges": [
+        "Неопределенность",
+        "Вызов традициям"
+      ],
+      "actionable": [
+        "Экспериментируйте с новыми формами домашнего уюта.",
+        "Обсуждайте свои идеи с близкими."
+      ],
+      "tags": [
+        "Плутон",
+        "4 дом",
+        "переосмысление",
+        "гибкость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false
+    }
+  ],
+  "house_5": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме раскрывает глубину творчества и любви.",
+      "full": "Плутон в 5 доме подчёркивает интенсивность и трансформацию в сферах творчества, романтики и самовыражения. Это положение может указывать на глубокую страсть к искусству или необычные способы выражения любви. Важно осознавать силу своих эмоций и направлять их в конструктивное русло.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "творчество",
+        "любовь"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое творческое выражение",
+        "Страстность в любви",
+        "Трансформация через искусство"
+      ],
+      "challenges": [
+        "Интенсивность эмоций может быть подавляющей",
+        "Склонность к драматизации в отношениях"
+      ],
+      "actionable": [
+        "Исследуйте новые формы творческого самовыражения.",
+        "Практикуйте осознанность в романтических отношениях."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: сила трансформации через детей и игры.",
+      "full": "Положение Плутона в 5 доме говорит о глубокой трансформации, связанной с детьми, играми и личным творчеством. Это может проявляться как сильная связь с детьми или необычный подход к воспитанию. Осознание этой энергии помогает использовать её для личного роста.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "дети",
+        "игры"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая связь с детьми",
+        "Творческий подход к воспитанию",
+        "Трансформация через игры"
+      ],
+      "challenges": [
+        "Возможны сложности в выражении радости",
+        "Интенсивность в отношениях с детьми"
+      ],
+      "actionable": [
+        "Уделяйте время творческим занятиям с детьми.",
+        "Исследуйте свои детские воспоминания для лучшего понимания себя."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: трансформация через риск и азарт.",
+      "full": "Плутон в 5 доме может указывать на глубокую трансформацию через рискованные предприятия или азартные игры. Это положение учит находить баланс между страстью к риску и необходимостью самоконтроля. Осознание этой динамики способствует личностному росту.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "риск",
+        "азарт"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Смелость в принятии решений",
+        "Глубокая трансформация через испытания",
+        "Способность к самоконтролю"
+      ],
+      "challenges": [
+        "Склонность к излишнему риску",
+        "Возможны периоды потерь"
+      ],
+      "actionable": [
+        "Развивайте здоровые способы удовлетворения потребности в адреналине.",
+        "Практикуйте медитацию для усиления самоконтроля."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: глубина в романтических отношениях.",
+      "full": "Наличие Плутона в 5 доме подчёркивает глубину и интенсивность в романтических отношениях. Это положение может указывать на сильные эмоциональные связи, которые способствуют личностной трансформации. Важно осознавать силу этих связей и учиться на них.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "романтика",
+        "отношения"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая эмоциональная связь",
+        "Трансформация через любовь",
+        "Интенсивность чувств"
+      ],
+      "challenges": [
+        "Возможны драматические ситуации в отношениях",
+        "Сложности в отпускании прошлого"
+      ],
+      "actionable": [
+        "Работайте над открытостью в общении с партнёром.",
+        "Изучайте уроки прошлых отношений для личностного роста."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: творчество как путь к трансформации.",
+      "full": "Плутон в 5 доме символизирует творчество как мощный инструмент личной трансформации. Это положение побуждает к исследованию глубинных аспектов своей души через искусство. Осознание этого процесса может привести к значительному личностному росту.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "творчество",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Мощное творческое выражение",
+        "Глубокая связь с внутренним миром",
+        "Трансформация через искусство"
+      ],
+      "challenges": [
+        "Возможны периоды творческого кризиса",
+        "Сложности в признании своих талантов"
+      ],
+      "actionable": [
+        "Экспериментируйте с различными формами искусства.",
+        "Ведите дневник для отслеживания творческого прогресса."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: самовыражение через глубинные изменения.",
+      "full": "Плутон в 5 доме акцентирует внимание на самовыражении через процессы глубинных изменений. Это положение может указывать на уникальный способ передачи своих идей и эмоций. Понимание этой энергии помогает использовать её для личностного развития.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "самовыражение",
+        "изменения"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Уникальное самовыражение",
+        "Способность к глубоким изменениям",
+        "Сила в передаче эмоций"
+      ],
+      "challenges": [
+        "Возможны трудности в принятии себя",
+        "Склонность к изоляции"
+      ],
+      "actionable": [
+        "Ищите вдохновение в различных формах искусства.",
+        "Практикуйте самопринятие через медитацию."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: любовь как путь к самопознанию.",
+      "full": "Плутон в 5 доме раскрывает любовь как мощный инструмент самопознания и трансформации. Это положение подчёркивает важность глубоких эмоциональных связей для личностного роста. Осознание этого аспекта может значительно обогатить вашу жизнь.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "любовь",
+        "самопознание"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая эмоциональная связь",
+        "Трансформация через любовь",
+        "Самопознание через отношения"
+      ],
+      "challenges": [
+        "Сложности в установлении границ",
+        "Интенсивность чувств может быть подавляющей"
+      ],
+      "actionable": [
+        "Учитесь устанавливать здоровые границы в отношениях.",
+        "Исследуйте свои эмоции через ведение дневника."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_5",
+      "type": "planet_house",
+      "short": "Плутон в 5 доме: игра как способ трансформации.",
+      "full": "Плутон в 5 доме указывает на игру как на способ глубокой личностной трансформации. Это положение побуждает к исследованию новых форм развлечений, которые могут привести к значительным внутренним изменениям. Осознание этого процесса способствует личностному росту.",
+      "tags": [
+        "Плутон",
+        "5 дом",
+        "игра",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Трансформация через игру",
+        "Открытие новых аспектов личности",
+        "Глубокая связь с внутренним ребёнком"
+      ],
+      "challenges": [
+        "Сложности в нахождении баланса между игрой и обязанностями",
+        "Возможны периоды потери интереса к развлечениям"
+      ],
+      "actionable": [
+        "Выделяйте время для игр, которые приносят вам радость.",
+        "Исследуйте, как игры влияют на ваше эмоциональное состояние."
+      ]
+    }
+  ],
+  "house_6": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Плутон в 6 доме подчеркивает глубину повседневных трансформаций.",
+      "full": "Плутон в 6 доме символизирует глубокие изменения в повседневной жизни и рабочих процессах. Это положение может указывать на способность к трансформации через рутину, но также требует осторожности в отношении здоровья. Сильные стороны включают решительность и способность к регенерации. Сложности могут возникнуть из-за склонности к перфекционизму. Действенные шаги: практиковать осознанность в ежедневных задачах, установить здоровые границы работы.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "повседневность",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Решительность",
+        "Способность к регенерации"
+      ],
+      "challenges": [
+        "Склонность к перфекционизму"
+      ],
+      "actionable": [
+        "Практиковать осознанность в ежедневных задачах",
+        "Установить здоровые границы работы"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Глубокие изменения в работе и здоровье с Плутоном в 6 доме.",
+      "full": "Плутон в 6 доме приносит интенсивность в сферу работы и здоровья, предлагая возможности для глубокого исцеления и трансформации. Это положение может способствовать обнаружению скрытых ресурсов выносливости. Однако, возможны периоды чрезмерной критичности к себе. Рекомендуется: внедрять постепенные изменения в режим дня, уделять внимание психологическому благополучию.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "работа",
+        "здоровье"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Обнаружение скрытых ресурсов выносливости"
+      ],
+      "challenges": [
+        "Чрезмерная критичность к себе"
+      ],
+      "actionable": [
+        "Внедрять постепенные изменения в режим дня",
+        "Уделять внимание психологическому благополучию"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Плутон в 6 доме: сила в трансформации повседневности.",
+      "full": "Наличие Плутона в 6 доме говорит о потенциале для значительных изменений в повседневной жизни и подходе к здоровью. Это может проявляться как способность преодолевать кризисы через адаптацию. Важно избегать крайностей в рабочих привычках. Советы: искать глубинные причины стресса, внедрять практики самопомощи.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "адаптация",
+        "здоровье"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Способность преодолевать кризисы через адаптацию"
+      ],
+      "challenges": [
+        "Склонность к крайностям в рабочих привычках"
+      ],
+      "actionable": [
+        "Искать глубинные причины стресса",
+        "Внедрять практики самопомощи"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Трансформация через служение с Плутоном в 6 доме.",
+      "full": "Плутон в 6 доме может указывать на глубокую трансформацию через служение другим и заботу о здоровье. Это положение способствует развитию выносливости и силы воли. Однако, может быть сложно поддерживать баланс между работой и отдыхом. Рекомендации: практиковать благодарность за маленькие победы, научиться делегировать задачи.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "служение",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Развитие выносливости и силы воли"
+      ],
+      "challenges": [
+        "Сложности в поддержании баланса между работой и отдыхом"
+      ],
+      "actionable": [
+        "Практиковать благодарность за маленькие победы",
+        "Научиться делегировать задачи"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Плутон в 6 доме: мощь в деталях повседневной жизни.",
+      "full": "Плутон в 6 доме раскрывает мощь и глубину в повседневных делах и заботе о здоровье. Это может дать способность к глубокому анализу рабочих процессов. Важно не упускать из виду потребности тела. Действенные шаги: внедрять регулярные перерывы в работе, исследовать новые методы заботы о себе.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "повседневность",
+        "здоровье"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Способность к глубокому анализу рабочих процессов"
+      ],
+      "challenges": [
+        "Пренебрежение потребностями тела"
+      ],
+      "actionable": [
+        "Внедрять регулярные перерывы в работе",
+        "Исследовать новые методы заботы о себе"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Глубина и регенерация в работе с Плутоном в 6 доме.",
+      "full": "Плутон в 6 доме подчеркивает важность глубины и регенерации в профессиональной деятельности и повседневных ритуалах. Это может проявляться как способность к возрождению после неудач. Сложности могут возникнуть из-за чрезмерного контроля. Советы: развивать гибкость в подходе к задачам, уделять время восстановлению энергии.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "регенерация",
+        "работа"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Способность к возрождению после неудач"
+      ],
+      "challenges": [
+        "Чрезмерный контроль"
+      ],
+      "actionable": [
+        "Развивать гибкость в подходе к задачам",
+        "Уделять время восстановлению энергии"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Плутон в 6 доме: трансформация через дисциплину.",
+      "full": "Положение Плутона в 6 доме говорит о возможности трансформации через дисциплину и улучшение рабочих привычек. Это может усилить способность к концентрации. Однако, важно избегать излишней жесткости. Рекомендации: внедрять практики для снижения стресса, искать вдохновение в рутине.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "дисциплина",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Усиление способности к концентрации"
+      ],
+      "challenges": [
+        "Излишняя жесткость"
+      ],
+      "actionable": [
+        "Внедрять практики для снижения стресса",
+        "Искать вдохновение в рутине"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_6",
+      "type": "planet_house",
+      "short": "Скрытые ресурсы здоровья и работы с Плутоном в 6 доме.",
+      "full": "Плутон в 6 доме раскрывает скрытые ресурсы в сфере здоровья и профессиональной деятельности, предлагая путь к глубокой трансформации. Это может проявиться как способность находить решения в кризисных ситуациях. Важно не игнорировать сигналы тела. Действенные шаги: практиковать осознанное отношение к здоровью, развивать устойчивость к стрессу.",
+      "tags": [
+        "Плутон",
+        "6 дом",
+        "здоровье",
+        "ресурсы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Способность находить решения в кризисных ситуациях"
+      ],
+      "challenges": [
+        "Игнорирование сигналов тела"
+      ],
+      "actionable": [
+        "Практиковать осознанное отношение к здоровью",
+        "Развивать устойчивость к стрессу"
+      ]
+    }
+  ],
+  "house_7": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house emphasizes deep transformations in relationships.",
+      "full": "Pluto's presence in the 7th house suggests a journey through profound changes within partnerships. This placement often indicates relationships that serve as catalysts for personal growth, challenging individuals to confront and transform their deepest fears and desires. It's about learning the power of letting go and embracing the new.",
+      "tags": [
+        "relationships",
+        "transformation",
+        "personal growth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep emotional connections",
+        "Resilience through change"
+      ],
+      "challenges": [
+        "Fear of vulnerability",
+        "Power struggles"
+      ],
+      "actionable": [
+        "Reflect on what you seek in relationships.",
+        "Practice open communication about your needs."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house reveals intense partnership dynamics.",
+      "full": "With Pluto in the 7th house, relationships are marked by intensity and a push for evolution. This position can indicate a magnetic pull towards partners who mirror your shadow self, offering opportunities for deep healing and understanding. It's a path of discovering the balance between autonomy and togetherness.",
+      "tags": [
+        "intensity",
+        "healing",
+        "balance"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Transformative partnerships",
+        "Emotional depth"
+      ],
+      "challenges": [
+        "Overcoming control issues",
+        "Navigating jealousy"
+      ],
+      "actionable": [
+        "Identify patterns in your relationships.",
+        "Cultivate trust in your connections."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house fosters rebirth through relationships.",
+      "full": "Pluto in the 7th house signifies that relationships are a primary source of personal rebirth. Encounters with others often lead to significant self-discovery and the shedding of old identities. This placement encourages embracing the transformative power of love and connection.",
+      "tags": [
+        "rebirth",
+        "self-discovery",
+        "love"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Renewal through connections",
+        "Profound understanding of love"
+      ],
+      "challenges": [
+        "Fear of loss",
+        "Dependency"
+      ],
+      "actionable": [
+        "Explore your relationship to intimacy.",
+        "Allow yourself to evolve with your partner."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house highlights the power dynamics in partnerships.",
+      "full": "Pluto's placement in the 7th house draws attention to the power dynamics within relationships. It's an invitation to explore how control and surrender play out between you and your partners, aiming for a harmonious balance that fosters mutual growth and respect.",
+      "tags": [
+        "power dynamics",
+        "control",
+        "mutual growth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Awareness of power in love",
+        "Capacity for deep change"
+      ],
+      "challenges": [
+        "Struggles with trust",
+        "Fear of betrayal"
+      ],
+      "actionable": [
+        "Observe how power is shared in your relationships.",
+        "Work on building trust gradually."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house encourages facing shadows in love.",
+      "full": "Having Pluto in the 7th house means that relationships will often bring your shadows to light, challenging you to face and integrate them. This placement is about finding strength in vulnerability and learning that true connection comes from authenticity.",
+      "tags": [
+        "shadows",
+        "vulnerability",
+        "authenticity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Emotional bravery",
+        "Deep relational insights"
+      ],
+      "challenges": [
+        "Confronting inner fears",
+        "Resisting change"
+      ],
+      "actionable": [
+        "Acknowledge your fears in relationships.",
+        "Embrace your authentic self with partners."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house signifies transformative love experiences.",
+      "full": "Pluto in the 7th house points to relationships that transform you at your core. These connections are not superficial; they demand honesty, depth, and a willingness to explore the darkest and brightest parts of love together.",
+      "tags": [
+        "transformative love",
+        "honesty",
+        "depth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Life-changing partnerships",
+        "Unparalleled depth in love"
+      ],
+      "challenges": [
+        "Navigating intensity",
+        "Fear of deep connection"
+      ],
+      "actionable": [
+        "Seek relationships that challenge you to grow.",
+        "Be honest about your desires and fears."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house teaches the art of letting go in love.",
+      "full": "Pluto's influence in the 7th house teaches the importance of letting go to make room for new forms of love. Relationships under this placement often involve lessons in release, showing that endings can be gateways to new beginnings.",
+      "tags": [
+        "letting go",
+        "new beginnings",
+        "love lessons"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Growth through loss",
+        "Resilience in love"
+      ],
+      "challenges": [
+        "Attachment issues",
+        "Fear of abandonment"
+      ],
+      "actionable": [
+        "Practice detachment in healthy ways.",
+        "View endings as opportunities for growth."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_7",
+      "type": "planet_house",
+      "short": "Pluto in the 7th house reveals the depth of relational bonds.",
+      "full": "With Pluto in the 7th house, the depth of your relational bonds is unparalleled. This placement suggests that your connections with others are not just meetings but profound encounters that change both parties involved, highlighting the transformative power of relationships.",
+      "tags": [
+        "relational depth",
+        "transformative encounters",
+        "profound connections"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep emotional exchanges",
+        "Transformative impact on others"
+      ],
+      "challenges": [
+        "Overwhelm by intensity",
+        "Difficulty in superficial connections"
+      ],
+      "actionable": [
+        "Value the depth of your relationships.",
+        "Seek connections that offer mutual transformation."
+      ]
+    }
+  ],
+  "house_8": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме усиливает глубину эмоциональных переживаний и трансформаций.",
+      "full": "Плутон в 8 доме символизирует глубокие эмоциональные и психологические трансформации. Это положение может указывать на интенсивные переживания, связанные с вопросами жизни и смерти, а также на сильную способность к возрождению после кризисов. Люди с таким положением часто обладают даром понимать скрытые мотивы других.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "трансформация",
+        "эмоции"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая интуиция",
+        "Способность к трансформации",
+        "Понимание скрытых мотивов"
+      ],
+      "challenges": [
+        "Интенсивные эмоциональные переживания",
+        "Склонность к одержимости"
+      ],
+      "actionable": [
+        "Практикуйте медитацию для управления эмоциями.",
+        "Изучайте психологию для лучшего понимания себя и других."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме раскрывает тайны и способствует личностному росту через кризисы.",
+      "full": "Нахождение Плутона в 8 доме способствует глубокому личностному росту через преодоление кризисов и раскрытие тайн. Это положение может указывать на интерес к эзотерике и психологии, а также на способность к глубокой эмоциональной связи с другими. Такие люди часто становятся агентами перемен в жизни окружающих.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "кризис",
+        "личностный рост"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к личностному росту",
+        "Интерес к эзотерике",
+        "Глубокая эмоциональная связь"
+      ],
+      "challenges": [
+        "Склонность к драматизации",
+        "Трудности в отпускании прошлого"
+      ],
+      "actionable": [
+        "Ведите дневник для отслеживания личностного роста.",
+        "Изучайте техники отпускания для преодоления прошлого."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме подталкивает к исследованию тайн жизни и смерти.",
+      "full": "Плутон в 8 доме побуждает к исследованию самых глубоких тайн жизни, смерти и перерождения. Люди с таким положением часто обладают сильной интуицией и способностью к психологическому исцелению. Они могут быть притягательными для других благодаря своей глубине и загадочности.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "тайны",
+        "исследование"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Сильная интуиция",
+        "Способность к исцелению",
+        "Загадочность"
+      ],
+      "challenges": [
+        "Склонность к изоляции",
+        "Трудности в поверхностных отношениях"
+      ],
+      "actionable": [
+        "Развивайте интуицию через практики осознанности.",
+        "Учитесь строить лёгкие и радостные отношения."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме усиливает интерес к психологическим и духовным трансформациям.",
+      "full": "Плутон в 8 доме усиливает интерес к психологическим и духовным трансформациям, делая человека исследователем глубин собственной души. Такие люди часто обладают даром помогать другим в их самых тёмных моментах, благодаря собственному опыту преодоления.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "духовность",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Дар помощи другим",
+        "Глубокое самопознание",
+        "Интерес к духовности"
+      ],
+      "challenges": [
+        "Перегрузка чужими проблемами",
+        "Трудности в принятии лёгкости бытия"
+      ],
+      "actionable": [
+        "Учитесь устанавливать здоровые границы.",
+        "Практикуйте благодарность для принятия лёгкости жизни."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме способствует глубокой эмоциональной и финансовой трансформации.",
+      "full": "Плутон в 8 доме может указывать на способность к глубокой эмоциональной и финансовой трансформации. Люди с таким положением часто переживают значительные изменения в отношении к деньгам и совместным ресурсам, учась доверять вселенной в вопросах обеспечения.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "финансы",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к финансовой трансформации",
+        "Глубокая эмоциональная устойчивость",
+        "Умение доверять вселенной"
+      ],
+      "challenges": [
+        "Страх потери контроля",
+        "Трудности в доверии другим"
+      ],
+      "actionable": [
+        "Изучайте финансовую грамотность для уверенности.",
+        "Практикуйте доверие через маленькие шаги."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме раскрывает силу возрождения после потерь.",
+      "full": "Плутон в 8 доме символизирует силу возрождения после потерь и кризисов. Люди с таким положением обладают уникальной способностью находить смысл и уроки в самых трудных жизненных ситуациях, превращая боль в источник силы.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "возрождение",
+        "кризис"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Уникальная способность к возрождению",
+        "Нахождение смысла в трудностях",
+        "Превращение боли в силу"
+      ],
+      "challenges": [
+        "Тенденция к самопожертвованию",
+        "Трудности в принятии помощи"
+      ],
+      "actionable": [
+        "Развивайте самосострадание через практики заботы о себе.",
+        "Учитесь принимать помощь как дар."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме способствует глубоким исследованиям подсознания.",
+      "full": "Плутон в 8 доме способствует глубоким исследованиям подсознания и скрытых аспектов психики. Люди с таким положением часто обладают даром понимать и исцелять глубинные страхи и травмы, как свои, так и окружающих.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "подсознание",
+        "исцеление"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Дар исцеления глубинных травм",
+        "Понимание подсознания",
+        "Способность к глубокому анализу"
+      ],
+      "challenges": [
+        "Перегрузка от глубоких эмоций",
+        "Трудности в отключении от работы"
+      ],
+      "actionable": [
+        "Практикуйте техники заземления для баланса.",
+        "Установите чёткие границы между работой и отдыхом."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_8",
+      "type": "planet_house",
+      "short": "Плутон в 8 доме подчёркивает важность трансформации через отношения.",
+      "full": "Плутон в 8 доме подчёркивает важность трансформации через отношения и совместные ресурсы. Люди с таким положением учатся глубокой близости и доверию, проходя через испытания, которые в конечном итоге укрепляют их связи.",
+      "tags": [
+        "Плутон",
+        "8 дом",
+        "отношения",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к глубокой близости",
+        "Укрепление связей через испытания",
+        "Умение доверять"
+      ],
+      "challenges": [
+        "Страх быть уязвимым",
+        "Трудности в отпускании контроля"
+      ],
+      "actionable": [
+        "Практикуйте открытость в безопасных отношениях.",
+        "Учитесь отпускать контроль через доверие процессу."
+      ]
+    }
+  ],
+  "house_9": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме стимулирует глубокие философские поиски.",
+      "full": "Плутон в 9 доме побуждает к глубоким философским и духовным исследованиям, трансформируя ваши убеждения. Это положение может указывать на интенсивные переживания, связанные с поиском истины. Вы можете обнаружить, что ваши взгляды на жизнь радикально меняются под влиянием внутренних и внешних кризисов.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "философия",
+        "духовность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое понимание жизни",
+        "Способность к трансформации убеждений"
+      ],
+      "challenges": [
+        "Кризисы веры",
+        "Конфликты из-за убеждений"
+      ],
+      "actionable": [
+        "Изучайте различные философские системы.",
+        "Практикуйте медитацию для внутреннего равновесия."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме раскрывает тайны через путешествия.",
+      "full": "Плутон в 9 доме может означать, что ваши путешествия или обучение за границей приведут к значительным личным трансформациям. Это положение часто связано с раскрытием скрытых аспектов культуры или истории, которые меняют ваше мировоззрение. Вы можете столкнуться с ситуациями, которые проверят ваши убеждения на прочность.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "путешествия",
+        "обучение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое познание культур",
+        "Трансформация через опыт"
+      ],
+      "challenges": [
+        "Культурные шоки",
+        "Трудности адаптации"
+      ],
+      "actionable": [
+        "Путешествуйте с целью изучения.",
+        "Ведите дневник для рефлексии опыта."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме углубляет религиозные искания.",
+      "full": "Плутон в 9 доме может указывать на интенсивные религиозные или духовные поиски, которые ведут к глубоким внутренним изменениям. Вы можете испытывать сильное желание разобраться в тайнах бытия, что иногда приводит к конфликтам с традиционными верованиями. Это положение способствует переосмыслению жизненных ценностей.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "религия",
+        "духовность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая вера",
+        "Способность к духовному росту"
+      ],
+      "challenges": [
+        "Конфликты на религиозной почве",
+        "Сомнения в вере"
+      ],
+      "actionable": [
+        "Исследуйте различные духовные практики.",
+        "Обсуждайте свои взгляды с единомышленниками."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме трансформирует высшее образование.",
+      "full": "Плутон в 9 доме может означать, что ваш путь в высшем образовании будет сопровождаться значительными трансформациями. Вы можете столкнуться с темами, которые бросят вызов вашим убеждениям, или пережить кризис в выборе направления обучения. Это положение способствует глубокому погружению в предмет изучения.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "образование",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокие знания",
+        "Способность к научным открытиям"
+      ],
+      "challenges": [
+        "Кризисы в обучении",
+        "Конфликты с преподавателями"
+      ],
+      "actionable": [
+        "Выбирайте темы для исследования, которые вас страстно увлекают.",
+        "Развивайте критическое мышление."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме раскрывает правду через СМИ.",
+      "full": "Плутон в 9 доме может указывать на то, что средства массовой информации играют ключевую роль в ваших духовных и интеллектуальных трансформациях. Вы можете обнаружить, что определенные книги, фильмы или статьи глубоко влияют на ваше мировоззрение, иногда вызывая кризисы веры. Это положение способствует поиску скрытых истин.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "СМИ",
+        "истина"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Критическое восприятие информации",
+        "Глубокий анализ"
+      ],
+      "challenges": [
+        "Манипуляции через СМИ",
+        "Информационные перегрузки"
+      ],
+      "actionable": [
+        "Анализируйте источники информации.",
+        "Читайте книги, расширяющие сознание."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме ведет к юридическим трансформациям.",
+      "full": "Плутон в 9 доме может означать, что ваши взгляды на закон и справедливость претерпят глубокие изменения. Вы можете столкнуться с ситуациями, которые заставят вас пересмотреть свои убеждения относительно правовой системы. Это положение способствует борьбе за свои права или защите чужих.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "закон",
+        "справедливость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое понимание закона",
+        "Способность к защите прав"
+      ],
+      "challenges": [
+        "Конфликты с законом",
+        "Юридические сложности"
+      ],
+      "actionable": [
+        "Изучайте законы, которые вас интересуют.",
+        "Участвуйте в волонтерских проектах по защите прав."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме способствует межкультурным исследованиям.",
+      "full": "Плутон в 9 доме может указывать на глубокий интерес к межкультурным исследованиям, который ведет к значительным личным трансформациям. Вы можете обнаружить, что изучение других культур радикально меняет ваше мировоззрение. Это положение способствует пониманию универсальных истин через разнообразие культур.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "культура",
+        "исследования"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Межкультурное понимание",
+        "Глубокие культурные инсайты"
+      ],
+      "challenges": [
+        "Культурные барьеры",
+        "Трудности в понимании чужих традиций"
+      ],
+      "actionable": [
+        "Путешествуйте с целью культурного обмена.",
+        "Изучайте иностранные языки."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_9",
+      "type": "planet_house",
+      "short": "Плутон в 9 доме вдохновляет на философские писания.",
+      "full": "Плутон в 9 доме может означать, что ваши писания или размышления на философские темы будут иметь трансформационный эффект для вас и других. Вы можете обнаружить, что через письмо выражаете свои самые глубокие убеждения и страхи. Это положение способствует созданию работ, которые меняют мировоззрение читателей.",
+      "tags": [
+        "Плутон",
+        "9 дом",
+        "писательство",
+        "философия"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубина мысли",
+        "Способность вдохновлять"
+      ],
+      "challenges": [
+        "Кризисы вдохновения",
+        "Страх выражения"
+      ],
+      "actionable": [
+        "Пишите регулярно, даже если это только для себя.",
+        "Читайте философские труды для вдохновения."
+      ]
+    }
+  ],
+  "house_10": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме символизирует трансформацию через карьеру.",
+      "full": "Плутон в 10 доме предлагает глубокую трансформацию через профессиональную деятельность. Это положение может указывать на способность возрождаться в карьере, преодолевая кризисы. Важно осознавать свои амбиции и использовать их для личностного роста.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "карьера",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубина трансформации",
+        "Устойчивость в кризисах",
+        "Сильные амбиции"
+      ],
+      "challenges": [
+        "Склонность к контролю",
+        "Страх изменений"
+      ],
+      "actionable": [
+        "Изучите свои страхи, связанные с карьерой.",
+        "Развивайте гибкость в профессиональных подходах."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме раскрывает силу через профессиональные испытания.",
+      "full": "Наличие Плутона в 10 доме говорит о том, что профессиональные испытания могут стать источником силы. Это положение способствует глубокому пониманию своих целей и способов их достижения. Важно учиться на препятствиях, превращая их в возможности.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "профессиональный рост",
+        "испытания"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Умение преодолевать трудности",
+        "Глубокое понимание целей",
+        "Преобразующая сила"
+      ],
+      "challenges": [
+        "Излишняя интенсивность",
+        "Трудности с делегированием"
+      ],
+      "actionable": [
+        "Анализируйте профессиональные неудачи как уроки.",
+        "Практикуйте доверие к коллегам."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме подчеркивает важность автентичности в карьере.",
+      "full": "Плутон в 10 доме акцентирует необходимость быть аутентичным в профессиональной сфере. Это положение может способствовать раскрытию истинных амбиций и ценностей, ведущих к удовлетворению от работы. Ключевым является честность с самим собой.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "аутентичность",
+        "профессиональные ценности"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая честность",
+        "Ясность амбиций",
+        "Способность к саморефлексии"
+      ],
+      "challenges": [
+        "Сопротивление изменениям",
+        "Сложности в принятии решений"
+      ],
+      "actionable": [
+        "Определите свои истинные профессиональные желания.",
+        "Развивайте навыки принятия решений."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме способствует мощным карьерным переменам.",
+      "full": "Плутон в 10 доме часто указывает на возможность мощных перемен в карьере. Это положение может помочь в осознании необходимости изменений и в нахождении внутренних ресурсов для их осуществления. Важно быть открытым к новым путям.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "карьерные перемены",
+        "внутренние ресурсы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к трансформации",
+        "Внутренняя сила",
+        "Адаптивность"
+      ],
+      "challenges": [
+        "Страх неизвестности",
+        "Избегание рисков"
+      ],
+      "actionable": [
+        "Исследуйте новые профессиональные направления.",
+        "Развивайте уверенность в своих силах."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме раскрывает потенциал лидерства через кризисы.",
+      "full": "Плутон в 10 доме может раскрыть потенциал лидерства через преодоление профессиональных кризисов. Это положение учит находить силу в сложных ситуациях и вести за собой других. Важно развивать эмпатию и понимание.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "лидерство",
+        "кризисы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Лидерские качества",
+        "Стойкость",
+        "Эмпатия"
+      ],
+      "challenges": [
+        "Излишняя жесткость",
+        "Трудности в командной работе"
+      ],
+      "actionable": [
+        "Работайте над эмпатией в профессиональных отношениях.",
+        "Учитесь делегировать задачи."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме подталкивает к глубоким профессиональным изменениям.",
+      "full": "Плутон в 10 доме часто подталкивает к глубоким изменениям в профессиональной сфере. Это положение может помочь осознать необходимость отпустить старое и открыться новому. Ключевым является доверие к процессу изменений.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "профессиональные изменения",
+        "доверие"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Готовность к изменениям",
+        "Глубина понимания",
+        "Открытость новому"
+      ],
+      "challenges": [
+        "Сопротивление отпусканию",
+        "Неуверенность в будущем"
+      ],
+      "actionable": [
+        "Практикуйте медитацию для принятия изменений.",
+        "Исследуйте новые профессиональные интересы."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме усиливает влияние через профессию.",
+      "full": "Плутон в 10 доме может усилить ваше влияние через профессиональную деятельность. Это положение способствует глубокому пониманию власти и ответственности. Важно использовать свое влияние мудро и этично.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "влияние",
+        "ответственность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Сильное влияние",
+        "Глубокое понимание власти",
+        "Этичность"
+      ],
+      "challenges": [
+        "Злоупотребление властью",
+        "Страх ответственности"
+      ],
+      "actionable": [
+        "Развивайте осознанность в использовании власти.",
+        "Учитесь балансировать ответственность."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_10",
+      "type": "planet_house",
+      "short": "Плутон в 10 доме способствует карьерному возрождению.",
+      "full": "Плутон в 10 доме часто символизирует возможность карьерного возрождения. Это положение может помочь в переосмыслении профессиональных целей и нахождении новых путей. Важно оставаться открытым к трансформации.",
+      "tags": [
+        "Плутон",
+        "10 дом",
+        "карьерное возрождение",
+        "переосмысление"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к возрождению",
+        "Гибкость",
+        "Инновационность"
+      ],
+      "challenges": [
+        "Сопротивление новому",
+        "Неопределенность"
+      ],
+      "actionable": [
+        "Исследуйте новые профессиональные технологии.",
+        "Развивайте адаптивность к изменениям."
+      ]
+    }
+  ],
+  "house_11": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house highlights deep transformations within friendships and groups.",
+      "full": "Pluto's presence in the 11th house signifies a profound journey of transformation through friendships, groups, and societal connections. This placement encourages you to explore the depths of your social interactions, revealing hidden truths and fostering growth. It's about understanding the power dynamics within your circles and learning to navigate them with integrity.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "friendships",
+        "transformation"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Deep understanding of group dynamics",
+        "Ability to transform social connections"
+      ],
+      "challenges": [
+        "Power struggles in friendships",
+        "Fear of betrayal"
+      ],
+      "actionable": [
+        "Reflect on the role of power in your friendships.",
+        "Engage in groups that align with your transformative goals."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house brings intensity to your hopes and collective endeavors.",
+      "full": "With Pluto in the 11th house, your hopes, dreams, and collective endeavors are marked by intensity and depth. This placement challenges you to look beyond superficial goals, urging a deeper connection with your aspirations and the communities that share them. It's a call to embrace transformation in how you relate to society's broader visions.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "hopes",
+        "collective"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Profound connection to collective goals",
+        "Resilience in pursuing hopes"
+      ],
+      "challenges": [
+        "Overwhelm from intense group dynamics",
+        "Difficulty in trusting collective processes"
+      ],
+      "actionable": [
+        "Identify which collective goals truly resonate with you.",
+        "Practice setting boundaries within group settings."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house reveals the transformative power of social networks.",
+      "full": "Pluto in the 11th house illuminates the transformative potential within your social networks and communities. This position invites you to delve into the undercurrents of your affiliations, uncovering opportunities for personal and collective evolution. It's about recognizing the hidden influences that shape your social identity and learning to wield them wisely.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "social networks",
+        "transformation"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Insight into social undercurrents",
+        "Capacity for deep social change"
+      ],
+      "challenges": [
+        "Manipulation within groups",
+        "Fear of social isolation"
+      ],
+      "actionable": [
+        "Observe the dynamics in your social circles without judgment.",
+        "Contribute to communities that foster authentic transformation."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house encourages deep bonds with like-minded individuals.",
+      "full": "Having Pluto in the 11th house suggests that your path involves forming deep, transformative bonds with like-minded individuals. This placement highlights the importance of shared values and visions in your relationships, pushing you towards connections that offer mutual growth and understanding. It's a journey of discovering the strength in vulnerability within your social sphere.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "deep bonds",
+        "like-minded"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Formation of meaningful alliances",
+        "Shared transformative experiences"
+      ],
+      "challenges": [
+        "Fear of deep intimacy in groups",
+        "Over-identification with group identity"
+      ],
+      "actionable": [
+        "Seek out groups that challenge and inspire you.",
+        "Share your personal transformations to deepen connections."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house demands authenticity in your social engagements.",
+      "full": "Pluto's placement in the 11th house calls for authenticity and depth in your social engagements and community involvement. This position challenges you to shed superficial connections in favor of those that offer genuine transformation and mutual empowerment. It's about aligning your social life with your deepest values and truths.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "authenticity",
+        "social engagements"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Genuine connections",
+        "Empowerment through community"
+      ],
+      "challenges": [
+        "Fear of rejection when being authentic",
+        "Difficulty in finding like-minded groups"
+      ],
+      "actionable": [
+        "Evaluate the authenticity of your current social connections.",
+        "Engage in activities that reflect your true self."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house highlights the evolution of your social ideals.",
+      "full": "Pluto in the 11th house points to the evolution of your social ideals and the communities you choose to be part of. This placement encourages a deep dive into what you truly value in collective settings, urging a transformation that aligns your social participation with your inner growth. It's a powerful position for redefining your place in the wider world.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "social ideals",
+        "evolution"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Clarity in social values",
+        "Adaptability in group settings"
+      ],
+      "challenges": [
+        "Resistance to change in social circles",
+        "Conflict between personal and group ideals"
+      ],
+      "actionable": [
+        "Reflect on how your social ideals have changed over time.",
+        "Seek out groups that support your current values."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house uncovers hidden agendas in group dynamics.",
+      "full": "With Pluto in the 11th house, you're invited to uncover and understand the hidden agendas and power plays within group dynamics. This placement offers the insight needed to navigate complex social structures, empowering you to engage with communities in a way that fosters transparency and mutual respect. It's a call to awareness and integrity in your collective interactions.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "hidden agendas",
+        "group dynamics"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Awareness of underlying group motives",
+        "Ability to foster transparency"
+      ],
+      "challenges": [
+        "Paranoia about hidden motives",
+        "Overwhelm from group complexities"
+      ],
+      "actionable": [
+        "Practice discernment in group participation.",
+        "Encourage open dialogue within your communities."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_11",
+      "type": "planet_house",
+      "short": "Pluto in the 11th house transforms your approach to collective goals.",
+      "full": "Pluto in the 11th house signifies a transformative approach to how you engage with collective goals and societal visions. This placement challenges you to look beyond individual achievement, focusing instead on how you can contribute to and grow through the communities you're part of. It's about finding power in unity and shared purpose.",
+      "tags": [
+        "pluto",
+        "11th house",
+        "collective goals",
+        "transformation"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Commitment to collective transformation",
+        "Deep engagement with societal visions"
+      ],
+      "challenges": [
+        "Balancing personal and collective needs",
+        "Fear of losing individuality in groups"
+      ],
+      "actionable": [
+        "Identify ways your personal growth aligns with collective goals.",
+        "Participate in groups that value both unity and individuality."
+      ]
+    }
+  ],
+  "house_12": [
+    {
+      "id": 1,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house suggests deep subconscious transformations.",
+      "full": "Pluto's placement in the 12th house indicates a journey through the subconscious, where deep-seated fears and desires come to light. This position encourages facing hidden aspects of oneself, leading to profound personal growth. It's a call to embrace the unknown within.",
+      "tags": [
+        "transformation",
+        "subconscious",
+        "growth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep introspection",
+        "Resilience in facing fears"
+      ],
+      "challenges": [
+        "Overwhelming emotions",
+        "Fear of the unknown"
+      ],
+      "actionable": [
+        "Journal about subconscious fears",
+        "Practice meditation to explore inner depths"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house reveals hidden strengths through solitude.",
+      "full": "With Pluto in the 12th house, solitude becomes a powerful tool for uncovering hidden strengths. This placement highlights the importance of retreating inward to discover one's true power. It's about finding light in the darkest corners of the psyche.",
+      "tags": [
+        "solitude",
+        "hidden strengths",
+        "introspection"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Ability to transform pain into power",
+        "Deep spiritual insight"
+      ],
+      "challenges": [
+        "Isolation",
+        "Difficulty in sharing inner discoveries"
+      ],
+      "actionable": [
+        "Allocate time for regular solitude",
+        "Engage in creative expression to process insights"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house signifies profound spiritual rebirth.",
+      "full": "Pluto in the 12th house marks a period of spiritual rebirth, where old selves are shed for new beginnings. This placement invites a deep dive into the soul's mysteries, offering a chance to emerge renewed. It's a transformative journey of the spirit.",
+      "tags": [
+        "spiritual rebirth",
+        "transformation",
+        "renewal"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Capacity for deep spiritual transformation",
+        "Renewal through letting go"
+      ],
+      "challenges": [
+        "Fear of change",
+        "Attachment to the past"
+      ],
+      "actionable": [
+        "Explore spiritual practices that resonate",
+        "Write letters to release past attachments"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house uncovers deep psychic abilities.",
+      "full": "Pluto's presence in the 12th house can awaken latent psychic abilities, offering insights beyond the physical realm. This placement encourages trusting one's intuition and exploring the metaphysical. It's a gateway to understanding the unseen forces at play in one's life.",
+      "tags": [
+        "psychic abilities",
+        "intuition",
+        "metaphysical"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Strong intuitive hits",
+        "Connection to the collective unconscious"
+      ],
+      "challenges": [
+        "Overwhelm from psychic impressions",
+        "Doubt in intuitive abilities"
+      ],
+      "actionable": [
+        "Keep a dream journal",
+        "Practice grounding exercises to manage psychic sensitivity"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house emphasizes healing through shadow work.",
+      "full": "Pluto in the 12th house highlights the healing potential of shadow work, where confronting one's darker aspects leads to wholeness. This placement is about embracing all parts of oneself, even those hidden away. It's a path to deep emotional and spiritual healing.",
+      "tags": [
+        "shadow work",
+        "healing",
+        "wholeness"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep healing capabilities",
+        "Ability to integrate shadow aspects"
+      ],
+      "challenges": [
+        "Confronting uncomfortable truths",
+        "Fear of self-discovery"
+      ],
+      "actionable": [
+        "Engage in therapy or self-reflection practices",
+        "Use art to express and integrate shadow aspects"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house fosters a connection to universal mysteries.",
+      "full": "With Pluto in the 12th house, there's a natural inclination towards exploring life's universal mysteries. This placement draws one to question existence and seek deeper meanings. It's an invitation to explore the vast, uncharted territories of the mind and universe.",
+      "tags": [
+        "universal mysteries",
+        "existential questioning",
+        "deep meanings"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Philosophical depth",
+        "Curiosity about the unknown"
+      ],
+      "challenges": [
+        "Existential anxiety",
+        "Feeling disconnected from mundane reality"
+      ],
+      "actionable": [
+        "Read philosophy or metaphysics",
+        "Discuss big questions with like-minded individuals"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house signals a journey of letting go.",
+      "full": "Pluto's journey through the 12th house is one of release, where letting go of what no longer serves becomes essential. This placement teaches the art of surrender, showing how endings pave the way for new beginnings. It's a process of shedding to make space for the new.",
+      "tags": [
+        "letting go",
+        "surrender",
+        "new beginnings"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Ability to release with grace",
+        "Understanding the cycle of endings and beginnings"
+      ],
+      "challenges": [
+        "Attachment to outcomes",
+        "Fear of emptiness after letting go"
+      ],
+      "actionable": [
+        "Practice mindfulness to observe attachment",
+        "Create rituals to honor what you're releasing"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.pluto.house_12",
+      "type": "planet_house",
+      "short": "Pluto in the 12th house reveals the power of unseen forces.",
+      "full": "Pluto in the 12th house unveils the significant impact of unseen forces in one's life, urging an acknowledgment of the intangible. This placement is about recognizing the influence of the subconscious and the universe's hidden rhythms. It's a call to trust in the greater flow of life.",
+      "tags": [
+        "unseen forces",
+        "subconscious influence",
+        "trust"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Sensitivity to subtle energies",
+        "Trust in the universe's plan"
+      ],
+      "challenges": [
+        "Skepticism towards the intangible",
+        "Difficulty in surrendering control"
+      ],
+      "actionable": [
+        "Observe synchronicities",
+        "Practice surrendering small decisions to intuition"
+      ]
+    }
+  ]
+}

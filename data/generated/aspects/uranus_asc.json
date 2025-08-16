@@ -1,0 +1,498 @@
+{
+  "conjunction": [
+    {
+      "id": 1,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Uranus conjunct Ascendant sparks originality in self-expression.",
+      "full": "When Uranus is conjunct the Ascendant, it highlights a personality that thrives on uniqueness and innovation. This aspect encourages breaking free from conventional norms, fostering a strong sense of individuality. It's a call to embrace your authentic self, often leading to unexpected but liberating personal revelations.",
+      "tags": [
+        "individuality",
+        "innovation",
+        "self-expression"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "This aspect brings sudden insights into personal identity.",
+      "full": "The conjunction of Uranus and the Ascendant can trigger sudden insights into one's identity and how they present themselves to the world. It often signifies a person who is ahead of their time, with a forward-thinking approach to life that challenges societal expectations.",
+      "tags": [
+        "identity",
+        "insight",
+        "societal norms"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "A dynamic push towards authenticity and change.",
+      "full": "With Uranus conjunct the Ascendant, there's a dynamic push towards living authentically and embracing change. This aspect can indicate a life path marked by sudden shifts that ultimately lead to greater personal freedom and self-discovery.",
+      "tags": [
+        "authenticity",
+        "change",
+        "self-discovery"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Encourages unconventional approaches to personal growth.",
+      "full": "This aspect encourages unconventional approaches to personal growth and self-presentation. Uranus's influence here can make one's journey of self-expression unpredictable but deeply enriching, offering unique perspectives on individuality.",
+      "tags": [
+        "unconventional",
+        "personal growth",
+        "self-presentation"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Fosters a rebellious streak in defining oneself.",
+      "full": "Uranus conjunct the Ascendant fosters a rebellious streak in how one defines and presents themselves. This aspect can signify a person who challenges traditional identities, opting instead for a path that reflects their true, unconventional nature.",
+      "tags": [
+        "rebellious",
+        "identity",
+        "unconventional"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.uranus_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Highlights the importance of freedom in self-identity.",
+      "full": "The conjunction between Uranus and the Ascendant highlights the importance of freedom in shaping one's self-identity. It suggests a life where personal expression is not just valued but necessary, often leading to innovative ways of being in the world.",
+      "tags": [
+        "freedom",
+        "self-identity",
+        "innovation"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    }
+  ],
+  "sextile": [
+    {
+      "id": 1,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Уран и Асцендент в секстиле способствуют инновационному самовыражению.",
+      "full": "Секстиль между Ураном и Асцендентом открывает двери для уникального самовыражения и неожиданных изменений в личности. Этот аспект поддерживает свободу и оригинальность, помогая вам выделяться в толпе. Он способствует лёгкости в адаптации к новым ситуациям и людям, обогащая ваш жизненный опыт.",
+      "tags": [
+        "инновации",
+        "самовыражение",
+        "оригинальность"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Гармония между Ураном и Асцендентом усиливает харизму и привлекательность.",
+      "full": "Секстиль Урана и Асцендента привносит в вашу личность элемент неожиданности и обаяния. Этот аспект делает вас более привлекательным для окружающих, благодаря вашей способности удивлять и вдохновлять. Он также поддерживает быстрое принятие решений и адаптацию к переменам.",
+      "tags": [
+        "харизма",
+        "привлекательность",
+        "адаптация"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Секстиль Урана и Асцендента способствует творческому мышлению и нестандартным решениям.",
+      "full": "Этот аспект между Ураном и Асцендентом благоприятствует творческому подходу к жизни и решению проблем. Вы можете обнаружить, что легко находите нестандартные решения и вдохновляете других на инновации. Ваша личность излучает энергию прогресса и открытости новому.",
+      "tags": [
+        "творчество",
+        "инновации",
+        "решение проблем"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Уран и Асцендент в секстиле облегчают социальные взаимодействия и коммуникацию.",
+      "full": "Секстиль между Ураном и Асцендентом способствует лёгкости в общении и установлении контактов. Вы можете обнаружить, что ваши идеи и взгляды легко находят отклик у других. Этот аспект также поддерживает вашу способность быстро адаптироваться к новым социальным окружениям.",
+      "tags": [
+        "коммуникация",
+        "социальные взаимодействия",
+        "адаптация"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Энергия Урана и Асцендента в секстиле вдохновляет на личностный рост и развитие.",
+      "full": "Секстиль Урана и Асцендента создаёт благоприятные условия для личностного роста и саморазвития. Этот аспект побуждает вас выходить за пределы комфортной зоны и исследовать новые горизонты. Ваша способность к трансформации и обновлению становится ключевой силой в вашей жизни.",
+      "tags": [
+        "личностный рост",
+        "саморазвитие",
+        "трансформация"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.uranus_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Секстиль Урана и Асцендента способствует гармонии между индивидуальностью и внешним миром.",
+      "full": "Этот аспект помогает гармонично интегрировать вашу уникальную индивидуальность с требованиями внешнего мира. Вы можете чувствовать себя комфортно, выражая свою истинную сущность, при этом оставаясь открытым для новых идей и перспектив. Секстиль Урана и Асцендента поддерживает баланс между самовыражением и адаптацией.",
+      "tags": [
+        "индивидуальность",
+        "гармония",
+        "баланс"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "square": [
+    {
+      "id": 1,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Uranus square Asc challenges self-expression with unexpected changes.",
+      "full": "The square between Uranus and the Ascendant suggests a dynamic tension between your need for individuality and how you present yourself to the world. This aspect often brings unexpected challenges to self-expression, urging a balance between innovation and authenticity.",
+      "tags": [
+        "individuality",
+        "self-expression",
+        "tension"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Innovation meets identity, creating friction at the Ascendant.",
+      "full": "When Uranus squares the Ascendant, it highlights a friction between your innovative impulses and your outward identity. This aspect encourages exploring unique ways to align your true self with how others see you.",
+      "tags": [
+        "innovation",
+        "identity",
+        "friction"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Sudden shifts challenge your persona with Uranus square Asc.",
+      "full": "Uranus square the Ascendant can bring sudden shifts that challenge your persona and how you're perceived. This aspect asks for flexibility in expressing your individuality amidst changing circumstances.",
+      "tags": [
+        "sudden changes",
+        "persona",
+        "flexibility"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Tension between uniqueness and first impressions under this aspect.",
+      "full": "This aspect creates tension between your inherent uniqueness and the first impressions you make. It's an invitation to embrace your quirks while navigating social expectations.",
+      "tags": [
+        "uniqueness",
+        "first impressions",
+        "social expectations"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Uranus square Asc: a call to balance rebellion and image.",
+      "full": "With Uranus square the Ascendant, there's a call to balance your rebellious nature with your public image. This aspect fosters growth through reconciling your need for freedom with societal norms.",
+      "tags": [
+        "rebellion",
+        "public image",
+        "growth"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.uranus_asc.square",
+      "type": "aspect_pair",
+      "short": "Dynamic tension between innovation and self-presentation here.",
+      "full": "The square between Uranus and the Ascendant introduces dynamic tension between your innovative ideas and how you present yourself. It's a powerful aspect for those willing to explore new identities.",
+      "tags": [
+        "dynamic tension",
+        "innovation",
+        "self-presentation"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    }
+  ],
+  "trine": [
+    {
+      "id": 1,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Гармония между Ураном и Асцендентом способствует инновациям.",
+      "full": "Трин между Ураном и Асцендентом создаёт благоприятные условия для самовыражения и инноваций. Этот аспект поддерживает оригинальность и свободу в проявлении личности, облегчая адаптацию к изменениям.",
+      "tags": [
+        "инновации",
+        "самовыражение",
+        "гармония"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Уран и Асцендент в трине усиливают интуицию и независимость.",
+      "full": "Трин Урана к Асценденту способствует развитию интуиции и независимости. Этот аспект помогает легко воспринимать новые идеи и выражать свою уникальность без страха осуждения.",
+      "tags": [
+        "интуиция",
+        "независимость",
+        "уникальность"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Гармоничный аспект между Ураном и Асцендентом раскрывает творческий потенциал.",
+      "full": "Трин между Ураном и Асцендентом благоприятствует раскрытию творческого потенциала и нестандартному мышлению. Этот аспект поддерживает свободу самовыражения и способность удивлять окружающих своими идеями.",
+      "tags": [
+        "творчество",
+        "нестандартное мышление",
+        "самовыражение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Уран в трине к Асценденту способствует быстрой адаптации.",
+      "full": "Трин Урана к Асценденту облегчает процесс адаптации к новым ситуациям и изменениям. Этот аспект помогает сохранять индивидуальность, даже в условиях неожиданных перемен.",
+      "tags": [
+        "адаптация",
+        "изменения",
+        "индивидуальность"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Гармония Урана и Асцендента поддерживает свободу и прогресс.",
+      "full": "Трин между Ураном и Асцендентом символизирует гармонию между свободой личности и прогрессивными идеями. Этот аспект способствует лёгкому восприятию нового и готовности к экспериментам.",
+      "tags": [
+        "свобода",
+        "прогресс",
+        "эксперименты"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.uranus_asc.trine",
+      "type": "aspect_pair",
+      "short": "Трин Урана и Асцендента усиливает харизму и оригинальность.",
+      "full": "Трин Урана к Асценденту усиливает харизму и способность привлекать внимание своей оригинальностью. Этот аспект помогает выражать свои идеи так, чтобы они вдохновляли окружающих.",
+      "tags": [
+        "харизма",
+        "оригинальность",
+        "вдохновение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "opposition": [
+    {
+      "id": 1,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Уран напротив Асцендента вызывает стремление к свободе и неожиданным изменениям.",
+      "full": "Аспект оппозиции между Ураном и Асцендентом подчеркивает напряжение между потребностью в индивидуальности и самовыражении. Это может проявляться как внезапные изменения во внешности или поведении, стремление выделиться. Важно находить баланс между новаторством и социальными нормами.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "индивидуальность"
+      ],
+      "audience": "астрологи, интересующиеся личностным ростом",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Оппозиция Урана к Асценденту стимулирует оригинальность и независимость.",
+      "full": "Этот аспект побуждает к самовыражению через нестандартные подходы и идеи. Может наблюдаться сопротивление традициям и ожиданиям окружающих. Ключ — в гармонизации своего уникального пути с внешним миром.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "независимость"
+      ],
+      "audience": "люди, изучающие свою натальную карту",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Напряжение между Ураном и Асцендентом ведет к поиску уникальности.",
+      "full": "Оппозиция Урана и Асцендента создает динамику, где индивидуальность и общественные ожидания сталкиваются. Это может вдохновлять на инновации, но также вызывать чувство отчуждения. Осознание этого аспекта помогает в самопринятии.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "уникальность"
+      ],
+      "audience": "психологи, интересующиеся астрологией",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Асцендент в оппозиции к Урану подчеркивает необходимость свободы.",
+      "full": "Данный аспект акцентирует конфликт между личной свободой и адаптацией к социуму. Он может проявляться как резкие смены имиджа или мировоззрения. Понимание этого влияния способствует более осознанным решениям.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "свобода"
+      ],
+      "audience": "астрологи-консультанты",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Уран против Асцендента: вызов между новаторством и традицией.",
+      "full": "Этот аспект символизирует борьбу между стремлением к изменениям и привычными способами самопрезентации. Он может вдохновлять на эксперименты, но также требует осторожности, чтобы не отталкивать окружающих. Баланс — ключевое слово.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "новаторство"
+      ],
+      "audience": "студенты астрологии",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.uranus_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Оппозиция Урана и Асцендента активирует потребность в изменениях.",
+      "full": "Аспект указывает на внутреннее и внешнее стремление к трансформациям, иногда через кризисы идентичности. Это возможность пересмотреть свои маски и выразить истинное 'я'. Поддержка в этом процессе очень ценна.",
+      "tags": [
+        "Уран",
+        "Асцендент",
+        "оппозиция",
+        "трансформация"
+      ],
+      "audience": "терапевты, использующие астрологию",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ]
+}

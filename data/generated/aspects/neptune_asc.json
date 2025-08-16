@@ -1,0 +1,498 @@
+{
+  "conjunction": [
+    {
+      "id": 1,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Слияние Нептуна с Асцендентом усиливает интуицию и духовность.",
+      "full": "Когда Нептун находится в соединении с Асцендентом, это может указывать на повышенную чувствительность и интуицию. Человек может обладать харизматичной и загадочной аурой, привлекающей других. Важно осознавать границы, чтобы не потеряться в чужих эмоциях.",
+      "tags": [
+        "интуиция",
+        "духовность",
+        "харизма"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Нептун на Асценденте способствует творческому самовыражению.",
+      "full": "Соединение Нептуна с Асцендентом часто встречается у творческих личностей, которые выражают себя через искусство. Это положение может также указывать на склонность к идеализации себя и других, что требует осознанности.",
+      "tags": [
+        "творчество",
+        "самовыражение",
+        "идеализация"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Аспект усиливает эмпатию и способность к сопереживанию.",
+      "full": "Люди с соединением Нептуна и Асцендента обладают глубокой эмпатией, что позволяет им легко понимать чувства других. Однако, важно учиться защищать свою энергию, чтобы не перегружаться эмоциями окружающих.",
+      "tags": [
+        "эмпатия",
+        "сопереживание",
+        "энергия"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Соединение может указывать на склонность к мечтательности.",
+      "full": "Нептун на Асценденте в соединении может сделать человека более мечтательным и склонным к фантазиям. Это прекрасное качество для творчества, но в повседневной жизни важно оставаться реалистичным.",
+      "tags": [
+        "мечтательность",
+        "фантазии",
+        "реализм"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Этот аспект способствует развитию духовного видения.",
+      "full": "Соединение Нептуна с Асцендентом может открывать двери к духовным прозрениям и глубокому пониманию жизни. Люди с таким аспектом часто ищут смысл за пределами материального мира.",
+      "tags": [
+        "духовность",
+        "видение",
+        "смысл"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.neptune_asc.conjunction",
+      "type": "aspect_pair",
+      "short": "Повышенная чувствительность к окружающему миру.",
+      "full": "Люди с соединением Нептуна и Асцендента часто обладают повышенной чувствительностью к окружающему миру, что может проявляться как в творчестве, так и в повседневной жизни. Важно находить баланс между восприимчивостью и защитой своего внутреннего мира.",
+      "tags": [
+        "чувствительность",
+        "восприимчивость",
+        "баланс"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "sextile": [
+    {
+      "id": 1,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Гармоничное соединение Нептуна и Асцендента усиливает интуицию.",
+      "full": "Секстиль между Нептуном и Асцендентом создаёт поток интуитивного понимания и творческой энергии. Это способствует лёгкости в выражении своих чувств и идей, делая человека более открытым к духовным и художественным влияниям.",
+      "tags": [
+        "интуиция",
+        "творчество",
+        "духовность"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Нептун и Асцендент в секстиле облегчают эмпатию и понимание других.",
+      "full": "Этот аспект способствует глубокой эмпатии и пониманию эмоций окружающих. Человек может легко настраиваться на волну других, что делает его отличным слушателем и советчиком.",
+      "tags": [
+        "эмпатия",
+        "понимание",
+        "общение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Творческий потенциал усиливается благодаря секстилю Нептуна и Асцендента.",
+      "full": "Секстиль между Нептуном и Асцендентом раскрывает творческий потенциал, вдохновляя на художественные и музыкальные endeavors. Это время для exploration своего внутреннего мира через искусство.",
+      "tags": [
+        "творчество",
+        "вдохновение",
+        "искусство"
+      ],
+      "audience": "creative",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Духовный рост облегчается при секстиле Нептуна и Асцендента.",
+      "full": "Этот аспект поддерживает духовный рост и поиск deeper meaning в жизни. Человек может чувствовать stronger connection с универсальной энергией и искать пути для spiritual development.",
+      "tags": [
+        "духовность",
+        "рост",
+        "поиск смысла"
+      ],
+      "audience": "spiritual",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Секстиль Нептуна и Асцендента способствует миру и гармонии в отношениях.",
+      "full": "Гармоничный аспект между Нептуном и Асцендентом fosters мир и understanding в personal отношениях. Это время для healing прошлых обид и building deeper connections.",
+      "tags": [
+        "гармония",
+        "отношения",
+        "понимание"
+      ],
+      "audience": "relationships",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.neptune_asc.sextile",
+      "type": "aspect_pair",
+      "short": "Усиление воображения и мечтательности при секстиле Нептуна и Асцендента.",
+      "full": "Этот аспект усиливает воображение и способность мечтать, opening doors к новым возможностям и perspectives. Важно использовать этот период для creative planning и visualization желаемого будущего.",
+      "tags": [
+        "воображение",
+        "мечты",
+        "планирование"
+      ],
+      "audience": "dreamers",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "square": [
+    {
+      "id": 1,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Напряжение между Нептуном и ASC может вызывать путаницу в самовыражении.",
+      "full": "Аспект квадратуры между Нептуном и ASC создаёт напряжение, которое может проявляться как трудности в чётком самовыражении или ощущении собственной идентичности. Это может побуждать к поиску более глубокого понимания себя через творчество или духовные практики.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "самовыражение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Квадрат Нептуна и ASC указывает на конфликт между иллюзиями и реальностью.",
+      "full": "Этот аспект может символизировать внутренний конфликт между стремлением к идеалам и необходимостью проявляться в мире реалистично. Работа над осознанием этого напряжения может привести к более гармоничному самовыражению.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "иллюзии"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Трудности в различении своих и чужих эмоций при квадрате Нептуна и ASC.",
+      "full": "Квадратура между Нептуном и ASC может затруднять различение собственных эмоций и чувств окружающих, что требует развития эмоциональных границ и самопознания для более здорового взаимодействия.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "эмоции"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Квадрат Нептуна к ASC может вести к поиску духовного смысла в самовыражении.",
+      "full": "Этот аспект побуждает искать более глубокий, возможно, духовный смысл в том, как мы представляем себя миру. Это может быть путь к более осознанному и наполненному самовыражению.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "духовность"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Аспект вызывает желание слиться с другими, теряя себя.",
+      "full": "Квадратура Нептуна и ASC может создавать сильное желание слиться с другими, иногда за счёт собственной идентичности. Осознание этого паттерна может помочь в установлении здоровых границ.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "границы"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.neptune_asc.square",
+      "type": "aspect_pair",
+      "short": "Творческий потенциал в напряжении между Нептуном и ASC.",
+      "full": "Напряжение, создаваемое квадратурой между Нептуном и ASC, может быть источником уникального творческого потенциала, если научиться гармонично интегрировать эти энергии в самовыражение.",
+      "tags": [
+        "нептун",
+        "asc",
+        "квадратура",
+        "творчество"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "trine": [
+    {
+      "id": 1,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Гармония между Нептуном и Асцендентом усиливает интуицию и духовность.",
+      "full": "Аспект трина между Нептуном и Асцендентом создаёт плавный поток энергии, способствуя глубокой интуиции и духовной открытости. Это положение часто указывает на человека с естественной способностью понимать и чувствовать окружающих, что делает его особенно восприимчивым к тонким энергиям и невербальным сигналам.",
+      "tags": [
+        "интуиция",
+        "духовность",
+        "гармония"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Трин Нептуна и Асцендента способствует творческому самовыражению.",
+      "full": "При трине Нептуна к Асценденту творческие способности и воображение получают мощный импульс. Такие люди часто обладают уникальным видением мира, которое они выражают через искусство, музыку или другие формы творчества, вдохновляя окружающих своей глубиной и оригинальностью.",
+      "tags": [
+        "творчество",
+        "воображение",
+        "самовыражение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Эмпатия и сострадание усиливаются при трине Нептуна к Асценденту.",
+      "full": "Трин Нептуна к Асценденту наделяет человека повышенной эмпатией и способностью к глубокому состраданию. Это делает их естественными целителями и помощниками, способными чувствовать боль и радость других как свои собственные, что часто приводит их к профессиям, связанным с помощью людям.",
+      "tags": [
+        "эмпатия",
+        "сострадание",
+        "целительство"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Трин Нептуна и Асцендента облегчает доступ к подсознанию.",
+      "full": "Этот аспект облегчает доступ к подсознательным процессам и сновидениям, делая их более яркими и значимыми. Люди с таким положением часто обладают способностью к осознанным сновидениям и могут использовать свои сны как источник вдохновения или для решения внутренних конфликтов.",
+      "tags": [
+        "подсознание",
+        "сновидения",
+        "вдохновение"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Гармоничный трин способствует миру и умиротворению в личности.",
+      "full": "Гармоничный трин между Нептуном и Асцендентом способствует внутреннему миру и умиротворению. Такие люди часто излучают спокойствие и могут быть миротворцами в своём окружении, помогая другим находить гармонию и баланс в своей жизни.",
+      "tags": [
+        "мир",
+        "умиротворение",
+        "гармония"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.neptune_asc.trine",
+      "type": "aspect_pair",
+      "short": "Трин Нептуна к Асценденту раскрывает мистические и духовные таланты.",
+      "full": "Этот аспект может указывать на врождённые мистические или духовные таланты, такие как ясновидение или способность к энергетическому исцелению. Люди с таким положением часто чувствуют сильную связь с духовными или эзотерическими учениями и могут быть проводниками высших знаний.",
+      "tags": [
+        "мистика",
+        "духовность",
+        "таланты"
+      ],
+      "audience": "general",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "opposition": [
+    {
+      "id": 1,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Neptune opposition Ascendant blurs self-image, enhancing empathy but causing confusion.",
+      "full": "The opposition between Neptune and the Ascendant can create a fog around one's self-image, making it challenging to see oneself clearly. This aspect enhances empathy and intuition towards others, yet may lead to confusion about personal identity and boundaries. It's a call to balance spiritual connection with self-awareness.",
+      "tags": [
+        "self-image",
+        "empathy",
+        "confusion"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "This aspect merges intuition with identity, often masking true self.",
+      "full": "With Neptune opposing the Ascendant, intuition and identity intertwine, sometimes masking the true self under layers of perceived expectations. This can foster a deep understanding of others' unspoken feelings, while obscuring one's own desires and needs. Navigating this aspect requires gentle self-exploration.",
+      "tags": [
+        "intuition",
+        "identity",
+        "self-exploration"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Neptune's opposition to Ascendant invites spiritual growth amid identity questions.",
+      "full": "The opposition of Neptune to the Ascendant invites individuals into a journey of spiritual growth, often through questions about identity and self-expression. While this can lead to profound insights, it may also bring periods of uncertainty. Embracing fluidity in self-perception becomes key.",
+      "tags": [
+        "spiritual growth",
+        "identity",
+        "fluidity"
+      ],
+      "audience": "spiritual",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Aspect challenges boundaries between self and others, enhancing compassion.",
+      "full": "This aspect challenges the boundaries between self and others, often enhancing compassion and understanding. However, it can also make distinguishing one's own feelings from those of others difficult. Cultivating healthy boundaries is essential for navigating this influence positively.",
+      "tags": [
+        "boundaries",
+        "compassion",
+        "understanding"
+      ],
+      "audience": "general",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Neptune opposite Ascendant blurs reality, urging deeper self-discovery.",
+      "full": "Neptune opposite the Ascendant can blur the lines between reality and perception, urging a deeper journey into self-discovery. This aspect may bring creative inspiration but also confusion about how one is perceived. Finding clarity requires patience and introspection.",
+      "tags": [
+        "reality",
+        "self-discovery",
+        "introspection"
+      ],
+      "audience": "creative",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "aspect.neptune_asc.opposition",
+      "type": "aspect_pair",
+      "short": "Spiritual sensitivity rises, yet self-identity may feel elusive.",
+      "full": "With Neptune in opposition to the Ascendant, spiritual sensitivity and receptivity to the unseen are heightened. Yet, this can make the sense of self-identity feel elusive or too fluid. Balancing openness with self-definition is a valuable skill for those with this aspect.",
+      "tags": [
+        "spiritual sensitivity",
+        "self-identity",
+        "balance"
+      ],
+      "audience": "spiritual",
+      "lang": "en",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ]
+}

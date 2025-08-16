@@ -1,0 +1,2860 @@
+{
+  "house_1": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме усиливает харизму и стремление к расширению горизонтов.",
+      "full": "Юпитер в 1 доме символизирует врождённую харизму и оптимизм, которые помогают вам привлекать к себе внимание. Это положение также указывает на стремление к личностному росту и расширению своих горизонтов. Ваша уверенность в себе может вдохновлять окружающих, но важно помнить о балансе между оптимизмом и реализмом.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "харизма",
+        "личностный рост"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Харизма",
+        "Оптимизм",
+        "Стремление к росту"
+      ],
+      "challenges": [
+        "Баланс оптимизма и реализма",
+        "Избегание чрезмерного расширения"
+      ],
+      "actionable": [
+        "Развивайте самосознание через медитацию.",
+        "Ставьте реалистичные цели для личностного роста."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "С Юпитером в 1 доме вы излучаете уверенность и щедрость духа.",
+      "full": "Наличие Юпитера в 1 доме наделяет вас природной уверенностью и щедростью духа, что делает вас привлекательным для окружающих. Вы обладаете способностью видеть большие перспективы и вдохновлять других на достижения. Однако, важно не позволять своей уверенности перерастать в самоуверенность.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "уверенность",
+        "щедрость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Уверенность",
+        "Щедрость",
+        "Вдохновение"
+      ],
+      "challenges": [
+        "Избегание самоуверенности",
+        "Баланс между даянием и получением"
+      ],
+      "actionable": [
+        "Практикуйте благодарность за то, что имеете.",
+        "Учитесь слушать и принимать обратную связь."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме способствует широкому взгляду на жизнь и лидерским качествам.",
+      "full": "Юпитер в 1 доме способствует развитию широкого взгляда на жизнь и лидерских качеств. Вы естественным образом стремитесь к расширению своих возможностей и часто выступаете в роли вдохновителя для других. Важно, однако, не забывать о необходимости детальной проработки своих планов.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "лидерство",
+        "расширение возможностей"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Широкий взгляд на жизнь",
+        "Лидерские качества",
+        "Способность вдохновлять"
+      ],
+      "challenges": [
+        "Недостаток внимания к деталям",
+        "Риск переоценки своих сил"
+      ],
+      "actionable": [
+        "Развивайте навыки планирования.",
+        "Уделяйте внимание деталям в своих проектах."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме приносит чувство удачи и желание исследовать мир.",
+      "full": "Юпитер в 1 доме приносит чувство удачи и желание исследовать мир, что может сделать вашу жизнь насыщенной приключениями. Вы обладаете способностью находить возможности для роста в самых разных ситуациях. Тем не менее, важно не забывать о ценности стабильности и домашнего уюта.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "удача",
+        "исследование"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Чувство удачи",
+        "Желание исследовать",
+        "Находчивость"
+      ],
+      "challenges": [
+        "Недостаток стабильности",
+        "Потребность в балансе между приключениями и домом"
+      ],
+      "actionable": [
+        "Создайте ритуалы, которые приносят чувство стабильности.",
+        "Планируйте путешествия, но не забывайте о доме."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме усиливает вашу способность к убеждению и философскому мышлению.",
+      "full": "Юпитер в 1 доме усиливает вашу способность к убеждению и философскому мышлению, делая вас естественным учителем или наставником. Ваша открытость к новым идеям и культурам может быть источником вдохновения для окружающих. Однако, важно не забывать о практическом применении своих знаний.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "убеждение",
+        "философское мышление"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к убеждению",
+        "Философское мышление",
+        "Открытость к новому"
+      ],
+      "challenges": [
+        "Практическое применение знаний",
+        "Избегание догматизма"
+      ],
+      "actionable": [
+        "Ищите способы применить свои знания на практике.",
+        "Будьте открыты к обратной связи и новым точкам зрения."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме способствует оптимизму и желанию делиться своими благами.",
+      "full": "Юпитер в 1 доме способствует оптимизму и желанию делиться своими благами с окружающими. Вы обладаете способностью видеть хорошее в людях и ситуациях, что делает вас душой компании. Важно, однако, не забывать о собственных границах и потребностях.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "оптимизм",
+        "щедрость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Оптимизм",
+        "Желание делиться",
+        "Способность видеть хорошее"
+      ],
+      "challenges": [
+        "Соблюдение границ",
+        "Баланс между даянием и заботой о себе"
+      ],
+      "actionable": [
+        "Учитесь говорить 'нет', когда это необходимо.",
+        "Практикуйте заботу о себе так же, как и о других."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме приносит любовь к свободе и стремление к справедливости.",
+      "full": "Юпитер в 1 доме приносит любовь к свободе и стремление к справедливости, что может сделать вас защитником тех, кто в этом нуждается. Ваше чувство морали и этики сильно, и вы стремитесь жить в соответствии с высокими идеалами. Однако, важно помнить о терпимости к чужим взглядам.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "свобода",
+        "справедливость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Любовь к свободе",
+        "Стремление к справедливости",
+        "Сильное чувство морали"
+      ],
+      "challenges": [
+        "Терпимость к чужим взглядам",
+        "Баланс между идеализмом и реализмом"
+      ],
+      "actionable": [
+        "Развивайте эмпатию к разным точкам зрения.",
+        "Ищите практические пути реализации своих идеалов."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_1",
+      "type": "planet_house",
+      "short": "Юпитер в 1 доме усиливает вашу способность к адаптации и поиску смысла.",
+      "full": "Юпитер в 1 доме усиливает вашу способность к адаптации и поиску смысла в различных жизненных ситуациях. Вы обладаете даром находить возможности для роста даже в трудностях, что делает вас устойчивым к переменам. Важно, однако, не упускать из виду свои эмоциональные потребности.",
+      "tags": [
+        "Юпитер",
+        "1 дом",
+        "адаптация",
+        "поиск смысла"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность к адаптации",
+        "Поиск смысла",
+        "Устойчивость к переменам"
+      ],
+      "challenges": [
+        "Эмоциональные потребности",
+        "Баланс между адаптацией и стабильностью"
+      ],
+      "actionable": [
+        "Уделяйте внимание своим эмоциям и потребностям.",
+        "Практикуйте техники для эмоционального баланса."
+      ]
+    }
+  ],
+  "house_2": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Юпитер во 2 доме усиливает стремление к материальному благополучию и ценностям.",
+      "full": "Юпитер во 2 доме символизирует расширение в сфере материальных ценностей и финансов. Это положение может указывать на щедрость и оптимизм в отношении денег, а также на способность привлекать изобилие через позитивное мышление. Однако важно избегать излишнего расточительства.",
+      "tags": [
+        "финансы",
+        "изобилие",
+        "ценности"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Щедрость",
+        "Оптимизм в финансовых вопросах",
+        "Способность привлекать изобилие"
+      ],
+      "challenges": [
+        "Расточительство",
+        "Переоценка материальных ценностей"
+      ],
+      "actionable": [
+        "Практикуйте благодарность за то, что уже имеете.",
+        "Установите бюджет, чтобы избежать ненужных трат."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Во 2 доме Юпитер способствует росту через инвестиции в знания и навыки.",
+      "full": "Положение Юпитера во 2 доме подчеркивает важность инвестиций в себя, особенно в образование и навыки, как путь к материальному благополучию. Это может проявляться как удача в получении знаний, которые увеличивают доход. Однако, стоит остерегаться переоценки своих возможностей.",
+      "tags": [
+        "инвестиции",
+        "образование",
+        "навыки"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Удача в обучении",
+        "Способность увеличивать доход через знания",
+        "Широкий кругозор"
+      ],
+      "challenges": [
+        "Переоценка своих возможностей",
+        "Разбрасывание в обучении"
+      ],
+      "actionable": [
+        "Определите ключевые навыки для развития.",
+        "Инвестируйте в качественное образование."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Юпитер во 2 доме раскрывает потенциал через благотворительность и обмен.",
+      "full": "Юпитер во 2 доме может указывать на то, что материальное благополучие приходит через благотворительность и обмен ресурсами. Это положение поощряет щедрость, но также напоминает о важности баланса между отдачей и получением.",
+      "tags": [
+        "благотворительность",
+        "обмен",
+        "баланс"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Щедрость",
+        "Умение делиться",
+        "Привлечение благ через добрые дела"
+      ],
+      "challenges": [
+        "Дисбаланс в отдаче и получении",
+        "Игнорирование собственных нужд"
+      ],
+      "actionable": [
+        "Найдите способы помогать другим, не ущемляя себя.",
+        "Практикуйте осознанный обмен ресурсами."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Во 2 доме Юпитер подчеркивает ценность нематериальных богатств.",
+      "full": "Юпитер во 2 доме напоминает, что истинное богатство не всегда материально. Это положение может способствовать осознанию ценности духовных и эмоциональных богатств, а также поиску баланса между материальным и духовным.",
+      "tags": [
+        "нематериальные ценности",
+        "духовность",
+        "баланс"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Осознание духовных ценностей",
+        "Гармония между материальным и духовным",
+        "Широта взглядов"
+      ],
+      "challenges": [
+        "Пренебрежение материальными нуждами",
+        "Идеализация духовного"
+      ],
+      "actionable": [
+        "Исследуйте свои нематериальные ценности.",
+        "Найдите баланс между духовным и материальным."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Юпитер во 2 доме способствует финансовому росту через сотрудничество.",
+      "full": "Юпитер во 2 доме может указывать на то, что финансовый рост и стабильность достигаются через сотрудничество и партнерства. Это положение поощряет открытость к совместным проектам, но также требует внимания к выбору партнеров.",
+      "tags": [
+        "сотрудничество",
+        "финансовый рост",
+        "партнерства"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Умение работать в команде",
+        "Открытость к сотрудничеству",
+        "Финансовые возможности через партнерства"
+      ],
+      "challenges": [
+        "Неразборчивость в партнерах",
+        "Зависимость от других в финансах"
+      ],
+      "actionable": [
+        "Ищите надежных партнеров для совместных проектов.",
+        "Развивайте навыки командной работы."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Во 2 доме Юпитер раскрывает изобилие через творчество.",
+      "full": "Юпитер во 2 доме может указывать на то, что материальное благополучие приходит через творческую реализацию. Это положение поощряет использование своих талантов для создания ценности, но также напоминает о необходимости практического подхода.",
+      "tags": [
+        "творчество",
+        "изобилие",
+        "таланты"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Творческая реализация",
+        "Использование талантов для дохода",
+        "Вдохновение в работе"
+      ],
+      "challenges": [
+        "Недооценка практических аспектов",
+        "Разбрасывание в творчестве"
+      ],
+      "actionable": [
+        "Определите, как монетизировать свои таланты.",
+        "Найдите баланс между творчеством и практикой."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Юпитер во 2 доме подчеркивает важность устойчивых финансовых привычек.",
+      "full": "Юпитер во 2 доме напоминает о важности устойчивых финансовых привычек для долгосрочного благополучия. Это положение может способствовать осознанию необходимости планирования и дисциплины в финансовых вопросах.",
+      "tags": [
+        "финансовые привычки",
+        "планирование",
+        "дисциплина"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Финансовая дисциплина",
+        "Долгосрочное планирование",
+        "Осознанное отношение к деньгам"
+      ],
+      "challenges": [
+        "Чрезмерная экономия",
+        "Страх перед тратами"
+      ],
+      "actionable": [
+        "Разработайте долгосрочный финансовый план.",
+        "Практикуйте осознанные траты."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_2",
+      "type": "planet_house",
+      "short": "Во 2 доме Юпитер способствует расширению через изучение культур.",
+      "full": "Юпитер во 2 доме может указывать на то, что материальное и духовное богатство приходит через изучение других культур и традиций. Это положение поощряет открытость к новому, но также требует уважения к своим корням.",
+      "tags": [
+        "культуры",
+        "традиции",
+        "открытость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Открытость к новому",
+        "Обогащение через культуры",
+        "Широта взглядов"
+      ],
+      "challenges": [
+        "Потеря связи со своими корнями",
+        "Поверхностное изучение"
+      ],
+      "actionable": [
+        "Изучайте другие культуры с уважением.",
+        "Не забывайте о своих традициях."
+      ]
+    }
+  ],
+  "house_3": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Jupiter in the 3rd house enhances communication and learning with optimism.",
+      "full": "With Jupiter in the 3rd house, your approach to communication and learning is marked by optimism and a desire to expand your knowledge. This placement encourages sharing ideas generously and seeking wisdom in everyday interactions. It's a position that favors teachers, writers, and anyone involved in disseminating information.",
+      "tags": [
+        "communication",
+        "learning",
+        "optimism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Generosity in sharing knowledge",
+        "Optimistic communication style",
+        "Eagerness to learn"
+      ],
+      "challenges": [
+        "Over-optimism in messages",
+        "Scattered focus in learning"
+      ],
+      "actionable": [
+        "Engage in teaching or writing to share your knowledge.",
+        "Practice mindful listening to balance your communication."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Jupiter here broadens your intellectual horizons through diverse connections.",
+      "full": "Jupiter's presence in the 3rd house signifies a broad-minded approach to communication and intellectual pursuits. You likely enjoy exploring various subjects and connecting with people from different backgrounds. This placement supports growth through travel, study, and open-minded discussions, making every conversation a learning opportunity.",
+      "tags": [
+        "intellectual growth",
+        "diverse connections",
+        "open-mindedness"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Broad intellectual interests",
+        "Ability to connect diverse ideas",
+        "Growth through communication"
+      ],
+      "challenges": [
+        "Difficulty focusing on one topic",
+        "Overextending in conversations"
+      ],
+      "actionable": [
+        "Dedicate time to study a new subject that intrigues you.",
+        "Seek out conversations with people from different cultures."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Expansive Jupiter in the 3rd house fosters a love for storytelling and teaching.",
+      "full": "Jupiter in the 3rd house blesses you with a natural ability to teach and tell stories that inspire. Your words carry weight and optimism, making you a beloved communicator. This placement encourages you to use your voice to uplift others, whether through writing, speaking, or casual conversations. It's a gift that can bring joy and enlightenment to many.",
+      "tags": [
+        "storytelling",
+        "teaching",
+        "inspiration"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Inspiring communication",
+        "Natural teaching ability",
+        "Joyful storytelling"
+      ],
+      "challenges": [
+        "Over-idealizing messages",
+        "Neglecting practical details"
+      ],
+      "actionable": [
+        "Start a blog or journal to share your stories.",
+        "Volunteer to teach or mentor in your area of expertise."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Jupiter's placement here encourages philosophical discussions and curiosity.",
+      "full": "Having Jupiter in the 3rd house indicates a mind that thrives on philosophical discussions and a deep curiosity about the world. You're drawn to conversations that explore life's bigger questions, and your optimistic outlook makes these discussions uplifting. This placement suggests a path of learning and sharing knowledge that enriches both you and those around you.",
+      "tags": [
+        "philosophy",
+        "curiosity",
+        "optimistic outlook"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep curiosity",
+        "Ability to discuss complex topics optimistically",
+        "Enriching conversations"
+      ],
+      "challenges": [
+        "Getting lost in abstract ideas",
+        "Overlooking simple truths"
+      ],
+      "actionable": [
+        "Join a philosophy or book club to engage in meaningful discussions.",
+        "Write down your thoughts to clarify your ideas."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "This position enhances your ability to learn languages and connect culturally.",
+      "full": "Jupiter in the 3rd house enhances your ability to learn languages and connect with people from different cultures. Your natural optimism and openness make you a great communicator across cultural divides. This placement suggests that your path to growth involves expanding your linguistic skills and embracing the diversity of human expression.",
+      "tags": [
+        "language learning",
+        "cultural connections",
+        "openness"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Ease in learning languages",
+        "Cultural adaptability",
+        "Positive cross-cultural communication"
+      ],
+      "challenges": [
+        "Overestimating understanding",
+        "Spreading yourself too thin"
+      ],
+      "actionable": [
+        "Start learning a new language that interests you.",
+        "Attend cultural events to practice your skills."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Jupiter here brings luck and expansion through writing and short trips.",
+      "full": "With Jupiter in the 3rd house, you may find luck and opportunities through writing, speaking, and short trips. This placement suggests that your communication skills are a source of abundance and that sharing your thoughts can lead to unexpected benefits. Embrace every chance to express yourself and explore your immediate environment, as these activities are aligned with your growth.",
+      "tags": [
+        "writing",
+        "short trips",
+        "communication skills"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Abundance through communication",
+        "Opportunities from local exploration",
+        "Effective self-expression"
+      ],
+      "challenges": [
+        "Overlooking details in excitement",
+        "Scattering energy"
+      ],
+      "actionable": [
+        "Start a writing project that excites you.",
+        "Plan short trips to explore nearby areas."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Your mind is a beacon of optimism and wisdom with Jupiter here.",
+      "full": "Jupiter in the 3rd house illuminates your mind with optimism and a thirst for wisdom. You possess a natural ability to see the bigger picture and share insights that uplift others. This placement encourages you to use your intellectual gifts to foster understanding and joy in your community, making every interaction a chance to spread light.",
+      "tags": [
+        "optimism",
+        "wisdom",
+        "intellectual gifts"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Natural optimism",
+        "Ability to share uplifting insights",
+        "Joyful communication"
+      ],
+      "challenges": [
+        "Ignoring practical concerns",
+        "Overpromising"
+      ],
+      "actionable": [
+        "Share your insights through blogging or public speaking.",
+        "Practice grounding techniques to balance optimism with realism."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_3",
+      "type": "planet_house",
+      "short": "Jupiter in the 3rd house fosters a generous exchange of ideas.",
+      "full": "Jupiter's influence in the 3rd house promotes a generous and expansive exchange of ideas. You're likely to find joy in discussions that broaden perspectives and connect people. This placement suggests that your communication style is inherently uplifting, making you a natural mediator or educator who brings people together through shared understanding and optimism.",
+      "tags": [
+        "generosity",
+        "idea exchange",
+        "uplifting communication"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Generous sharing of knowledge",
+        "Ability to connect diverse groups",
+        "Uplifting interactions"
+      ],
+      "challenges": [
+        "Overextending in discussions",
+        "Diluting your own focus"
+      ],
+      "actionable": [
+        "Organize discussion groups on topics you're passionate about.",
+        "Set boundaries to ensure your own learning isn't neglected."
+      ]
+    }
+  ],
+  "house_4": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "Jupiter in the 4th house emphasizes growth through family and home life.",
+      "full": "With Jupiter in the 4th house, your sense of security and belonging is amplified. This placement encourages expansion through nurturing relationships and creating a harmonious home environment. It's a call to explore your roots and find joy in domestic activities.",
+      "strengths": [
+        "Amplified sense of security",
+        "Joy in domestic activities",
+        "Strong family bonds"
+      ],
+      "challenges": [
+        "Overindulgence in home comforts",
+        "Difficulty setting boundaries"
+      ],
+      "actionable": [
+        "Create a gratitude journal for family blessings.",
+        "Dedicate time weekly to home improvement projects."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "family",
+        "home"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "Jupiter in the 4th house brings optimism to your domestic sphere.",
+      "full": "Jupiter's presence in the 4th house showers your home and family life with optimism and generosity. It's an invitation to expand your living space, both physically and emotionally, fostering a sense of abundance and well-being within your personal sanctuary.",
+      "strengths": [
+        "Generosity in family matters",
+        "Optimistic home environment",
+        "Expansive living space"
+      ],
+      "challenges": [
+        "Tendency to overspend on home",
+        "Avoidance of domestic issues"
+      ],
+      "actionable": [
+        "Organize family gatherings to strengthen bonds.",
+        "Invest in meaningful home decor that inspires growth."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "optimism",
+        "domestic"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "The 4th house Jupiter nurtures through wisdom and tradition.",
+      "full": "Jupiter in the 4th house highlights the importance of wisdom and tradition in creating a nurturing home. This placement encourages you to seek knowledge that enriches your family life and to honor traditions that bring comfort and continuity.",
+      "strengths": [
+        "Wisdom in nurturing",
+        "Honoring traditions",
+        "Comfort in continuity"
+      ],
+      "challenges": [
+        "Resistance to change",
+        "Over-reliance on past"
+      ],
+      "actionable": [
+        "Research your family history to connect with roots.",
+        "Start a family book club to share wisdom."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "tradition",
+        "wisdom"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "Jupiter in the 4th house expands your emotional foundation.",
+      "full": "Having Jupiter in the 4th house means your emotional foundation is broad and generous. This placement fosters a deep connection to your heritage and an expansive approach to creating a secure and loving home environment.",
+      "strengths": [
+        "Broad emotional foundation",
+        "Deep connection to heritage",
+        "Generous home environment"
+      ],
+      "challenges": [
+        "Overextension in caregiving",
+        "Neglect of personal needs"
+      ],
+      "actionable": [
+        "Volunteer for community home projects.",
+        "Practice setting healthy emotional boundaries."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "emotional",
+        "heritage"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "4th house Jupiter encourages a sanctuary of growth.",
+      "full": "Jupiter in the 4th house transforms your home into a sanctuary of growth and learning. This placement invites you to embrace opportunities for personal development within your domestic space, making it a source of inspiration and expansion.",
+      "strengths": [
+        "Sanctuary of growth",
+        "Inspiration at home",
+        "Opportunities for learning"
+      ],
+      "challenges": [
+        "Overcrowding with projects",
+        "Distraction from relaxation"
+      ],
+      "actionable": [
+        "Designate a space for meditation and study.",
+        "Limit home projects to avoid overwhelm."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "growth",
+        "sanctuary"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "Jupiter in the 4th house blesses family with abundance.",
+      "full": "The placement of Jupiter in the 4th house blesses your family life with abundance and good fortune. It's a reminder to appreciate the wealth of love and support within your home and to share this abundance with those around you.",
+      "strengths": [
+        "Abundance in family",
+        "Good fortune at home",
+        "Wealth of love"
+      ],
+      "challenges": [
+        "Taking family for granted",
+        "Mismanagement of resources"
+      ],
+      "actionable": [
+        "Express gratitude for family members daily.",
+        "Plan regular family financial check-ins."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "abundance",
+        "family"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "With Jupiter in the 4th, home is where the heart expands.",
+      "full": "Jupiter in the 4th house signifies that home is where your heart finds room to expand. This placement encourages a generous spirit within the family, promoting understanding, forgiveness, and a shared sense of adventure in domestic life.",
+      "strengths": [
+        "Heart expands at home",
+        "Generous family spirit",
+        "Shared adventures"
+      ],
+      "challenges": [
+        "Overlooking family flaws",
+        "Excessive idealism"
+      ],
+      "actionable": [
+        "Initiate family adventures to explore new horizons.",
+        "Cultivate forgiveness in family dynamics."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "heart",
+        "adventure"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_4",
+      "type": "planet_house",
+      "short": "Jupiter's 4th house placement fosters emotional generosity.",
+      "full": "Jupiter's influence in the 4th house fosters an environment of emotional generosity and warmth. This placement encourages you to open your heart and home to others, creating a space where everyone feels valued and supported.",
+      "strengths": [
+        "Emotional generosity",
+        "Warm home environment",
+        "Valued and supported"
+      ],
+      "challenges": [
+        "Difficulty saying no",
+        "Emotional exhaustion"
+      ],
+      "actionable": [
+        "Schedule regular quiet time to recharge.",
+        "Practice mindful sharing of your space."
+      ],
+      "tags": [
+        "Jupiter",
+        "4th house",
+        "emotional",
+        "generosity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false
+    }
+  ],
+  "house_5": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме приносит радость творчества и любви.",
+      "full": "Юпитер в 5 доме символизирует расширение через творчество, любовь и развлечения. Эта позиция может указывать на щедрость в любви и стремление делиться радостью с другими. Важно находить баланс между желанием веселиться и ответственностью.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "творчество",
+        "любовь"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Щедрость в любви и творчестве",
+        "Способность вдохновлять других",
+        "Радость от жизни"
+      ],
+      "challenges": [
+        "Избыточный оптимизм",
+        "Трудности с установлением границ"
+      ],
+      "actionable": [
+        "Исследуйте новые формы творческого самовыражения",
+        "Практикуйте благодарность за радости жизни"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме усиливает желание учиться через игру.",
+      "full": "С Юпитером в 5 доме обучение и рост часто происходят через игру и творчество. Эта позиция поощряет исследование новых увлечений и может указывать на талант в преподавании или руководстве творческими проектами.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "обучение",
+        "игра"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Естественная способность к обучению через игру",
+        "Талант вдохновлять других на творчество",
+        "Широкий круг интересов"
+      ],
+      "challenges": [
+        "Рассеянность",
+        "Склонность к излишнему риску"
+      ],
+      "actionable": [
+        "Попробуйте новое хобби для расширения кругозора",
+        "Делитесь своими знаниями с другими"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме способствует удаче в творческих начинаниях.",
+      "full": "Юпитер в 5 доме может приносить удачу в творческих и любовных делах, подчеркивая важность веры в себя и свои проекты. Эта позиция также напоминает о ценности игривости и спонтанности в жизни.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "удача",
+        "творчество"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Удача в творчестве и любви",
+        "Способность видеть возможности",
+        "Оптимизм"
+      ],
+      "challenges": [
+        "Переоценка своих возможностей",
+        "Недостаток дисциплины"
+      ],
+      "actionable": [
+        "Верьте в свои творческие способности",
+        "Находите время для игр и отдыха"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме раскрывает потенциал через самовыражение.",
+      "full": "Юпитер в 5 доме подчеркивает важность самовыражения и радости в процессе творчества. Эта позиция может указывать на способность находить вдохновение в повседневности и делиться им с окружающими.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "самовыражение",
+        "радость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Богатое воображение",
+        "Способность вдохновлять",
+        "Любовь к жизни"
+      ],
+      "challenges": [
+        "Склонность к излишествам",
+        "Трудности с фокусировкой"
+      ],
+      "actionable": [
+        "Экспериментируйте с разными формами искусства",
+        "Наслаждайтесь процессом, а не только результатом"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме наполняет жизнь приключениями и новыми открытиями.",
+      "full": "Юпитер в 5 доме способствует стремлению к приключениям и новым открытиям, особенно в сфере творчества и личных отношений. Эта позиция напоминает о важности сохранять открытость новому и делиться своими находками с миром.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "приключения",
+        "открытия"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Любознательность",
+        "Смелость в творчестве",
+        "Умение радоваться мелочам"
+      ],
+      "challenges": [
+        "Непостоянство",
+        "Склонность к авантюрам"
+      ],
+      "actionable": [
+        "Отправьтесь в путешествие, даже если оно маленькое",
+        "Попробуйте что-то совершенно новое для вас"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме обогащает жизнь через искусство и любовь.",
+      "full": "Юпитер в 5 доме подчеркивает значение искусства и любви как источников роста и удовлетворения. Эта позиция может указывать на талант к созданию красоты и гармонии, а также на щедрость в эмоциональных проявлениях.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "искусство",
+        "любовь"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое понимание искусства",
+        "Щедрость в любви",
+        "Способность видеть красоту"
+      ],
+      "challenges": [
+        "Идеализация отношений",
+        "Трудности с реализацией проектов"
+      ],
+      "actionable": [
+        "Посетите художественную выставку или концерт",
+        "Выразите свои чувства через творчество"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме вдохновляет на великодушие и щедрость души.",
+      "full": "Юпитер в 5 доме способствует проявлению великодушия и щедрости, особенно в творчестве и отношениях. Эта позиция напоминает о важности делиться своими дарами с миром и находить радость в отдаче.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "великодушие",
+        "щедрость"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Щедрость души",
+        "Способность вдохновлять",
+        "Глубокие эмоциональные связи"
+      ],
+      "challenges": [
+        "Склонность к жертвенности",
+        "Трудности с принятием"
+      ],
+      "actionable": [
+        "Поделитесь своим творчеством с близкими",
+        "Практикуйте благодарность за возможность дарить"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_5",
+      "type": "planet_house",
+      "short": "Юпитер в 5 доме раскрывает радость преподавания и наставничества.",
+      "full": "Юпитер в 5 доме может указывать на радость и успех в преподавании, наставничестве или любых видах деятельности, связанных с передачей знаний и вдохновением. Эта позиция подчеркивает важность делиться мудростью и опытом.",
+      "tags": [
+        "Юпитер",
+        "5 дом",
+        "преподавание",
+        "наставничество"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Талант к преподаванию",
+        "Способность мотивировать",
+        "Глубокие знания"
+      ],
+      "challenges": [
+        "Склонность к поучениям",
+        "Трудности с адаптацией методов"
+      ],
+      "actionable": [
+        "Найдите возможность поделиться своими знаниями",
+        "Будьте открыты к обучению у других"
+      ]
+    }
+  ],
+  "house_6": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме усиливает желание помогать другим и находить смысл в повседневной работе.",
+      "full": "Юпитер в 6 доме символизирует расширение возможностей через служение и заботу о здоровье. Это положение может указывать на то, что человек находит радость и удовлетворение в помощи другим, а также стремится к улучшению условий труда. Важно находить баланс между желанием отдавать и заботой о себе.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "служение",
+        "здоровье"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Желание помогать другим",
+        "Стремление к улучшению условий труда",
+        "Нахождение смысла в повседневных делах"
+      ],
+      "challenges": [
+        "Склонность к переутомлению",
+        "Трудности в установлении границ"
+      ],
+      "actionable": [
+        "Уделяйте время своему здоровью",
+        "Находите радость в маленьких ежедневных достижениях"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме способствует оптимизму и вере в улучшение рабочих процессов.",
+      "full": "С Юпитером в 6 доме человек часто видит возможности для роста и улучшения в своей профессиональной сфере. Это положение поощряет оптимистичный взгляд на рутинные задачи и веру в то, что даже небольшие изменения могут привести к значительным улучшениям. Важно не упускать из виду детали в погоне за масштабными целями.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "работа",
+        "оптимизм"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Оптимизм в профессиональной сфере",
+        "Вера в улучшение рабочих процессов",
+        "Способность видеть возможности для роста"
+      ],
+      "challenges": [
+        "Пренебрежение деталями",
+        "Склонность к переоценке своих возможностей"
+      ],
+      "actionable": [
+        "Ставьте реалистичные цели",
+        "Уделяйте внимание деталям в рабочих процессах"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме подчёркивает важность гармонии между работой и здоровьем.",
+      "full": "Наличие Юпитера в 6 доме может указывать на то, что человек стремится к гармонии между профессиональной деятельностью и физическим благополучием. Это положение поощряет поиск работы, которая не только приносит удовлетворение, но и поддерживает здоровый образ жизни. Важно помнить, что забота о себе — это основа продуктивности.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "гармония",
+        "здоровый образ жизни"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Стремление к гармонии между работой и здоровьем",
+        "Поиск удовлетворения в профессиональной деятельности",
+        "Поддержание здорового образа жизни"
+      ],
+      "challenges": [
+        "Трудности в нахождении баланса",
+        "Склонность к пренебрежению отдыхом"
+      ],
+      "actionable": [
+        "Ищите работу, которая поддерживает ваш здоровый образ жизни",
+        "Не забывайте выделять время для отдыха"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме раскрывает потенциал через служение и заботу о коллективе.",
+      "full": "Юпитер в 6 доме часто проявляется через желание вносить вклад в благополучие коллектива и улучшать условия труда для всех. Это положение может указывать на лидерские качества, направленные на поддержку и вдохновение других. Важно не забывать о своих собственных потребностях, стремясь к всеобщему благу.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "служение",
+        "коллектив"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Желание улучшать условия труда для коллектива",
+        "Лидерские качества, направленные на поддержку",
+        "Способность вдохновлять других"
+      ],
+      "challenges": [
+        "Пренебрежение собственными потребностями",
+        "Трудности в установлении личных границ"
+      ],
+      "actionable": [
+        "Уделяйте внимание своим потребностям",
+        "Находите баланс между заботой о других и о себе"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме способствует поиску смысла через повседневные обязанности.",
+      "full": "С Юпитером в 6 доме человек может находить глубокий смысл и удовлетворение в выполнении повседневных обязанностей. Это положение поощряет взгляд на рутинные задачи как на возможность для личного роста и развития. Важно ценить каждый момент и находить радость в процессе, а не только в результате.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "повседневные обязанности",
+        "смысл"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Нахождение смысла в повседневных задачах",
+        "Удовлетворение от выполнения обязанностей",
+        "Взгляд на рутину как на возможность роста"
+      ],
+      "challenges": [
+        "Трудности в видении ценности мелких задач",
+        "Склонность к недооценке своих ежедневных достижений"
+      ],
+      "actionable": [
+        "Цените процесс выполнения задач",
+        "Находите радость в мелких ежедневных достижениях"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме усиливает желание к самосовершенствованию через работу.",
+      "full": "Юпитер в 6 доме может указывать на стремление человека к самосовершенствованию через профессиональную деятельность и заботу о здоровье. Это положение поощряет постоянное обучение и улучшение навыков, а также поиск работы, которая способствует личному росту. Важно не забывать о балансе между стремлением к совершенству и принятием себя.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "самосовершенствование",
+        "работа"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Стремление к самосовершенствованию",
+        "Желание улучшать профессиональные навыки",
+        "Поиск работы, способствующей личному росту"
+      ],
+      "challenges": [
+        "Склонность к перфекционизму",
+        "Трудности в принятии своих ограничений"
+      ],
+      "actionable": [
+        "Балансируйте между стремлением к совершенству и самопринятием",
+        "Выбирайте работу, которая способствует вашему росту"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме раскрывает щедрость в помощи коллегам и улучшении рабочих условий.",
+      "full": "Наличие Юпитера в 6 доме часто проявляется через щедрость и желание помогать коллегам, а также улучшать условия труда. Это положение может указывать на способность видеть большие возможности в повседневных рабочих процессах и вдохновлять других на позитивные изменения. Важно не забывать о своих собственных границах и потребностях.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "щедрость",
+        "рабочие условия"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Щедрость в помощи коллегам",
+        "Желание улучшать рабочие условия",
+        "Способность вдохновлять других на изменения"
+      ],
+      "challenges": [
+        "Трудности в установлении личных границ",
+        "Склонность к переутомлению"
+      ],
+      "actionable": [
+        "Помогайте другим, но не забывайте о своих границах",
+        "Уделяйте внимание своему благополучию"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_6",
+      "type": "planet_house",
+      "short": "Юпитер в 6 доме способствует расширению возможностей через дисциплину и заботу о здоровье.",
+      "full": "Юпитер в 6 доме подчёркивает важность дисциплины и заботы о здоровье как основы для расширения возможностей. Это положение поощряет систематический подход к работе и повседневным обязанностям, видя в них путь к личному росту. Важно находить радость в процессе и не терять из виду свои долгосрочные цели.",
+      "tags": [
+        "Юпитер",
+        "6 дом",
+        "дисциплина",
+        "здоровье"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
+      "strengths": [
+        "Важность дисциплины для расширения возможностей",
+        "Систематический подход к работе",
+        "Забота о здоровье как основа продуктивности"
+      ],
+      "challenges": [
+        "Трудности в поддержании дисциплины",
+        "Склонность к пренебрежению отдыхом"
+      ],
+      "actionable": [
+        "Развивайте дисциплину в повседневных делах",
+        "Не забывайте заботиться о своём здоровье"
+      ]
+    }
+  ],
+  "house_7": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Jupiter in the 7th house emphasizes growth through partnerships.",
+      "full": "With Jupiter in the 7th house, your approach to relationships is optimistic and expansive. You seek partners who inspire growth and share your vision for the future. This placement encourages learning through others, highlighting the importance of mutual respect and shared beliefs in partnerships.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "relationships",
+        "growth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Encourages expansive and optimistic views on relationships",
+        "Promotes growth and learning through partnerships",
+        "Enhances mutual respect and shared visions"
+      ],
+      "challenges": [
+        "May overlook practical details in relationships",
+        "Potential for over-idealizing partners"
+      ],
+      "actionable": [
+        "Reflect on what growth means to you in relationships.",
+        "Seek partners who challenge and inspire you."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Jupiter in the 7th house brings luck in legal and marital matters.",
+      "full": "Jupiter's presence in the 7th house often signifies luck and expansion in legal partnerships and marriage. You may find that your relationships bring opportunities for personal growth and learning. This placement suggests a natural ability to attract beneficial alliances.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "luck",
+        "marriage",
+        "legal"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Brings luck and expansion in partnerships",
+        "Attracts beneficial alliances",
+        "Encourages personal growth through relationships"
+      ],
+      "challenges": [
+        "May rely too much on luck in partnerships",
+        "Could neglect the effort relationships require"
+      ],
+      "actionable": [
+        "Acknowledge the work behind successful relationships.",
+        "Be open to learning from every partnership."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Jupiter here expands your understanding through close relationships.",
+      "full": "Having Jupiter in the 7th house expands your worldview through intimate and business relationships. You're likely to encounter partners who broaden your horizons and introduce new philosophies. This placement fosters a generous spirit in partnerships.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "worldview",
+        "partnerships"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Expands worldview through relationships",
+        "Encourages generosity in partnerships",
+        "Introduces new philosophies and ideas"
+      ],
+      "challenges": [
+        "Risk of overextending yourself for others",
+        "May ignore red flags in pursuit of growth"
+      ],
+      "actionable": [
+        "Set healthy boundaries in relationships.",
+        "Embrace differences as opportunities for growth."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Jupiter in the 7th house highlights the joy of shared adventures.",
+      "full": "Jupiter in the 7th house suggests that shared adventures and philosophical explorations bring joy to your relationships. You thrive in partnerships that allow for freedom and exploration, making every connection a journey of discovery.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "adventure",
+        "joy",
+        "exploration"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Finds joy in shared adventures",
+        "Thrives in exploratory partnerships",
+        "Values freedom in relationships"
+      ],
+      "challenges": [
+        "May avoid deep emotional commitments",
+        "Could prioritize novelty over stability"
+      ],
+      "actionable": [
+        "Explore what stability means to you in relationships.",
+        "Balance adventure with emotional depth."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "This placement encourages generosity in all partnerships.",
+      "full": "With Jupiter in the 7th house, your natural inclination is towards generosity and fairness in partnerships. You believe in the power of giving and receiving equally, creating balanced and harmonious relationships that benefit all involved.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "generosity",
+        "fairness",
+        "harmony"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Promotes generosity and fairness",
+        "Creates balanced relationships",
+        "Encourages harmonious interactions"
+      ],
+      "challenges": [
+        "May give more than you receive",
+        "Potential for being taken advantage of"
+      ],
+      "actionable": [
+        "Practice discernment in your generosity.",
+        "Ensure your needs are also met in partnerships."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Jupiter here fosters a love for cultural exchange in relationships.",
+      "full": "Jupiter in the 7th house often indicates a love for cultural exchange and learning through relationships. You're drawn to partners from different backgrounds, seeing every connection as an opportunity to expand your cultural understanding.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "cultural exchange",
+        "learning",
+        "diversity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Enhances cultural understanding through relationships",
+        "Values diversity in partnerships",
+        "Sees every connection as a learning opportunity"
+      ],
+      "challenges": [
+        "May romanticize cultural differences",
+        "Could overlook fundamental compatibility issues"
+      ],
+      "actionable": [
+        "Celebrate differences while seeking common ground.",
+        "Be mindful of the balance between learning and compatibility."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Optimism and faith in partnerships define this placement.",
+      "full": "Jupiter in the 7th house blesses you with optimism and faith in your partnerships. You naturally see the best in others, fostering relationships built on trust and mutual growth. This placement encourages a hopeful outlook on all forms of alliances.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "optimism",
+        "faith",
+        "trust"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Brings optimism to partnerships",
+        "Fosters trust and mutual growth",
+        "Encourages a hopeful outlook on relationships"
+      ],
+      "challenges": [
+        "May ignore practical relationship challenges",
+        "Potential for disappointment if expectations are too high"
+      ],
+      "actionable": [
+        "Maintain optimism while staying grounded.",
+        "Communicate your expectations clearly in relationships."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_7",
+      "type": "planet_house",
+      "short": "Expansive Jupiter in the 7th house seeks meaningful connections.",
+      "full": "Jupiter's expansive energy in the 7th house drives you to seek deep, meaningful connections. You value relationships that offer both personal and spiritual growth, often attracting partners who share your quest for understanding and expansion.",
+      "tags": [
+        "jupiter",
+        "7th house",
+        "meaningful connections",
+        "spiritual growth",
+        "expansion"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Seeks deep and meaningful relationships",
+        "Values spiritual and personal growth",
+        "Attracts like-minded partners"
+      ],
+      "challenges": [
+        "May overlook the value of lighter connections",
+        "Could become too focused on growth over enjoyment"
+      ],
+      "actionable": [
+        "Appreciate relationships at all levels of depth.",
+        "Balance growth with the joy of simply being together."
+      ]
+    }
+  ],
+  "house_8": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "Юпитер в 8 доме усиливает глубину трансформации и финансовую интуицию.",
+      "full": "Юпитер в 8 доме символизирует расширение через глубокие трансформации и исследование тайн жизни. Эта позиция может указывать на сильную интуицию в финансовых вопросах и способность находить ресурсы в сложных ситуациях. Важно осознавать границы, чтобы не перегружать себя чужими проблемами.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "трансформация",
+        "финансы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая интуиция",
+        "Способность к трансформации",
+        "Финансовая проницательность"
+      ],
+      "challenges": [
+        "Склонность к риску",
+        "Перегрузка чужими проблемами"
+      ],
+      "actionable": [
+        "Практикуйте медитацию для усиления интуиции.",
+        "Учитесь устанавливать здоровые границы."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "В 8 доме Юпитер способствует мудрости в кризисах и щедрости в совместных ресурсах.",
+      "full": "Нахождение Юпитера в 8 доме может говорить о мудрости, проявляющейся в кризисных ситуациях, и щедрости в вопросах совместных ресурсов. Эта позиция побуждает к исследованию психологических глубинных процессов и поиску смысла в трансформациях. Однако, важно избегать излишнего оптимизма в рискованных предприятиях.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "кризисы",
+        "ресурсы"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Мудрость в кризисах",
+        "Щедрость",
+        "Глубина понимания"
+      ],
+      "challenges": [
+        "Излишний оптимизм",
+        "Рискованные предприятия"
+      ],
+      "actionable": [
+        "Развивайте осознанность в финансовых решениях.",
+        "Изучайте психологию для лучшего понимания трансформаций."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "Юпитер в 8 доме раскрывает потенциал роста через совместные ресурсы и наследство.",
+      "full": "Юпитер в 8 доме часто указывает на потенциал роста через совместные ресурсы, наследство или инвестиции. Эта позиция может принести удачу в финансовых делах, особенно связанных с другими людьми. Однако, важно помнить о необходимости делиться и избегать жадности.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "ресурсы",
+        "наследство"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Удача в финансах",
+        "Потенциал роста",
+        "Щедрость"
+      ],
+      "challenges": [
+        "Риск жадности",
+        "Зависимость от чужих ресурсов"
+      ],
+      "actionable": [
+        "Практикуйте благотворительность.",
+        "Учитесь финансовой грамотности."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "8 дом с Юпитером подчёркивает важность духовного роста через преодоление страхов.",
+      "full": "Когда Юпитер находится в 8 доме, это может указывать на духовный рост, достигаемый через преодоление страхов и глубокие внутренние трансформации. Эта позиция способствует расширению сознания и пониманию циклов жизни и смерти. Важно не увлекаться экстремальными методами самопознания.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "духовный рост",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Духовный рост",
+        "Расширение сознания",
+        "Глубина понимания"
+      ],
+      "challenges": [
+        "Экстремальные методы самопознания",
+        "Страхи"
+      ],
+      "actionable": [
+        "Практикуйте йогу или медитацию.",
+        "Изучайте философию для лучшего понимания жизни."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "Юпитер в 8 доме способствует глубоким исследованиям и открытиям в психологии.",
+      "full": "Юпитер в 8 доме может проявляться как интерес к глубоким исследованиям, особенно в области психологии и тайн жизни. Эта позиция способствует открытиям и новым пониманиям в этих сферах. Однако, важно сохранять баланс между исследованиями и повседневной жизнью.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "исследования",
+        "психология"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Интерес к исследованиям",
+        "Глубина понимания",
+        "Открытия"
+      ],
+      "challenges": [
+        "Дисбаланс с повседневной жизнью",
+        "Излишняя погружённость в тайны"
+      ],
+      "actionable": [
+        "Читайте книги по психологии.",
+        "Находите время для отдыха и развлечений."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "В 8 доме Юпитер усиливает интуицию и способность к трансформации.",
+      "full": "Юпитер в 8 доме усиливает интуицию и способность к глубокой трансформации. Эта позиция может помочь в понимании скрытых аспектов жизни и использовании их для личного роста. Важно не переоценивать свои силы в рискованных ситуациях.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "интуиция",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Сильная интуиция",
+        "Способность к трансформации",
+        "Глубина понимания"
+      ],
+      "challenges": [
+        "Переоценка своих сил",
+        "Рискованные ситуации"
+      ],
+      "actionable": [
+        "Развивайте интуицию через практики.",
+        "Избегайте неоправданных рисков."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "Юпитер в 8 доме раскрывает таланты в кризис-менеджменте и психологической поддержке.",
+      "full": "Наличие Юпитера в 8 доме может указывать на таланты в области кризис-менеджмента и оказания психологической поддержки. Эта позиция способствует глубокому пониманию человеческой природы и способности помогать другим в трудные моменты. Однако, важно не принимать на себя слишком много ответственности за чужие проблемы.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "кризис-менеджмент",
+        "поддержка"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Талант в кризис-менеджменте",
+        "Глубокое понимание",
+        "Способность помогать"
+      ],
+      "challenges": [
+        "Излишняя ответственность",
+        "Эмоциональное выгорание"
+      ],
+      "actionable": [
+        "Учитесь делегировать задачи.",
+        "Практикуйте заботу о себе."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_8",
+      "type": "planet_house",
+      "short": "8 дом с Юпитером способствует мудрости в вопросах жизни, смерти и возрождения.",
+      "full": "Юпитер в 8 доме приносит мудрость в понимании циклов жизни, смерти и возрождения. Эта позиция может помочь в принятии трансформаций и нахождении смысла в них. Важно избегать фатализма и помнить о возможности роста через изменения.",
+      "tags": [
+        "Юпитер",
+        "8 дом",
+        "мудрость",
+        "трансформация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Мудрость",
+        "Принятие трансформаций",
+        "Поиск смысла"
+      ],
+      "challenges": [
+        "Фатализм",
+        "Сопротивление изменениям"
+      ],
+      "actionable": [
+        "Изучайте философию и религию.",
+        "Практикуйте принятие и гибкость."
+      ]
+    }
+  ],
+  "house_9": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме расширяет горизонты через философию и путешествия.",
+      "full": "Юпитер в 9 доме символизирует стремление к мудрости и пониманию через изучение культур, религий и философий. Это положение поощряет путешествия, как физические, так и интеллектуальные, открывая новые перспективы. Люди с такой позицией часто находят радость в преподавании и обмене знаниями.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "философия",
+        "путешествия"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Открытость к новым идеям",
+        "Способность к синтезу знаний",
+        "Щедрость в обмене информацией"
+      ],
+      "challenges": [
+        "Склонность к идеализации",
+        "Разбросанность интересов"
+      ],
+      "actionable": [
+        "Изучайте новые культуры через книги и путешествия.",
+        "Делитесь своими знаниями с другими."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме вдохновляет на поиск высшего смысла и истины.",
+      "full": "С Юпитером в 9 доме человек ощущает глубокую связь с вопросами смысла жизни и вселенской истины. Это положение способствует развитию оптимизма и веры в лучшее, а также желанию делиться своими убеждениями. Такие люди часто становятся мостом между разными культурами и мировоззрениями.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "смысл жизни",
+        "оптимизм"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокая вера в добро",
+        "Способность вдохновлять",
+        "Широта взглядов"
+      ],
+      "challenges": [
+        "Догматизм",
+        "Переоценка своих убеждений"
+      ],
+      "actionable": [
+        "Исследуйте различные философские системы.",
+        "Практикуйте открытость к мнениям других."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме способствует духовному и интеллектуальному росту.",
+      "full": "Наличие Юпитера в 9 доме указывает на путь постоянного духовного и интеллектуального расширения. Люди с таким положением обладают естественной склонностью к обучению и преподаванию, часто находя себя в роли наставников. Их жизнь наполнена поисками истины и желанием понять законы мироздания.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "духовность",
+        "обучение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Любовь к учению",
+        "Способность видеть общую картину",
+        "Духовная щедрость"
+      ],
+      "challenges": [
+        "Трудности с концентрацией",
+        "Идеализация учителей"
+      ],
+      "actionable": [
+        "Уделяйте время медитации и размышлениям.",
+        "Ищите мудрость в разных источниках."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме раскрывает мир через призму веры и образования.",
+      "full": "Юпитер в 9 доме подчеркивает важность веры, образования и культурного обмена в жизни человека. Это положение дарует любовь к приключениям и новым знаниям, а также способность видеть красоту в разнообразии мировых культур. Люди с таким Юпитером часто становятся проводниками между разными традициями.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "вера",
+        "образование"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Толерантность",
+        "Жажда знаний",
+        "Умение вдохновлять"
+      ],
+      "challenges": [
+        "Склонность к преувеличениям",
+        "Недооценка деталей"
+      ],
+      "actionable": [
+        "Путешествуйте, чтобы расширить кругозор.",
+        "Читайте книги по разным религиям и философиям."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме ведёт к поиску универсальных истин через обучение.",
+      "full": "Юпитер в 9 доме символизирует путешествие души в поисках универсальных истин и знаний. Люди с таким положением обладают врождённой способностью к абстрактному мышлению и часто увлекаются высшим образованием или духовными практиками. Их путь — это путь учителя и вечного ученика одновременно.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "универсальные истины",
+        "абстрактное мышление"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Глубокое понимание",
+        "Способность к абстракции",
+        "Открытость к новому"
+      ],
+      "challenges": [
+        "Отрыв от реальности",
+        "Сложности в практическом применении знаний"
+      ],
+      "actionable": [
+        "Занимайтесь изучением философии.",
+        "Практикуйте применение знаний в жизни."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме обогащает жизнь через культурные и духовные открытия.",
+      "full": "Юпитер в 9 доме приносит в жизнь богатство культурных и духовных открытий. Это положение способствует развитию широкого кругозора и понимания различных жизненных путей. Люди с таким Юпитером часто испытывают радость от обучения и делятся своими открытиями, вдохновляя окружающих.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "культурные открытия",
+        "духовность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Культурная восприимчивость",
+        "Радость от обучения",
+        "Способность вдохновлять"
+      ],
+      "challenges": [
+        "Перегруз информацией",
+        "Трудности в выборе пути"
+      ],
+      "actionable": [
+        "Посещайте лекции и семинары по интересующим темам.",
+        "Делитесь своими знаниями в блоге или соцсетях."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме раскрывает потенциал через изучение языков и культур.",
+      "full": "Юпитер в 9 доме активизирует интерес к изучению языков, культур и традиций разных народов. Это положение дарует легкость в усвоении новых знаний и способность находить общий язык с представителями различных культур. Люди с таким Юпитером часто становятся полиглотами или культурологами.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "языки",
+        "культуры"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Лингвистические способности",
+        "Культурная адаптивность",
+        "Любознательность"
+      ],
+      "challenges": [
+        "Поверхностность знаний",
+        "Трудности с углублением"
+      ],
+      "actionable": [
+        "Начните изучать новый язык.",
+        "Путешествуйте с целью культурного обмена."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_9",
+      "type": "planet_house",
+      "short": "Юпитер в 9 доме способствует расширению границ через высшее образование.",
+      "full": "Юпитер в 9 доме подчеркивает ценность высшего образования и самообразования как способа расширения личных границ. Люди с таким положением обладают жаждой знаний и стремлением к самосовершенствованию. Их путь часто связан с академической средой или самостоятельными исследованиями.",
+      "tags": [
+        "Юпитер",
+        "9 дом",
+        "высшее образование",
+        "самосовершенствование"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Академические успехи",
+        "Стремление к развитию",
+        "Умение мотивировать"
+      ],
+      "challenges": [
+        "Перфекционизм",
+        "Страх несоответствия"
+      ],
+      "actionable": [
+        "Поставьте цель получить новую степень или сертификат.",
+        "Участвуйте в образовательных проектах."
+      ]
+    }
+  ],
+  "house_10": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме символизирует рост через карьеру и общественное признание.",
+      "full": "Юпитер в 10 доме указывает на потенциал для значительного роста в профессиональной сфере. Эта позиция может принести успех и признание, особенно если вы готовы делиться своими знаниями и опытом. Важно использовать возможности для расширения своих горизонтов и не бояться брать на себя ответственность.",
+      "tags": [
+        "карьера",
+        "успех",
+        "признание"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Потенциал для карьерного роста",
+        "Способность вдохновлять других",
+        "Широкие возможности для профессионального развития"
+      ],
+      "challenges": [
+        "Склонность к переоценке своих возможностей",
+        "Риск разбрасываться ресурсами"
+      ],
+      "actionable": [
+        "Ищите наставников или менторов, которые могут помочь вам расти.",
+        "Фокусируйтесь на долгосрочных целях, а не на сиюминутных выгодах."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме способствует карьерному росту через оптимизм и щедрость.",
+      "full": "Наличие Юпитера в 10 доме может указывать на то, что ваш путь к профессиональному успеху лежит через оптимизм и щедрость. Эта позиция поощряет вас искать карьеру, которая не только приносит материальное благополучие, но и позволяет вам вносить вклад в общество. Важно оставаться открытым для новых возможностей и учиться на каждом опыте.",
+      "tags": [
+        "оптимизм",
+        "щедрость",
+        "профессиональный рост"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность видеть большие перспективы",
+        "Умение мотивировать себя и других",
+        "Гибкость в профессиональной сфере"
+      ],
+      "challenges": [
+        "Трудности с концентрацией на деталях",
+        "Склонность к излишнему риску"
+      ],
+      "actionable": [
+        "Развивайте навыки планирования для баланса между риском и стабильностью.",
+        "Ищите профессии, которые позволяют вам делиться своими ценностями."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме подчеркивает важность этики и морали в карьере.",
+      "full": "Юпитер в 10 доме может указывать на то, что ваша профессиональная жизнь будет особенно успешной, если вы будете придерживаться высоких этических стандартов. Эта позиция поощряет вас искать карьеру, которая не только приносит удовлетворение, но и соответствует вашим глубинным ценностям. Важно помнить, что истинный успех приходит через честность и справедливость.",
+      "tags": [
+        "этика",
+        "мораль",
+        "профессиональный успех"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Сильное чувство справедливости",
+        "Способность вдохновлять доверие",
+        "Умение видеть долгосрочные перспективы"
+      ],
+      "challenges": [
+        "Склонность к идеализации",
+        "Трудности в принятии компромиссов"
+      ],
+      "actionable": [
+        "Ищите профессии, которые позволяют вам действовать в соответствии с вашими ценностями.",
+        "Учитесь находить баланс между идеалами и реальностью."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме способствует лидерству и влиянию в профессиональной сфере.",
+      "full": "Юпитер в 10 доме может указывать на врожденную способность к лидерству и желание оказывать влияние в профессиональной сфере. Эта позиция поощряет вас брать на себя руководящие роли и использовать свои знания для помощи другим. Важно развивать уверенность в себе и учиться эффективно коммуницировать свои идеи.",
+      "tags": [
+        "лидерство",
+        "влияние",
+        "профессиональное развитие"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Природные лидерские качества",
+        "Способность вдохновлять других",
+        "Широкий кругозор"
+      ],
+      "challenges": [
+        "Склонность к доминированию",
+        "Трудности в признании ошибок"
+      ],
+      "actionable": [
+        "Развивайте навыки активного слушания для лучшего понимания команды.",
+        "Ищите возможности для наставничества."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме подчеркивает значение образования и знаний в карьере.",
+      "full": "Юпитер в 10 доме может указывать на то, что ваша профессиональная успешность тесно связана с вашим желанием учиться и делиться знаниями. Эта позиция поощряет вас искать карьеру в образовании, консалтинге или других областях, где ценится экспертность. Важно постоянно расширять свои горизонты и быть открытым для новых идей.",
+      "tags": [
+        "образование",
+        "знания",
+        "профессиональная успешность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Жажда знаний",
+        "Способность ясно выражать мысли",
+        "Умение видеть общую картину"
+      ],
+      "challenges": [
+        "Склонность к теоретизированию",
+        "Трудности в применении знаний на практике"
+      ],
+      "actionable": [
+        "Ищите профессии, которые позволяют вам учиться и преподавать.",
+        "Практикуйтесь в применении своих знаний в реальных ситуациях."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме способствует успеху через международные связи.",
+      "full": "Юпитер в 10 доме может указывать на то, что ваш профессиональный успех может быть связан с международными связями или работой в мультикультурной среде. Эта позиция поощряет вас расширять свои горизонты и искать возможности за пределами привычной среды. Важно быть открытым к новым культурам и перспективам.",
+      "tags": [
+        "международные связи",
+        "мультикультурность",
+        "профессиональный успех"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Открытость к новым культурам",
+        "Способность адаптироваться",
+        "Широкий кругозор"
+      ],
+      "challenges": [
+        "Трудности с концентрацией на локальных задачах",
+        "Склонность к идеализации других культур"
+      ],
+      "actionable": [
+        "Изучайте иностранные языки для расширения возможностей.",
+        "Ищите профессии, которые позволяют вам работать в международной среде."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме подчеркивает важность баланса между работой и личной жизнью.",
+      "full": "Юпитер в 10 доме может указывать на то, что ваш профессиональный успех зависит от вашей способности находить баланс между работой и личной жизнью. Эта позиция поощряет вас искать карьеру, которая приносит не только материальное благополучие, но и личное удовлетворение. Важно помнить, что истинный успех включает в себя счастье и гармонию во всех сферах жизни.",
+      "tags": [
+        "баланс",
+        "удовлетворение",
+        "профессиональный успех"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Способность видеть общую картину",
+        "Умение находить гармонию",
+        "Гибкость в профессиональной сфере"
+      ],
+      "challenges": [
+        "Склонность к прокрастинации",
+        "Трудности в установлении границ"
+      ],
+      "actionable": [
+        "Учитесь устанавливать четкие границы между работой и личной жизнью.",
+        "Ищите профессии, которые приносят вам радость и удовлетворение."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_10",
+      "type": "planet_house",
+      "short": "Юпитер в 10 доме способствует успеху через инновации и творчество.",
+      "full": "Юпитер в 10 доме может указывать на то, что ваш профессиональный успех может быть связан с инновациями и творческим подходом. Эта позиция поощряет вас искать нестандартные решения и не бояться экспериментировать. Важно развивать свою креативность и быть открытым к новым идеям.",
+      "tags": [
+        "инновации",
+        "творчество",
+        "профессиональный успех"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Креативность",
+        "Способность видеть новые возможности",
+        "Гибкость мышления"
+      ],
+      "challenges": [
+        "Склонность к непостоянству",
+        "Трудности в завершении проектов"
+      ],
+      "actionable": [
+        "Развивайте навыки управления проектами для реализации своих идей.",
+        "Ищите профессии, которые позволяют вам выражать свою креативность."
+      ]
+    }
+  ],
+  "house_11": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "Юпитер в 11 доме расширяет круг друзей и социальные возможности.",
+      "full": "Юпитер в 11 доме символизирует рост через социальные связи и коллективные проекты. Эта позиция может указывать на щедрость в дружбе и стремление к общественному признанию. Важно балансировать между личными целями и групповыми интересами.",
+      "strengths": [
+        "Щедрость",
+        "Социальная активность",
+        "Оптимизм"
+      ],
+      "challenges": [
+        "Рассеянность",
+        "Чрезмерный идеализм"
+      ],
+      "actionable": [
+        "Участвуйте в групповых мероприятиях.",
+        "Развивайте терпимость к разным точкам зрения."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "дружба",
+        "социальные сети"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "С Юпитером в 11 доме вы находите поддержку в друзьях и сообществах.",
+      "full": "Наличие Юпитера в 11 доме подчеркивает важность дружеских отношений и социальных групп в вашей жизни. Это положение способствует расширению кругозора через общение и совместные проекты. Однако, важно не терять индивидуальность в коллективе.",
+      "strengths": [
+        "Поддержка друзей",
+        "Широкий круг общения",
+        "Гуманитарные интересы"
+      ],
+      "challenges": [
+        "Зависимость от мнения группы",
+        "Разочарования в идеалах"
+      ],
+      "actionable": [
+        "Ищите вдохновение в коллективной работе.",
+        "Учитесь находить баланс между личным и общественным."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "социальные связи",
+        "гуманизм"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "Юпитер в 11 доме способствует реализации через общественные инициативы.",
+      "full": "Юпитер в 11 доме акцентирует роль коллективного разума и дружеской поддержки в достижении целей. Эта позиция может принести успех в социальных проектах и благотворительности. Важно помнить о здоровых границах в общении.",
+      "strengths": [
+        "Общественное признание",
+        "Альтруизм",
+        "Лидерство в группах"
+      ],
+      "challenges": [
+        "Переоценка возможностей других",
+        "Трудности в одиночестве"
+      ],
+      "actionable": [
+        "Вовлекайтесь в социально значимые проекты.",
+        "Развивайте самостоятельность."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "общественная деятельность",
+        "альтруизм"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "С Юпитером в 11 доме ваша жизнь обогащается через дружбу и сотрудничество.",
+      "full": "Юпитер в 11 доме раскрывает потенциал роста через взаимодействие с друзьями и единомышленниками. Это положение благоприятствует участию в клубах и ассоциациях, где можно делиться идеями. Однако, важно не забывать о личных границах.",
+      "strengths": [
+        "Расширение социального круга",
+        "Вдохновение от общения",
+        "Сотрудничество"
+      ],
+      "challenges": [
+        "Идеализация отношений",
+        "Потеря себя в группе"
+      ],
+      "actionable": [
+        "Активно участвуйте в жизни сообществ.",
+        "Уделяйте внимание личным потребностям."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "сотрудничество",
+        "дружба"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "Юпитер в 11 доме открывает двери к новым дружеским и профессиональным связям.",
+      "full": "Положение Юпитера в 11 доме способствует установлению полезных контактов и участию в инновационных проектах. Это время для расширения горизонтов через общение и обучение. Однако, важно не распыляться на множество проектов одновременно.",
+      "strengths": [
+        "Сетевые возможности",
+        "Креативность в группах",
+        "Адаптивность"
+      ],
+      "challenges": [
+        "Перегрузка от общения",
+        "Недостаток глубины в отношениях"
+      ],
+      "actionable": [
+        "Ищите новые знакомства в профессиональных кругах.",
+        "Фокусируйтесь на качественных, а не количественных связях."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "сети",
+        "инновации"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "Юпитер в 11 доме усиливает вашу способность вдохновлять и объединять людей.",
+      "full": "Юпитер в 11 доме наделяет способностью видеть потенциал в коллективе и вдохновлять других на совместные достижения. Это положение способствует личному росту через участие в общественных движениях. Важно сохранять искренность в мотивах.",
+      "strengths": [
+        "Харизма",
+        "Способность к мотивации",
+        "Гибкость в общении"
+      ],
+      "challenges": [
+        "Склонность к поверхностным связям",
+        "Ожидание немедленных результатов"
+      ],
+      "actionable": [
+        "Развивайте лидерские качества в групповой работе.",
+        "Практикуйте активное слушание."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "лидерство",
+        "мотивация"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "С Юпитером в 11 доме вы находите радость в общении и совместных проектах.",
+      "full": "Юпитер в 11 доме приносит удовлетворение от участия в коллективных мероприятиях и дружеских встречах. Эта позиция способствует расширению круга общения и новым возможностям через знакомства. Однако, важно не забывать о личном пространстве.",
+      "strengths": [
+        "Радость от общения",
+        "Открытость новому",
+        "Социальная гармония"
+      ],
+      "challenges": [
+        "Трудности в одиночестве",
+        "Зависимость от социального одобрения"
+      ],
+      "actionable": [
+        "Участвуйте в мероприятиях, которые вас вдохновляют.",
+        "Находите время для себя."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "радость",
+        "общение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_11",
+      "type": "planet_house",
+      "short": "Юпитер в 11 доме способствует вашему личному росту через участие в сообществах.",
+      "full": "Наличие Юпитера в 11 доме указывает на важность социальных связей и коллективного интеллекта для вашего развития. Это положение благоприятствует участию в образовательных и культурных проектах. Важно сохранять баланс между личными и групповыми интересами.",
+      "strengths": [
+        "Развитие через общение",
+        "Культурный обмен",
+        "Социальная ответственность"
+      ],
+      "challenges": [
+        "Сложности в выражении индивидуальности",
+        "Переоценка роли группы в жизни"
+      ],
+      "actionable": [
+        "Вовлекайтесь в культурные и образовательные инициативы.",
+        "Развивайте собственные идеи параллельно с групповыми."
+      ],
+      "tags": [
+        "Юпитер",
+        "11 дом",
+        "развитие",
+        "культура"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false
+    }
+  ],
+  "house_12": [
+    {
+      "id": 1,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "Юпитер в 12 доме расширяет духовные горизонты, предлагая глубокие инсайты.",
+      "full": "Юпитер в 12 доме символизирует расширение сознания через духовные и подсознательные процессы. Это положение может указывать на щедрость души, желание помогать другим на глубоком уровне. Однако, важно не терять себя в жертвенности. Сильные стороны включают интуитивное понимание вселенной и способность к бескорыстной любви. Сложности могут возникнуть из-за склонности к escapism. Практические шаги: ежедневная медитация и ведение дневника снов.",
+      "tags": [
+        "духовность",
+        "подсознание",
+        "интуиция"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "интуитивное понимание вселенной",
+        "способность к бескорыстной любви"
+      ],
+      "challenges": [
+        "склонность к escapism"
+      ],
+      "actionable": [
+        "ежедневная медитация",
+        "ведение дневника снов"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "В 12 доме Юпитер способствует глубокой вере и философским поискам.",
+      "full": "Юпитер в 12 доме подчеркивает важность веры и философских исканий в жизни человека. Это положение может принести чувство единства со всем сущим, но также и иллюзии о собственной значимости. Сильные стороны — это мудрость и способность видеть больше, чем другие. Сложности могут включать трудности в различении реального и желаемого. Практические шаги: изучение философии и участие в благотворительности.",
+      "tags": [
+        "вера",
+        "философия",
+        "единство"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "мудрость",
+        "способность видеть больше, чем другие"
+      ],
+      "challenges": [
+        "трудности в различении реального и желаемого"
+      ],
+      "actionable": [
+        "изучение философии",
+        "участие в благотворительности"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "Юпитер в 12 доме раскрывает тайны подсознания через щедрость духа.",
+      "full": "Нахождение Юпитера в 12 доме может указывать на человека, чья щедрость духа помогает ему раскрывать тайны подсознания. Это положение способствует глубокому пониманию кармических уроков, но может привести к излишнему идеализму. Сильные стороны включают способность к глубокому прощению и пониманию. Сложности — это риск потеряться в мечтах. Практические шаги: практика благодарности и изучение психологии.",
+      "tags": [
+        "подсознание",
+        "карма",
+        "прощение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "способность к глубокому прощению",
+        "понимание"
+      ],
+      "challenges": [
+        "риск потеряться в мечтах"
+      ],
+      "actionable": [
+        "практика благодарности",
+        "изучение психологии"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "12 дом с Юпитером предлагает путь к мудрости через служение другим.",
+      "full": "Юпитер в 12 доме освещает путь к мудрости через служение и помощь другим. Это положение может принести чувство глубокого удовлетворения от бескорыстных поступков, но также и опасность перегрузить себя. Сильные стороны — это способность вдохновлять и вести за собой. Сложности могут включать пренебрежение собственными нуждами. Практические шаги: волонтерство и установление здоровых границ.",
+      "tags": [
+        "служение",
+        "мудрость",
+        "вдохновение"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "способность вдохновлять",
+        "вести за собой"
+      ],
+      "challenges": [
+        "пренебрежение собственными нуждами"
+      ],
+      "actionable": [
+        "волонтерство",
+        "установление здоровых границ"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "Юпитер в 12 доме раскрывает потенциал для духовного роста и исцеления.",
+      "full": "С Юпитером в 12 доме, человек может найти потенциал для значительного духовного роста и исцеления. Это положение способствует глубокому чувству сострадания, но может также привести к чувству изоляции. Сильные стороны включают способность исцелять других. Сложности — это чувство одиночества на духовном пути. Практические шаги: участие в духовных группах и практика самосострадания.",
+      "tags": [
+        "духовный рост",
+        "исцеление",
+        "сострадание"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "способность исцелять других"
+      ],
+      "challenges": [
+        "чувство одиночества на духовном пути"
+      ],
+      "actionable": [
+        "участие в духовных группах",
+        "практика самосострадания"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "Юпитер в 12 доме усиливает интуицию и связь с универсальной мудростью.",
+      "full": "Юпитер в 12 доме усиливает интуицию и связь с универсальной мудростью, предлагая уникальные insights. Это положение может принести глубокое понимание жизни, но также и склонность к чрезмерному оптимизму. Сильные стороны — это доступ к высшей мудрости. Сложности могут включать игнорирование практических аспектов жизни. Практические шаги: развитие интуиции через искусство и изучение мифологии.",
+      "tags": [
+        "интуиция",
+        "универсальная мудрость",
+        "мифология"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "доступ к высшей мудрости"
+      ],
+      "challenges": [
+        "игнорирование практических аспектов жизни"
+      ],
+      "actionable": [
+        "развитие интуиции через искусство",
+        "изучение мифологии"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "12 дом с Юпитером открывает двери к трансцендентному опыту и единению.",
+      "full": "Юпитер в 12 доме открывает двери к трансцендентному опыту и чувству единения со вселенной. Это положение может принести глубокие духовные откровения, но также и трудности в их интеграции в повседневную жизнь. Сильные стороны — это способность видеть за пределами материального. Сложности могут включать дисбаланс между духовным и материальным. Практические шаги: практика mindfulness и участие в ретритах.",
+      "tags": [
+        "трансцендентный опыт",
+        "единение",
+        "осознанность"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "способность видеть за пределами материального"
+      ],
+      "challenges": [
+        "дисбаланс между духовным и материальным"
+      ],
+      "actionable": [
+        "практика mindfulness",
+        "участие в ретритах"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.jupiter.house_12",
+      "type": "planet_house",
+      "short": "Юпитер в 12 доме способствует глубокому пониманию кармы и судьбы.",
+      "full": "Юпитер в 12 доме способствует глубокому пониманию кармы и судьбы, предлагая lessons через подсознание. Это положение может принести мудрость, но также и чувство фатализма. Сильные стороны — это способность принимать жизнь как есть. Сложности могут включать пассивность перед лицом судьбы. Практические шаги: изучение кармической астрологии и активное формирование своей судьбы.",
+      "tags": [
+        "карма",
+        "судьба",
+        "принятие"
+      ],
+      "audience": "novice",
+      "lang": "ru",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "способность принимать жизнь как есть"
+      ],
+      "challenges": [
+        "пассивность перед лицом судьбы"
+      ],
+      "actionable": [
+        "изучение кармической астрологии",
+        "активное формирование своей судьбы"
+      ]
+    }
+  ]
+}

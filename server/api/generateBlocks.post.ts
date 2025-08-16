@@ -6,14 +6,14 @@ import OpenAI from 'openai';
 
 const config = useRuntimeConfig();
 
-const OPENAI_API_KEY = config.deepseekApiKey;
+const OPENAI_API_KEY = config.deepseekApiKey || process.env.DEEPSEEK_API;
 if (!OPENAI_API_KEY) {
   console.warn('OPENAI_API_KEY not set — endpoint will fail until it is provided.');
 }
 
 const openai = new OpenAI({
   baseURL: 'https://api.deepseek.com',
-  apiKey: config.deepseekApiKey || process.env.DEEPSEEK_API,
+  apiKey: OPENAI_API_KEY,
 });
 
 // Config
@@ -67,7 +67,7 @@ function buildSchemaNote() {
 Возвращай строго валидный JSON-массив без Markdown-обёртки и экранирования, в raw-формате. Каждый объект должен иметь поля:
 id, key, type, short, full, tags (массив), audience, lang, version, needs_review (boolean).
 short: 8-14 слов. full: 35-70 слов. Тон: поддерживающий, информационно-психологический. 
-Не использовать предсказательного тона ("будет", "произойдёт"). Возвращай только JSON.
+Не использовать предсказательного тона ("будет", "произойдёт"). Возвращай только JSON. Отвечай только на русском языке.
 `;
 }
 

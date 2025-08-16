@@ -1,0 +1,2756 @@
+{
+  "house_1": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "Neptune in the 1st house enhances intuition and creativity.",
+      "full": "With Neptune in the 1st house, your intuition and creativity are heightened, making you highly sensitive to the energies around you. This placement encourages a deep connection with your inner self, but it may also lead to confusion about your identity. Embrace your imaginative side while grounding yourself in reality to navigate life's uncertainties.",
+      "tags": [
+        "intuition",
+        "creativity",
+        "sensitivity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Enhanced intuition",
+        "Creative expression",
+        "Empathy towards others"
+      ],
+      "challenges": [
+        "Identity confusion",
+        "Over-sensitivity"
+      ],
+      "actionable": [
+        "Practice grounding techniques daily.",
+        "Keep a journal to explore your feelings and ideas."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "Neptune in the 1st house brings a dreamy and mystical aura.",
+      "full": "Neptune in the 1st house bestows a dreamy and mystical aura, making you appear enigmatic to others. Your compassionate nature draws people towards you, but be wary of losing yourself in their needs. Cultivating a strong sense of self and setting boundaries are key to maintaining your well-being.",
+      "tags": [
+        "dreamy",
+        "mystical",
+        "compassionate"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Mystical presence",
+        "Compassionate nature",
+        "Artistic talents"
+      ],
+      "challenges": [
+        "Boundary issues",
+        "Self-neglect"
+      ],
+      "actionable": [
+        "Define personal boundaries clearly.",
+        "Engage in creative activities to express your inner world."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "Neptune here fosters a strong spiritual connection.",
+      "full": "Neptune in the 1st house fosters a strong spiritual connection, guiding you towards a path of enlightenment. However, this can sometimes blur the line between reality and fantasy. Strengthening your discernment and engaging in spiritual practices can help you harness this energy positively.",
+      "tags": [
+        "spiritual",
+        "enlightenment",
+        "discernment"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Spiritual depth",
+        "Intuitive guidance",
+        "Healing abilities"
+      ],
+      "challenges": [
+        "Reality confusion",
+        "Escapism tendencies"
+      ],
+      "actionable": [
+        "Meditate regularly to enhance discernment.",
+        "Seek guidance from trusted spiritual mentors."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "This placement enhances artistic and musical talents.",
+      "full": "With Neptune in the 1st house, your artistic and musical talents are significantly enhanced, allowing you to express deep emotions through creativity. However, you may struggle with self-doubt. Recognizing your unique gifts and sharing them with the world can lead to profound fulfillment.",
+      "tags": [
+        "artistic",
+        "musical",
+        "emotional expression"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Artistic expression",
+        "Emotional depth",
+        "Inspirational impact"
+      ],
+      "challenges": [
+        "Self-doubt",
+        "Perfectionism"
+      ],
+      "actionable": [
+        "Create art or music regularly.",
+        "Join a community of like-minded individuals for support."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "Neptune in the 1st house encourages empathy and healing.",
+      "full": "Neptune in the 1st house encourages a natural inclination towards empathy and healing, making you a beacon of comfort for others. Yet, absorbing too much negative energy can be draining. Learning to protect your energy and practicing self-care are essential for your emotional well-being.",
+      "tags": [
+        "empathy",
+        "healing",
+        "energy protection"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Healing presence",
+        "Deep empathy",
+        "Comforting aura"
+      ],
+      "challenges": [
+        "Energy drain",
+        "Over-identification with others' pain"
+      ],
+      "actionable": [
+        "Use protective visualization techniques.",
+        "Schedule regular self-care routines."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "A visionary outlook is a hallmark of this placement.",
+      "full": "A visionary outlook is a hallmark of Neptune in the 1st house, enabling you to see beyond the mundane. While this gifts you with innovative ideas, it may also lead to impracticality. Balancing your visions with actionable steps can turn your dreams into reality.",
+      "tags": [
+        "visionary",
+        "innovative",
+        "dreamer"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Innovative thinking",
+        "Future-oriented",
+        "Inspirational ideas"
+      ],
+      "challenges": [
+        "Impracticality",
+        "Disconnection from the present"
+      ],
+      "actionable": [
+        "Break down visions into achievable goals.",
+        "Seek feedback from pragmatic individuals."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "This placement enhances psychic sensitivities.",
+      "full": "Neptune in the 1st house enhances your psychic sensitivities, making you acutely aware of unseen energies. While this can be a powerful tool, it may also overwhelm you. Developing healthy psychic boundaries and grounding practices can help manage these sensitivities effectively.",
+      "tags": [
+        "psychic",
+        "sensitive",
+        "unseen energies"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Psychic awareness",
+        "Energy sensitivity",
+        "Intuitive insights"
+      ],
+      "challenges": [
+        "Overwhelm",
+        "Difficulty shielding"
+      ],
+      "actionable": [
+        "Practice psychic shielding techniques.",
+        "Limit exposure to chaotic environments."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_1",
+      "type": "planet_house",
+      "short": "Neptune here inspires unconditional love and compassion.",
+      "full": "Neptune in the 1st house inspires unconditional love and compassion, drawing you towards altruistic endeavors. However, this may sometimes lead to self-sacrifice. Cultivating self-love and recognizing your worth are crucial to giving from a place of abundance.",
+      "tags": [
+        "unconditional love",
+        "compassion",
+        "altruism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Altruistic nature",
+        "Deep compassion",
+        "Healing love"
+      ],
+      "challenges": [
+        "Self-sacrifice",
+        "Neglecting personal needs"
+      ],
+      "actionable": [
+        "Practice daily affirmations of self-worth.",
+        "Balance giving to others with receiving."
+      ]
+    }
+  ],
+  "house_2": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Neptune in the 2nd house suggests a unique approach to values and resources.",
+      "full": "With Neptune in the 2nd house, your sense of value and security may be influenced by intuition and spirituality. This placement encourages exploring non-material forms of wealth, highlighting the importance of emotional and spiritual fulfillment over traditional financial success. It's a call to trust in the universe's abundance, even when tangible resources seem scarce.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "values",
+        "resources"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Intuitive understanding of value",
+        "Ability to find wealth in non-material forms",
+        "Spiritual approach to security"
+      ],
+      "challenges": [
+        "Potential for financial confusion",
+        "Difficulty in setting material boundaries"
+      ],
+      "actionable": [
+        "Practice gratitude for non-material blessings",
+        "Explore creative ways to generate income"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Neptune here blends dreams with your sense of worth and possessions.",
+      "full": "Neptune in the 2nd house merges the material with the mystical, suggesting that your possessions and sense of worth are deeply tied to your dreams and ideals. This placement may lead you to undervalue your tangible assets or to seek fulfillment in intangible ways. Recognizing the balance between the material and spiritual can lead to a more grounded sense of security.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "dreams",
+        "worth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Creative approach to finances",
+        "Strong connection between values and spirituality",
+        "Ability to inspire others with your ideals"
+      ],
+      "challenges": [
+        "Over-idealism about money",
+        "Tendency to avoid financial planning"
+      ],
+      "actionable": [
+        "Set clear financial goals",
+        "Meditate on your true values"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "This placement invites a spiritual reevaluation of what you truly value.",
+      "full": "Neptune in the 2nd house challenges conventional notions of wealth, urging a spiritual reevaluation of what you truly value. It's an invitation to discover abundance in creativity, compassion, and connection, rather than solely in material accumulation. This perspective can liberate you from societal pressures around money, opening doors to unconventional sources of fulfillment.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "spirituality",
+        "values"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Liberation from material constraints",
+        "Deep spiritual fulfillment",
+        "Creative financial solutions"
+      ],
+      "challenges": [
+        "Difficulty in practical money management",
+        "Potential for self-deception about finances"
+      ],
+      "actionable": [
+        "Journal about your relationship with money",
+        "Seek financial advice from a spiritual perspective"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Neptune in the 2nd house highlights the fluidity of your resources.",
+      "full": "Having Neptune in the 2nd house emphasizes the fluid and sometimes elusive nature of your resources and values. This placement suggests that your financial situation may fluctuate, reflecting your inner state and spiritual growth. It's important to cultivate trust in the universe's provision and to remain adaptable, viewing changes as opportunities for deeper understanding and growth.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "fluidity",
+        "resources"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Adaptability in financial matters",
+        "Intuitive grasp of when to give and receive",
+        "Seeing beyond material scarcity"
+      ],
+      "challenges": [
+        "Instability in income",
+        "Over-generosity leading to depletion"
+      ],
+      "actionable": [
+        "Create a flexible budget",
+        "Practice discernment in financial generosity"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Your values are shaped by compassion and imagination with Neptune here.",
+      "full": "Neptune in the 2nd house indicates that your values and sense of security are deeply influenced by compassion, imagination, and a desire for transcendence. This placement encourages you to find worth in acts of kindness and creative expression, suggesting that your true 'wealth' lies in your ability to connect with others on a soul level and to envision a more compassionate world.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "compassion",
+        "imagination"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Empathetic understanding of value",
+        "Creative expression as a form of wealth",
+        "Ability to inspire collective compassion"
+      ],
+      "challenges": [
+        "Neglecting practical needs",
+        "Difficulty in asserting financial boundaries"
+      ],
+      "actionable": [
+        "Volunteer your talents to those in need",
+        "Reflect on how your values align with your spending"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Neptune's presence in the 2nd house dissolves rigid financial beliefs.",
+      "full": "With Neptune in the 2nd house, traditional beliefs about money and possessions are softened, inviting a more fluid and intuitive approach to resources. This placement can indicate periods where material security feels uncertain, yet it's also an opportunity to discover inner riches and trust in a higher guidance. Embracing uncertainty can lead to unexpected avenues of support and abundance.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "financial beliefs",
+        "intuition"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Freedom from materialistic constraints",
+        "Intuitive financial guidance",
+        "Discovering abundance in simplicity"
+      ],
+      "challenges": [
+        "Anxiety over financial instability",
+        "Over-reliance on others for support"
+      ],
+      "actionable": [
+        "Practice letting go of financial fears",
+        "Explore minimalist living"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "This placement asks you to define wealth beyond the material.",
+      "full": "Neptune in the 2nd house challenges you to expand your definition of wealth beyond the material, recognizing the abundance in love, creativity, and spiritual connection. While this can lead to a fulfilling sense of inner richness, it's also important to ground these ideals in practical reality, ensuring that your spiritual and material needs are both honored.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "wealth",
+        "spirituality"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Broad, inclusive view of abundance",
+        "Ability to find joy in simplicity",
+        "Spiritual depth in valuing"
+      ],
+      "challenges": [
+        "Disconnect from practical financial matters",
+        "Idealizing poverty or wealth"
+      ],
+      "actionable": [
+        "Define what true wealth means to you",
+        "Balance spiritual ideals with practical financial steps"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_2",
+      "type": "planet_house",
+      "short": "Neptune here infuses your resources with a sense of mystery and faith.",
+      "full": "Neptune in the 2nd house brings a sense of mystery and faith to your approach to resources and values. This placement suggests that your financial journey may not follow a conventional path, requiring trust in unseen forces and the belief that your needs will be met in unexpected ways. It's a reminder that true security comes from within, nurtured by faith and surrender.",
+      "tags": [
+        "Neptune",
+        "2nd house",
+        "mystery",
+        "faith"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep trust in the universe",
+        "Ability to receive in unexpected ways",
+        "Mystical understanding of value"
+      ],
+      "challenges": [
+        "Unpredictability in financial matters",
+        "Potential for escapism around money"
+      ],
+      "actionable": [
+        "Cultivate a daily practice of gratitude",
+        "Stay open to unconventional income sources"
+      ]
+    }
+  ],
+  "house_3": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house enhances intuition in communication.",
+      "full": "With Neptune in the 3rd house, your communication is deeply intuitive, often picking up on unspoken cues. This placement encourages creative expression through writing or speaking, blending reality with imagination. However, it may also lead to misunderstandings or a tendency to escape through excessive daydreaming. Strengths include a vivid imagination and empathetic listening. Challenges involve clarity in expression and grounding thoughts. Actionable steps: practice journaling to clarify thoughts, engage in active listening to improve communication.",
+      "tags": [
+        "communication",
+        "intuition",
+        "creativity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "vivid imagination",
+        "empathetic listening"
+      ],
+      "challenges": [
+        "clarity in expression",
+        "grounding thoughts"
+      ],
+      "actionable": [
+        "practice journaling to clarify thoughts",
+        "engage in active listening to improve communication"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house blurs lines between thought and intuition.",
+      "full": "Neptune's presence in the 3rd house merges thought with intuition, making your mind a canvas for creative and spiritual insights. This can manifest as poetic or artistic communication, but may also confuse facts with fantasies. Strengths lie in your ability to inspire others with your words. Challenges include maintaining focus and distinguishing between reality and illusion. Actionable steps: dedicate time to meditation to enhance clarity, use creative outlets to express your visions.",
+      "tags": [
+        "intuition",
+        "creativity",
+        "communication"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "ability to inspire others with your words"
+      ],
+      "challenges": [
+        "maintaining focus",
+        "distinguishing between reality and illusion"
+      ],
+      "actionable": [
+        "dedicate time to meditation to enhance clarity",
+        "use creative outlets to express your visions"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house fosters a dreamy approach to learning.",
+      "full": "Having Neptune in the 3rd house suggests a learning style that is intuitive and imaginative, often absorbing information in unconventional ways. While this can lead to innovative ideas, it might also result in overlooking details. Your strengths include a unique perspective and the ability to connect disparate ideas. Challenges involve staying organized and focused. Actionable steps: create a structured learning plan, allow time for reflection to integrate knowledge.",
+      "tags": [
+        "learning",
+        "intuition",
+        "imagination"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "unique perspective",
+        "ability to connect disparate ideas"
+      ],
+      "challenges": [
+        "staying organized",
+        "focused"
+      ],
+      "actionable": [
+        "create a structured learning plan",
+        "allow time for reflection to integrate knowledge"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house enhances psychic communication abilities.",
+      "full": "Neptune in the 3rd house can heighten your sensitivity to the thoughts and feelings of others, making you an excellent listener and communicator on a psychic level. However, this may also lead to absorbing others' emotions too deeply. Strengths include deep empathy and the ability to understand beyond words. Challenges involve protecting your energy and maintaining boundaries. Actionable steps: practice grounding techniques, set clear emotional boundaries with others.",
+      "tags": [
+        "psychic",
+        "communication",
+        "empathy"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "deep empathy",
+        "ability to understand beyond words"
+      ],
+      "challenges": [
+        "protecting your energy",
+        "maintaining boundaries"
+      ],
+      "actionable": [
+        "practice grounding techniques",
+        "set clear emotional boundaries with others"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house inspires through mystical and spiritual communication.",
+      "full": "With Neptune in the 3rd house, your words carry a mystical quality, inspiring others through spiritual or philosophical insights. This placement encourages exploring communication as a sacred art. Yet, it may also tempt you to evade direct answers. Strengths include the power to uplift and heal through speech. Challenges are being misunderstood or overly vague. Actionable steps: study sacred texts to deepen your expression, practice clear and concise communication exercises.",
+      "tags": [
+        "mystical",
+        "spiritual",
+        "communication"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "power to uplift and heal through speech"
+      ],
+      "challenges": [
+        "being misunderstood",
+        "overly vague"
+      ],
+      "actionable": [
+        "study sacred texts to deepen your expression",
+        "practice clear and concise communication exercises"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house blends creativity with everyday communication.",
+      "full": "Neptune in the 3rd house infuses your daily communications with creativity, making even mundane exchanges feel poetic. This can enrich your relationships but may also lead to idealizing others. Strengths include a natural ability to see beauty in the ordinary. Challenges involve discerning truth from fantasy in conversations. Actionable steps: engage in creative writing to channel your imagination, practice mindfulness to stay present in discussions.",
+      "tags": [
+        "creativity",
+        "communication",
+        "mindfulness"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "natural ability to see beauty in the ordinary"
+      ],
+      "challenges": [
+        "discerning truth from fantasy in conversations"
+      ],
+      "actionable": [
+        "engage in creative writing to channel your imagination",
+        "practice mindfulness to stay present in discussions"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house encourages compassionate listening and speaking.",
+      "full": "Neptune's placement in the 3rd house fosters a compassionate approach to communication, where listening and speaking are acts of empathy. This can make you a comforting presence but may also lead to taking on others' problems. Strengths include a healing presence and the ability to mediate. Challenges involve over-identification with others' pain. Actionable steps: develop a daily practice of self-reflection, learn to differentiate between empathy and enmeshment.",
+      "tags": [
+        "compassion",
+        "communication",
+        "empathy"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "healing presence",
+        "ability to mediate"
+      ],
+      "challenges": [
+        "over-identification with others' pain"
+      ],
+      "actionable": [
+        "develop a daily practice of self-reflection",
+        "learn to differentiate between empathy and enmeshment"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_3",
+      "type": "planet_house",
+      "short": "Neptune in the 3rd house reveals truths through symbolic communication.",
+      "full": "Neptune in the 3rd house allows you to perceive and convey truths through symbols, dreams, and metaphors, enriching your communicative style with depth. However, this can sometimes obscure literal meanings. Strengths include a profound connection to the subconscious. Challenges are conveying ideas clearly and avoiding escapism. Actionable steps: explore art therapy to express subconscious insights, practice structuring your thoughts before sharing them.",
+      "tags": [
+        "symbolism",
+        "communication",
+        "subconscious"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "profound connection to the subconscious"
+      ],
+      "challenges": [
+        "conveying ideas clearly",
+        "avoiding escapism"
+      ],
+      "actionable": [
+        "explore art therapy to express subconscious insights",
+        "practice structuring your thoughts before sharing them"
+      ]
+    }
+  ],
+  "house_4": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "Neptune in the 4th house suggests deep emotional waters and a need for spiritual home.",
+      "full": "With Neptune in the 4th house, your sense of home and family may be influenced by a strong intuition and a desire for a spiritual or idealistic living environment. This placement often indicates a person who seeks harmony and transcendence within their private life, possibly leading to a home that serves as a sanctuary. However, it's important to ground these ideals to avoid disillusionment.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "home",
+        "family",
+        "spirituality"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Intuitive understanding of family dynamics",
+        "Ability to create a harmonious home environment",
+        "Strong spiritual connection to the concept of home"
+      ],
+      "challenges": [
+        "Potential for idealizing family or home life",
+        "Difficulty in establishing boundaries within the home"
+      ],
+      "actionable": [
+        "Practice grounding techniques to stay connected to reality",
+        "Create a small sacred space in your home for meditation or reflection"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "Neptune in the 4th house blends dreams with domestic life, urging a mystical home atmosphere.",
+      "full": "Neptune's presence in the 4th house infuses your domestic life with dreams, intuition, and a longing for an ideal home. This can manifest as a living space that reflects your inner world, perhaps through art, music, or a subdued, ethereal decor. While this placement fosters a deeply emotional connection to your roots, it's crucial to navigate the fine line between inspiration and escapism in your personal space.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "dreams",
+        "intuition",
+        "domestic life"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Creative expression in the home",
+        "Deep emotional and intuitive connections to family",
+        "Ability to sense the unseen in domestic settings"
+      ],
+      "challenges": [
+        "Risk of neglecting practical home responsibilities",
+        "Over-idealization of childhood or family past"
+      ],
+      "actionable": [
+        "Incorporate creative or spiritual elements into your home decor",
+        "Set aside time for family activities that foster emotional connection"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "The 4th house Neptune invites a fluid, compassionate approach to family and home.",
+      "full": "Having Neptune in the 4th house suggests that your approach to home and family is marked by compassion, fluidity, and perhaps a bit of mystery. You may find that your living situation is often changing or that your family dynamics are complex, requiring a gentle, understanding approach. This placement encourages finding peace in the intangible aspects of home life, such as love and spiritual connection, over material stability.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "compassion",
+        "family dynamics",
+        "home life"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Natural empathy towards family members",
+        "Adaptability in changing home environments",
+        "Strong sense of unconditional love within the home"
+      ],
+      "challenges": [
+        "Difficulty in establishing a stable home life",
+        "Potential for absorbing family members' emotions too deeply"
+      ],
+      "actionable": [
+        "Engage in regular family meetings to discuss emotions and needs",
+        "Use water-based decor or elements to enhance the home's calming energy"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "Neptune in the 4th house highlights a spiritual quest within the family and home.",
+      "full": "Neptune in the 4th house often indicates a spiritual or mystical dimension to your concept of home and family. You might feel drawn to exploring ancestral roots or creating a home that serves as a retreat from the material world. While this can bring profound emotional and spiritual insights, it's important to also cultivate practical routines that anchor your spiritual ideals in everyday life.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "spirituality",
+        "family roots",
+        "home as retreat"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep spiritual connection to ancestors or family history",
+        "Ability to make the home a peaceful sanctuary",
+        "Intuitive insights into family matters"
+      ],
+      "challenges": [
+        "Overlooking the practical aspects of maintaining a home",
+        "Escaping into fantasy regarding family relationships"
+      ],
+      "actionable": [
+        "Research your family history to connect with your roots",
+        "Establish a daily routine that includes both spiritual practice and household tasks"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "With Neptune in the 4th, home is where the heart and spirit merge.",
+      "full": "Neptune in the 4th house suggests that your home is not just a physical space but a reflection of your inner spiritual and emotional world. You may prioritize creating an environment that nurtures the soul, possibly through art, music, or a connection to nature. This placement warns against losing yourself in the ideal of a perfect home, reminding you that true peace comes from within.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "spiritual home",
+        "emotional world",
+        "inner peace"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Creating a home that reflects inner beauty",
+        "Deep emotional resonance with living spaces",
+        "Ability to heal through the home environment"
+      ],
+      "challenges": [
+        "Confusing material comfort with emotional fulfillment",
+        "Neglecting the home's physical upkeep"
+      ],
+      "actionable": [
+        "Decorate your home with items that have personal spiritual significance",
+        "Dedicate time each week to both home maintenance and spiritual self-care"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "Neptune in the 4th house weaves dreams into the fabric of home life.",
+      "full": "The placement of Neptune in the 4th house indicates that your home and family life are deeply influenced by your dreams, ideals, and perhaps even illusions. You might aspire to create a living space that transcends the ordinary, serving as a canvas for your imagination. While this can lead to a uniquely inspiring home environment, grounding your visions in reality ensures they enrich rather than escape your daily life.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "dreams",
+        "home life",
+        "ideals"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Transforming the home into a reflection of inner dreams",
+        "Sensitivity to the emotional undercurrents of family life",
+        "Creative solutions to domestic challenges"
+      ],
+      "challenges": [
+        "Difficulty distinguishing between reality and idealization in family matters",
+        "Overlooking the need for structure in the home"
+      ],
+      "actionable": [
+        "Use creative outlets to express your ideal home vision",
+        "Implement small, practical changes to make your home more functional"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "Neptune's placement in the 4th house blurs boundaries between self and home.",
+      "full": "When Neptune resides in the 4th house, the boundaries between your personal identity and your home environment may become beautifully blurred. This can manifest as a living space that deeply reflects your inner self, or a family life that feels almost mystical. Navigating this energy requires balancing self-expression with the needs of others sharing your space, ensuring harmony prevails.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "identity",
+        "home environment",
+        "harmony"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "A home that truly reflects the inner self",
+        "Deep, intuitive connections with family members",
+        "Ability to create a harmonious living environment"
+      ],
+      "challenges": [
+        "Potential for losing personal boundaries in family dynamics",
+        "Over-identification with the home as a source of identity"
+      ],
+      "actionable": [
+        "Engage in activities that reinforce your individual identity outside the home",
+        "Foster open communication with household members to maintain balance"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_4",
+      "type": "planet_house",
+      "short": "The 4th house Neptune encourages a compassionate, intuitive home life.",
+      "full": "Neptune in the 4th house blesses your domestic life with compassion, intuition, and a touch of the divine. You may find that your home becomes a place of healing, not just for yourself but for others as well. This placement invites you to explore the spiritual dimensions of family and home, though it's wise to remember that true sanctuary comes from both love and practical care.",
+      "tags": [
+        "neptune",
+        "4th house",
+        "compassion",
+        "healing",
+        "divine home"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Creating a healing atmosphere in the home",
+        "Intuitive understanding of family members' needs",
+        "Ability to infuse daily life with spiritual meaning"
+      ],
+      "challenges": [
+        "Taking on too much emotional responsibility for others",
+        "Neglecting the tangible aspects of home care"
+      ],
+      "actionable": [
+        "Introduce elements into your home that promote healing and peace",
+        "Balance care for others with self-care to maintain emotional health"
+      ]
+    }
+  ],
+  "house_5": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house inspires creativity and spiritual connection through art.",
+      "full": "With Neptune in the 5th house, your creative expressions are deeply influenced by a desire for spiritual connection and transcendence. This placement encourages exploring art, music, or writing as mediums for expressing your innermost feelings and universal truths. It's a call to let your imagination flow freely, blending reality with dreams to create something truly unique.",
+      "tags": [
+        "creativity",
+        "spirituality",
+        "art"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Enhanced creativity",
+        "Deep spiritual connection",
+        "Unique artistic expression"
+      ],
+      "challenges": [
+        "Escapism",
+        "Difficulty distinguishing fantasy from reality"
+      ],
+      "actionable": [
+        "Engage in creative activities regularly.",
+        "Practice grounding techniques to stay connected to reality."
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house brings a dreamy, romantic approach to love and leisure.",
+      "full": "Neptune's presence in the 5th house colors your romantic and leisure activities with a dreamy, idealistic hue. You may find yourself drawn to relationships and hobbies that offer an escape from the mundane, seeking connections that feel soulful and transcendent. This placement invites you to explore love and creativity with an open heart, though it's wise to remain mindful of boundaries.",
+      "tags": [
+        "romance",
+        "leisure",
+        "idealism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Romantic idealism",
+        "Creative leisure pursuits",
+        "Soulful connections"
+      ],
+      "challenges": [
+        "Over-idealizing partners",
+        "Avoiding reality"
+      ],
+      "actionable": [
+        "Journal about your romantic ideals to understand them better.",
+        "Set clear boundaries in relationships."
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "In the 5th house, Neptune fosters a mystical approach to parenting and children.",
+      "full": "Neptune in the 5th house suggests a parenting style that is intuitive, compassionate, and perhaps a bit mystical. You may view your children or your inner child through a spiritual lens, emphasizing empathy and unconditional love. This placement encourages nurturing creativity and imagination in young ones, while also reminding you to maintain a healthy balance between idealism and practicality.",
+      "tags": [
+        "parenting",
+        "children",
+        "mysticism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Intuitive parenting",
+        "Compassionate approach",
+        "Fostering creativity"
+      ],
+      "challenges": [
+        "Overprotectiveness",
+        "Difficulty setting boundaries"
+      ],
+      "actionable": [
+        "Encourage creative expression in children.",
+        "Practice grounding exercises to balance idealism."
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house highlights creative and spiritual hobbies.",
+      "full": "With Neptune in the 5th house, your hobbies and leisure activities likely have a creative or spiritual dimension. You're drawn to pastimes that allow for self-expression and transcendence, such as painting, meditation, or music. This placement invites you to explore these interests deeply, using them as a bridge to connect with your higher self and the universe at large.",
+      "tags": [
+        "hobbies",
+        "spirituality",
+        "self-expression"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Spiritual hobbies",
+        "Creative self-expression",
+        "Connection to the divine"
+      ],
+      "challenges": [
+        "Escaping into hobbies",
+        "Neglecting practical responsibilities"
+      ],
+      "actionable": [
+        "Dedicate time weekly to creative or spiritual hobbies.",
+        "Balance hobby time with daily tasks."
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house encourages artistic and compassionate self-expression.",
+      "full": "Neptune's placement in the 5th house blesses you with a natural inclination towards artistic and compassionate forms of self-expression. Whether through art, writing, or performance, you have the ability to convey deep emotional and spiritual truths. This position calls you to share your gifts with the world, using them to heal and inspire others, while also remembering to nurture your own emotional well-being.",
+      "tags": [
+        "artistic",
+        "compassion",
+        "self-expression"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Artistic talent",
+        "Emotional depth",
+        "Healing through art"
+      ],
+      "challenges": [
+        "Emotional overwhelm",
+        "Difficulty in asserting boundaries"
+      ],
+      "actionable": [
+        "Create art that expresses your deepest feelings.",
+        "Practice self-care to manage emotional sensitivity."
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house brings a poetic and romantic view of life.",
+      "full": "Having Neptune in the 5th house imbues your life with a poetic and romantic sensibility. You see the world through a lens of beauty and mystery, often finding inspiration in the mundane. This placement encourages you to embrace your romantic nature, allowing it to guide your creative endeavors and relationships, while also staying grounded in reality to avoid disillusionment.",
+      "tags": [
+        "poetic",
+        "romantic",
+        "inspiration"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Poetic sensibility",
+        "Romantic inspiration",
+        "Finding beauty everywhere"
+      ],
+      "challenges": [
+        "Over-romanticizing",
+        "Potential for disillusionment"
+      ],
+      "actionable": [
+        "Write poetry or prose to capture your romantic visions.",
+        "Stay mindful of reality to balance idealism."
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house suggests a spiritual approach to creativity and joy.",
+      "full": "Neptune in the 5th house indicates that your sources of joy and creativity are deeply intertwined with your spiritual beliefs. You find happiness in activities that connect you to something greater than yourself, whether through artistic creation, meditation, or communal celebrations. This placement invites you to explore these connections further, enriching your life with meaning and transcendent experiences.",
+      "tags": [
+        "spirituality",
+        "joy",
+        "creativity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Spiritual joy",
+        "Creative transcendence",
+        "Meaningful experiences"
+      ],
+      "challenges": [
+        "Escapism through spirituality",
+        "Difficulty in finding joy in the mundane"
+      ],
+      "actionable": [
+        "Engage in creative activities with a spiritual focus.",
+        "Find small, everyday moments to connect with joy."
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_5",
+      "type": "planet_house",
+      "short": "Neptune in the 5th house fosters a deep connection to the arts and imagination.",
+      "full": "With Neptune in the 5th house, your connection to the arts and the power of imagination is profound. You possess an innate ability to see beyond the surface, channeling universal truths through creative mediums. This placement encourages you to trust in your imaginative visions, using them as a source of inspiration and healing for yourself and others, while also cultivating discernment to navigate the fine line between vision and illusion.",
+      "tags": [
+        "arts",
+        "imagination",
+        "healing"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Artistic vision",
+        "Imaginative depth",
+        "Healing through creativity"
+      ],
+      "challenges": [
+        "Confusion between reality and illusion",
+        "Overwhelm from sensitivity"
+      ],
+      "actionable": [
+        "Dedicate time to artistic pursuits that resonate with you.",
+        "Develop practices to enhance discernment and grounding."
+      ]
+    }
+  ],
+  "house_6": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house inspires compassion in daily routines.",
+      "full": "With Neptune in the 6th house, your daily life and work are infused with a sense of compassion and idealism. You may find yourself drawn to helping others or seeking a job that aligns with your spiritual values. However, it's important to stay grounded to avoid disillusionment. Strengths include your empathy and creativity in solving problems. Challenges might involve setting boundaries or dealing with unrealistic expectations. To navigate this placement, try incorporating meditation into your routine and volunteer in ways that feel meaningful.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "daily routines",
+        "compassion"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "empathy",
+        "creativity"
+      ],
+      "challenges": [
+        "setting boundaries",
+        "unrealistic expectations"
+      ],
+      "actionable": [
+        "incorporate meditation",
+        "volunteer meaningfully"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house blurs lines between work and spirituality.",
+      "full": "Neptune's placement in the 6th house suggests a blending of your spiritual beliefs with your daily work and health routines. You might seek a career that feels spiritually fulfilling or struggle with maintaining a structured routine. Your intuition can guide you in making health choices, but be wary of escapism. Strengths are your intuitive understanding of others' needs and your ability to heal. Challenges include maintaining discipline and avoiding procrastination. Practical steps include setting small, achievable goals and exploring holistic health practices.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "spirituality",
+        "work"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "intuition",
+        "healing ability"
+      ],
+      "challenges": [
+        "discipline",
+        "procrastination"
+      ],
+      "actionable": [
+        "set small goals",
+        "explore holistic health"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house enhances service with a mystical touch.",
+      "full": "Having Neptune in the 6th house means you approach service and daily tasks with a mystical or artistic flair. You may be drawn to careers in healing, arts, or any field that allows for creative expression. However, distinguishing between reality and fantasy in work environments can be a challenge. Your strengths lie in your compassionate service and imaginative solutions. Challenges may include over-idealizing your job or coworkers. To make the most of this placement, engage in creative outlets and practice grounding exercises.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "service",
+        "mystical"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "compassionate service",
+        "imaginative solutions"
+      ],
+      "challenges": [
+        "over-idealizing",
+        "distinguishing reality"
+      ],
+      "actionable": [
+        "engage in creative outlets",
+        "practice grounding"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house seeks meaningful daily contributions.",
+      "full": "With Neptune in the 6th house, you're likely to seek deeper meaning in your daily tasks and contributions to society. This placement can indicate a calling towards humanitarian work or healing professions. However, it's crucial to find balance to avoid feeling overwhelmed by others' suffering. Strengths include your altruism and ability to inspire others. Challenges might involve self-neglect or confusion about your path. Strengthening your daily routine with mindfulness and seeking supportive communities can help harness this energy positively.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "meaning",
+        "contribution"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "altruism",
+        "ability to inspire"
+      ],
+      "challenges": [
+        "self-neglect",
+        "path confusion"
+      ],
+      "actionable": [
+        "practice mindfulness",
+        "seek supportive communities"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house dreams of ideal work environments.",
+      "full": "Neptune in the 6th house suggests you have idealistic visions about your work environment and daily routines. You may fantasize about the perfect job or struggle with the mundane aspects of work. This placement encourages finding beauty and spirituality in everyday tasks. Strengths are your visionary ideas and sensitivity to workplace dynamics. Challenges include dissatisfaction with reality and potential escapism. To balance this energy, try to find spiritual meaning in small tasks and communicate your needs clearly at work.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "idealism",
+        "work environment"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "visionary ideas",
+        "sensitivity"
+      ],
+      "challenges": [
+        "dissatisfaction",
+        "escapism"
+      ],
+      "actionable": [
+        "find meaning in tasks",
+        "communicate needs"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house blends creativity with service.",
+      "full": "Neptune's presence in the 6th house indicates a unique blend of creativity and service in your approach to daily life. You might excel in roles that require both imagination and care, such as nursing or teaching. However, maintaining boundaries between giving and preserving your energy is essential. Strengths include your innovative approach to problems and deep empathy. Challenges can be overextending yourself or losing focus. Incorporating artistic activities into your routine and learning to say no can help manage these tendencies.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "creativity",
+        "service"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "innovation",
+        "empathy"
+      ],
+      "challenges": [
+        "overextending",
+        "losing focus"
+      ],
+      "actionable": [
+        "incorporate art",
+        "learn to say no"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house inspires healing through routine.",
+      "full": "With Neptune in the 6th house, your daily routines and work can become a source of healing, both for yourself and others. You may be drawn to professions that involve care, healing, or the arts. It's important, however, to stay realistic about what you can achieve. Strengths are your healing presence and ability to see beyond the surface. Challenges might include neglecting your own needs or becoming disillusioned. Establishing a balanced routine and seeking inspiration in nature can support your well-being.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "healing",
+        "routine"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "healing presence",
+        "insight"
+      ],
+      "challenges": [
+        "self-neglect",
+        "disillusionment"
+      ],
+      "actionable": [
+        "establish balance",
+        "seek nature"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_6",
+      "type": "planet_house",
+      "short": "Neptune in the 6th house yearns for transcendent daily acts.",
+      "full": "Neptune in the 6th house reflects a desire to infuse your daily activities with a sense of transcendence and higher purpose. You may find mundane tasks draining unless they're aligned with your spiritual values. This placement highlights the importance of finding or creating work that feels meaningful. Strengths include your profound empathy and visionary outlook. Challenges involve dealing with routine's limitations and potential escapism. To thrive, look for ways to serve that align with your ideals and practice gratitude for small daily blessings.",
+      "tags": [
+        "neptune",
+        "6th house",
+        "transcendence",
+        "purpose"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "empathy",
+        "visionary outlook"
+      ],
+      "challenges": [
+        "routine limitations",
+        "escapism"
+      ],
+      "actionable": [
+        "align service with ideals",
+        "practice gratitude"
+      ]
+    }
+  ],
+  "house_7": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "Neptune in the 7th house enhances intuition in relationships.",
+      "full": "With Neptune in the 7th house, your relationships are colored by deep intuition and a strong sense of empathy. This placement suggests a tendency to idealize partners, seeking a spiritual or soulful connection. It's important to balance idealism with reality to avoid disillusionment. Strengths include a compassionate approach to partnerships and an ability to connect on a non-verbal level. Challenges may involve setting boundaries and distinguishing between your needs and those of others. Actionable steps: Practice grounding techniques to stay present in relationships; journal to clarify your relationship ideals and boundaries.",
+      "tags": [
+        "relationships",
+        "intuition",
+        "empathy"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "compassionate approach to partnerships",
+        "ability to connect on a non-verbal level"
+      ],
+      "challenges": [
+        "setting boundaries",
+        "distinguishing between your needs and those of others"
+      ],
+      "actionable": [
+        "Practice grounding techniques to stay present in relationships",
+        "journal to clarify your relationship ideals and boundaries"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "Neptune in the 7th house brings dreamy qualities to partnerships.",
+      "full": "Neptune's presence in the 7th house infuses your partnerships with a dreamy, idealistic quality. You may find yourself drawn to relationships that promise transcendence or escape. While this can lead to profound connections, it's crucial to remain aware of the difference between fantasy and reality. Strengths include a natural ability to forgive and a deep capacity for unconditional love. Challenges involve navigating the fine line between self-sacrifice and self-preservation. Actionable steps: Engage in regular self-reflection to assess relationship health; seek feedback from trusted friends to gain perspective.",
+      "tags": [
+        "partnerships",
+        "idealism",
+        "unconditional love"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "natural ability to forgive",
+        "deep capacity for unconditional love"
+      ],
+      "challenges": [
+        "navigating the fine line between self-sacrifice and self-preservation"
+      ],
+      "actionable": [
+        "Engage in regular self-reflection to assess relationship health",
+        "seek feedback from trusted friends to gain perspective"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "7th house Neptune seeks soulful connections in relationships.",
+      "full": "Having Neptune in the 7th house indicates a longing for soulful, meaningful connections in your relationships. This placement encourages seeing the best in others, but it's important to also recognize their humanity. Strengths lie in your ability to empathize and connect on a deep emotional level. Challenges include the potential for overlooking red flags in pursuit of an ideal. Actionable steps: Cultivate mindfulness to enhance present-moment awareness in relationships; establish clear personal boundaries to maintain healthy dynamics.",
+      "tags": [
+        "soulful connections",
+        "empathy",
+        "mindfulness"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "ability to empathize",
+        "connect on a deep emotional level"
+      ],
+      "challenges": [
+        "potential for overlooking red flags in pursuit of an ideal"
+      ],
+      "actionable": [
+        "Cultivate mindfulness to enhance present-moment awareness in relationships",
+        "establish clear personal boundaries to maintain healthy dynamics"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "Neptune in the 7th house blurs boundaries in partnerships.",
+      "full": "Neptune in the 7th house can blur the boundaries between you and your partners, leading to a deep sense of unity but also potential confusion. This placement highlights the importance of maintaining individuality within relationships. Strengths include a profound sense of compassion and a willingness to see beyond superficial differences. Challenges may involve distinguishing your emotions from those of your partner. Actionable steps: Practice solo activities to reinforce your sense of self; communicate openly about needs and expectations in relationships.",
+      "tags": [
+        "boundaries",
+        "compassion",
+        "individuality"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "profound sense of compassion",
+        "willingness to see beyond superficial differences"
+      ],
+      "challenges": [
+        "distinguishing your emotions from those of your partner"
+      ],
+      "actionable": [
+        "Practice solo activities to reinforce your sense of self",
+        "communicate openly about needs and expectations in relationships"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "7th house Neptune enhances artistic collaborations.",
+      "full": "Neptune in the 7th house can enhance artistic and creative collaborations, bringing a mystical quality to joint projects. This placement favors partnerships that allow for emotional and spiritual expression. Strengths include an innate ability to inspire and be inspired by others. Challenges may involve maintaining focus and direction in collaborative efforts. Actionable steps: Set clear goals for creative projects; seek partners who complement your artistic vision.",
+      "tags": [
+        "artistic collaborations",
+        "creativity",
+        "inspiration"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "innate ability to inspire and be inspired by others"
+      ],
+      "challenges": [
+        "maintaining focus and direction in collaborative efforts"
+      ],
+      "actionable": [
+        "Set clear goals for creative projects",
+        "seek partners who complement your artistic vision"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "Neptune in the 7th house fosters spiritual partnerships.",
+      "full": "With Neptune in the 7th house, you may find yourself drawn to partnerships that offer spiritual growth or enlightenment. This placement encourages a selfless approach to relationships, but it's important to ensure mutual giving and receiving. Strengths include a deep capacity for spiritual connection and healing. Challenges involve ensuring that spiritual ideals don't overshadow practical relationship needs. Actionable steps: Engage in shared spiritual practices to deepen connections; regularly check in with your partner to ensure balance.",
+      "tags": [
+        "spiritual partnerships",
+        "growth",
+        "healing"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "deep capacity for spiritual connection and healing"
+      ],
+      "challenges": [
+        "ensuring that spiritual ideals don't overshadow practical relationship needs"
+      ],
+      "actionable": [
+        "Engage in shared spiritual practices to deepen connections",
+        "regularly check in with your partner to ensure balance"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "7th house Neptune seeks harmony in relationships.",
+      "full": "Neptune in the 7th house drives a desire for harmony and peace in relationships, often at the expense of confrontation. This placement suggests a need to find healthy ways to address conflict. Strengths include a natural ability to mediate and soothe tensions. Challenges may involve avoiding necessary confrontations to maintain peace. Actionable steps: Learn constructive communication techniques; recognize that healthy conflict can lead to deeper understanding.",
+      "tags": [
+        "harmony",
+        "peace",
+        "conflict resolution"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "natural ability to mediate and soothe tensions"
+      ],
+      "challenges": [
+        "avoiding necessary confrontations to maintain peace"
+      ],
+      "actionable": [
+        "Learn constructive communication techniques",
+        "recognize that healthy conflict can lead to deeper understanding"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_7",
+      "type": "planet_house",
+      "short": "Neptune in the 7th house encourages unconditional love.",
+      "full": "Neptune's placement in the 7th house encourages a boundless capacity for unconditional love in relationships. While this is a beautiful quality, it's essential to also practice self-love and care. Strengths include the ability to love without expectation or limitation. Challenges may involve neglecting your own needs in the service of others. Actionable steps: Prioritize self-care to replenish your emotional reserves; set healthy boundaries to ensure mutual respect and love.",
+      "tags": [
+        "unconditional love",
+        "self-love",
+        "boundaries"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "ability to love without expectation or limitation"
+      ],
+      "challenges": [
+        "neglecting your own needs in the service of others"
+      ],
+      "actionable": [
+        "Prioritize self-care to replenish your emotional reserves",
+        "set healthy boundaries to ensure mutual respect and love"
+      ]
+    }
+  ],
+  "house_8": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house suggests deep emotional and spiritual transformations.",
+      "full": "Neptune's presence in the 8th house indicates a journey through deep emotional and spiritual transformations. This placement often brings a heightened intuition and a strong connection to the unseen realms. It's a call to explore the mysteries of life, death, and rebirth, encouraging a surrender to the flow of the universe.",
+      "tags": [
+        "spiritual",
+        "transformation",
+        "intuition"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Heightened intuition",
+        "Deep spiritual connection",
+        "Ability to navigate transformations"
+      ],
+      "challenges": [
+        "Overwhelm by emotions",
+        "Difficulty grounding"
+      ],
+      "actionable": [
+        "Practice grounding exercises",
+        "Keep a dream journal"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house enhances psychic abilities and emotional depth.",
+      "full": "With Neptune in the 8th house, individuals may find their psychic abilities and emotional depth significantly enhanced. This placement fosters a profound understanding of life's cycles and an innate ability to heal others emotionally. It's important to set boundaries to avoid absorbing too much from others.",
+      "tags": [
+        "psychic",
+        "emotional depth",
+        "healing"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Psychic abilities",
+        "Emotional healing capacity",
+        "Understanding of life cycles"
+      ],
+      "challenges": [
+        "Absorbing others' emotions",
+        "Boundary setting"
+      ],
+      "actionable": [
+        "Set clear emotional boundaries",
+        "Engage in regular energy cleansing"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house invites exploring the subconscious and mystical.",
+      "full": "Neptune in the 8th house is an invitation to explore the subconscious mind and the mystical aspects of existence. This placement can indicate a natural affinity for uncovering hidden truths and a compassionate approach to the mysteries of life. Balancing imagination with reality is key.",
+      "tags": [
+        "subconscious",
+        "mystical",
+        "compassion"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Affinity for hidden truths",
+        "Compassionate understanding",
+        "Rich imagination"
+      ],
+      "challenges": [
+        "Distinguishing fantasy from reality",
+        "Over-idealism"
+      ],
+      "actionable": [
+        "Meditate to connect with inner truth",
+        "Journal to clarify thoughts and feelings"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house signifies a path of spiritual surrender and trust.",
+      "full": "Neptune's placement in the 8th house signifies a spiritual path marked by surrender and trust in the universe. It highlights the dissolution of ego and material attachments, leading to profound spiritual insights. Learning to trust the process is essential for growth.",
+      "tags": [
+        "surrender",
+        "trust",
+        "spiritual growth"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Spiritual insight",
+        "Ability to surrender",
+        "Deep trust in life"
+      ],
+      "challenges": [
+        "Fear of loss",
+        "Difficulty with material detachment"
+      ],
+      "actionable": [
+        "Practice letting go of small things daily",
+        "Spend time in nature to connect with the universe"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house encourages healing through vulnerability.",
+      "full": "Neptune in the 8th house encourages individuals to embrace vulnerability as a path to healing. This placement often brings a deep empathy for others' suffering and a desire to alleviate it. Recognizing one's own needs is crucial to avoid burnout.",
+      "tags": [
+        "healing",
+        "vulnerability",
+        "empathy"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep empathy",
+        "Healing abilities",
+        "Courage to be vulnerable"
+      ],
+      "challenges": [
+        "Risk of burnout",
+        "Neglecting own needs"
+      ],
+      "actionable": [
+        "Schedule regular self-care",
+        "Practice saying no to preserve energy"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house reveals a connection to collective unconscious.",
+      "full": "Neptune in the 8th house reveals a strong connection to the collective unconscious, offering insights into universal truths. This placement can manifest as vivid dreams or premonitions, serving as guidance. Grounding these insights into daily life is essential.",
+      "tags": [
+        "collective unconscious",
+        "dreams",
+        "universal truths"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Access to universal truths",
+        "Vivid intuitive dreams",
+        "Guidance through symbols"
+      ],
+      "challenges": [
+        "Overwhelm by symbolic messages",
+        "Difficulty interpreting dreams"
+      ],
+      "actionable": [
+        "Study symbolism to better understand dreams",
+        "Create art to express unconscious insights"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house fosters a mystical approach to relationships.",
+      "full": "Neptune in the 8th house fosters a mystical and deeply spiritual approach to relationships. This placement often indicates karmic connections and lessons learned through bonds with others. Maintaining clarity and boundaries ensures healthy interactions.",
+      "tags": [
+        "relationships",
+        "karmic",
+        "spiritual"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep spiritual connections",
+        "Karmic insight",
+        "Empathy in relationships"
+      ],
+      "challenges": [
+        "Boundary issues",
+        "Idealizing partners"
+      ],
+      "actionable": [
+        "Reflect on relationship patterns",
+        "Communicate needs clearly"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_8",
+      "type": "planet_house",
+      "short": "Neptune in the 8th house highlights the illusion of separation.",
+      "full": "Neptune in the 8th house highlights the illusion of separation, emphasizing the interconnectedness of all beings. This placement can lead to profound experiences of unity and compassion. Balancing this awareness with earthly responsibilities is key.",
+      "tags": [
+        "interconnectedness",
+        "unity",
+        "compassion"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Sense of unity",
+        "Deep compassion",
+        "Spiritual awareness"
+      ],
+      "challenges": [
+        "Disconnection from practical matters",
+        "Overwhelm by universal suffering"
+      ],
+      "actionable": [
+        "Engage in volunteer work to channel compassion",
+        "Set daily practical goals"
+      ]
+    }
+  ],
+  "house_9": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "Neptune in the 9th house inspires spiritual exploration and higher learning.",
+      "full": "With Neptune in the 9th house, your journey is marked by a deep spiritual curiosity and a desire to understand life's bigger questions. This placement encourages exploring philosophies, religions, and cultures beyond your immediate experience. It's a call to expand your mind and soul, though it may also bring moments of confusion or idealism about beliefs. Strengths include intuition in learning and a compassionate worldview. Challenges might involve navigating disillusionment or unclear moral directions. Actionable steps: Engage in meditation or spiritual practices; read widely to broaden perspectives.",
+      "tags": [
+        "spirituality",
+        "higher learning",
+        "intuition"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Intuitive learning",
+        "Compassionate worldview"
+      ],
+      "challenges": [
+        "Disillusionment",
+        "Unclear moral directions"
+      ],
+      "actionable": [
+        "Engage in meditation or spiritual practices",
+        "Read widely to broaden perspectives"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "Neptune in the 9th house blends dreams with the quest for knowledge.",
+      "full": "Neptune's presence in the 9th house merges the mystical with the intellectual, leading you to seek truth through both study and intuition. You may find traditional education limiting, preferring paths that allow for spiritual and creative expression. This placement can gift you with visionary ideas but also poses the challenge of distinguishing fantasy from reality in your beliefs. Strengths lie in your ability to inspire others with your ideals. Challenges include over-idealism in philosophical pursuits. Actionable steps: Journal to clarify thoughts; explore art or music as spiritual practice.",
+      "tags": [
+        "mysticism",
+        "education",
+        "creativity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Ability to inspire",
+        "Visionary ideas"
+      ],
+      "challenges": [
+        "Over-idealism",
+        "Distinguishing fantasy from reality"
+      ],
+      "actionable": [
+        "Journal to clarify thoughts",
+        "Explore art or music as spiritual practice"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "In the 9th house, Neptune seeks universal truths through compassion.",
+      "full": "Neptune in the 9th house drives a compassionate search for universal truths, often leading you to humanitarian or spiritual causes. Your learning style is intuitive, absorbing knowledge through empathy as much as study. While this placement fosters deep understanding, it may also cloud judgment with too much idealism. Strengths include a natural empathy and a broad, inclusive perspective. Challenges involve maintaining boundaries in belief systems. Actionable steps: Volunteer for causes you believe in; practice discernment in adopting new philosophies.",
+      "tags": [
+        "compassion",
+        "universal truths",
+        "humanitarianism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Natural empathy",
+        "Broad, inclusive perspective"
+      ],
+      "challenges": [
+        "Maintaining boundaries in belief systems"
+      ],
+      "actionable": [
+        "Volunteer for causes you believe in",
+        "Practice discernment in adopting new philosophies"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "Neptune in the 9th house encourages dissolving boundaries in belief.",
+      "full": "With Neptune in the 9th house, you're called to dissolve rigid boundaries in your beliefs, embracing a more fluid understanding of spirituality and knowledge. This placement fosters a deep connection to the unseen, making traditional religious structures feel restrictive. While it opens doors to profound spiritual experiences, it can also lead to confusion or escapism in the search for meaning. Strengths include a visionary approach to spirituality. Challenges are potential dogmatism or lack of focus. Actionable steps: Explore multiple spiritual paths; set aside time for reflection.",
+      "tags": [
+        "spirituality",
+        "belief systems",
+        "visionary"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Visionary approach to spirituality"
+      ],
+      "challenges": [
+        "Dogmatism",
+        "Lack of focus"
+      ],
+      "actionable": [
+        "Explore multiple spiritual paths",
+        "Set aside time for reflection"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "The 9th house Neptune seeks meaning beyond the material world.",
+      "full": "Neptune in the 9th house signifies a soul that seeks meaning beyond the material, diving into the mysteries of existence. Your higher education may involve unconventional subjects or self-taught paths that resonate with your inner truth. This placement blesses you with insight but can also blur the line between inspiration and illusion. Strengths include a profound inner guidance system. Challenges may be skepticism or over-reliance on intuition. Actionable steps: Study metaphysics or philosophy; cultivate a daily mindfulness practice.",
+      "tags": [
+        "meaning",
+        "mysteries of existence",
+        "inner guidance"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Profound inner guidance system"
+      ],
+      "challenges": [
+        "Skepticism",
+        "Over-reliance on intuition"
+      ],
+      "actionable": [
+        "Study metaphysics or philosophy",
+        "Cultivate a daily mindfulness practice"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "Neptune in the 9th house illuminates the path of spiritual surrender.",
+      "full": "Neptune in the 9th house illuminates a path of spiritual surrender, where letting go of rigid beliefs opens the door to divine wisdom. Your journey may involve teaching or sharing spiritual insights, often through creative or compassionate means. While this placement offers deep connection to the divine, it can also tempt you to escape reality through spirituality. Strengths include a natural ability to connect with higher wisdom. Challenges involve balancing spirituality with practicality. Actionable steps: Share your insights through writing or art; ground spiritual practices in daily life.",
+      "tags": [
+        "spiritual surrender",
+        "divine wisdom",
+        "teaching"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Natural ability to connect with higher wisdom"
+      ],
+      "challenges": [
+        "Balancing spirituality with practicality"
+      ],
+      "actionable": [
+        "Share your insights through writing or art",
+        "Ground spiritual practices in daily life"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "In the 9th house, Neptune dreams of a world united by love.",
+      "full": "Neptune in the 9th house dreams of a world united by love and spiritual understanding, driving you towards global or humanitarian perspectives. Your beliefs are likely inclusive, seeing the divine in all. This placement fosters idealism but may also lead to disillusionment when reality falls short. Strengths include a boundless compassion and visionary outlook. Challenges are maintaining faith in the face of cynicism. Actionable steps: Engage in intercultural exchanges; practice loving-kindness meditation.",
+      "tags": [
+        "love",
+        "spiritual understanding",
+        "humanitarianism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Boundless compassion",
+        "Visionary outlook"
+      ],
+      "challenges": [
+        "Maintaining faith in the face of cynicism"
+      ],
+      "actionable": [
+        "Engage in intercultural exchanges",
+        "Practice loving-kindness meditation"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_9",
+      "type": "planet_house",
+      "short": "Neptune in the 9th house sees the sacred in the journey itself.",
+      "full": "Neptune in the 9th house teaches that the journey—the quest for knowledge and spiritual growth—is itself sacred. You may find traditional answers unsatisfying, seeking instead a personal, experiential understanding of the divine. This placement encourages faith but can also cloud judgment with too much mysticism. Strengths include a deep sense of the sacred in everyday life. Challenges involve distinguishing spiritual truth from illusion. Actionable steps: Travel with a spiritual intent; keep a dream journal to explore subconscious wisdom.",
+      "tags": [
+        "sacred journey",
+        "spiritual growth",
+        "personal understanding"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep sense of the sacred in everyday life"
+      ],
+      "challenges": [
+        "Distinguishing spiritual truth from illusion"
+      ],
+      "actionable": [
+        "Travel with a spiritual intent",
+        "Keep a dream journal to explore subconscious wisdom"
+      ]
+    }
+  ],
+  "house_10": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "Neptune in the 10th house inspires a career with creativity and compassion.",
+      "full": "With Neptune in the 10th house, your career path may be influenced by a strong sense of idealism and a desire to serve others. This placement suggests a natural inclination towards professions that involve healing, arts, or spirituality. However, it's important to stay grounded to avoid disillusionment. Strengths include intuition and empathy. Challenges may involve unclear goals. Actionable steps: explore creative fields, practice grounding techniques.",
+      "tags": [
+        "career",
+        "idealism",
+        "spirituality"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "intuition",
+        "empathy"
+      ],
+      "challenges": [
+        "unclear goals"
+      ],
+      "actionable": [
+        "explore creative fields",
+        "practice grounding techniques"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "Neptune here blends dreams with career, urging a path of service.",
+      "full": "Neptune in the 10th house merges your professional life with your dreams, often leading you towards careers that serve humanity or express creativity. You might find fulfillment in roles that allow for artistic expression or helping others. Strengths include visionary thinking and compassion. Challenges could be a tendency towards escapism. Actionable steps: seek careers in healing arts, set realistic career milestones.",
+      "tags": [
+        "service",
+        "dreams",
+        "career"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "visionary thinking",
+        "compassion"
+      ],
+      "challenges": [
+        "escapism"
+      ],
+      "actionable": [
+        "seek careers in healing arts",
+        "set realistic career milestones"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "A Neptune 10th house placement suggests a career driven by intuition.",
+      "full": "Having Neptune in the 10th house indicates that your career may be deeply connected to your intuitive and spiritual side. You're likely drawn to professions that transcend the material, such as music, film, or philanthropy. Strengths include a deep connection to the unseen. Challenges might include difficulty with structure. Actionable steps: engage in spiritual practices, find mentors in creative fields.",
+      "tags": [
+        "intuition",
+        "spirituality",
+        "career"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "deep connection to the unseen"
+      ],
+      "challenges": [
+        "difficulty with structure"
+      ],
+      "actionable": [
+        "engage in spiritual practices",
+        "find mentors in creative fields"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "Neptune in the 10th house highlights a compassionate career path.",
+      "full": "Neptune's presence in the 10th house suggests your career may be marked by compassion and a desire to make a difference. Fields like counseling, art therapy, or environmental activism could be fulfilling. Strengths include altruism and creativity. Challenges may involve setting boundaries. Actionable steps: volunteer in helping professions, learn to say no.",
+      "tags": [
+        "compassion",
+        "altruism",
+        "boundaries"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "altruism",
+        "creativity"
+      ],
+      "challenges": [
+        "setting boundaries"
+      ],
+      "actionable": [
+        "volunteer in helping professions",
+        "learn to say no"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "This placement encourages a career that reflects your inner visions.",
+      "full": "With Neptune in the 10th house, your professional life is a canvas for your inner visions and spiritual ideals. You may excel in careers that allow for imaginative expression, such as photography or poetry. Strengths include a rich imagination. Challenges can be practical day-to-day tasks. Actionable steps: journal your visions, take small practical steps daily.",
+      "tags": [
+        "visions",
+        "imagination",
+        "career"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "rich imagination"
+      ],
+      "challenges": [
+        "practical day-to-day tasks"
+      ],
+      "actionable": [
+        "journal your visions",
+        "take small practical steps daily"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "Neptune here weaves spirituality into your career identity.",
+      "full": "Neptune in the 10th house infuses your career identity with spirituality and a quest for meaning. You might be drawn to roles that offer a sense of transcendence, like yoga instruction or spiritual counseling. Strengths include a sense of universal connection. Challenges may include financial instability. Actionable steps: explore spiritual vocations, create a financial plan.",
+      "tags": [
+        "spirituality",
+        "transcendence",
+        "career"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "sense of universal connection"
+      ],
+      "challenges": [
+        "financial instability"
+      ],
+      "actionable": [
+        "explore spiritual vocations",
+        "create a financial plan"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "A Neptune 10th house placement favors careers that heal or inspire.",
+      "full": "Neptune in the 10th house suggests a career that heals, inspires, or brings beauty into the world. You may find success in fields like music therapy, film, or environmental art. Strengths include the ability to inspire others. Challenges might be maintaining focus. Actionable steps: pursue healing arts, establish a daily routine.",
+      "tags": [
+        "healing",
+        "inspiration",
+        "beauty"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "ability to inspire others"
+      ],
+      "challenges": [
+        "maintaining focus"
+      ],
+      "actionable": [
+        "pursue healing arts",
+        "establish a daily routine"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_10",
+      "type": "planet_house",
+      "short": "Neptune in the 10th house calls for a career aligned with your soul.",
+      "full": "Neptune in the 10th house indicates that your true calling is a career that aligns with your soul's purpose, possibly in the arts or humanitarian efforts. You're here to bring dreams into reality. Strengths include deep empathy and visionary ideas. Challenges may involve self-doubt. Actionable steps: meditate on your purpose, connect with like-minded communities.",
+      "tags": [
+        "soul purpose",
+        "humanitarian",
+        "arts"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "deep empathy",
+        "visionary ideas"
+      ],
+      "challenges": [
+        "self-doubt"
+      ],
+      "actionable": [
+        "meditate on your purpose",
+        "connect with like-minded communities"
+      ]
+    }
+  ],
+  "house_11": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Neptune in the 11th house inspires collective dreams and spiritual friendships.",
+      "full": "With Neptune in the 11th house, your social circles may be drawn to spiritual or artistic pursuits, fostering a sense of unity through shared ideals. This placement encourages compassion within groups, but be mindful of idealizing friends or causes. Strengths include a natural ability to connect on a deep, intuitive level and inspire collective vision. Challenges may involve unclear boundaries in friendships or disillusionment with groups. Actionable steps: Regularly reflect on your social connections to ensure they align with your true values; engage in creative group activities to channel Neptune's energy positively.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "friendships",
+        "collective dreams"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Deep intuitive connections",
+        "Inspires collective vision"
+      ],
+      "challenges": [
+        "Unclear boundaries",
+        "Potential disillusionment"
+      ],
+      "actionable": [
+        "Reflect on social connections",
+        "Engage in creative group activities"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Neptune here blurs lines in friendships, urging discernment in social ideals.",
+      "full": "Neptune's presence in the 11th house softens the boundaries between yourself and others, making it easy to merge with groups or causes. While this can lead to profound empathy and unity, it's important to maintain a sense of individuality. Your strengths lie in your ability to dream big with others and to sense the unspoken needs of your community. Challenges include the tendency to overlook red flags in groups or to sacrifice too much for collective goals. Actionable steps: Practice setting healthy boundaries with groups; dedicate time to solo spiritual practices to strengthen your inner compass.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "empathy",
+        "group dynamics"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Dreaming big with others",
+        "Sensing community needs"
+      ],
+      "challenges": [
+        "Overlooking red flags",
+        "Over-sacrificing"
+      ],
+      "actionable": [
+        "Set healthy boundaries",
+        "Engage in solo spiritual practices"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "This placement fosters a humanitarian spirit, blending compassion with collective action.",
+      "full": "Neptune in the 11th house illuminates your path with a desire to serve humanity, blending spiritual ideals with social activism. You're likely drawn to causes that promise a better world, but ensure your involvement is grounded in reality. Strengths include an innate ability to uplift others through your vision and to work selflessly for the greater good. Challenges may involve losing yourself in the causes you support or becoming disillusioned by the imperfections of groups. Actionable steps: Volunteer for causes that resonate deeply with you; balance activism with personal reflection to stay aligned with your truth.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "humanitarianism",
+        "activism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Uplifting others",
+        "Selfless service"
+      ],
+      "challenges": [
+        "Losing oneself in causes",
+        "Disillusionment"
+      ],
+      "actionable": [
+        "Volunteer for resonant causes",
+        "Balance activism with reflection"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Neptune here encourages artistic collaborations and shared creative visions.",
+      "full": "With Neptune gracing your 11th house, your social networks may become a canvas for artistic and creative expression. This placement fosters a unique ability to collaborate on projects that transcend individual ego, focusing instead on collective beauty. Strengths include inspiring others through art and creating deep, meaningful connections through shared creativity. Challenges could involve diffusing your artistic identity too much within groups or unrealistic expectations of collaborative projects. Actionable steps: Initiate or join creative group endeavors; maintain a personal creative practice to honor your individual voice.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "artistic collaboration",
+        "creativity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Inspiring through art",
+        "Deep creative connections"
+      ],
+      "challenges": [
+        "Diffused artistic identity",
+        "Unrealistic expectations"
+      ],
+      "actionable": [
+        "Join creative endeavors",
+        "Maintain personal creative practice"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Spiritual communities and mystical friendships are highlighted with Neptune here.",
+      "full": "Neptune in the 11th house draws you towards spiritual or mystical communities where you can explore the unseen together. This placement enhances your intuition within groups, allowing for profound connections beyond the physical realm. Strengths include the ability to foster a sense of divine connection among friends and to perceive the spiritual undercurrents in social settings. Challenges might involve confusing spiritual bonds with healthy boundaries or becoming overly dependent on group validation. Actionable steps: Seek out like-minded spiritual communities; cultivate personal spiritual practices to ensure your path remains authentic.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "spiritual communities",
+        "mystical friendships"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Fostering divine connection",
+        "Perceiving spiritual undercurrents"
+      ],
+      "challenges": [
+        "Confusing bonds with boundaries",
+        "Dependency on group validation"
+      ],
+      "actionable": [
+        "Seek spiritual communities",
+        "Cultivate personal spiritual practices"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Neptune in the 11th house blurs individual and group identities, urging clarity.",
+      "full": "The presence of Neptune in your 11th house can make the line between your identity and that of your groups feel beautifully blurred, yet it's crucial to remember where you end and others begin. This placement gifts you with the ability to empathize deeply with collective energies, making you a unifying force. Strengths include your capacity for unconditional love within groups and your visionary approach to friendship. Challenges may involve losing your sense of self in group dynamics or idealizing social connections. Actionable steps: Journal about your group interactions to maintain self-awareness; engage in activities that reinforce your individuality.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "identity",
+        "empathy"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Unconditional love in groups",
+        "Visionary friendship approach"
+      ],
+      "challenges": [
+        "Losing self in groups",
+        "Idealizing connections"
+      ],
+      "actionable": [
+        "Journal about group interactions",
+        "Engage in individual activities"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "This placement invites healing through community, blending compassion with collective support.",
+      "full": "Neptune in the 11th house suggests that your healing journey may be deeply intertwined with community involvement, where compassion and collective support play key roles. You have the potential to be a healing presence within your social circles, offering empathy and understanding. Strengths include your ability to nurture group harmony and to intuitively address the emotional needs of your community. Challenges could involve absorbing too much emotional energy from groups or neglecting your own healing needs. Actionable steps: Participate in or create supportive group healing spaces; ensure you have personal healing practices in place.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "healing",
+        "community support"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Nurturing group harmony",
+        "Intuitive emotional support"
+      ],
+      "challenges": [
+        "Absorbing group emotions",
+        "Neglecting personal healing"
+      ],
+      "actionable": [
+        "Join healing spaces",
+        "Establish personal healing practices"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_11",
+      "type": "planet_house",
+      "short": "Neptune here enhances psychic connections within friendships and group endeavors.",
+      "full": "With Neptune in your 11th house, you may find that your friendships and group activities are marked by an unusual degree of psychic connection and synchronicity. This placement encourages a transcendent approach to social bonds, where the unseen threads between individuals are felt strongly. Strengths include your sensitivity to the collective unconscious and your ability to foster mystical or intuitive group experiences. Challenges might involve navigating the fine line between psychic openness and maintaining healthy boundaries. Actionable steps: Explore group meditation or psychic development circles; practice grounding techniques to stay balanced.",
+      "tags": [
+        "neptune",
+        "11th house",
+        "psychic connections",
+        "synchronicity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "Sensitivity to collective unconscious",
+        "Fostering mystical group experiences"
+      ],
+      "challenges": [
+        "Psychic openness vs. boundaries"
+      ],
+      "actionable": [
+        "Explore group meditation",
+        "Practice grounding techniques"
+      ]
+    }
+  ],
+  "house_12": [
+    {
+      "id": 1,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house suggests deep intuition and spiritual sensitivity.",
+      "full": "With Neptune in the 12th house, your intuition and spiritual sensitivity are heightened, offering a profound connection to the unseen. This placement encourages exploring subconscious realms through meditation or creative expression. However, it may also bring challenges in distinguishing reality from illusion, requiring grounding practices. Strengths include compassion and artistic talent. Challenges involve escapism and confusion. Actionable steps: Engage in regular meditation to harness your intuition, and keep a dream journal to explore subconscious messages.",
+      "tags": [
+        "intuition",
+        "spirituality",
+        "subconscious"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "compassion",
+        "artistic talent"
+      ],
+      "challenges": [
+        "escapism",
+        "confusion"
+      ],
+      "actionable": [
+        "Engage in regular meditation",
+        "Keep a dream journal"
+      ]
+    },
+    {
+      "id": 2,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house enhances empathy but may blur boundaries.",
+      "full": "Neptune's presence in the 12th house amplifies your empathy, making you highly attuned to others' emotions. This can be a gift for healing professions but may also lead to blurred personal boundaries. Strengths lie in your healing abilities and imagination. Challenges include over-identification with others' pain and a tendency towards self-sacrifice. Actionable steps: Practice setting healthy emotional boundaries, and explore creative outlets to channel your empathy constructively.",
+      "tags": [
+        "empathy",
+        "healing",
+        "boundaries"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "healing abilities",
+        "imagination"
+      ],
+      "challenges": [
+        "over-identification with others' pain",
+        "self-sacrifice"
+      ],
+      "actionable": [
+        "Practice setting healthy emotional boundaries",
+        "Explore creative outlets"
+      ]
+    },
+    {
+      "id": 3,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house fosters a rich inner world but may cause escapism.",
+      "full": "Having Neptune in the 12th house blesses you with a rich inner world, full of dreams and artistic inspiration. However, this placement can also tempt you to escape reality through fantasy or substances. Strengths include visionary ideas and deep compassion. Challenges involve avoiding reality and potential disillusionment. Actionable steps: Dedicate time to artistic creation to express your inner visions, and establish a daily routine to stay grounded.",
+      "tags": [
+        "inner world",
+        "artistic inspiration",
+        "escapism"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "visionary ideas",
+        "deep compassion"
+      ],
+      "challenges": [
+        "avoiding reality",
+        "disillusionment"
+      ],
+      "actionable": [
+        "Dedicate time to artistic creation",
+        "Establish a daily routine"
+      ]
+    },
+    {
+      "id": 4,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house encourages spiritual exploration but may lead to confusion.",
+      "full": "Neptune in the 12th house draws you towards spiritual exploration and mystical experiences. While this can deepen your understanding of the universe, it may also bring periods of confusion or uncertainty about your path. Strengths include a natural affinity for meditation and spiritual practices. Challenges are navigating doubt and finding clarity. Actionable steps: Join a spiritual community for support, and practice mindfulness to enhance your clarity.",
+      "tags": [
+        "spiritual exploration",
+        "mysticism",
+        "confusion"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "natural affinity for meditation",
+        "spiritual practices"
+      ],
+      "challenges": [
+        "navigating doubt",
+        "finding clarity"
+      ],
+      "actionable": [
+        "Join a spiritual community",
+        "Practice mindfulness"
+      ]
+    },
+    {
+      "id": 5,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house heightens psychic sensitivity but requires grounding.",
+      "full": "With Neptune in the 12th house, your psychic sensitivity is heightened, allowing you to perceive beyond the physical. This gift, however, necessitates strong grounding to maintain balance. Strengths include intuitive insights and a connection to the collective unconscious. Challenges involve psychic overwhelm and energy drainage. Actionable steps: Use protective visualization to shield your energy, and spend time in nature to stay grounded.",
+      "tags": [
+        "psychic sensitivity",
+        "intuition",
+        "grounding"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "intuitive insights",
+        "connection to the collective unconscious"
+      ],
+      "challenges": [
+        "psychic overwhelm",
+        "energy drainage"
+      ],
+      "actionable": [
+        "Use protective visualization",
+        "Spend time in nature"
+      ]
+    },
+    {
+      "id": 6,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house inspires compassion but may dilute personal identity.",
+      "full": "Neptune in the 12th house inspires deep compassion and a desire to serve others. Yet, this can sometimes dilute your sense of personal identity as you merge with collective suffering. Strengths include unconditional love and humanitarian ideals. Challenges are losing yourself in others and identity confusion. Actionable steps: Volunteer in a way that aligns with your values, and engage in self-reflection to strengthen your sense of self.",
+      "tags": [
+        "compassion",
+        "service",
+        "identity"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "unconditional love",
+        "humanitarian ideals"
+      ],
+      "challenges": [
+        "losing yourself in others",
+        "identity confusion"
+      ],
+      "actionable": [
+        "Volunteer in a way that aligns with your values",
+        "Engage in self-reflection"
+      ]
+    },
+    {
+      "id": 7,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house enhances artistic vision but may foster impracticality.",
+      "full": "Neptune in the 12th house enhances your artistic vision, offering a unique lens through which to view the world. However, this can sometimes lead to impracticality or difficulty in manifesting your visions. Strengths include creativity and the ability to inspire others. Challenges involve grounding your ideas and dealing with criticism. Actionable steps: Set small, achievable goals for your projects, and seek constructive feedback to refine your vision.",
+      "tags": [
+        "artistic vision",
+        "creativity",
+        "impracticality"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "creativity",
+        "ability to inspire"
+      ],
+      "challenges": [
+        "grounding your ideas",
+        "dealing with criticism"
+      ],
+      "actionable": [
+        "Set small, achievable goals",
+        "Seek constructive feedback"
+      ]
+    },
+    {
+      "id": 8,
+      "key": "planet_house.neptune.house_12",
+      "type": "planet_house",
+      "short": "Neptune in the 12th house deepens spiritual connection but may isolate.",
+      "full": "Neptune in the 12th house deepens your spiritual connection, often making you feel at one with the universe. This profound sense of unity can sometimes lead to feelings of isolation from the mundane world. Strengths include a peaceful demeanor and spiritual wisdom. Challenges are feeling disconnected and navigating solitude. Actionable steps: Participate in group meditations to share your spiritual journey, and journal your experiences to process your feelings.",
+      "tags": [
+        "spiritual connection",
+        "unity",
+        "isolation"
+      ],
+      "audience": "novice",
+      "lang": "en",
+      "version": 1,
+      "needs_review": false,
+      "strengths": [
+        "peaceful demeanor",
+        "spiritual wisdom"
+      ],
+      "challenges": [
+        "feeling disconnected",
+        "navigating solitude"
+      ],
+      "actionable": [
+        "Participate in group meditations",
+        "Journal your experiences"
+      ]
+    }
+  ]
+}
