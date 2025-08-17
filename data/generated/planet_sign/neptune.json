@@ -4,14 +4,11 @@
       "id": 1,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries inspires with bold visions and spiritual courage.",
-      "full": "Neptune in Aries blends the mystical with the martial, encouraging a journey of spiritual discovery through action. This placement suggests a unique ability to see beyond the mundane, driven by an inner fire. It's about finding faith in one's own path, with creativity and intuition leading the way.",
-      "tags": [
-        "spirituality",
-        "creativity"
-      ],
+      "short": "Нептун в Овне вдохновляет на смелые мечты и интуитивные прорывы.",
+      "full": "Нептун в Овне пробуждает глубокую интуицию и желание следовать за своими мечтами без оглядки. Это положение способствует смелым творческим начинаниям и инновационным идеям. Люди с такой комбинацией часто обладают ярким воображением и способностью вдохновлять других.",
+      "tags": ["интуиция", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -19,14 +16,11 @@
       "id": 2,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Aries Neptune fuels dreams with action and fiery determination.",
-      "full": "With Neptune in Aries, dreams are not just visions but calls to action. This placement emphasizes the power of belief in oneself, turning intuition into decisive steps forward. It's a reminder that spiritual growth often requires the courage to act on one's convictions.",
-      "tags": [
-        "action",
-        "intuition"
-      ],
+      "short": "С Нептуном в Овне вы чувствуете страсть к неизведанному и мистическому.",
+      "full": "Нептун в Овне наделяет человека страстью к исследованию неизведанного и мистического. Это положение может указывать на сильную духовную энергию и желание найти свой уникальный путь. Такие люди часто ищут глубинный смысл в жизни и могут быть очень убедительными в своих убеждениях.",
+      "tags": ["мистика", "духовность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -34,14 +28,11 @@
       "id": 3,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries merges spirituality with pioneering energy.",
-      "full": "Neptune's presence in Aries creates a dynamic interplay between the spiritual and the assertive. This combination encourages exploring new frontiers of belief and creativity, with a fearless approach to the unknown. It highlights the importance of trusting one's inner guidance in uncharted territories.",
-      "tags": [
-        "exploration",
-        "faith"
-      ],
+      "short": "Нептун в Овне способствует ярким художественным выражениям.",
+      "full": "При Нептуне в Овне художественные таланты могут проявляться особенно ярко и нестандартно. Это положение поощряет эксперименты в искусстве и самовыражении. Люди с такой комбинацией часто стремятся к оригинальности и могут вдохновлять окружающих своей креативностью.",
+      "tags": ["искусство", "креативность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -49,14 +40,11 @@
       "id": 4,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "In Aries, Neptune inspires bold spiritual quests.",
-      "full": "Neptune in Aries signifies a journey where spirituality meets bravery. This placement is about embracing the unknown with confidence, allowing intuition to guide through challenges. It's a call to trust in the unseen forces that propel us forward, blending courage with mysticism.",
-      "tags": [
-        "bravery",
-        "mysticism"
-      ],
+      "short": "Нептун в Овне усиливает желание быть первопроходцем в духовных вопросах.",
+      "full": "Нептун в Овне может указывать на желание быть первопроходцем в области духовности и самопознания. Такие люди часто ищут новые пути для личного роста и могут быть очень убедительными в своих духовных исканиях. Их подход к жизни часто отличается смелостью и оригинальностью.",
+      "tags": ["духовность", "самопознание"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -64,14 +52,11 @@
       "id": 5,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries: a beacon for innovative spiritual expression.",
-      "full": "This placement highlights Neptune's imaginative flow within Aries' fiery domain, fostering a unique blend of inspiration and action. It encourages breaking free from conventional spiritual paths, advocating for a personal and direct connection with the divine. Here, spirituality is an adventure, not a doctrine.",
-      "tags": [
-        "innovation",
-        "expression"
-      ],
+      "short": "Нептун в Овне пробуждает сильное воображение и лидерские качества.",
+      "full": "Нептун в Овне способствует развитию сильного воображения и лидерских качеств в творческих и духовных сферах. Люди с такой комбинацией часто обладают способностью вести за собой других, вдохновляя их своими идеями и видением. Их подход к жизни может быть как интуитивным, так и решительным.",
+      "tags": ["воображение", "лидерство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -79,14 +64,11 @@
       "id": 6,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Aries Neptune drives the soul with fearless vision.",
-      "full": "Neptune in Aries empowers the spirit with an unyielding drive towards the ideal. This placement is about channeling the boundless energy of Aries into Neptune's realm of dreams and intuition. It's a powerful reminder that true vision requires both the heart's depth and the warrior's courage.",
-      "tags": [
-        "vision",
-        "courage"
-      ],
+      "short": "Нептун в Овне способствует смелым духовным исканиям.",
+      "full": "Нептун в Овне побуждает к смелым духовным исканиям и поиску новых форм самовыражения. Это положение может указывать на человека, который не боится идти против течения в поисках истины. Их путь часто сопровождается яркими озарениями и глубокими внутренними открытиями.",
+      "tags": ["духовность", "самовыражение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -94,14 +76,11 @@
       "id": 7,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries ignites a passionate spiritual journey.",
-      "full": "With Neptune in Aries, the spiritual path is anything but passive. This placement fuels a fiery quest for meaning, blending intuition with action. It's about discovering the divine through doing, where every step forward is both a leap of faith and an act of courage.",
-      "tags": [
-        "passion",
-        "journey"
-      ],
+      "short": "Нептун в Овне вдохновляет на уникальные творческие проекты.",
+      "full": "Нептун в Овне вдохновляет на создание уникальных творческих проектов, которые могут изменить привычные взгляды. Люди с такой комбинацией часто обладают способностью видеть мир под другим углом и выражать свои идеи необычными способами. Их творчество может быть как провокационным, так и вдохновляющим.",
+      "tags": ["творчество", "инновации"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -109,14 +88,11 @@
       "id": 8,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "In Aries, Neptune champions the spiritual warrior.",
-      "full": "Neptune in Aries embodies the spiritual warrior archetype, merging compassion with bravery. This placement encourages standing up for one's beliefs with both heart and strength. It's a call to protect the intangible treasures of the soul with the fierceness of a guardian.",
-      "tags": [
-        "warrior",
-        "protection"
-      ],
+      "short": "Нептун в Овне усиливает интуицию и желание действовать.",
+      "full": "Нептун в Овне усиливает интуицию и желание действовать согласно внутренним подсказкам. Это положение способствует быстрому принятию решений на основе внутреннего чутья. Люди с такой комбинацией часто доверяют своим ощущениям и могут быть очень решительными в своих действиях.",
+      "tags": ["интуиция", "решительность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -124,14 +100,11 @@
       "id": 9,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries: where dreams meet daring.",
-      "full": "This unique placement sees Neptune's dreams infused with Aries' boldness, creating a landscape where the spiritual and the audacious collide. It's about pursuing the highest ideals with the courage of a pioneer, proving that the path to enlightenment is both a vision and a venture.",
-      "tags": [
-        "dreams",
-        "daring"
-      ],
+      "short": "Нептун в Овне пробуждает интерес к эзотерике и тайнам.",
+      "full": "Нептун в Овне может пробудить глубокий интерес к эзотерике, тайнам и всему загадочному. Люди с такой комбинацией часто обладают сильной интуицией и желанием разгадывать жизненные загадки. Их путь познания может быть наполнен неожиданными открытиями и глубокими прозрениями.",
+      "tags": ["эзотерика", "тайны"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -139,14 +112,11 @@
       "id": 10,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Aries Neptune blends intuition with initiative.",
-      "full": "Neptune in Aries offers a compelling mix of intuition and action, guiding individuals to trust their inner voice while moving forward with purpose. This placement highlights the importance of acting on spiritual insights, turning inspiration into tangible progress.",
-      "tags": [
-        "initiative",
-        "intuition"
-      ],
+      "short": "Нептун в Овне способствует ярким мечтам и амбициям.",
+      "full": "Нептун в Овне способствует появлению ярких мечт и амбиций, которые могут казаться недостижимыми. Однако, люди с такой комбинацией обладают уникальной способностью превращать свои мечты в реальность. Их вдохновение и решимость часто приводят к неожиданным и впечатляющим результатам.",
+      "tags": ["мечты", "амбиции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -154,14 +124,11 @@
       "id": 11,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "Neptune in Aries fosters a revolutionary spirit.",
-      "full": "With Neptune in Aries, spirituality takes on a revolutionary edge. This placement encourages breaking free from outdated beliefs, advocating for a personal and dynamic connection with the divine. It's about leading the charge towards a more enlightened existence, fueled by inner conviction.",
-      "tags": [
-        "revolution",
-        "spirit"
-      ],
+      "short": "Нептун в Овне усиливает харизму и способность вдохновлять.",
+      "full": "Нептун в Овне усиливает харизму и способность вдохновлять окружающих своими идеями и видением. Люди с такой комбинацией часто обладают магнетической привлекательностью и умением мотивировать других. Их присутствие может быть как успокаивающим, так и воодушевляющим.",
+      "tags": ["харизма", "вдохновение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -169,14 +136,11 @@
       "id": 12,
       "key": "planet.neptune.sign.aries",
       "type": "planet_sign",
-      "short": "In Aries, Neptune inspires fearless faith.",
-      "full": "Neptune in Aries is a testament to the power of fearless faith, where belief is not passive but propelled by action. This placement encourages embracing the unknown with an open heart and a bold spirit, seeing every challenge as an opportunity for spiritual growth.",
-      "tags": [
-        "faith",
-        "fearlessness"
-      ],
+      "short": "Нептун в Овне пробуждает желание исследовать глубины подсознания.",
+      "full": "Нептун в Овне пробуждает сильное желание исследовать глубины подсознания и понимать скрытые аспекты своей личности. Люди с такой комбинацией часто обладают глубокой интуицией и интересом к психологии. Их путь самопознания может быть как увлекательным, так и преобразующим.",
+      "tags": ["подсознание", "психология"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -186,15 +150,11 @@
       "id": 1,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus invites a deep connection with beauty and stability.",
-      "full": "With Neptune in Taurus, there's a profound appreciation for the beauty and stability in life. This placement encourages finding peace in the material world while seeking spiritual depth. It's about balancing earthly desires with higher ideals, fostering a unique blend of practicality and imagination.",
-      "tags": [
-        "beauty",
-        "stability",
-        "spirituality"
-      ],
+      "short": "Нептун в Тельце привносит глубину в материальные желания.",
+      "full": "Нептун в Тельце раскрывает тонкую грань между материальным и духовным, предлагая уникальный взгляд на ценность вещей. Это положение может усиливать интуитивное понимание красоты и искусства, а также стремление к стабильности, которое выходит за рамки обыденного. Люди с такой позицией часто находят утешение в творчестве и природе, видя в них отражение своих глубинных желаний.",
+      "tags": ["духовность", "материальность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -202,15 +162,11 @@
       "id": 2,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Taurus Neptune blends sensuality with dreams, grounding the ethereal.",
-      "full": "Neptune in Taurus merges the dreamy with the tangible, offering a grounded approach to spirituality. This placement highlights the importance of sensory experiences in connecting with the divine, suggesting that beauty and comfort can be pathways to deeper understanding.",
-      "tags": [
-        "sensuality",
-        "dreams",
-        "grounding"
-      ],
+      "short": "Гармония чувств и материального мира под влиянием Нептуна в Тельце.",
+      "full": "Нептун в Тельце смягчает материальные амбиции, наполняя их чувственностью и эстетическим восприятием. Это положение способствует развитию терпения и способности находить красоту в повседневности. Оно также может указывать на сильную связь с природой и искусством как источниками вдохновения и внутреннего покоя.",
+      "tags": ["гармония", "эстетика"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -218,15 +174,11 @@
       "id": 3,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus finds magic in the material, spirituality in the senses.",
-      "full": "This placement suggests that Neptune in Taurus discovers the mystical within the material world. It's an invitation to see the divine in everyday beauty, encouraging a spirituality that is deeply connected to the physical senses and the comforts they bring.",
-      "tags": [
-        "magic",
-        "material",
-        "spirituality"
-      ],
+      "short": "Нептун в Тельце: духовность через материальные формы.",
+      "full": "При Нептуне в Тельце духовные поиски часто выражаются через материальные объекты и чувственные переживания. Это положение может способствовать глубокой привязанности к определенным местам или вещам, которые становятся символами внутреннего мира. Творчество и забота о окружающей среде могут быть ключевыми темами для самореализации.",
+      "tags": ["творчество", "природа"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -234,15 +186,11 @@
       "id": 4,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Taurus Neptune seeks harmony between earthly pleasures and spiritual quests.",
-      "full": "Neptune in Taurus represents a journey to harmonize the love for earthly comforts with spiritual aspirations. This placement encourages exploring how material stability can support and enhance one's spiritual growth and creative expressions.",
-      "tags": [
-        "harmony",
-        "pleasures",
-        "spiritual"
-      ],
+      "short": "Чувственное восприятие мира усиливается при Нептуне в Тельце.",
+      "full": "Нептун в Тельце углубляет чувственное восприятие, делая каждый опыт более насыщенным и значимым. Это положение может способствовать развитию эмпатии через физические ощущения и любви к искусству во всех его проявлениях. Люди с такой позицией часто ищут способы выражения своих внутренних переживаний через творчество или заботу о других.",
+      "tags": ["эмпатия", "искусство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -250,15 +198,11 @@
       "id": 5,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus: a bridge between the tangible and the transcendent.",
-      "full": "With Neptune in Taurus, the material world becomes a bridge to the transcendent. This placement emphasizes finding spiritual meaning in physical existence, suggesting that true fulfillment comes from blending the practical with the mystical.",
-      "tags": [
-        "tangible",
-        "transcendent",
-        "fulfillment"
-      ],
+      "short": "Нептун в Тельце раскрывает красоту в обыденном.",
+      "full": "Нептун в Тельце учит видеть прекрасное в простых вещах, превращая повседневность в источник вдохновения. Это положение может способствовать развитию терпения и умения ценить моменты тишины и покоя. Творческие занятия, особенно связанные с природой или ручным трудом, могут приносить особое удовлетворение.",
+      "tags": ["вдохновение", "покой"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -266,15 +210,11 @@
       "id": 6,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "In Taurus, Neptune teaches the value of slow, sensory spirituality.",
-      "full": "Neptune in Taurus invites a slower, more sensory approach to spirituality. This placement highlights the importance of patience and physical presence in spiritual practices, suggesting that deep connections are found through the body and the earth.",
-      "tags": [
-        "slow",
-        "sensory",
-        "spirituality"
-      ],
+      "short": "Глубокие эмоциональные связи под влиянием Нептуна в Тельце.",
+      "full": "Нептун в Тельце способствует формированию глубоких эмоциональных связей с людьми и местами. Это положение может усиливать интуитивное понимание потребностей других, а также стремление к стабильности и безопасности в отношениях. Искусство и музыка могут играть важную роль в выражении чувств.",
+      "tags": ["эмоции", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -282,15 +222,11 @@
       "id": 7,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Taurus Neptune finds divine inspiration in nature and art.",
-      "full": "With Neptune in Taurus, divine inspiration often comes through nature and artistic beauty. This placement encourages a deep, soulful connection with the environment and creative expressions, seeing them as reflections of the divine.",
-      "tags": [
-        "nature",
-        "art",
-        "inspiration"
-      ],
+      "short": "Нептун в Тельце: поиск истины через чувства.",
+      "full": "При Нептуне в Тельце истина часто воспринимается через чувства и физические ощущения. Это положение может способствовать развитию доверия к своей интуиции и способности находить утешение в красоте окружающего мира. Творческие занятия и общение с природой могут быть особенно целительными.",
+      "tags": ["интуиция", "красота"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -298,15 +234,11 @@
       "id": 8,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus blends practicality with poetic vision.",
-      "full": "Neptune in Taurus offers a unique blend of practicality and poetic vision. This placement suggests that dreams and ideals can be grounded in reality, encouraging a creative yet sensible approach to life's challenges and opportunities.",
-      "tags": [
-        "practicality",
-        "vision",
-        "creative"
-      ],
+      "short": "Нептун в Тельце способствует гармонии между духом и телом.",
+      "full": "Нептун в Тельце помогает находить баланс между духовными и материальными потребностями, способствуя гармоничному развитию личности. Это положение может усиливать любовь к природе и искусству, а также стремление к стабильности и комфорту. Медитативные практики, связанные с землей, могут быть особенно полезны.",
+      "tags": ["баланс", "медитация"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -314,15 +246,11 @@
       "id": 9,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Taurus Neptune values stability as a foundation for spiritual growth.",
-      "full": "Neptune in Taurus sees material stability as essential for spiritual exploration. This placement emphasizes the importance of a secure base from which to pursue higher understanding, suggesting that comfort and safety enable deeper spiritual journeys.",
-      "tags": [
-        "stability",
-        "growth",
-        "spiritual"
-      ],
+      "short": "Нептун в Тельце открывает путь к внутреннему миру через материальное.",
+      "full": "Нептун в Тельце предлагает уникальный взгляд на то, как материальные объекты могут отражать наши внутренние состояния. Это положение способствует глубокой связи с искусством и природой, а также пониманию ценности простых радостей. Творчество становится мостом между внешним и внутренним миром.",
+      "tags": ["творчество", "простота"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -330,15 +258,11 @@
       "id": 10,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus discovers the sacred in the simple.",
-      "full": "With Neptune in Taurus, the sacred is found in simplicity and the everyday. This placement encourages a spirituality that is deeply rooted in the ordinary, finding magic and meaning in the routines and pleasures of daily life.",
-      "tags": [
-        "sacred",
-        "simple",
-        "everyday"
-      ],
+      "short": "Нептун в Тельце усиливает восприятие красоты и гармонии.",
+      "full": "Нептун в Тельце делает восприятие красоты и гармонии более острым и глубоким. Это положение может способствовать развитию художественных талантов и любви к природе. Люди с такой позицией часто находят утешение и вдохновение в эстетически приятных вещах и окружении.",
+      "tags": ["красота", "гармония"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -346,15 +270,11 @@
       "id": 11,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Taurus Neptune nurtures the soul through beauty and comfort.",
-      "full": "Neptune in Taurus nurtures the soul by surrounding it with beauty and comfort. This placement suggests that spiritual well-being is closely tied to physical surroundings, advocating for environments that soothe and inspire.",
-      "tags": [
-        "nurture",
-        "beauty",
-        "comfort"
-      ],
+      "short": "Нептун в Тельце способствует глубокой связи с землей.",
+      "full": "Нептун в Тельце углубляет связь с землей и природой, предлагая уникальный источник духовного удовлетворения. Это положение может способствовать развитию экологического сознания и любви к садоводству или другим формам заботы о земле. Чувство принадлежности к природе становится ключом к внутреннему миру.",
+      "tags": ["природа", "экология"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -362,15 +282,11 @@
       "id": 12,
       "key": "planet.neptune.sign.taurus",
       "type": "planet_sign",
-      "short": "Neptune in Taurus: where dreams are anchored in reality.",
-      "full": "Neptune in Taurus grounds dreams in reality, offering a practical approach to the mystical. This placement encourages building a life where spiritual ideals and material needs are in harmony, suggesting that true fulfillment lies in this balance.",
-      "tags": [
-        "dreams",
-        "reality",
-        "balance"
-      ],
+      "short": "Нептун в Тельце раскрывает духовное в материальном.",
+      "full": "Нептун в Тельце учит видеть духовное измерение в материальных вещах, превращая повседневные объекты в символы более глубоких истин. Это положение может способствовать развитию художественного вкуса и способности находить утешение в красоте. Творческие выражения становятся важным средством самопознания.",
+      "tags": ["духовность", "искусство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -380,14 +296,11 @@
       "id": 1,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Neptune in Gemini enhances intuition and communication with a dreamy touch.",
-      "full": "With Neptune in Gemini, your intuition blends seamlessly with your communication style, offering a dreamy, imaginative layer to your thoughts and words. This placement encourages a fluid exchange of ideas, where creativity meets curiosity. It's a reminder to trust your gut feelings in conversations and to embrace the poetic side of your intellect.",
-      "tags": [
-        "интуиция",
-        "коммуникация"
-      ],
+      "short": "Нептун в Близнецах усиливает интуицию и любознательность.",
+      "full": "Нептун в Близнецах привносит в вашу жизнь тонкое понимание окружающего мира через интуицию. Это положение способствует развитию любознательности и способности видеть скрытые связи между вещами. Вы можете обнаружить, что ваше восприятие информации становится более глубоким и многогранным.",
+      "tags": ["интуиция", "любознательность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -395,14 +308,11 @@
       "id": 2,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Gemini's Neptune brings a mystical quality to your social interactions.",
-      "full": "Neptune in Gemini bestows a mystical, almost ethereal quality to your social interactions and thought processes. You may find yourself drawn to topics that blur the lines between reality and fantasy, making you a captivating storyteller or a keen listener to others' tales. This placement highlights the importance of balancing imagination with clarity in your communications.",
-      "tags": [
-        "социальные взаимодействия",
-        "воображение"
-      ],
+      "short": "Нептун в Близнецах раскрывает творческий потенциал через общение.",
+      "full": "С Нептуном в Близнецах ваше общение может приобрести творческий и вдохновляющий характер. Это положение способствует выражению ваших идей и чувств через слова, делая их более поэтичными и образными. Вы можете найти новые способы самовыражения, которые будут вдохновлять окружающих.",
+      "tags": ["творчество", "общение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -410,14 +320,11 @@
       "id": 3,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Neptune in Gemini fosters a deep connection between dreams and dialogue.",
-      "full": "Having Neptune in Gemini creates a unique bridge between your dreams and your dialogue, allowing for a deeply intuitive form of expression. You might notice that your best ideas come when you're not trying too hard, in moments of relaxation or right upon waking. This placement encourages you to explore the spiritual dimensions of communication.",
-      "tags": [
-        "мечты",
-        "диалог"
-      ],
+      "short": "Нептун в Близнецах способствует глубокому пониманию через слушание.",
+      "full": "При Нептуне в Близнецах вы можете обнаружить, что слушание становится для вас источником глубокого понимания и вдохновения. Это положение помогает вам улавливать не только слова, но и эмоции и намерения, стоящие за ними, что делает ваше общение более осмысленным и насыщенным.",
+      "tags": ["понимание", "слушание"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -425,14 +332,11 @@
       "id": 4,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Your Gemini Neptune placement makes you a natural at reading between the lines.",
-      "full": "With Neptune in Gemini, you possess an innate ability to read between the lines, picking up on subtleties in conversation that others might miss. This can make you exceptionally empathetic in your communications, though it's important to ground your perceptions in reality. Your challenge is to balance your rich inner world with the practicalities of everyday dialogue.",
-      "tags": [
-        "эмпатия",
-        "восприятие"
-      ],
+      "short": "Нептун в Близнецах обогащает воображение через разнообразные интересы.",
+      "full": "Нептун в Близнецах расширяет ваше воображение, подпитывая его разнообразными интересами и идеями. Это положение способствует тому, что вы находите вдохновение в самых неожиданных местах, а ваша способность мечтать и фантазировать становится более яркой и разнообразной.",
+      "tags": ["воображение", "интересы"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -440,14 +344,11 @@
       "id": 5,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Neptune in Gemini encourages a poetic approach to learning and sharing ideas.",
-      "full": "Neptune's presence in Gemini inspires a poetic, almost lyrical approach to learning and sharing ideas. You're likely drawn to subjects that stir the soul, preferring discussions that explore the beauty and mystery of life. This placement reminds you that sometimes, the most profound truths are conveyed not through facts, but through stories and symbols.",
-      "tags": [
-        "обучение",
-        "поэзия"
-      ],
+      "short": "Нептун в Близнецах помогает видеть красоту в повседневном общении.",
+      "full": "С Нептуном в Близнецах вы начинаете видеть красоту и глубину в повседневных разговорах и обмене информацией. Это положение способствует тому, что даже самые обычные моменты общения могут стать для вас источником вдохновения и новых открытий.",
+      "tags": ["красота", "общение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -455,14 +356,11 @@
       "id": 6,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Gemini's Neptune enhances your ability to communicate with compassion and creativity.",
-      "full": "Neptune in Gemini enhances your ability to communicate with both compassion and creativity, making your words a source of comfort and inspiration to others. You have a gift for seeing the world through a lens of wonder, which can be incredibly uplifting in conversations. Remember to also listen to your own voice amidst the noise of the world.",
-      "tags": [
-        "сострадание",
-        "творчество"
-      ],
+      "short": "Нептун в Близнецах раскрывает чувствительность к подтекстам в общении.",
+      "full": "Нептун в Близнецах усиливает вашу чувствительность к подтекстам и нюансам в общении. Это положение помогает вам улавливать то, что остаётся невысказанным, делая ваше понимание людей и ситуаций более глубоким и интуитивным.",
+      "tags": ["чувствительность", "общение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -470,14 +368,11 @@
       "id": 7,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "With Neptune in Gemini, your thoughts often dance between reality and fantasy.",
-      "full": "Neptune in Gemini means your thoughts frequently dance on the border between reality and fantasy, enriching your inner world with vivid imaginings. This can make you a visionary thinker, capable of conceiving ideas that others might not immediately grasp. Balancing this imaginative flow with clear, grounded communication is your path forward.",
-      "tags": [
-        "мышление",
-        "воображение"
-      ],
+      "short": "Нептун в Близнецах способствует гармоничному выражению мыслей.",
+      "full": "При Нептуне в Близнецах ваши мысли и идеи могут находить более гармоничное и вдохновляющее выражение. Это положение помогает вам находить слова, которые точно передают ваши чувства и идеи, делая ваше общение более эффективным и приятным.",
+      "tags": ["гармония", "мысли"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -485,14 +380,11 @@
       "id": 8,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Neptune in Gemini suggests a life where words carry deep spiritual significance.",
-      "full": "For those with Neptune in Gemini, words often carry a deep spiritual significance, serving as vessels for higher truths. You might find that certain phrases or messages seem to find you at just the right moment, offering guidance or comfort. This placement invites you to explore the sacred dimensions of language and communication.",
-      "tags": [
-        "духовность",
-        "язык"
-      ],
+      "short": "Нептун в Близнецах облегчает понимание сложных концепций.",
+      "full": "Нептун в Близнецах может помочь вам легче понимать сложные концепции и идеи, видя их через призму интуиции и воображения. Это положение способствует тому, что обучение и познание становятся для вас более интуитивными и вдохновляющими процессами.",
+      "tags": ["понимание", "обучение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -500,14 +392,11 @@
       "id": 9,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Your Neptune in Gemini placement makes you a bridge between worlds through words.",
-      "full": "With Neptune in Gemini, you serve as a bridge between worlds, using words to connect the tangible with the intangible. Your communication style may naturally incorporate elements of mysticism or poetry, inviting others to see beyond the surface. This placement encourages you to trust in the power of your voice to heal and inspire.",
-      "tags": [
-        "связь",
-        "мистицизм"
-      ],
+      "short": "Нептун в Близнецах вдохновляет на поиск новых знаний.",
+      "full": "С Нептуном в Близнецах вы можете почувствовать вдохновение искать новые знания и идеи, которые расширят ваш кругозор. Это положение способствует тому, что процесс обучения становится для вас не только полезным, но и увлекательным приключением.",
+      "tags": ["вдохновение", "знания"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -515,14 +404,11 @@
       "id": 10,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Neptune in Gemini gifts you with a voice that can soothe and mystify.",
-      "full": "Neptune in Gemini gifts you with a voice that can both soothe and mystify, capable of conveying complex emotions and ideas with ease. You may find that people are drawn to your way of speaking, as it often carries an otherworldly quality. Embrace this gift, but remember to stay rooted in the practical aspects of communication.",
-      "tags": [
-        "голос",
-        "эмоции"
-      ],
+      "short": "Нептун в Близнецах помогает находить вдохновение в словах.",
+      "full": "При Нептуне в Близнецах слова и язык могут стать для вас источником вдохновения и творчества. Это положение способствует тому, что вы находите красоту и глубину в литературе, поэзии и даже в повседневных разговорах, обогащая свою жизнь новыми смыслами.",
+      "tags": ["вдохновение", "слова"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -530,14 +416,11 @@
       "id": 11,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "Gemini's Neptune encourages exploring the unseen through stories and symbols.",
-      "full": "Neptune in Gemini encourages you to explore the unseen realms through stories, symbols, and metaphors. Your mind is a fertile ground for ideas that transcend the ordinary, making you a natural at uncovering hidden meanings. This placement is a call to honor both the logical and the mystical sides of your intellect.",
-      "tags": [
-        "метафоры",
-        "скрытые смыслы"
-      ],
+      "short": "Нептун в Близнецах раскрывает талант к языкам и общению.",
+      "full": "Нептун в Близнецах может раскрыть ваш талант к языкам и общению, делая вашу речь более выразительной и убедительной. Это положение способствует тому, что вы находите радость в изучении новых языков и культур, расширяя свои горизонты.",
+      "tags": ["талант", "общение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -545,14 +428,11 @@
       "id": 12,
       "key": "planet.neptune.sign.gemini",
       "type": "planet_sign",
-      "short": "With Neptune in Gemini, your curiosity is tinged with a sense of wonder.",
-      "full": "Neptune in Gemini means your natural curiosity is tinged with a profound sense of wonder, leading you to question not just how things work, but why they exist. You're drawn to mysteries and puzzles, especially those that challenge the boundaries of conventional understanding. This placement reminds you that some questions are meant to be pondered, not answered.",
-      "tags": [
-        "любопытство",
-        "загадки"
-      ],
+      "short": "Нептун в Близнецах способствует развитию эмпатии через общение.",
+      "full": "С Нептуном в Близнецах ваше общение может стать инструментом развития эмпатии и понимания других людей. Это положение помогает вам чувствовать и понимать эмоции и переживания окружающих, делая ваши отношения более глубокими и осмысленными.",
+      "tags": ["эмпатия", "общение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -562,14 +442,11 @@
       "id": 1,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer enhances intuition and emotional depth.",
-      "full": "With Neptune in Cancer, your intuition is heightened, allowing for a deeper emotional understanding of those around you. This placement fosters a strong connection to the past and a protective instinct towards loved ones. It's a time for nurturing creativity and exploring the subconscious.",
-      "tags": [
-        "intuition",
-        "emotional depth"
-      ],
+      "short": "Нептун в Раке усиливает интуицию и эмоциональную глубину.",
+      "full": "Нептун в Раке способствует развитию глубокой интуиции и эмоциональной чувствительности. Это положение помогает лучше понимать свои чувства и чувства других, создавая основу для эмпатии и сострадания. Люди с такой комбинацией часто обладают богатым внутренним миром и творческим потенциалом.",
+      "tags": ["интуиция", "эмоции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -577,14 +454,11 @@
       "id": 2,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer brings dreams and emotions to the forefront.",
-      "full": "Neptune's presence in Cancer highlights the importance of dreams and emotions in your life. This combination encourages you to trust your gut feelings and to express your compassion openly. It's an ideal time for artistic expression and healing emotional wounds.",
-      "tags": [
-        "dreams",
-        "compassion"
-      ],
+      "short": "Нептун в Раке раскрывает творческий потенциал через эмоции.",
+      "full": "При положении Нептуна в Раке творчество часто выражается через эмоциональные переживания. Это сочетание способствует глубокому пониманию искусства и музыки, позволяя выражать сложные чувства через творческие проекты. Такие люди могут находить вдохновение в своих воспоминаниях и семейных историях.",
+      "tags": ["творчество", "эмоции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -592,14 +466,11 @@
       "id": 3,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Cancer's Neptune placement deepens empathy and spiritual connections.",
-      "full": "When Neptune is in Cancer, your capacity for empathy and spiritual connections is significantly deepened. This alignment encourages you to listen to your inner voice and to find comfort in the mystical. It's a period for emotional healing and strengthening bonds with family.",
-      "tags": [
-        "empathy",
-        "spirituality"
-      ],
+      "short": "Эмоциональная чувствительность под влиянием Нептуна в Раке.",
+      "full": "Нептун в Раке усиливает эмоциональную чувствительность, делая человека более восприимчивым к настроениям окружающих. Это может привести к глубоким межличностным связям, но также требует умения защищать свои эмоциональные границы. Развитие здоровых механизмов защиты становится ключевым.",
+      "tags": ["эмоции", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -607,14 +478,11 @@
       "id": 4,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer fosters a nurturing and imaginative spirit.",
-      "full": "Neptune in Cancer nurtures a spirit of imagination and care, making you more attuned to the needs of others. This placement is about finding beauty in the emotional and the ephemeral, encouraging artistic pursuits and deep emotional connections.",
-      "tags": [
-        "imagination",
-        "nurturing"
-      ],
+      "short": "Нептун в Раке способствует духовному росту через семью.",
+      "full": "Положение Нептуна в Раке часто указывает на духовный рост, связанный с семейными ценностями и традициями. Это может проявляться в сильной привязанности к дому и поиске духовного смысла в семейных отношениях. Такие люди часто играют роль эмоциональной опоры для своих близких.",
+      "tags": ["духовность", "семья"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -622,14 +490,11 @@
       "id": 5,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "With Neptune in Cancer, sensitivity and creativity flourish.",
-      "full": "Neptune in Cancer is a time when sensitivity and creativity are at their peak. This placement invites you to explore your emotional world through art or music, offering a unique outlet for your feelings. It's also a period for healing and understanding deep emotional truths.",
-      "tags": [
-        "sensitivity",
-        "creativity"
-      ],
+      "short": "Нептун в Раке усиливает мечтательность и воображение.",
+      "full": "Нептун в Раке наделяет человека богатым воображением и склонностью к мечтательности. Это положение способствует развитию творческих способностей, особенно в областях, связанных с эмоциональным выражением. Однако важно находить баланс между мечтами и реальностью.",
+      "tags": ["воображение", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -637,14 +502,11 @@
       "id": 6,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer enhances psychic abilities and emotional insight.",
-      "full": "The Neptune in Cancer placement enhances your psychic abilities and emotional insight, making you more receptive to the unseen. This is a powerful time for meditation and exploring your subconscious, as well as for connecting with your ancestral roots.",
-      "tags": [
-        "psychic abilities",
-        "emotional insight"
-      ],
+      "short": "Глубокая связь с подсознанием при Нептуне в Раке.",
+      "full": "Нептун в Раке способствует глубокой связи с подсознанием, открывая доступ к скрытым эмоциям и воспоминаниям. Это может быть полезно для психологического роста и самопознания. Люди с такой комбинацией часто обладают сильной интуицией и способностью к эмпатии.",
+      "tags": ["подсознание", "интуиция"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -652,14 +514,11 @@
       "id": 7,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer encourages a deep dive into the emotional subconscious.",
-      "full": "With Neptune in Cancer, you're encouraged to take a deep dive into your emotional subconscious. This placement is about uncovering hidden feelings and using them as a source of creative inspiration. It's also a time for strengthening your intuition and emotional resilience.",
-      "tags": [
-        "subconscious",
-        "emotional resilience"
-      ],
+      "short": "Нептун в Раке способствует развитию эмпатии.",
+      "full": "При Нептуне в Раке эмпатия и способность понимать чувства других достигают высокого уровня. Это делает человека отзывчивым и заботливым, но также требует умения не перенимать чужие эмоции как свои. Развитие эмоциональной устойчивости становится важным аспектом личностного роста.",
+      "tags": ["эмпатия", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -667,14 +526,11 @@
       "id": 8,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer brings a wave of emotional and artistic inspiration.",
-      "full": "Neptune in Cancer ushers in a wave of emotional and artistic inspiration, encouraging you to express your deepest feelings through creative means. This placement also heightens your sensitivity to the emotions of others, making it a time for compassionate connections.",
-      "tags": [
-        "artistic inspiration",
-        "compassion"
-      ],
+      "short": "Творческое самовыражение под влиянием Нептуна в Раке.",
+      "full": "Нептун в Раке способствует творческому самовыражению через эмоциональные переживания. Люди с таким положением часто находят вдохновение в своих чувствах и воспоминаниях, создавая произведения, наполненные глубиной и искренностью. Важно находить здоровые способы выражения своих эмоций.",
+      "tags": ["творчество", "эмоции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -682,14 +538,11 @@
       "id": 9,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Cancer's Neptune placement is a call to explore emotional and spiritual depths.",
-      "full": "Cancer's Neptune placement calls you to explore the depths of your emotional and spiritual being. This alignment is about finding peace in the mystical and the unknown, and using your heightened intuition to guide your path forward in life.",
-      "tags": [
-        "spiritual depths",
-        "intuition"
-      ],
+      "short": "Нептун в Раке раскрывает талант к психологии и помощи другим.",
+      "full": "Положение Нептуна в Раке может указывать на талант в области психологии или помощи другим. Глубокая эмпатия и понимание человеческой природы делают таких людей прекрасными слушателями и советчиками. Важно помнить о необходимости заботиться и о собственном эмоциональном здоровье.",
+      "tags": ["психология", "помощь"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -697,14 +550,11 @@
       "id": 10,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer highlights the importance of home and emotional security.",
-      "full": "Neptune in Cancer highlights the importance of home and emotional security, urging you to create a safe haven for yourself and your loved ones. This placement also encourages you to explore your dreams and subconscious desires as a means of personal growth.",
-      "tags": [
-        "home",
-        "emotional security"
-      ],
+      "short": "Нептун в Раке способствует глубокой медитации и рефлексии.",
+      "full": "Нептун в Раке благоприятствует глубокой медитации и внутренней рефлексии. Это положение помогает лучше понимать свои эмоции и находить духовные ответы внутри себя. Люди с такой комбинацией могут обнаружить, что тишина и уединение способствуют их личностному и духовному росту.",
+      "tags": ["медитация", "духовность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -712,14 +562,11 @@
       "id": 11,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "With Neptune in Cancer, your emotional intuition is your guide.",
-      "full": "With Neptune in Cancer, your emotional intuition becomes a powerful guide, helping you navigate through life's uncertainties. This placement fosters a deep connection to your inner self and encourages you to trust in the wisdom of your feelings and dreams.",
-      "tags": [
-        "emotional intuition",
-        "inner self"
-      ],
+      "short": "Нептун в Раке усиливает потребность в эмоциональной безопасности.",
+      "full": "При Нептуне в Раке потребность в эмоциональной безопасности и комфорте становится особенно выраженной. Это может проявляться в стремлении создать уютное и безопасное личное пространство. Понимание и удовлетворение этих потребностей способствует эмоциональному благополучию.",
+      "tags": ["безопасность", "эмоции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -727,14 +574,11 @@
       "id": 12,
       "key": "planet.neptune.sign.cancer",
       "type": "planet_sign",
-      "short": "Neptune in Cancer opens the door to mystical experiences and emotional healing.",
-      "full": "Neptune in Cancer opens the door to mystical experiences and emotional healing, offering you a unique opportunity to connect with the deeper aspects of your psyche. This placement encourages you to embrace your sensitivity as a strength and to explore the healing power of compassion.",
-      "tags": [
-        "mystical experiences",
-        "emotional healing"
-      ],
+      "short": "Нептун в Раке способствует развитию художественного вкуса.",
+      "full": "Нептун в Раке часто связан с развитием тонкого художественного вкуса и любви к искусству. Это положение способствует глубокому эмоциональному восприятию красоты, будь то музыка, живопись или литература. Люди с такой комбинацией могут находить особое удовольствие в создании и созерцании прекрасного.",
+      "tags": ["искусство", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -744,14 +588,11 @@
       "id": 1,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo inspires creativity and a desire for recognition.",
-      "full": "With Neptune in Leo, there's a natural inclination towards expressing oneself creatively and seeking admiration. This placement encourages a blend of imagination and leadership, urging you to share your visions with confidence. It's about finding the balance between dreaming big and staying grounded in reality.",
-      "tags": [
-        "creativity",
-        "leadership"
-      ],
+      "short": "Нептун во Льве вдохновляет на творчество и самовыражение.",
+      "full": "Нептун во Льве подчеркивает важность творческого самовыражения и вдохновения. Эта комбинация может указывать на сильное желание быть замеченным за свои уникальные таланты. Важно находить здоровые способы демонстрации своей индивидуальности, избегая при этом излишней драматизации.",
+      "tags": ["творчество", "самовыражение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -759,14 +600,11 @@
       "id": 2,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo blends intuition with a flair for drama.",
-      "full": "Neptune's presence in Leo enhances your intuitive abilities while adding a dramatic flair to your expressions. This combination fosters a unique way of seeing the world, where art and spirituality merge. It's important to channel this energy positively to avoid misunderstandings.",
-      "tags": [
-        "intuition",
-        "drama"
-      ],
+      "short": "Нептун во Льве усиливает потребность в признании и любви.",
+      "full": "При Нептуне во Льве может усиливаться потребность в любви и признании со стороны окружающих. Эта позиция побуждает искать гармонию между желанием быть в центре внимания и необходимостью оставаться искренним. Важно помнить, что истинное признание приходит изнутри.",
+      "tags": ["любовь", "признание"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -774,14 +612,11 @@
       "id": 3,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Leo's Neptune placement encourages generous and heartfelt expressions.",
-      "full": "When Neptune is in Leo, your expressions are not just creative but also deeply heartfelt. This placement encourages generosity and a desire to inspire others through your actions. It's a reminder to stay true to your ideals while shining your light brightly.",
-      "tags": [
-        "generosity",
-        "inspiration"
-      ],
+      "short": "Нептун во Льве способствует развитию интуиции и творческого видения.",
+      "full": "Нептун во Льве может способствовать развитию глубокой интуиции и уникального творческого видения. Эта комбинация поощряет использование воображения для создания чего-то прекрасного. Однако важно оставаться заземленным, чтобы мечты не уводили слишком далеко от реальности.",
+      "tags": ["интуиция", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -789,14 +624,11 @@
       "id": 4,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo seeks to merge dreams with leadership.",
-      "full": "Neptune in Leo represents a journey where dreams and leadership qualities seek to merge. This placement highlights the importance of leading with compassion and vision, encouraging others to follow their dreams as well. It's about inspiring through example and maintaining integrity.",
-      "tags": [
-        "dreams",
-        "leadership"
-      ],
+      "short": "Нептун во Льве раскрывает потенциал для лидерства через вдохновение.",
+      "full": "Нептун во Льве раскрывает потенциал для лидерства, основанного на вдохновении и творчестве. Эта позиция может указывать на способность вести за собой, вдохновляя других своей страстью и видением. Важно использовать этот дар ответственно, чтобы вдохновлять, а не манипулировать.",
+      "tags": ["лидерство", "вдохновение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -804,14 +636,11 @@
       "id": 5,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "With Neptune in Leo, creativity meets spiritual depth.",
-      "full": "Neptune in Leo offers a unique blend where creativity meets spiritual depth. This placement encourages you to explore your artistic talents with a sense of higher purpose. It's an invitation to express your inner visions in ways that resonate with others.",
-      "tags": [
-        "creativity",
-        "spirituality"
-      ],
+      "short": "Нептун во Льве подчеркивает важность искренности в самовыражении.",
+      "full": "Нептун во Льве подчеркивает важность искренности и подлинности в самовыражении. Эта комбинация может побуждать к поиску уникальных способов показать свою истинную сущность миру. Помните, что настоящая красота заключается в способности быть собой без страха.",
+      "tags": ["искренность", "самовыражение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -819,14 +648,11 @@
       "id": 6,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo fosters a charismatic and visionary approach.",
-      "full": "Having Neptune in Leo fosters a charismatic and visionary approach to life. This placement enhances your ability to attract others with your ideals and dreams. It's about using your natural charm to uplift and inspire, while staying mindful of the fine line between illusion and reality.",
-      "tags": [
-        "charisma",
-        "vision"
-      ],
+      "short": "Нептун во Льве способствует глубокому эмоциональному выражению.",
+      "full": "Нептун во Льве способствует глубокому и насыщенному эмоциональному выражению. Эта позиция может помочь в раскрытии чувств через искусство или другие формы творчества. Важно находить баланс между эмоциональной открытостью и защитой своего внутреннего мира.",
+      "tags": ["эмоции", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -834,14 +660,11 @@
       "id": 7,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo encourages artistic expression with confidence.",
-      "full": "Neptune in Leo encourages you to express your artistic side with confidence and flair. This placement is about embracing your creativity without fear of judgment, allowing your unique talents to shine. It's a call to share your inner world with others boldly.",
-      "tags": [
-        "artistic",
-        "confidence"
-      ],
+      "short": "Нептун во Льве вдохновляет на щедрость духа и великодушие.",
+      "full": "Нептун во Льве вдохновляет на проявление щедрости духа и великодушия. Эта комбинация может усилить желание делиться своими талантами и ресурсами с другими. Важно помнить, что истинная щедрость исходит из желания дарить, а не получать что-то взамен.",
+      "tags": ["щедрость", "великодушие"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -849,14 +672,11 @@
       "id": 8,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo blends idealism with a strong presence.",
-      "full": "Neptune in Leo creates a blend of idealism and a strong, commanding presence. This placement urges you to pursue your dreams with determination, while also being a beacon of hope for others. It's about leading with your heart and inspiring those around you.",
-      "tags": [
-        "idealism",
-        "presence"
-      ],
+      "short": "Нептун во Льве раскрывает силу воображения в личной трансформации.",
+      "full": "Нептун во Льве раскрывает силу воображения как инструмент личной трансформации. Эта позиция поощряет использование творческих способностей для самосовершенствования и роста. Однако важно оставаться реалистичным в своих ожиданиях и стремлениях.",
+      "tags": ["воображение", "трансформация"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -864,14 +684,11 @@
       "id": 9,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo highlights the power of compassionate leadership.",
-      "full": "Neptune in Leo highlights the importance of compassionate leadership and the power of leading by example. This placement encourages you to use your influence to make a positive impact, blending creativity with a deep sense of empathy. It's about guiding others with kindness and vision.",
-      "tags": [
-        "compassion",
-        "leadership"
-      ],
+      "short": "Нептун во Льве способствует поиску духовного пути через творчество.",
+      "full": "Нептун во Льве способствует поиску духовного пути и смысла через творчество и самовыражение. Эта комбинация может указывать на глубокую связь между духовными исканиями и творческим процессом. Важно оставаться открытым для вдохновения, которое приходит изнутри.",
+      "tags": ["духовность", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -879,14 +696,11 @@
       "id": 10,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo inspires through creative and heartfelt actions.",
-      "full": "With Neptune in Leo, your actions are not just creative but also deeply heartfelt, inspiring those around you. This placement encourages you to lead with your heart, showing others the beauty of following their dreams. It's a reminder to stay authentic and generous in your expressions.",
-      "tags": [
-        "creative",
-        "heartfelt"
-      ],
+      "short": "Нептун во Льве усиливает харизму и способность вдохновлять.",
+      "full": "Нептун во Льве может усиливать природную харизму и способность вдохновлять окружающих. Эта позиция способствует использованию своего обаяния для позитивного влияния на других. Важно использовать эту силу мудро, чтобы вдохновлять, а не подавлять.",
+      "tags": ["харизма", "вдохновение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -894,14 +708,11 @@
       "id": 11,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo brings a dreamy yet bold energy.",
-      "full": "Neptune in Leo brings a dreamy yet bold energy to your personality, encouraging you to chase your dreams with courage. This placement is about blending your imaginative visions with the confidence to make them known. It's an invitation to stand out and be recognized for your unique contributions.",
-      "tags": [
-        "dreamy",
-        "bold"
-      ],
+      "short": "Нептун во Льве подчеркивает важность творческого отдыха.",
+      "full": "Нептун во Льве подчеркивает важность творческого отдыха и восстановления. Эта комбинация может указывать на необходимость периодически отступать от активной деятельности для перезарядки. Нахождение баланса между активностью и отдыхом способствует более полному самовыражению.",
+      "tags": ["отдых", "творчество"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -909,14 +720,11 @@
       "id": 12,
       "key": "planet.neptune.sign.leo",
       "type": "planet_sign",
-      "short": "Neptune in Leo encourages visionary leadership.",
-      "full": "Neptune in Leo encourages you to embrace visionary leadership, guiding others with your dreams and ideals. This placement fosters a unique ability to inspire and motivate, blending creativity with a strong sense of purpose. It's about leading with imagination and heart.",
-      "tags": [
-        "visionary",
-        "leadership"
-      ],
+      "short": "Нептун во Льве раскрывает потенциал для художественных достижений.",
+      "full": "Нептун во Льве раскрывает потенциал для значительных художественных и творческих достижений. Эта позиция поощряет развитие своих талантов и стремление к совершенству в искусстве. Важно помнить, что истинное мастерство требует времени, терпения и практики.",
+      "tags": ["искусство", "достижения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -926,14 +734,11 @@
       "id": 1,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo enhances analytical skills and attention to detail.",
-      "full": "With Neptune in Virgo, your analytical skills and attention to detail are heightened. This placement encourages a methodical approach to solving problems, blending intuition with practicality. It's a time for refining your processes and paying close attention to the finer points in your work and daily routines.",
-      "tags": [
-        "analytical",
-        "detail-oriented"
-      ],
+      "short": "Нептун в Деве усиливает аналитический подход к духовным вопросам.",
+      "full": "Нептун в Деве предлагает уникальный взгляд на духовность через призму анализа и порядка. Это положение побуждает искать гармонию в деталях и практических аспектах жизни, объединяя мечты с реальностью. Люди с такой позицией могут находить вдохновение в служении другим, видя красоту в повседневных делах.",
+      "tags": ["духовность", "анализ", "служение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -941,14 +746,11 @@
       "id": 2,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo brings a compassionate yet practical approach to service.",
-      "full": "Neptune in Virgo suggests a compassionate yet practical approach to helping others. This combination fosters a desire to serve in ways that are both meaningful and efficient. You may find yourself drawn to roles or activities where you can make a tangible difference, always with an eye toward improvement.",
-      "tags": [
-        "compassion",
-        "service"
-      ],
+      "short": "Нептун в Деве раскрывает глубину через внимание к мелочам.",
+      "full": "Положение Нептуна в Деве подчёркивает важность деталей в понимании большего. Это может проявляться как способность видеть прекрасное в обыденном или находить духовные уроки в рутинных задачах. Такие люди часто стремятся к совершенству не только в материальном, но и в духовном плане.",
+      "tags": ["детали", "совершенство", "духовные уроки"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -956,14 +758,11 @@
       "id": 3,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo encourages healing through practical means.",
-      "full": "Neptune in Virgo highlights the potential for healing through practical and organized methods. This placement may inspire you to seek out or provide healing in structured environments, focusing on tangible results. It's about blending spirituality with a grounded approach to wellness.",
-      "tags": [
-        "healing",
-        "practicality"
-      ],
+      "short": "Нептун в Деве учит видеть магию в повседневности.",
+      "full": "С Нептуном в Деве повседневные задачи могут приобретать глубокий смысл, превращаясь в акты служения или медитации. Это положение способствует развитию интуиции через практический опыт, показывая, как забота о деталях может вести к духовному просветлению.",
+      "tags": ["повседневность", "интуиция", "духовное просветление"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -971,14 +770,11 @@
       "id": 4,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo fosters a meticulous spiritual practice.",
-      "full": "Neptune in Virgo can lead to a spiritual practice that is meticulous and detailed. This placement encourages integrating spirituality into daily routines in a methodical way. You might find comfort in rituals or practices that are orderly, yet deeply meaningful.",
-      "tags": [
-        "spirituality",
-        "routine"
-      ],
+      "short": "Нептун в Деве соединяет мечты с реальностью через труд.",
+      "full": "Нептун в Деве символизирует мост между духовными идеалами и их практическим воплощением. Люди с таким положением часто находят удовлетворение в работе, которая служит высшей цели, видя в ней способ выражения своих самых возвышенных стремлений.",
+      "tags": ["мечты", "реальность", "труд"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -986,14 +782,11 @@
       "id": 5,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo enhances discernment in daily choices.",
-      "full": "With Neptune in Virgo, your ability to discern the most practical and beneficial choices in daily life is enhanced. This placement supports a thoughtful approach to decision-making, where intuition and logic work hand in hand to guide you toward the most efficient outcomes.",
-      "tags": [
-        "discernment",
-        "decision-making"
-      ],
+      "short": "Нептун в Деве раскрывает духовность в заботе о здоровье.",
+      "full": "При Нептуне в Деве забота о физическом здоровье может стать путём к духовному развитию. Это положение поощряет видеть тело как храм души и относиться к его потребностям с уважением и вниманием, находя в этом глубокий смысл.",
+      "tags": ["здоровье", "духовность", "забота"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1001,14 +794,11 @@
       "id": 6,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo promotes healing through organization.",
-      "full": "Neptune in Virgo promotes a unique form of healing that comes through organization and attention to detail. This placement suggests that creating order in your environment can have a soothing effect, offering a sense of peace and well-being through structured spaces and routines.",
-      "tags": [
-        "healing",
-        "organization"
-      ],
+      "short": "Нептун в Деве вдохновляет на служение через мастерство.",
+      "full": "Нептун в Деве может проявляться как желание совершенствовать свои навыки не только для личного успеха, но и для служения другим. Это положение учит, что истинное мастерство включает в себя не только техническое совершенство, но и духовную глубину.",
+      "tags": ["служение", "мастерство", "духовная глубина"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1016,14 +806,11 @@
       "id": 7,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo blends intuition with analytical thinking.",
-      "full": "Neptune in Virgo beautifully blends intuition with analytical thinking, allowing for insights that are both profound and practical. This placement encourages you to trust your gut feelings, but also to examine them through a critical lens, leading to well-rounded understandings and solutions.",
-      "tags": [
-        "intuition",
-        "analytical"
-      ],
+      "short": "Нептун в Деве показывает красоту в простоте.",
+      "full": "Нептун в Деве напоминает нам, что истинная красота и духовность часто скрыты в простых, повседневных вещах. Это положение побуждает ценить минимализм и находить утешение в порядке и чистоте, видя в них отражение высшей гармонии.",
+      "tags": ["красота", "простота", "гармония"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1031,14 +818,11 @@
       "id": 8,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo inspires service with precision.",
-      "full": "Neptune in Virgo inspires a form of service that is carried out with precision and care. This placement highlights the importance of helping others in ways that are not only compassionate but also meticulously planned and executed, ensuring the greatest impact.",
-      "tags": [
-        "service",
-        "precision"
-      ],
+      "short": "Нептун в Деве учит терпению через детали.",
+      "full": "Нептун в Деве может проявляться как способность находить духовное удовлетворение в терпеливом внимании к деталям. Это положение показывает, как медленная, методичная работа может быть формой медитации и путь к внутреннему миру.",
+      "tags": ["терпение", "детали", "медитация"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1046,14 +830,11 @@
       "id": 9,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo encourages a detail-oriented creative process.",
-      "full": "Neptune in Virgo encourages a creative process that is detail-oriented and refined. This placement suggests that your artistic expressions may benefit from a meticulous approach, where every element is carefully considered to create a harmonious and impactful whole.",
-      "tags": [
-        "creativity",
-        "detail-oriented"
-      ],
+      "short": "Нептун в Деве раскрывает мудрость в практичности.",
+      "full": "Нептун в Деве соединяет духовную мудрость с практическим подходом к жизни. Это положение учит, что истинное понимание приходит не только через размышления, но и через действие и служение в повседневной жизни.",
+      "tags": ["мудрость", "практичность", "служение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1061,14 +842,11 @@
       "id": 10,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo fosters practical spirituality.",
-      "full": "Neptune in Virgo fosters a form of spirituality that is deeply practical and grounded. This placement encourages you to find the divine in the everyday, integrating spiritual practices into your routine in ways that enhance your daily life and bring a sense of peace.",
-      "tags": [
-        "spirituality",
-        "practicality"
-      ],
+      "short": "Нептун в Деве вдохновляет на чистоту мыслей и действий.",
+      "full": "Нептун в Деве подчёркивает важность чистоты не только в физическом, но и в духовном смысле. Это положение поощряет стремление к ясности мыслей и чистоты намерений, видя в этом основу для истинного духовного роста.",
+      "tags": ["чистота", "ясность", "духовный рост"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1076,14 +854,11 @@
       "id": 11,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo enhances sensitivity to environments.",
-      "full": "Neptune in Virgo enhances your sensitivity to the environments around you, making you acutely aware of the need for order and cleanliness. This placement suggests that harmonious surroundings can significantly impact your emotional and spiritual well-being.",
-      "tags": [
-        "sensitivity",
-        "environment"
-      ],
+      "short": "Нептун в Деве открывает духовные истины через анализ.",
+      "full": "Нептун в Деве предлагает уникальный путь к духовным истинам через анализ и критическое мышление. Это положение показывает, как глубокое изучение и размышление над деталями может привести к внезапным озарениям и пониманию большего.",
+      "tags": ["духовные истины", "анализ", "озарения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1091,14 +866,11 @@
       "id": 12,
       "key": "planet.neptune.sign.virgo",
       "type": "planet_sign",
-      "short": "Neptune in Virgo promotes healing through detail.",
-      "full": "Neptune in Virgo promotes a unique approach to healing that focuses on the details. This placement suggests that paying attention to the small things can lead to significant improvements in health and happiness, offering a path to wellness that is both practical and profound.",
-      "tags": [
-        "healing",
-        "detail"
-      ],
+      "short": "Нептун в Деве напоминает о важности скромности в духовном пути.",
+      "full": "Нептун в Деве учит, что истинное духовное развитие часто требует скромности и готовности служить другим без ожидания признания. Это положение напоминает, что великие духовные уроки часто скрыты в самых обыденных моментах и действиях.",
+      "tags": ["скромность", "духовный путь", "служение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -1108,14 +880,11 @@
       "id": 1,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra inspires harmony and artistic sensitivity.",
-      "full": "With Neptune in Libra, there's a natural inclination towards creating balance and beauty in relationships. This placement enhances artistic expression and a deep appreciation for harmony. Individuals may find themselves drawn to peaceful environments and collaborative creative projects.",
-      "tags": [
-        "harmony",
-        "artistic"
-      ],
+      "short": "Нептун в Весах усиливает интуицию и стремление к гармонии.",
+      "full": "Нептун в Весах наделяет человека глубокой интуицией и желанием создавать гармонию в окружающем мире. Это положение способствует развитию эстетического восприятия и способности видеть красоту в мелочах. Люди с такой комбинацией часто обладают тонким чувством справедливости и стремятся к равновесию в отношениях.",
+      "tags": ["интуиция", "гармония"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1123,14 +892,11 @@
       "id": 2,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Libra's Neptune fosters diplomacy and idealistic partnerships.",
-      "full": "Neptune in Libra encourages seeing the best in others, promoting diplomacy and idealistic views on partnerships. This position often indicates a person who seeks meaningful connections and believes in the power of unity and mutual respect.",
-      "tags": [
-        "diplomacy",
-        "partnerships"
-      ],
+      "short": "Гармония и духовность объединяются при Нептуне в Весах.",
+      "full": "При Нептуне в Весах гармония и духовность становятся ключевыми темами в жизни человека. Это положение способствует развитию чувствительности к окружающим и желанию разрешать конфликты мирным путём. Такие люди часто ищут глубокие и осмысленные отношения, основанные на взаимопонимании.",
+      "tags": ["духовность", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1138,14 +904,11 @@
       "id": 3,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra enhances empathy in social interactions.",
-      "full": "Individuals with Neptune in Libra possess a heightened sense of empathy, making them excellent listeners and friends. They strive for fairness and often mediate conflicts with grace and understanding.",
-      "tags": [
-        "empathy",
-        "social"
-      ],
+      "short": "Нептун в Весах раскрывает творческий потенциал через гармонию.",
+      "full": "Нептун в Весах раскрывает творческий потенциал человека, направляя его на создание гармоничных и красивых вещей. Это положение способствует развитию художественных талантов и способности выражать свои чувства через искусство. Люди с такой комбинацией часто стремятся к идеалам красоты и совершенства.",
+      "tags": ["творчество", "гармония"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1153,14 +916,11 @@
       "id": 4,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Artistic collaboration flourishes with Neptune in Libra.",
-      "full": "Neptune in Libra is a beacon for those who wish to collaborate artistically, blending visions to create something beautiful. This placement suggests a talent for working in teams where harmony and creativity are valued.",
-      "tags": [
-        "artistic",
-        "collaboration"
-      ],
+      "short": "Сочувствие и дипломатия усиливаются при Нептуне в Весах.",
+      "full": "Нептун в Весах усиливает способность к сочувствию и дипломатии, делая человека более восприимчивым к чувствам других. Это положение способствует развитию миролюбия и желания находить компромиссы. Люди с такой комбинацией часто выступают в роли миротворцев в своих социальных кругах.",
+      "tags": ["сочувствие", "дипломатия"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1168,14 +928,11 @@
       "id": 5,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra seeks balance in all aspects of life.",
-      "full": "The influence of Neptune in Libra drives a quest for balance, not just in relationships but in personal and spiritual realms as well. This placement encourages a peaceful approach to life's challenges.",
-      "tags": [
-        "balance",
-        "spirituality"
-      ],
+      "short": "Нептун в Весах способствует глубоким эмоциональным связям.",
+      "full": "Нептун в Весах способствует установлению глубоких эмоциональных связей, основанных на взаимном уважении и понимании. Это положение развивает способность чувствовать партнёра на интуитивном уровне и стремление к равноправным отношениям. Такие люди ценят искренность и открытость в общении.",
+      "tags": ["эмоции", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1183,14 +940,11 @@
       "id": 6,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Libra's Neptune brings a dreamy quality to love.",
-      "full": "With Neptune in Libra, love and relationships take on a dreamy, idealistic quality. This placement suggests a romantic at heart, someone who believes in soulmates and the transformative power of love.",
-      "tags": [
-        "love",
-        "romance"
-      ],
+      "short": "Идеализм и стремление к справедливости при Нептуне в Весах.",
+      "full": "Нептун в Весах усиливает идеализм и стремление к справедливости, побуждая человека искать баланс во всех сферах жизни. Это положение способствует развитию чувства прекрасного и желания улучшать мир вокруг себя. Люди с такой комбинацией часто обладают сильным чувством долга перед обществом.",
+      "tags": ["идеализм", "справедливость"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1198,14 +952,11 @@
       "id": 7,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra encourages compassionate justice.",
-      "full": "Neptune in Libra inspires a compassionate approach to justice and fairness. Individuals with this placement are often advocates for equality, using their intuition to guide their actions towards creating a more balanced world.",
-      "tags": [
-        "justice",
-        "compassion"
-      ],
+      "short": "Нептун в Весах раскрывает талант к медиации и урегулированию конфликтов.",
+      "full": "Нептун в Весах раскрывает талант к медиации и урегулированию конфликтов, наделяя человека способностью видеть обе стороны спора. Это положение способствует развитию терпимости и понимания, что делает таких людей ценными посредниками в сложных ситуациях.",
+      "tags": ["медиация", "конфликты"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1213,14 +964,11 @@
       "id": 8,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Harmonious environments are key for Neptune in Libra.",
-      "full": "For those with Neptune in Libra, harmonious environments are not just preferred but necessary for well-being. This placement highlights a sensitivity to surroundings and a need for peace and beauty in daily life.",
-      "tags": [
-        "harmony",
-        "environment"
-      ],
+      "short": "Нептун в Весах способствует развитию эстетического вкуса.",
+      "full": "Нептун в Весах способствует развитию эстетического вкуса и любви к искусству, побуждая человека окружать себя красотой. Это положение усиливает восприимчивость к музыке, живописи и другим формам творчества, делая жизнь более насыщенной и вдохновляющей.",
+      "tags": ["эстетика", "искусство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1228,14 +976,11 @@
       "id": 9,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra enhances musical and artistic talents.",
-      "full": "Neptune in Libra can amplify musical and artistic talents, especially in collaborative settings. This placement favors those who express their creativity through harmony and balance, often leading to profound artistic achievements.",
-      "tags": [
-        "music",
-        "art"
-      ],
+      "short": "Гармония в отношениях — ключевая тема при Нептуне в Весах.",
+      "full": "При Нептуне в Весах гармония в отношениях становится ключевой темой, побуждая человека искать глубину и искренность в общении. Это положение способствует развитию способности любить и быть любимым, создавая прочные и осмысленные связи.",
+      "tags": ["гармония", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1243,14 +988,11 @@
       "id": 10,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Libra's Neptune seeks unity in diversity.",
-      "full": "Neptune in Libra embodies the ideal of unity in diversity, promoting understanding and acceptance among different people. This placement is about seeing the beauty in varied perspectives and fostering connections.",
-      "tags": [
-        "unity",
-        "diversity"
-      ],
+      "short": "Нептун в Весах усиливает интуитивное понимание партнёра.",
+      "full": "Нептун в Весах усиливает интуитивное понимание партнёра, способствуя созданию отношений, основанных на глубокой эмоциональной связи. Это положение развивает эмпатию и способность чувствовать настроения и желания близких без слов.",
+      "tags": ["интуиция", "эмпатия"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1258,14 +1000,11 @@
       "id": 11,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra values aesthetic and spiritual beauty.",
-      "full": "Individuals with Neptune in Libra have a deep appreciation for both aesthetic and spiritual beauty. This placement encourages a life where beauty, in all its forms, is recognized as a pathway to inner peace.",
-      "tags": [
-        "beauty",
-        "spirituality"
-      ],
+      "short": "Стремление к миру и согласию при Нептуне в Весах.",
+      "full": "Нептун в Весах усиливает стремление к миру и согласию, делая человека активным сторонником гармоничных отношений. Это положение способствует развитию дипломатических навыков и умения находить общий язык с разными людьми.",
+      "tags": ["мир", "согласие"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1273,14 +1012,11 @@
       "id": 12,
       "key": "planet.neptune.sign.libra",
       "type": "planet_sign",
-      "short": "Neptune in Libra fosters peace and reconciliation.",
-      "full": "With Neptune in Libra, there's a natural talent for fostering peace and facilitating reconciliation. This placement suggests an individual who can navigate conflicts with a gentle touch, always aiming for harmony and understanding.",
-      "tags": [
-        "peace",
-        "reconciliation"
-      ],
+      "short": "Нептун в Весах раскрывает чувствительность к красоте и искусству.",
+      "full": "Нептун в Весах раскрывает чувствительность к красоте и искусству, обогащая внутренний мир человека. Это положение способствует развитию творческих способностей и способности видеть прекрасное в повседневности, вдохновляя на созидание.",
+      "tags": ["красота", "искусство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -1290,14 +1026,11 @@
       "id": 1,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune in Scorpio enhances intuition and deep emotional understanding.",
-      "full": "With Neptune in Scorpio, there's a profound depth to your intuition and emotional insight. This placement encourages exploring the unseen, fostering a strong connection to the mystical. It's a journey of discovering inner truths and embracing transformation with courage and sensitivity.",
-      "tags": [
-        "интуиция",
-        "трансформация"
-      ],
+      "short": "Нептун в Скорпионе усиливает глубину чувств и интуицию.",
+      "full": "Нептун в Скорпионе наделяет человека глубокой интуицией и способностью чувствовать скрытые эмоции других. Это положение способствует развитию психологических инсайтов и пониманию глубинных мотивов. Люди с такой позицией часто обладают творческим воображением и сильной эмпатией.",
+      "tags": ["интуиция", "эмоции"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1305,14 +1038,11 @@
       "id": 2,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Scorpio's Neptune brings intensity to dreams and spiritual pursuits.",
-      "full": "Neptune in Scorpio intensifies your dreams and spiritual quests, blending mystery with desire. This position highlights a path of emotional and psychic depth, where boundaries blur between the material and spiritual, urging a deeper exploration of life's mysteries.",
-      "tags": [
-        "духовность",
-        "глубина"
-      ],
+      "short": "Глубокие трансформации и мистические поиски характерны для Нептуна в Скорпионе.",
+      "full": "Нептун в Скорпионе символизирует глубокие внутренние трансформации и тягу к мистическим знаниям. Такие люди часто ищут скрытые истины и обладают способностью к духовному возрождению. Их путь может быть наполнен интуитивными озарениями и глубокими эмоциональными переживаниями.",
+      "tags": ["трансформация", "духовность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1320,14 +1050,11 @@
       "id": 3,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune in Scorpio fosters a powerful psychic and emotional bond.",
-      "full": "Having Neptune in Scorpio creates a strong psychic and emotional connection, enhancing your ability to perceive beyond the surface. This placement is about trusting your instincts and embracing the transformative power of your emotions for personal growth.",
-      "tags": [
-        "психизм",
-        "эмоции"
-      ],
+      "short": "Нептун в Скорпионе раскрывает тайны и усиливает восприятие.",
+      "full": "При Нептуне в Скорпионе человек обладает уникальной способностью видеть то, что скрыто от других. Это положение усиливает восприятие и способствует раскрытию тайн. Такие люди часто интересуются психологией, эзотерикой и всем, что связано с глубинными процессами души.",
+      "tags": ["восприятие", "тайны"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1335,14 +1062,11 @@
       "id": 4,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "This placement deepens Scorpio's natural inclination towards mystery.",
-      "full": "Neptune in Scorpio amplifies the natural Scorpionic pull towards the mysterious and unknown. It's an invitation to dive deep into your subconscious, uncovering hidden truths and embracing the transformative journey of self-discovery.",
-      "tags": [
-        "тайна",
-        "самопознание"
-      ],
+      "short": "Нептун в Скорпионе способствует глубоким эмоциональным связям.",
+      "full": "Нептун в Скорпионе помогает устанавливать глубокие эмоциональные связи с окружающими. Люди с таким положением часто чувствуют эмоции других на интуитивном уровне и способны к глубокой эмпатии. Их отношения могут быть интенсивными и трансформирующими.",
+      "tags": ["эмоции", "отношения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1350,14 +1074,11 @@
       "id": 5,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune here enhances Scorpio's emotional and psychic depths.",
-      "full": "With Neptune in Scorpio, your emotional and psychic depths are heightened, offering a unique perspective on life's complexities. This placement encourages embracing vulnerability as a strength and exploring the unseen layers of your existence.",
-      "tags": [
-        "глубина",
-        "восприятие"
-      ],
+      "short": "Творческое воображение и мистицизм усиливаются при Нептуне в Скорпионе.",
+      "full": "Нептун в Скорпионе усиливает творческое воображение и интерес к мистическим аспектам жизни. Люди с таким положением часто обладают богатым внутренним миром и способностью к символическому мышлению. Их творчество может быть наполнено глубокими смыслами и эмоциями.",
+      "tags": ["творчество", "мистицизм"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1365,14 +1086,11 @@
       "id": 6,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "A mystical blend of Neptune's spirituality and Scorpio's intensity.",
-      "full": "Neptune in Scorpio merges spirituality with intensity, creating a mystical blend that deepens your connection to the unseen. This placement is about navigating the waters of emotion and intuition with courage and openness to transformation.",
-      "tags": [
-        "мистика",
-        "трансформация"
-      ],
+      "short": "Нептун в Скорпионе раскрывает глубинные страхи и желания.",
+      "full": "Нептун в Скорпионе помогает осознать глубинные страхи и желания, способствуя личностному росту. Люди с таким положением могут столкнуться с необходимостью трансформации своих эмоций и взглядов. Этот процесс часто ведёт к большему самопониманию и освобождению.",
+      "tags": ["страхи", "трансформация"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1380,14 +1098,11 @@
       "id": 7,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune in Scorpio invites deep emotional healing and renewal.",
-      "full": "The presence of Neptune in Scorpio invites a journey of deep emotional healing and renewal. This placement highlights the power of letting go and trusting the process of transformation, leading to profound personal growth and understanding.",
-      "tags": [
-        "исцеление",
-        "обновление"
-      ],
+      "short": "Интуитивные озарения и психологическая глубина характерны для Нептуна в Скорпионе.",
+      "full": "Нептун в Скорпионе дарит интуитивные озарения и психологическую глубину. Люди с таким положением часто обладают способностью понимать скрытые мотивы и эмоции. Их путь может быть связан с поиском истины и глубокими внутренними изменениями.",
+      "tags": ["интуиция", "психология"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1395,14 +1110,11 @@
       "id": 8,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "This combination enhances intuition and the ability to see beyond.",
-      "full": "Neptune in Scorpio enhances your intuition and the ability to perceive beyond the obvious, blending Scorpio's depth with Neptune's transcendence. It's a call to trust your inner voice and explore the deeper meanings of your experiences.",
-      "tags": [
-        "интуиция",
-        "восприятие"
-      ],
+      "short": "Нептун в Скорпионе усиливает способность к эмпатии и пониманию.",
+      "full": "При Нептуне в Скорпионе человек обладает повышенной способностью к эмпатии и глубокому пониманию других. Это положение способствует развитию сострадания и психологической интуиции. Такие люди часто становятся поддержкой для тех, кто переживает трудные времена.",
+      "tags": ["эмпатия", "понимание"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1410,14 +1122,11 @@
       "id": 9,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune in Scorpio deepens the connection to the subconscious.",
-      "full": "Neptune's placement in Scorpio deepens your connection to the subconscious, revealing hidden emotions and desires. This position encourages exploring these depths with compassion, leading to greater self-awareness and emotional clarity.",
-      "tags": [
-        "подсознание",
-        "осознанность"
-      ],
+      "short": "Глубинные эмоциональные переживания и духовные поиски при Нептуне в Скорпионе.",
+      "full": "Нептун в Скорпионе символизирует глубинные эмоциональные переживания и стремление к духовным поискам. Люди с таким положением часто ищут смысл жизни за пределами материального мира. Их путь может быть наполнен инсайтами и трансформациями.",
+      "tags": ["эмоции", "духовность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1425,14 +1134,11 @@
       "id": 10,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "A transformative journey through Neptune's haze in Scorpio.",
-      "full": "Neptune in Scorpio marks a transformative journey, where the haze of Neptune meets Scorpio's intensity. This placement is about navigating through emotional and spiritual depths, discovering truths hidden beneath the surface.",
-      "tags": [
-        "трансформация",
-        "духовность"
-      ],
+      "short": "Нептун в Скорпионе способствует раскрытию подсознательных процессов.",
+      "full": "Нептун в Скорпионе помогает осознать и раскрыть подсознательные процессы, ведущие к личностному росту. Люди с таким положением обладают уникальной способностью работать с глубинными аспектами психики. Их путь часто связан с самопознанием и исцелением.",
+      "tags": ["подсознание", "рост"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1440,14 +1146,11 @@
       "id": 11,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "Neptune in Scorpio fosters a deep, intuitive understanding of life.",
-      "full": "With Neptune in Scorpio, you're gifted with a deep, intuitive understanding of life's cycles and mysteries. This placement encourages embracing the unknown with faith, allowing your intuition to guide you through transformation and renewal.",
-      "tags": [
-        "интуиция",
-        "понимание"
-      ],
+      "short": "Мистические откровения и психологическая интуиция при Нептуне в Скорпионе.",
+      "full": "Нептун в Скорпионе может приносить мистические откровения и усиливать психологическую интуицию. Люди с таким положением часто чувствуют связь с невидимыми аспектами реальности. Их восприятие мира может быть наполнено символами и глубокими смыслами.",
+      "tags": ["мистика", "интуиция"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1455,14 +1158,11 @@
       "id": 12,
       "key": "planet.neptune.sign.scorpio",
       "type": "planet_sign",
-      "short": "This placement blends Neptune's dreams with Scorpio's passion.",
-      "full": "Neptune in Scorpio beautifully blends dreams with passion, creating a rich inner world of emotional and spiritual depth. It's an invitation to explore your desires and fears, transforming them into sources of strength and insight.",
-      "tags": [
-        "мечты",
-        "страсть"
-      ],
+      "short": "Нептун в Скорпионе раскрывает силу эмоций и духовный потенциал.",
+      "full": "Нептун в Скорпионе раскрывает силу эмоций и духовный потенциал человека. Люди с таким положением обладают способностью к глубоким переживаниям и трансформации. Их путь может быть связан с преодолением испытаний и достижением внутренней гармонии.",
+      "tags": ["эмоции", "духовность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -1472,14 +1172,11 @@
       "id": 1,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius inspires a quest for spiritual truth and expansive ideals.",
-      "full": "With Neptune in Sagittarius, there's a deep yearning to explore spiritual and philosophical realms. This placement encourages a broad-minded approach to life's mysteries, blending intuition with a love for adventure. It's about finding meaning beyond the material, through travel, study, or spiritual practices.",
-      "tags": [
-        "spirituality",
-        "adventure"
-      ],
+      "short": "Нептун в Стрельце раскрывает духовные поиски и стремление к истине.",
+      "full": "Нептун в Стрельце подчеркивает ваше стремление к духовным истинам и философским поискам. Это время для расширения горизонтов через путешествия или изучение новых культур. Ваша интуиция усилена, помогая находить глубокие ответы.",
+      "tags": ["духовность", "путешествия"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1487,14 +1184,11 @@
       "id": 2,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius blends intuition with a love for freedom and exploration.",
-      "full": "Neptune's presence in Sagittarius merges intuition with an insatiable curiosity about the world. This combination fosters a personality that seeks truth through experience, valuing freedom and the wisdom gained from diverse cultures and philosophies.",
-      "tags": [
-        "freedom",
-        "exploration"
-      ],
+      "short": "Стрелец с Нептуном вдохновляет на исследование неизведанного.",
+      "full": "С Нептуном в Стрельце вы чувствуете сильное влечение к исследованию неизведанного, будь то далекие страны или глубины сознания. Это период, когда вера и оптимизм ведут вас вперед, открывая новые пути для роста.",
+      "tags": ["исследование", "оптимизм"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1502,14 +1196,11 @@
       "id": 3,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Sagittarius Neptune seeks meaning through expansive and optimistic lenses.",
-      "full": "When Neptune resides in Sagittarius, the search for meaning is colored by optimism and a belief in the goodness of the universe. This placement encourages seeing the bigger picture, often leading to a life rich in philosophical or spiritual pursuits.",
-      "tags": [
-        "optimism",
-        "philosophy"
-      ],
+      "short": "Нептун в Стрельце усиливает жажду знаний и приключений.",
+      "full": "Нептун в Стрельце разжигает вашу жажду знаний и приключений, побуждая искать мудрость за пределами обыденного. Это время для изучения философии, религии или культур, что обогащает ваш внутренний мир.",
+      "tags": ["знания", "приключения"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1517,14 +1208,11 @@
       "id": 4,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius inspires a journey beyond the tangible, towards universal truths.",
-      "full": "Neptune in Sagittarius propels the soul towards understanding life's grand mysteries. It's a call to transcend the mundane, embracing a path of learning and growth that spans cultures, beliefs, and the vastness of human thought.",
-      "tags": [
-        "growth",
-        "universal truths"
-      ],
+      "short": "С Нептуном в Стрельце вы ищете высший смысл во всем.",
+      "full": "Нептун в Стрельце делает вас искателем высшего смысла, вдохновляя на глубокие размышления о жизни. Ваша способность видеть за пределами очевидного помогает находить вдохновение в самых неожиданных местах.",
+      "tags": ["смысл", "вдохновение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1532,14 +1220,11 @@
       "id": 5,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "This placement highlights a blend of spiritual seeking and adventurous spirit.",
-      "full": "Neptune in Sagittarius marks a soul that finds divinity in the journey itself. The adventurous spirit of Sagittarius, combined with Neptune's mysticism, creates a life path centered around exploration, both external and internal.",
-      "tags": [
-        "spiritual seeking",
-        "adventure"
-      ],
+      "short": "Нептун в Стрельце пробуждает желание делиться мудростью.",
+      "full": "С Нептуном в Стрельце вы чувствуете потребность делиться своей мудростью и духовными открытиями с другими. Это время, когда ваши слова могут вдохновлять и направлять тех, кто ищет свой путь.",
+      "tags": ["мудрость", "вдохновение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1547,14 +1232,11 @@
       "id": 6,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius encourages faith in the journey of life.",
-      "full": "With Neptune in Sagittarius, there's an inherent trust in the unfolding of life's journey. This placement fosters a belief that every experience, whether joyous or challenging, is a step towards greater understanding and enlightenment.",
-      "tags": [
-        "faith",
-        "journey"
-      ],
+      "short": "Влияние Нептуна в Стрельце расширяет ваше восприятие мира.",
+      "full": "Нептун в Стрельце расширяет ваше восприятие, позволяя видеть красоту и единство в разнообразии мира. Это период, когда вы особенно открыты для новых идей и культур, что обогащает вашу жизнь.",
+      "tags": ["восприятие", "единство"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1562,14 +1244,11 @@
       "id": 7,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "A visionary outlook is nurtured by Neptune in Sagittarius.",
-      "full": "Neptune in Sagittarius bestows a visionary quality, seeing beyond the immediate to the potential of what could be. It's a placement that dreams big, inspired by ideals of unity, exploration, and the boundless nature of the spirit.",
-      "tags": [
-        "visionary",
-        "ideals"
-      ],
+      "short": "Нептун в Стрельце способствует духовному росту через обучение.",
+      "full": "Нептун в Стрельце способствует вашему духовному росту через обучение и обмен знаниями. Вы находите глубокую связь между различными учениями, что помогает вам формировать целостное мировоззрение.",
+      "tags": ["духовный рост", "обучение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1577,14 +1256,11 @@
       "id": 8,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "The combination fosters a deep connection with the world's spiritual traditions.",
-      "full": "Neptune in Sagittarius draws the individual towards the world's spiritual traditions, seeking wisdom in the diversity of human belief. This placement is about finding common threads that unite us all in our search for meaning.",
-      "tags": [
-        "spiritual traditions",
-        "wisdom"
-      ],
+      "short": "С Нептуном в Стрельце вы стремитесь к свободе и истине.",
+      "full": "Нептун в Стрельце усиливает ваше стремление к свободе и поиску истины. Вы не приемлете ограничений на своем пути к познанию и готовы идти на риск ради своих идеалов.",
+      "tags": ["свобода", "истина"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1592,14 +1268,11 @@
       "id": 9,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius seeks to dissolve boundaries through understanding.",
-      "full": "In Sagittarius, Neptune works to dissolve the boundaries that separate us, fostering a sense of global kinship. This placement encourages embracing the unknown, learning from every culture, and seeing the divine in all paths.",
-      "tags": [
-        "understanding",
-        "global kinship"
-      ],
+      "short": "Нептун в Стрельце открывает новые горизонты для вашей души.",
+      "full": "С Нептуном в Стрельце перед вами открываются новые горизонты, как в буквальном, так и в духовном смысле. Вы ищете пути, которые ведут к расширению сознания и глубокому пониманию жизни.",
+      "tags": ["горизонты", "душа"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1607,14 +1280,11 @@
       "id": 10,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "This placement inspires a life led by higher ideals and universal love.",
-      "full": "Neptune in Sagittarius inspires a commitment to higher ideals, guided by a sense of universal love and connection. It's about living in a way that honors the interconnectedness of all beings and the planet we share.",
-      "tags": [
-        "higher ideals",
-        "universal love"
-      ],
+      "short": "Нептун в Стрельце вдохновляет на творческое самовыражение.",
+      "full": "Нептун в Стрельце вдохновляет вас на творческое самовыражение, особенно в областях, связанных с путешествиями и культурным обменом. Ваши идеи могут стать мостом между разными мирами.",
+      "tags": ["творчество", "самовыражение"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1622,14 +1292,11 @@
       "id": 11,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "A boundless curiosity defines Neptune in Sagittarius.",
-      "full": "Neptune's placement in Sagittarius ignites a boundless curiosity about the mysteries of existence. This energy is about exploring the vastness of the universe, both outside and within, with an open heart and mind.",
-      "tags": [
-        "curiosity",
-        "mysteries"
-      ],
+      "short": "С Нептуном в Стрельце вы находите радость в открытиях.",
+      "full": "Нептун в Стрельце наполняет вашу жизнь радостью от новых открытий и встреч. Вы цените каждый опыт, который расширяет ваше понимание мира и себя в нем.",
+      "tags": ["радость", "открытия"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1637,14 +1304,11 @@
       "id": 12,
       "key": "planet.neptune.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Neptune in Sagittarius finds magic in the journey of discovery.",
-      "full": "With Neptune in Sagittarius, life is a magical journey of discovery, where every encounter and experience holds the potential for growth and enlightenment. This placement celebrates the joy of learning and the beauty of the unknown.",
-      "tags": [
-        "discovery",
-        "magic"
-      ],
+      "short": "Нептун в Стрельце помогает видеть красоту в разнообразии.",
+      "full": "Нептун в Стрельце помогает вам видеть красоту и ценность в разнообразии мировых культур и верований. Это время, когда вы особенно чувствительны к универсальным истинам, объединяющим человечество.",
+      "tags": ["красота", "разнообразие"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -1654,14 +1318,11 @@
       "id": 1,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn blends intuition with discipline, fostering deep resilience.",
-      "full": "With Neptune in Capricorn, there's a unique blend of intuition and discipline. This placement encourages a deep resilience, allowing individuals to navigate challenges with a grounded yet imaginative approach. It's about finding spiritual depth in practical achievements.",
-      "tags": [
-        "resilience",
-        "discipline"
-      ],
+      "short": "Нептун в Козероге усиливает интуицию и дисциплину.",
+      "full": "Нептун в Козероге создаёт уникальное сочетание интуиции и практичности. Это положение помогает видеть глубину в структурированных системах, сохраняя приземлённый подход. Люди с такой комбинацией часто обладают сильной волей и способностью к стратегическому мышлению, что делает их отличными планировщиками.",
+      "tags": ["интуиция", "дисциплина"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1669,14 +1330,11 @@
       "id": 2,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Capricorn's Neptune inspires structured creativity and visionary leadership.",
-      "full": "Neptune in Capricorn inspires a form of creativity that's both structured and visionary. Individuals with this placement may find themselves drawn to leadership roles where they can implement their imaginative ideas in practical, impactful ways. It's a call to blend dreams with reality.",
-      "tags": [
-        "creativity",
-        "leadership"
-      ],
+      "short": "Нептун в Козероге способствует духовному росту через ответственность.",
+      "full": "Нептун в Козероге предлагает путь духовного развития через принятие ответственности и трудолюбие. Это положение может указывать на человека, который ищет высший смысл в повседневных обязанностях, превращая рутину в духовную практику. Их вера часто подкреплена действиями.",
+      "tags": ["духовность", "ответственность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1684,14 +1342,11 @@
       "id": 3,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn merges spirituality with ambition for profound growth.",
-      "full": "Neptune in Capricorn signifies a merging of spirituality with ambition. This placement suggests a journey where profound personal growth is achieved through the disciplined pursuit of one's dreams. It highlights the importance of patience and persistence in spiritual and material endeavors.",
-      "tags": [
-        "spirituality",
-        "ambition"
-      ],
+      "short": "Нептун в Козероге объединяет мечты и реальность.",
+      "full": "Нептун в Козероге символизирует мост между мечтами и реальностью. Люди с этой комбинацией могут обладать уникальной способностью воплощать свои видения в практические проекты. Их творчество часто направлено на достижение конкретных целей, что делает их мечтателями с твёрдой почвой под ногами.",
+      "tags": ["мечты", "реализация"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1699,14 +1354,11 @@
       "id": 4,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Disciplined dreams: Neptune in Capricorn fosters practical mysticism.",
-      "full": "Neptune in Capricorn fosters a kind of practical mysticism, where dreams are pursued with discipline and realism. This placement encourages individuals to ground their spiritual insights in tangible actions, creating a bridge between the ethereal and the everyday.",
-      "tags": [
-        "mysticism",
-        "discipline"
-      ],
+      "short": "Нептун в Козероге учит видеть магию в дисциплине.",
+      "full": "Нептун в Козероге раскрывает магию в дисциплине и структуре. Это положение может указывать на человека, который находит духовное удовлетворение в порядке и систематическом подходе. Их путь к просветлению часто лежит через усердную работу и преданность своим идеалам.",
+      "tags": ["магия", "дисциплина"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1714,14 +1366,11 @@
       "id": 5,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn: A visionary approach to tradition and structure.",
-      "full": "Neptune in Capricorn brings a visionary approach to tradition and structure. This placement suggests an ability to see beyond conventional boundaries while respecting the value of discipline and hard work. It's about innovating within frameworks to create meaningful change.",
-      "tags": [
-        "tradition",
-        "innovation"
-      ],
+      "short": "Нептун в Козероге — гармония между идеалом и реальностью.",
+      "full": "Нептун в Козероге создаёт гармонию между высокими идеалами и земной реальностью. Люди с этой комбинацией часто стремятся к совершенству в материальном мире, используя свою интуицию для достижения устойчивых результатов. Их духовность проявляется через практические достижения.",
+      "tags": ["гармония", "реальность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1729,14 +1378,11 @@
       "id": 6,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Capricorn's Neptune encourages grounded spiritual exploration.",
-      "full": "With Neptune in Capricorn, spiritual exploration is grounded in reality. This placement supports a journey where mystical experiences are integrated into daily life through practical actions and disciplined practices. It's about finding the sacred in the structured.",
-      "tags": [
-        "spirituality",
-        "discipline"
-      ],
+      "short": "Нептун в Козероге — сила веры в структурированном мире.",
+      "full": "Нептун в Козероге демонстрирует силу веры в рамках структурированного мира. Это положение может указывать на человека, чья духовность и интуиция укрепляются через дисциплину и порядок. Они часто видят божественное в деталях и системах, которые другие могут считать обыденными.",
+      "tags": ["вера", "структура"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1744,14 +1390,11 @@
       "id": 7,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn blends dreams with determination for unique achievements.",
-      "full": "Neptune in Capricorn blends dreams with determination, leading to unique achievements. This placement highlights how imaginative visions can be realized through steadfast effort and strategic planning. It's a reminder that even the most ethereal dreams require a solid foundation.",
-      "tags": [
-        "dreams",
-        "determination"
-      ],
+      "short": "Нептун в Козероге — вдохновение через ответственность.",
+      "full": "Нептун в Козероге показывает, как вдохновение может прийти через принятие ответственности. Люди с этой комбинацией часто находят свои самые глубокие озарения, занимаясь повседневными обязанностями. Их творческий потенциал раскрывается в условиях дисциплины и упорства.",
+      "tags": ["вдохновение", "ответственность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1759,14 +1402,11 @@
       "id": 8,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn: Spiritual depth meets pragmatic action.",
-      "full": "Neptune in Capricorn signifies a meeting point of spiritual depth and pragmatic action. Individuals with this placement are often able to channel their intuitive insights into concrete plans and actions, making their spiritual journey both meaningful and materially impactful.",
-      "tags": [
-        "spirituality",
-        "pragmatism"
-      ],
+      "short": "Нептун в Козероге — духовность в материальном успехе.",
+      "full": "Нептун в Козероге символизирует духовность, выраженную через материальный успех. Это положение может указывать на человека, который видит высший смысл в достижении и стабильности. Их духовный путь часто связан с преодолением материальных ограничений, чтобы найти истинное богатство.",
+      "tags": ["духовность", "успех"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1774,14 +1414,11 @@
       "id": 9,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Capricorn's Neptune: A disciplined path to imaginative fulfillment.",
-      "full": "Capricorn's Neptune suggests a disciplined path to imaginative fulfillment. This placement encourages a balanced approach where creative visions are pursued with patience and perseverance, ensuring that dreams are not only envisioned but also achieved through dedicated effort.",
-      "tags": [
-        "discipline",
-        "fulfillment"
-      ],
+      "short": "Нептун в Козероге — глубина в практичности.",
+      "full": "Нептун в Козероге раскрывает глубину в практичных и земных делах. Люди с этой комбинацией могут обладать способностью видеть скрытые смыслы в повседневных задачах, превращая обыденное в нечто значительное. Их подход к жизни сочетает реализм с глубоким внутренним видением.",
+      "tags": ["глубина", "практичность"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1789,14 +1426,11 @@
       "id": 10,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn fosters a realistic approach to dreams.",
-      "full": "Neptune in Capricorn fosters a realistic approach to dreams, blending intuition with practicality. This placement supports the idea that visionary goals can be achieved through careful planning and disciplined action, making the ethereal tangible.",
-      "tags": [
-        "realism",
-        "dreams"
-      ],
+      "short": "Нептун в Козероге — мечты, воплощённые в реальность.",
+      "full": "Нептун в Козероге говорит о способности воплощать мечты в реальность через упорный труд. Это положение может указывать на человека, чьи идеалы и видения материализуются благодаря дисциплине и настойчивости. Их духовные искания часто приводят к конкретным, осязаемым результатам.",
+      "tags": ["мечты", "труд"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1804,14 +1438,11 @@
       "id": 11,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Neptune in Capricorn: Where intuition meets ambition in a dance of discipline.",
-      "full": "Neptune in Capricorn creates a dynamic where intuition meets ambition, all within a framework of discipline. This placement encourages individuals to pursue their dreams with both creativity and a structured approach, ensuring that their visions have the foundation to flourish.",
-      "tags": [
-        "intuition",
-        "ambition"
-      ],
+      "short": "Нептун в Козероге — интуиция в службе цели.",
+      "full": "Нептун в Козероге показывает, как интуиция может служить достижению долгосрочных целей. Люди с этой комбинацией часто используют своё внутреннее знание для принятия стратегических решений. Их духовная чувствительность направлена на создание устойчивых и значимых структур в их жизни.",
+      "tags": ["интуиция", "цели"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1819,14 +1450,11 @@
       "id": 12,
       "key": "planet.neptune.sign.capricorn",
       "type": "planet_sign",
-      "short": "Capricorn's Neptune inspires a grounded yet expansive spiritual journey.",
-      "full": "Capricorn's Neptune inspires a spiritual journey that is both grounded and expansive. This placement suggests that true spiritual growth comes from integrating higher ideals with everyday responsibilities, creating a path that is both mystical and materially rewarding.",
-      "tags": [
-        "spirituality",
-        "growth"
-      ],
+      "short": "Нептун в Козероге — тайна в структуре.",
+      "full": "Нептун в Козероге раскрывает тайны, скрытые в структурах и системах. Это положение может указывать на человека, который ищет и находит духовные истины в организации и порядке. Их путь к пониманию часто лежит через анализ и систематизацию, открывая глубину в, казалось бы, простых вещах.",
+      "tags": ["тайна", "структура"],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
@@ -1836,12 +1464,9 @@
       "id": 1,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее пробуждает интуицию и гуманизм.",
-      "full": "Нептун в Водолее усиливает интуицию и способствует гуманитарным устремлениям. Это положение способствует развитию сострадания и желанию помогать другим. Люди с такой комбинацией часто обладают уникальным взглядом на мир и стремятся к духовному росту.",
-      "tags": [
-        "интуиция",
-        "гуманизм"
-      ],
+      "short": "Нептун в Водолее пробуждает интуицию и стремление к свободе.",
+      "full": "Нептун в Водолее усиливает интуитивные способности и желание выйти за рамки обыденного. Это положение способствует развитию творческого мышления и поиску нестандартных решений. Люди с такой комбинацией часто чувствуют глубокую связь с коллективным бессознательным, что может проявляться в интересе к духовным или альтернативным практикам.",
+      "tags": ["интуиция", "свобода"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1851,12 +1476,9 @@
       "id": 2,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует инновационному мышлению.",
-      "full": "Нептун в Водолее вдохновляет на инновации и нестандартные решения. Это положение помогает видеть за пределами обыденности, способствуя творческому и технологическому прогрессу. Люди с такой комбинацией часто вдохновляют других своими идеями.",
-      "tags": [
-        "инновации",
-        "творчество"
-      ],
+      "short": "Нептун в Водолее способствует инновационному мышлению и гуманизму.",
+      "full": "При Нептуне в Водолее человек может испытывать сильное желание внести вклад в общественное благо через инновации. Это положение часто связано с развитием сострадания и понимания глобальных проблем. Такие люди могут быть вдохновлены идеями, которые объединяют человечество и способствуют духовному прогрессу.",
+      "tags": ["инновации", "гуманизм"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1866,12 +1488,9 @@
       "id": 3,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее раскрывает потенциал коллективной работы.",
-      "full": "Нептун в Водолее подчеркивает важность коллективной работы и общих целей. Это положение способствует развитию чувства единства и сотрудничества. Люди с такой комбинацией часто находят себя в группах, работающих на благо общества.",
-      "tags": [
-        "коллектив",
-        "сотрудничество"
-      ],
+      "short": "Нептун в Водолее раскрывает потенциал для духовного роста и единства.",
+      "full": "Нептун в Водолее открывает двери к глубокому духовному опыту и чувству единства со всем миром. Люди с этой комбинацией могут обнаружить, что их привлекают группы или движения, которые пропагандируют мир и гармонию. Это положение также способствует развитию экстрасенсорных способностей и интереса к метафизическим наукам.",
+      "tags": ["духовность", "единство"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1881,12 +1500,9 @@
       "id": 4,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее усиливает восприимчивость к новым идеям.",
-      "full": "Нептун в Водолее делает ум более открытым и восприимчивым к новым идеям. Это положение способствует развитию толерантности и понимания разнообразия мировоззрений. Люди с такой комбинацией часто являются мостом между разными культурами и философиями.",
-      "tags": [
-        "открытость",
-        "толерантность"
-      ],
+      "short": "Нептун в Водолее усиливает творческие способности и оригинальность.",
+      "full": "С Нептуном в Водолее творческие способности получают уникальный оттенок оригинальности и новаторства. Это положение может вдохновлять на создание произведений искусства, которые отражают будущее или абстрактные концепции. Люди с такой комбинацией часто стремятся выразить свои идеи способами, которые выходят за пределы традиционных форм.",
+      "tags": ["творчество", "оригинальность"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1896,12 +1512,9 @@
       "id": 5,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует духовному поиску.",
-      "full": "Нептун в Водолее вдохновляет на духовный поиск и исследование неизведанного. Это положение помогает находить глубину в простых вещах и видеть магию в повседневности. Люди с такой комбинацией часто ищут смысл за пределами материального мира.",
-      "tags": [
-        "духовность",
-        "поиск"
-      ],
+      "short": "Нептун в Водолее способствует развитию видения будущего и идеализма.",
+      "full": "Нептун в Водолее наделяет человека способностью видеть дальше текущего момента и вдохновляться идеалами будущего. Это положение может проявляться как сильное желание изменить мир к лучшему через утопические идеи. Однако важно оставаться реалистичным, чтобы мечты могли воплотиться в жизнь.",
+      "tags": ["будущее", "идеализм"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1911,12 +1524,9 @@
       "id": 6,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее раскрывает творческий потенциал.",
-      "full": "Нептун в Водолее раскрывает творческий потенциал, вдохновляя на создание чего-то уникального. Это положение способствует выражению себя через искусство и инновации. Люди с такой комбинацией часто находят необычные способы самовыражения.",
-      "tags": [
-        "творчество",
-        "самовыражение"
-      ],
+      "short": "Нептун в Водолее раскрывает интерес к науке и технологиям.",
+      "full": "При Нептуне в Водолее может возникать глубокий интерес к научным и технологическим достижениям, особенно тем, которые способствуют развитию человечества. Это положение способствует видению науки как инструмента для решения глобальных проблем и улучшения качества жизни на планете.",
+      "tags": ["наука", "технологии"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1926,12 +1536,9 @@
       "id": 7,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует развитию эмпатии.",
-      "full": "Нептун в Водолее усиливает способность чувствовать и понимать эмоции других. Это положение помогает развивать глубокую эмпатию и сострадание. Люди с такой комбинацией часто становятся поддержкой для тех, кто в ней нуждается.",
-      "tags": [
-        "эмпатия",
-        "сострадание"
-      ],
+      "short": "Нептун в Водолее способствует развитию эмпатии и понимания.",
+      "full": "Нептун в Водолее усиливает способность к эмпатии и пониманию других людей на глубоком уровне. Это положение может помочь в установлении эмоциональных связей с теми, кто разделяет схожие идеалы или мечты. Важно использовать эту способность для поддержки и вдохновения окружающих.",
+      "tags": ["эмпатия", "понимание"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1941,12 +1548,9 @@
       "id": 8,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее вдохновляет на социальные изменения.",
-      "full": "Нептун в Водолее вдохновляет на участие в социальных изменениях и улучшении общества. Это положение способствует видению лучшего будущего и стремлению к нему. Люди с такой комбинацией часто являются активистами или реформаторами.",
-      "tags": [
-        "социальные изменения",
-        "активизм"
-      ],
+      "short": "Нептун в Водолее вдохновляет на исследование неизведанного.",
+      "full": "Нептун в Водолее может пробуждать желание исследовать неизведанные аспекты жизни, будь то внутренний мир или внешние пространства. Это положение способствует открытости новому опыту и готовности экспериментировать с различными формами самовыражения и познания.",
+      "tags": ["исследование", "открытость"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1956,12 +1560,9 @@
       "id": 9,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует развитию воображения.",
-      "full": "Нептун в Водолее раскрывает богатое воображение и способность мечтать. Это положение помогает видеть мир в необычных красках и находить вдохновение в мелочах. Люди с такой комбинацией часто обладают уникальным творческим видением.",
-      "tags": [
-        "воображение",
-        "мечтательность"
-      ],
+      "short": "Нептун в Водолее способствует развитию коллективного сознания.",
+      "full": "С Нептуном в Водолее человек может чувствовать сильную связь с коллективным сознанием и стремиться к участию в групповых проектах, направленных на общее благо. Это положение поощряет обмен идеями и сотрудничество для достижения высших целей.",
+      "tags": ["коллектив", "сознание"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1971,12 +1572,9 @@
       "id": 10,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует единению с природой.",
-      "full": "Нептун в Водолее усиливает чувство единения с природой и вселенной. Это положение помогает ощущать связь со всем живым и находить гармонию в окружающем мире. Люди с такой комбинацией часто чувствуют себя частью чего-то большего.",
-      "tags": [
-        "природа",
-        "гармония"
-      ],
+      "short": "Нептун в Водолее раскрывает потенциал для миротворчества.",
+      "full": "Нептун в Водолее может вдохновлять на миротворческие инициативы и стремление к гармонии в глобальном масштабе. Люди с этой комбинацией часто обладают способностью видеть корни конфликтов и предлагать пути их разрешения через понимание и диалог.",
+      "tags": ["мир", "гармония"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -1986,12 +1584,9 @@
       "id": 11,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее раскрывает потенциал для исцеления.",
-      "full": "Нептун в Водолее раскрывает потенциал для эмоционального и духовного исцеления. Это положение способствует развитию способностей помогать другим в их внутренних поисках. Люди с такой комбинацией часто находят себя в роли целителей или советников.",
-      "tags": [
-        "исцеление",
-        "помощь"
-      ],
+      "short": "Нептун в Водолее способствует развитию экологичного мышления.",
+      "full": "При Нептуне в Водолее может возникать глубокое осознание важности экологии и устойчивого развития. Это положение способствует пониманию взаимосвязи всех живых существ и стремлению к действиям, которые поддерживают баланс в природе.",
+      "tags": ["экология", "устойчивость"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2001,12 +1596,9 @@
       "id": 12,
       "key": "planet.neptune.sign.aquarius",
       "type": "planet_sign",
-      "short": "Нептун в Водолее способствует развитию интуиции.",
-      "full": "Нептун в Водолее усиливает интуицию и способность предчувствовать события. Это положение помогает доверять внутреннему голосу и следовать ему. Люди с такой комбинацией часто обладают удивительной способностью чувствовать правильный путь.",
-      "tags": [
-        "интуиция",
-        "предчувствие"
-      ],
+      "short": "Нептун в Водолее вдохновляет на альтруизм и служение.",
+      "full": "Нептун в Водолее может проявляться как сильное желание служить другим и вносить вклад в общество без ожидания награды. Это положение способствует развитию альтруистических качеств и пониманию, что истинное счастье часто приходит через помощь и поддержку окружающих.",
+      "tags": ["альтруизм", "служение"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2018,12 +1610,9 @@
       "id": 1,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах усиливает интуицию и духовную связь.",
-      "full": "Нептун в Рыбах создаёт глубокую духовную связь и усиливает интуицию. Это положение способствует развитию сострадания и творческих способностей. Люди с такой комбинацией часто обладают богатым внутренним миром и тонким восприятием окружающего.",
-      "tags": [
-        "интуиция",
-        "духовность"
-      ],
+      "short": "Нептун в Рыбах усиливает интуицию и творческий потенциал.",
+      "full": "Нептун в Рыбах раскрывает глубину интуиции и творческих способностей. Это положение способствует развитию эмпатии и понимания окружающих. Люди с такой комбинацией часто обладают богатым воображением и духовной глубиной.",
+      "tags": ["интуиция", "творчество"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2033,12 +1622,9 @@
       "id": 2,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах раскрывает творческий потенциал и воображение.",
-      "full": "Нептун в Рыбах способствует раскрытию творческого потенциала и богатого воображения. Это положение помогает видеть мир через призму искусства и духовности, делая жизнь более насыщенной и осмысленной.",
-      "tags": [
-        "творчество",
-        "воображение"
-      ],
+      "short": "Нептун в Рыбах способствует глубокому эмоциональному восприятию.",
+      "full": "Нептун в Рыбах усиливает эмоциональную восприимчивость и способность к сопереживанию. Такие люди часто ищут духовные истины и обладают тонким пониманием искусства. Их внутренний мир богат и многогранен.",
+      "tags": ["эмоции", "духовность"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2048,12 +1634,9 @@
       "id": 3,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах способствует глубокой эмоциональной чувствительности.",
-      "full": "Нептун в Рыбах усиливает эмоциональную чувствительность и способность к эмпатии. Люди с такой комбинацией часто чувствуют эмоции других, что делает их отличными слушателями и советчиками.",
-      "tags": [
-        "эмоции",
-        "эмпатия"
-      ],
+      "short": "Нептун в Рыбах открывает двери в мир фантазий и грёз.",
+      "full": "Нептун в Рыбах делает человека более восприимчивым к миру фантазий и подсознательных процессов. Это положение может способствовать развитию художественных талантов и интереса к мистическим учениям.",
+      "tags": ["фантазия", "мистика"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2063,12 +1646,9 @@
       "id": 4,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах открывает двери к мистическим переживаниям.",
-      "full": "Нептун в Рыбах может открывать двери к мистическим переживаниям и глубоким духовным откровениям. Это положение способствует поиску высшего смысла и пониманию невидимых аспектов жизни.",
-      "tags": [
-        "мистика",
-        "духовность"
-      ],
+      "short": "Нептун в Рыбах способствует развитию эмпатии и сострадания.",
+      "full": "Нептун в Рыбах усиливает способность к эмпатии и глубокому состраданию. Люди с такой комбинацией часто стремятся помочь другим и обладают тонким пониманием человеческой природы.",
+      "tags": ["эмпатия", "сострадание"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2078,12 +1658,9 @@
       "id": 5,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах способствует развитию музыкального таланта.",
-      "full": "Нептун в Рыбах часто связан с развитием музыкального таланта и любви к искусству. Это положение может вдохновлять на создание прекрасного и поиск гармонии в звуках и красках.",
-      "tags": [
-        "музыка",
-        "искусство"
-      ],
+      "short": "Нептун в Рыбах раскрывает потенциал для духовного роста.",
+      "full": "Нептун в Рыбах способствует духовному росту и поиску высших истин. Это положение может указывать на сильную связь с подсознанием и интерес к эзотерическим знаниям.",
+      "tags": ["духовность", "рост"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2093,12 +1670,9 @@
       "id": 6,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах усиливает способность к мечтательности.",
-      "full": "Нептун в Рыбах усиливает способность к мечтательности и фантазированию. Это положение помогает уходить в мир грёз, где возможно всё, что способствует творческому вдохновению.",
-      "tags": [
-        "мечтательность",
-        "вдохновение"
-      ],
+      "short": "Нептун в Рыбах усиливает творческие и художественные способности.",
+      "full": "Нептун в Рыбах благоприятствует развитию творческих и художественных способностей. Люди с такой комбинацией могут обладать уникальным видением мира и талантом к его выражению через искусство.",
+      "tags": ["творчество", "искусство"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2108,12 +1682,9 @@
       "id": 7,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах способствует развитию психологических инсайтов.",
-      "full": "Нептун в Рыбах может способствовать развитию психологических инсайтов и пониманию скрытых мотивов. Это положение помогает видеть глубже поверхностных слоёв человеческой психики.",
-      "tags": [
-        "психология",
-        "инсайты"
-      ],
+      "short": "Нептун в Рыбах способствует глубокому пониманию музыки и поэзии.",
+      "full": "Нептун в Рыбах делает человека особенно восприимчивым к музыке и поэзии. Это положение может указывать на тонкое чувство прекрасного и способность выражать глубокие эмоции через творчество.",
+      "tags": ["музыка", "поэзия"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2123,12 +1694,9 @@
       "id": 8,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах усиливает связь с подсознанием.",
-      "full": "Нептун в Рыбах усиливает связь с подсознанием и может способствовать ярким, символическим снам. Это положение помогает лучше понимать свои внутренние процессы и страхи.",
-      "tags": [
-        "подсознание",
-        "сны"
-      ],
+      "short": "Нептун в Рыбах раскрывает способность к медитации и визуализации.",
+      "full": "Нептун в Рыбах усиливает способность к медитации и визуализации. Люди с такой комбинацией могут находить утешение в духовных практиках и обладать богатым внутренним миром.",
+      "tags": ["медитация", "визуализация"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2138,12 +1706,9 @@
       "id": 9,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах способствует развитию альтруизма.",
-      "full": "Нептун в Рыбах способствует развитию альтруизма и желанию помогать другим. Люди с такой комбинацией часто чувствуют призвание служить человечеству и облегчать страдания.",
-      "tags": [
-        "альтруизм",
-        "служение"
-      ],
+      "short": "Нептун в Рыбах способствует развитию интуиции и предчувствий.",
+      "full": "Нептун в Рыбах делает интуицию и предчувствия особенно сильными. Это положение может помочь в понимании скрытых мотивов и неочевидных аспектов ситуаций.",
+      "tags": ["интуиция", "предчувствия"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2153,12 +1718,9 @@
       "id": 10,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах раскрывает талант к целительству.",
-      "full": "Нептун в Рыбах может раскрывать талант к целительству и энергетическим практикам. Это положение способствует развитию способностей к исцелению на физическом и духовном уровнях.",
-      "tags": [
-        "целительство",
-        "энергетика"
-      ],
+      "short": "Нептун в Рыбах раскрывает талант к психологии и консультированию.",
+      "full": "Нептун в Рыбах может указывать на талант в области психологии и консультирования. Люди с такой комбинацией часто обладают способностью понимать и поддерживать других на глубоком уровне.",
+      "tags": ["психология", "консультирование"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2168,12 +1730,9 @@
       "id": 11,
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
-      "short": "Нептун в Рыбах способствует поиску духовных истин.",
-      "full": "Нептун в Рыбах способствует поиску духовных истин и пониманию вселенской любви. Это положение вдохновляет на духовные поиски и открытие новых горизонтов сознания.",
-      "tags": [
-        "духовность",
-        "поиск"
-      ],
+      "short": "Нептун в Рыбах способствует интересу к тайнам и загадкам.",
+      "full": "Нептун в Рыбах может пробуждать интерес к тайнам и загадкам вселенной. Люди с такой комбинацией часто ищут глубжеие смыслы и могут увлекаться мистикой или философией.",
+      "tags": ["тайны", "философия"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,
@@ -2184,11 +1743,8 @@
       "key": "planet.neptune.sign.pisces",
       "type": "planet_sign",
       "short": "Нептун в Рыбах усиливает восприятие красоты и гармонии.",
-      "full": "Нептун в Рыбах усиливает восприятие красоты и гармонии в окружающем мире. Это положение помогает находить вдохновение в простых вещах и видеть прекрасное в обыденном.",
-      "tags": [
-        "красота",
-        "гармония"
-      ],
+      "full": "Нептун в Рыбах делает восприятие красоты и гармонии особенно острым. Это положение способствует развитию эстетического вкуса и любви к искусству во всех его проявлениях.",
+      "tags": ["красота", "гармония"],
       "audience": "novice",
       "lang": "ru",
       "version": 1,

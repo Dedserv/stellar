@@ -23,17 +23,17 @@ const DEFAULT_MODEL = 'deepseek-chat'; // поставь свой model
 
 // Reference lists
 const PLANETS = [
-  'sun',
-  'moon',
-  'mercury',
+  // 'sun',
+  // 'moon',
+  // 'mercury',
   'venus',
-  'mars',
+  // 'mars',
   'jupiter',
-  'saturn',
-  'uranus',
+  // 'saturn',
+  // 'uranus',
   'neptune',
   'pluto',
-  'asc',
+  // 'asc',
 ];
 const SIGNS = [
   'aries',
@@ -250,6 +250,51 @@ async function generatePlanetSignAll(opts: {
   }
 }
 
+async function generatePlanetSignDirectly(opts: {
+  delayMs?: number;
+  variants?: number;
+  outDir?: string;
+  planets: string[];
+  signs: string[];
+}) {
+  const delayMs = opts.delayMs ?? DEFAULT_DELAY_MS;
+  const variants = opts.variants ?? 12;
+  const planets = opts.planets;
+  const signs = opts.signs || SIGNS;
+  const outDir = opts.outDir ?? path.join(DATA_DIR, 'planet_sign');
+
+  await ensureDir(outDir);
+
+  // We'll generate per planet — each planet loop produces a file with all signs
+  for (const planet of planets) {
+    const planetResults: Record<string, any[]> = {};
+    for (const sign of signs) {
+      const prompt = promptForPlanetSign(planet, sign, variants);
+      console.log(`Generating planet_sign for ${planet}.${sign} ...`);
+      const raw = await callModel(prompt);
+      try {
+        if (!raw) {
+          console.error(`Failed to parse model output for ${planet}.${sign}`);
+          return;
+        }
+        const parsed = tryParseJsonStrict(raw);
+        planetResults[sign] = parsed;
+        console.log(`Parsed ${parsed.length} items for ${planet}.${sign}`);
+      } catch (err) {
+        console.error(`Failed to parse model output for ${planet}.${sign}:`, err);
+        // Save raw for debugging
+        await saveJsonToFile(path.join(outDir, 'raw'), `${planet}_${sign}_raw.txt`, raw);
+        planetResults[sign] = [];
+      }
+      await sleep(delayMs);
+    }
+    // Save planet file
+    const filename = `${planet}.json`;
+    await saveJsonToFile(outDir, filename, planetResults);
+    console.log(`Saved planet_sign file: ${filename}`);
+  }
+}
+
 async function generatePlanetHouseAll(opts: {
   delayMs?: number;
   variants?: number;
@@ -263,6 +308,48 @@ async function generatePlanetHouseAll(opts: {
   for (const planet of PLANETS) {
     const planetResults: Record<string, any[]> = {};
     for (const house of HOUSES) {
+      const prompt = promptForPlanetHouse(planet, house, variants);
+      console.log(`Generating planet_house for ${planet}.house${house} ...`);
+      const raw = await callModel(prompt);
+      try {
+        if (!raw) {
+          console.error(`Failed to parse model output for ${planet}.house${house}`);
+          return;
+        }
+        const parsed = tryParseJsonStrict(raw);
+        planetResults[`house_${house}`] = parsed;
+        console.log(`Parsed ${parsed.length} items for ${planet}.house${house}`);
+      } catch (err) {
+        console.error(`Failed to parse model output for ${planet}.house${house}:`, err);
+        await saveJsonToFile(path.join(outDir, 'raw'), `${planet}_house${house}_raw.txt`, raw);
+        planetResults[`house_${house}`] = [];
+      }
+      await sleep(delayMs);
+    }
+    const filename = `${planet}.json`;
+    await saveJsonToFile(outDir, filename, planetResults);
+    console.log(`Saved planet_house file: ${filename}`);
+  }
+}
+
+async function generatePlanetHouseDirectly(opts: {
+  delayMs?: number;
+  variants?: number;
+  outDir?: string;
+  planets: string[];
+  houses: number[];
+}) {
+  const delayMs = opts.delayMs ?? DEFAULT_DELAY_MS;
+  const variants = opts.variants ?? 8;
+  const outDir = opts.outDir ?? path.join(DATA_DIR, 'planet_house');
+  const planets = opts.planets || PLANETS;
+  const houses = opts.houses || HOUSES;
+
+  await ensureDir(outDir);
+
+  for (const planet of planets) {
+    const planetResults: Record<string, any[]> = {};
+    for (const house of houses) {
       const prompt = promptForPlanetHouse(planet, house, variants);
       console.log(`Generating planet_house for ${planet}.house${house} ...`);
       const raw = await callModel(prompt);
@@ -330,6 +417,53 @@ type: "aspect_pair"
       console.log(`Saved aspects file: ${pairKey}.json`);
     }
   }
+}
+
+async function generateAspectDirectly(opts: {
+  delayMs?: number;
+  variants?: number;
+  outDir?: string;
+  aspect?: string;
+  planet1?: string;
+  planet2?: string;
+}) {
+  const delayMs = opts.delayMs ?? DEFAULT_DELAY_MS;
+  const variants = opts.variants ?? 6;
+  const outDir = opts.outDir ?? path.join(DATA_DIR, 'aspects');
+  const aspect = opts.aspect ?? 'love';
+  const planet1 = opts.planet1 ?? 'mars';
+  const planet2 = opts.planet2 ?? 'venus';
+  const pairKey = `${planet1}_${planet2}`;
+  await ensureDir(outDir);
+
+  const pairResults: Record<string, any[]> = {};
+  // For broad coverage we won't include signs now; specific sign-pair combos go to sign_pair generator
+  const prompt = `
+Сгенерируй ${variants} вариантов для аспекта ${aspect} между планетами ${planet1} и ${planet2}.
+${buildSchemaNote()}
+key: "aspect.${pairKey}.${aspect}"
+type: "aspect_pair"
+Фокус: как влияет этот аспект на взаимодействие двух планет в карте.
+        `.trim();
+  console.log(`Generating aspect ${pairKey}.${aspect} ...`);
+  const raw = await callModel(prompt);
+  try {
+    if (!raw) {
+      console.error(`Failed to parse aspect model output for ${pairKey}.${aspect}`);
+      return;
+    }
+    const parsed = tryParseJsonStrict(raw);
+    pairResults[aspect] = parsed;
+    console.log(`Parsed ${parsed.length} items for ${pairKey}.${aspect}`);
+  } catch (err) {
+    console.error(`Failed to parse aspect model output for ${pairKey}.${aspect}:`, err);
+    await saveJsonToFile(path.join(outDir, 'raw'), `${pairKey}_${aspect}_raw.txt`, raw);
+    pairResults[aspect] = [];
+  }
+  await sleep(delayMs);
+
+  await saveJsonToFile(outDir, `${pairKey}.json`, pairResults);
+  console.log(`Saved aspects file: ${pairKey}.json`);
 }
 
 async function generateLifeAreasAll(opts: {
@@ -441,6 +575,37 @@ export default defineEventHandler(async (event) => {
     if (category === 'sign_pair') {
       await generateSignPairCombosAll({ delayMs: options.delayMs, variants: options.variants });
       return { ok: true, message: 'sign_pair generation finished' };
+    }
+    if (category === 'aspect_directly') {
+      await generateAspectDirectly({
+        delayMs: options.delayMs,
+        variants: options.variants,
+        outDir: options.outDir,
+        aspect: options.aspect,
+        planet1: options.planet1,
+        planet2: options.planet2,
+      });
+      return { ok: true, message: 'aspect_directly generation finished' };
+    }
+    if (category === 'planet_sign_directly') {
+      await generatePlanetSignDirectly({
+        delayMs: options.delayMs,
+        variants: options.variants,
+        outDir: options.outDir,
+        planets: options.planets,
+        signs: options.signs,
+      });
+      return { ok: true, message: 'planet_sign generation finished' };
+    }
+    if (category === 'planet_house_directly') {
+      await generatePlanetHouseDirectly({
+        delayMs: options.delayMs,
+        variants: options.variants,
+        outDir: options.outDir,
+        planets: options.planets,
+        houses: options.houses,
+      });
+      return { ok: true, message: 'planet_house generation finished' };
     }
     if (category === 'runAll') {
       // Sequentially run all (in recommended order)

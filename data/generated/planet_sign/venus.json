@@ -909,20 +909,19 @@
       "needs_review": false
     }
   ],
-  "virgo": [
+    "virgo": [
     {
       "id": 1,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo highlights a love for detail and service in relationships.",
-      "full": "With Venus in Virgo, your approach to love and beauty is practical and meticulous. You appreciate the finer details in your relationships and surroundings, often showing care through acts of service. This placement suggests a need for order and purity in your expressions of affection, making you attentive to your partner's needs.",
+      "short": "Венера в Деве подчеркивает внимание к деталям в любви.",
+      "full": "Венера в Деве раскрывает любовь через заботу и внимание к мелочам. Это положение говорит о стремлении к чистоте и порядку в отношениях. Вы цените практические проявления любви, такие как помощь и поддержка.",
       "tags": [
-        "relationships",
-        "service",
-        "detail"
+        "любовь",
+        "детали"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -930,15 +929,14 @@
       "id": 2,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo values practicality and health in love and beauty.",
-      "full": "Venus in Virgo brings a grounded approach to love, where practicality and health take precedence. You find beauty in simplicity and efficiency, often expressing affection through helpful actions rather than grand gestures. This placement encourages a mindful approach to relationships and self-care.",
+      "short": "Любовь и красота в Деве: практичность и искренность.",
+      "full": "С Венерой в Деве вы выражаете любовь через действия, а не слова. Ваш подход к отношениям методичен, вы ищете искренность и практичность. Красота для вас — в простоте и функциональности.",
       "tags": [
-        "practicality",
-        "health",
-        "love"
+        "практичность",
+        "искренность"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -946,15 +944,14 @@
       "id": 3,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo seeks perfection and purity in relationships.",
-      "full": "Having Venus in Virgo means you strive for perfection and purity in your relationships. You're drawn to partners who embody these qualities, showing love through thoughtful gestures and attention to detail. This placement highlights a desire to improve and refine your connections with others.",
+      "short": "Венера в Деве: любовь к порядку и совершенству.",
+      "full": "Венера в Деве указывает на то, что в любви вы стремитесь к порядку и совершенству. Вы цените партнеров, которые разделяют ваше стремление к улучшению и готовы работать над отношениями.",
       "tags": [
-        "perfection",
-        "purity",
-        "relationships"
+        "порядок",
+        "совершенство"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -962,15 +959,14 @@
       "id": 4,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo expresses love through acts of service and attention.",
-      "full": "Venus in Virgo indicates that you express love and appreciation through acts of service and meticulous attention. You value functionality and cleanliness in your environment, seeing them as extensions of care. This placement suggests a humble yet deeply thoughtful approach to affection.",
+      "short": "Деловая Венера: любовь и работа в гармонии.",
+      "full": "С Венерой в Деве вы находите гармонию между любовью и работой. Ваши отношения могут быть основаны на общих целях и уважении к труду друг друга. Вы цените партнеров, которые понимают важность обязанностей.",
       "tags": [
-        "service",
-        "attention",
-        "love"
+        "гармония",
+        "работа"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -978,15 +974,14 @@
       "id": 5,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo finds beauty in simplicity and efficiency.",
-      "full": "With Venus in Virgo, beauty is found in simplicity, efficiency, and the practical aspects of life. You prefer understated elegance over extravagance, and your love language often involves helping and improving. This placement encourages a modest and health-conscious approach to relationships.",
+      "short": "Венера в Деве: скромность и преданность в любви.",
+      "full": "Венера в Деве говорит о скромности и преданности в любовных отношениях. Вы предпочитаете тихие жесты внимания громким признаниям. Ваша любовь глубока, но требует времени, чтобы раскрыться полностью.",
       "tags": [
-        "simplicity",
-        "efficiency",
-        "beauty"
+        "скромность",
+        "преданность"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -994,15 +989,14 @@
       "id": 6,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo appreciates thoughtful gestures and practical gifts.",
-      "full": "Venus in Virgo means you appreciate thoughtful gestures and practical gifts that show care and consideration. You're likely to express your affection through helpful actions, valuing substance over style. This placement highlights a nurturing and detail-oriented approach to love.",
+      "short": "Аналитическая любовь: Венера в Деве.",
+      "full": "С Венерой в Деве вы подходите к любви аналитически, оценивая плюсы и минусы отношений. Вы ищете партнера, который соответствует вашим высоким стандартам и готов к конструктивному диалогу.",
       "tags": [
-        "thoughtfulness",
-        "practicality",
-        "love"
+        "анализ",
+        "стандарты"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1010,15 +1004,14 @@
       "id": 7,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo emphasizes cleanliness and order in relationships.",
-      "full": "Venus in Virgo places emphasis on cleanliness, order, and health within relationships. You show love by creating a harmonious and efficient environment, often paying attention to the small details that make a big difference. This placement suggests a caring and methodical approach to affection.",
+      "short": "Венера в Деве: забота как язык любви.",
+      "full": "Для вас, с Венерой в Деве, забота — это основной язык любви. Вы проявляете свои чувства через повседневные дела и внимание к нуждам партнера. Ваши отношения строятся на взаимопомощи и поддержке.",
       "tags": [
-        "cleanliness",
-        "order",
-        "relationships"
+        "забота",
+        "поддержка"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1026,15 +1019,14 @@
       "id": 8,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo values sincerity and improvement in love.",
-      "full": "Venus in Virgo values sincerity and continuous improvement in matters of the heart. You're attracted to partners who are genuine and willing to grow, expressing love through practical support and constructive feedback. This placement encourages a realistic and nurturing approach to relationships.",
+      "short": "Перфекционизм в любви: Венера в Деве.",
+      "full": "Венера в Деве наделяет ваши отношения стремлением к перфекционизму. Вы стремитесь к идеалу в любви, что может выражаться в критике или желании улучшить партнера. Важно находить баланс между идеалом и реальностью.",
       "tags": [
-        "sincerity",
-        "improvement",
-        "love"
+        "перфекционизм",
+        "баланс"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1042,15 +1034,14 @@
       "id": 9,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo prefers quality over quantity in relationships.",
-      "full": "With Venus in Virgo, you prefer quality over quantity in your relationships, valuing deep and meaningful connections. You show your affection through careful consideration and practical acts of kindness, always aiming to improve and refine your bonds. This placement highlights a discerning and caring approach to love.",
+      "short": "Венера в Деве: любовь через служение.",
+      "full": "С Венерой в Деве вы выражаете любовь через служение и помощь. Ваши отношения могут быть основаны на взаимном уважении и желании сделать жизнь партнера лучше. Вы цените скромность и трудолюбие.",
       "tags": [
-        "quality",
-        "relationships",
-        "care"
+        "служение",
+        "уважение"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1058,15 +1049,14 @@
       "id": 10,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo shows love through helpfulness and attention to detail.",
-      "full": "Venus in Virgo shows love through helpfulness and an unparalleled attention to detail. You find joy in serving and improving the lives of those you care about, often noticing and addressing their needs before they do. This placement suggests a humble yet profoundly impactful way of expressing affection.",
+      "short": "Венера в Деве: чистота чувств и намерений.",
+      "full": "Венера в Деве подчеркивает чистоту чувств и намерений в ваших отношениях. Вы избегаете игр и предпочитаете ясность и честность. Ваша любовь проста, но глубока, основана на взаимном доверии.",
       "tags": [
-        "helpfulness",
-        "detail",
-        "love"
+        "чистота",
+        "доверие"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1074,15 +1064,14 @@
       "id": 11,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo seeks meaningful and practical expressions of love.",
-      "full": "Venus in Virgo seeks meaningful and practical expressions of love, where actions speak louder than words. You're drawn to relationships that offer growth and improvement, showing your affection through thoughtful and useful gestures. This placement encourages a grounded and sincere approach to matters of the heart.",
+      "short": "Венера в Деве: методичность в любви.",
+      "full": "С Венерой в Деве вы подходите к любви методично, планируя и анализируя каждый шаг. Вы цените стабильность и надежность в партнере. Ваши отношения развиваются постепенно, но прочно.",
       "tags": [
-        "meaningful",
-        "practical",
-        "love"
+        "методичность",
+        "стабильность"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1090,19 +1079,18 @@
       "id": 12,
       "key": "planet.venus.sign.virgo",
       "type": "planet_sign",
-      "short": "Venus in Virgo appreciates stability and diligence in relationships.",
-      "full": "Venus in Virgo appreciates stability and diligence in relationships, valuing partners who are reliable and hardworking. You express love through consistent and practical support, often focusing on the day-to-day aspects of care. This placement highlights a steady and devoted approach to affection.",
+      "short": "Венера в Деве: любовь к простоте и естественности.",
+      "full": "Венера в Деве говорит о вашей любви к простоте и естественности в отношениях. Вы избегаете излишеств, предпочитая искренность и скромность. Ваш партнер должен разделять эти ценности.",
       "tags": [
-        "stability",
-        "diligence",
-        "relationships"
+        "простота",
+        "естественность"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
-  ],
+  ],,
   "libra": [
     {
       "id": 1,
@@ -1472,14 +1460,14 @@
       "id": 1,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Venus in Sagittarius brings a love for adventure and freedom in relationships.",
-      "full": "With Venus in Sagittarius, there's a natural inclination towards relationships that offer freedom and adventure. This placement suggests a love for exploring new cultures and philosophies with a partner. It's about finding joy in the journey together, valuing honesty and openness above all.",
+      "short": "Венера в Стрельце приносит любовь к приключениям и свободе.",
+      "full": "Венера в Стрельце раскрывает вашу любовь к приключениям и свободе, подталкивая к поиску партнёра, который разделяет ваши стремления. Вы цените искренность и оптимизм в отношениях, избегая рутины. Ваш идеал — это союз, полный путешествий и новых открытий.",
       "tags": [
-        "relationships",
-        "adventure"
+        "отношения",
+        "приключения"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1487,14 +1475,14 @@
       "id": 2,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Sagittarius Venus seeks truth and expansion in love.",
-      "full": "Venus in Sagittarius highlights a desire for truth and expansion in matters of the heart. Those with this placement often seek partners who share their thirst for knowledge and adventure. Love is seen as a journey, not just a destination, filled with learning and growth.",
+      "short": "С Венерой в Стрельце вы ищете глубокие и философские связи.",
+      "full": "С Венерой в Стрельце вы стремитесь к отношениям, которые выходят за рамки обыденного, ища глубокие и философские связи. Ваш партнёр должен быть вашим единомышленником, готовым к обсуждению глобальных тем и разделяющим вашу страсть к познанию мира.",
       "tags": [
-        "love",
-        "growth"
+        "отношения",
+        "философия"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1502,14 +1490,14 @@
       "id": 3,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Adventure and optimism define Venus in Sagittarius.",
-      "full": "Venus in Sagittarius is marked by an optimistic approach to love and relationships. There's a strong desire for adventure and a dislike for routine. This placement encourages exploring love in a way that's both freeing and enlightening, always with a sense of humor.",
+      "short": "Оптимизм и юмор — ваши главные козыри в любви.",
+      "full": "Венера в Стрельце наделяет вас оптимизмом и чувством юмора, что делает вас привлекательным для окружающих. В любви вы цените лёгкость и отсутствие обязательств, предпочитая отношения, которые приносят радость и вдохновение.",
       "tags": [
-        "optimism",
-        "freedom"
+        "отношения",
+        "оптимизм"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1517,14 +1505,14 @@
       "id": 4,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Venus in Sagittarius values honesty and space in love.",
-      "full": "For those with Venus in Sagittarius, honesty and personal space are key in relationships. This placement favors connections that allow for individual growth and exploration. Love is about sharing adventures and truths, making every moment together meaningful.",
+      "short": "Ваша любовь к свободе может быть вызовом для партнёра.",
+      "full": "С Венерой в Стрельце ваша любовь к свободе и независимости может стать вызовом для партнёра. Вы ищете отношения, которые не ограничивают вашу личную свободу, а наоборот, расширяют горизонты.",
       "tags": [
-        "honesty",
-        "space"
+        "отношения",
+        "свобода"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1532,14 +1520,14 @@
       "id": 5,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Sagittarius Venus loves freely and without bounds.",
-      "full": "Venus in Sagittarius embodies a love that's free and without restrictions. This placement is about embracing love's adventures and learning from each experience. It's a reminder that love thrives in environments where both partners can grow and explore.",
+      "short": "Путешествия и новые культуры вдохновляют ваше сердце.",
+      "full": "Венера в Стрельце делает вас влюблённым в путешествия и новые культуры. Ваше сердце открыто для людей из разных уголков мира, и вы мечтаете о партнёре, который разделит вашу страсть к исследованиям.",
       "tags": [
-        "freedom",
-        "learning"
+        "отношения",
+        "путешествия"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1547,14 +1535,14 @@
       "id": 6,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "The joy of discovery with Venus in Sagittarius.",
-      "full": "Venus in Sagittarius finds joy in the discovery and exploration within relationships. This placement suggests a love for partners who are open to new experiences and ideas. It's about building a connection that's both intellectually and spiritually fulfilling.",
+      "short": "Вы цените честность и прямоту в отношениях.",
+      "full": "С Венерой в Стрельце вы высоко цените честность и прямоту в отношениях. Вам не по душе игры и манипуляции — только искренность и открытость могут завоевать ваше сердце.",
       "tags": [
-        "discovery",
-        "joy"
+        "отношения",
+        "честность"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1562,14 +1550,14 @@
       "id": 7,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Venus in Sagittarius cherishes freedom and truth in love.",
-      "full": "With Venus in Sagittarius, freedom and truth are cherished above all in love. This placement encourages relationships that are based on mutual respect for each other's independence. It's about loving without constraints, always seeking the truth in every connection.",
+      "short": "Ваш идеал любви — это вечное студенчество.",
+      "full": "Венера в Стрельце формирует ваш идеал любви как вечное студенчество, где каждый день приносит новые знания и впечатления. Вы мечтаете о партнёре, с которым сможете расти и развиваться вместе.",
       "tags": [
-        "freedom",
-        "truth"
+        "отношения",
+        "развитие"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1577,14 +1565,14 @@
       "id": 8,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Sagittarius Venus finds love in adventure and learning.",
-      "full": "Venus in Sagittarius finds love through adventure and the pursuit of knowledge. This placement suggests a partner who is a fellow traveler in life's journey, sharing a love for exploration and understanding. Love is an adventure that's both exciting and enlightening.",
+      "short": "Юмор и лёгкость — ключ к вашему сердцу.",
+      "full": "С Венерой в Стрельце юмор и лёгкость становятся ключом к вашему сердцу. Вы избегаете серьёзности и драмы, предпочитая отношения, наполненные смехом и радостью.",
       "tags": [
-        "adventure",
-        "knowledge"
+        "отношения",
+        "юмор"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1592,14 +1580,14 @@
       "id": 9,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Optimism and adventure guide Venus in Sagittarius.",
-      "full": "Venus in Sagittarius is guided by optimism and a love for adventure in relationships. This placement highlights the importance of keeping things light and fun, while also exploring deeper truths together. Love is about sharing a journey that's both joyful and meaningful.",
+      "short": "Вы ищете партнёра, который разделит вашу страсть к жизни.",
+      "full": "Венера в Стрельце побуждает вас искать партнёра, который разделит вашу страсть к жизни и приключениям. Для вас важно, чтобы отношения были источником вдохновения и новых возможностей.",
       "tags": [
-        "optimism",
-        "adventure"
+        "отношения",
+        "страсть"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1607,14 +1595,14 @@
       "id": 10,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Venus in Sagittarius seeks a partner for life's adventures.",
-      "full": "Venus in Sagittarius seeks a partner who is ready for life's adventures, valuing freedom and honesty. This placement is about finding joy in shared experiences and learning from each other. Love is an open book, with each chapter offering new discoveries.",
+      "short": "Свобода быть собой — ваше главное требование в любви.",
+      "full": "С Венерой в Стрельце свобода быть собой становится вашим главным требованием в любви. Вы цените отношения, где можете оставаться верным своим принципам и стремлениям, без необходимости жертвовать своей индивидуальностью.",
       "tags": [
-        "partner",
-        "adventures"
+        "отношения",
+        "свобода"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1622,14 +1610,14 @@
       "id": 11,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Love and freedom go hand in hand for Venus in Sagittarius.",
-      "full": "For Venus in Sagittarius, love and freedom are inseparable. This placement encourages relationships that allow both partners to explore and grow individually and together. It's about finding a balance between connection and independence, making love both liberating and secure.",
+      "short": "Ваше сердце открыто для всего мира.",
+      "full": "Венера в Стрельце делает ваше сердце открытым для всего мира. Вы легко находите общий язык с людьми из разных культур, и ваши отношения часто имеют международный оттенок.",
       "tags": [
-        "love",
-        "freedom"
+        "отношения",
+        "культура"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1637,14 +1625,14 @@
       "id": 12,
       "key": "planet.venus.sign.sagittarius",
       "type": "planet_sign",
-      "short": "Venus in Sagittarius embraces love's endless possibilities.",
-      "full": "Venus in Sagittarius embraces the endless possibilities that love offers. This placement is about seeing love as a journey of discovery, where every experience brings new insights. It's a celebration of love that's free, honest, and full of adventure.",
+      "short": "Вы верите в любовь, которая расширяет границы.",
+      "full": "С Венерой в Стрельце вы верите в любовь, которая расширяет границы и открывает новые горизонты. Ваш партнёр должен быть готов к приключениям и разделять ваше желание исследовать неизведанное.",
       "tags": [
-        "possibilities",
-        "discovery"
+        "отношения",
+        "приключения"
       ],
       "audience": "novice",
-      "lang": "en",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }

@@ -18,7 +18,7 @@
     { name: 'Статьи', path: '/article' },
   ]);
 
-  onMounted(() => {
+  onMounted(async () => {
     nextTick(() => {
       const page = document.querySelector('.page');
       page.classList.remove('scroll-lock');
