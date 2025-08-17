@@ -4,337 +4,349 @@
       "id": 1,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Building trust through open communication strengthens relationships.",
-      "full": "Open communication is the cornerstone of trust in any relationship. It involves sharing thoughts and feelings honestly while also being receptive to your partner's perspective. This mutual exchange fosters deeper understanding and connection, making it easier to navigate challenges together. Remember, trust builds over time with consistent and compassionate communication.",
+      "short": "Укрепление доверия и взаимопонимания в отношениях.",
+      "full": "Доверие и взаимопонимание являются фундаментом крепких отношений. Работа над открытостью и честностью помогает углубить связь между партнёрами. Важно слушать и слышать друг друга, чтобы преодолевать недопонимания. Регулярное обсуждение чувств и ожиданий способствует гармонии.",
+      "tags": [
+        "доверие",
+        "взаимопонимание",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Enhanced understanding",
-        "Deeper emotional connection"
+        "Открытость",
+        "Честность",
+        "Готовность к диалогу"
       ],
       "challenges": [
-        "Fear of vulnerability",
-        "Miscommunication"
+        "Недопонимание",
+        "Страх уязвимости"
       ],
       "actionable": [
-        "Schedule regular check-ins to share feelings",
-        "Practice active listening without interrupting"
-      ],
-      "tags": [
-        "communication",
-        "trust",
-        "emotional connection"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Практикуйте активное слушание",
+        "Регулярно обсуждайте ваши чувства и ожидания"
+      ]
     },
     {
       "id": 2,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Respecting boundaries is essential for healthy relationships.",
-      "full": "Understanding and respecting each other's boundaries is crucial for maintaining healthy relationships. It shows care for the other person's comfort and limits, fostering mutual respect. Clear communication about boundaries can prevent misunderstandings and build a stronger, more respectful connection between partners.",
+      "short": "Развитие эмоциональной близости с партнёром.",
+      "full": "Эмоциональная близость позволяет чувствовать себя в безопасности и быть принятым. Совместные переживания и поддержка в трудные моменты укрепляют связь. Важно делиться своими мыслями и чувствами, не боясь осуждения. Это создаёт основу для глубоких и удовлетворяющих отношений.",
+      "tags": [
+        "эмоциональная близость",
+        "поддержка",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Mutual respect",
-        "Increased comfort and safety"
+        "Безопасность",
+        "Принятие",
+        "Поддержка"
       ],
       "challenges": [
-        "Identifying personal boundaries",
-        "Fear of rejection"
+        "Страх осуждения",
+        "Нежелание открываться"
       ],
       "actionable": [
-        "Discuss boundaries openly with your partner",
-        "Respect and acknowledge your partner's limits"
-      ],
-      "tags": [
-        "boundaries",
-        "respect",
-        "healthy relationships"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Делитесь своими переживаниями",
+        "Поддерживайте партнёра в трудные моменты"
+      ]
     },
     {
       "id": 3,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Quality time together nurtures relationship growth.",
-      "full": "Spending quality time together is vital for nurturing and growing your relationship. It allows you to create shared experiences, strengthen your bond, and maintain a deep connection. Prioritizing this time, despite busy schedules, shows commitment and appreciation for each other.",
+      "short": "Баланс между личным пространством и совместным времяпрепровождением.",
+      "full": "Сохранение баланса между личным пространством и временем, проведённым вместе, важно для здоровых отношений. Уважение к индивидуальности каждого способствует гармонии. Совместные интересы и увлечения обогащают отношения, а личное время позволяет сохранить свою идентичность.",
+      "tags": [
+        "баланс",
+        "личное пространство",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Stronger bond",
-        "Shared memories"
+        "Уважение",
+        "Гармония",
+        "Индивидуальность"
       ],
       "challenges": [
-        "Finding time",
-        "Distractions"
+        "Потеря идентичности",
+        "Недостаток личного времени"
       ],
       "actionable": [
-        "Plan regular date nights or activities",
-        "Minimize distractions during quality time"
-      ],
-      "tags": [
-        "quality time",
-        "bonding",
-        "connection"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Находите время для своих увлечений",
+        "Планируйте совместные мероприятия"
+      ]
     },
     {
       "id": 4,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Expressing appreciation strengthens emotional connections.",
-      "full": "Regularly expressing appreciation for your partner can significantly strengthen your emotional connection. Acknowledging the small things they do fosters a positive atmosphere and reinforces your bond. It's a simple yet powerful way to show love and gratitude in your relationship.",
+      "short": "Эффективное разрешение конфликтов в отношениях.",
+      "full": "Конфликты являются естественной частью отношений, но их разрешение требует навыков. Важно подходить к спорам с желанием понять, а не победить. Использование 'я-высказываний' и избегание обвинений способствует конструктивному диалогу. Это укрепляет отношения, а не разрушает их.",
+      "tags": [
+        "конфликты",
+        "разрешение",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Positive atmosphere",
-        "Reinforced bond"
+        "Понимание",
+        "Конструктивность",
+        "Укрепление связей"
       ],
       "challenges": [
-        "Forgetting to express gratitude",
-        "Taking each other for granted"
+        "Эмоциональные всплески",
+        "Нежелание идти на компромисс"
       ],
       "actionable": [
-        "Make a habit of saying thank you daily",
-        "Write occasional appreciation notes"
-      ],
-      "tags": [
-        "appreciation",
-        "gratitude",
-        "emotional connection"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Используйте 'я-высказывания'",
+        "Стремитесь к пониманию, а не к победе"
+      ]
     },
     {
       "id": 5,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Conflict resolution skills are key to lasting relationships.",
-      "full": "Developing effective conflict resolution skills is essential for maintaining lasting and healthy relationships. It involves listening to understand, expressing your needs calmly, and working together to find solutions. These skills help prevent resentment and build a foundation of trust and cooperation.",
+      "short": "Поддержание страсти и романтики в долгосрочных отношениях.",
+      "full": "Сохранение страсти и романтики требует усилий и творчества. Небольшие жесты внимания и неожиданные сюрпризы могут оживить чувства. Важно помнить о значимости физической и эмоциональной близости. Регулярное выделение времени на романтические моменты помогает поддерживать огонь в отношениях.",
+      "tags": [
+        "страсть",
+        "романтика",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Trust building",
-        "Prevention of resentment"
+        "Творчество",
+        "Внимание",
+        "Близость"
       ],
       "challenges": [
-        "Emotional reactions",
-        "Communication barriers"
+        "Рутина",
+        "Потеря интереса"
       ],
       "actionable": [
-        "Practice staying calm during disagreements",
-        "Focus on solving the problem, not winning the argument"
-      ],
-      "tags": [
-        "conflict resolution",
-        "communication",
-        "trust"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Планируйте романтические свидания",
+        "Делайте неожиданные жесты внимания"
+      ]
     },
     {
       "id": 6,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Supporting each other's goals fosters mutual growth.",
-      "full": "Supporting each other's personal and professional goals is a powerful way to foster mutual growth in a relationship. It shows that you value each other's happiness and success, strengthening your bond. Encouragement and understanding during challenges can make all the difference.",
+      "short": "Построение здоровых границ в отношениях.",
+      "full": "Здоровые границы позволяют сохранить уважение и индивидуальность в отношениях. Чёткое обозначение своих потребностей и уважение к потребностям партнёра способствует гармонии. Важно уметь говорить 'нет' и принимать отказы без обид. Это создаёт основу для равноправных и уважительных отношений.",
+      "tags": [
+        "границы",
+        "уважение",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Mutual growth",
-        "Strengthened bond"
+        "Уважение",
+        "Индивидуальность",
+        "Гармония"
       ],
       "challenges": [
-        "Balancing individual and shared goals",
-        "Jealousy"
+        "Страх отказа",
+        "Непонимание потребностей"
       ],
       "actionable": [
-        "Discuss your goals and how to support each other",
-        "Celebrate each other's achievements"
-      ],
-      "tags": [
-        "support",
-        "growth",
-        "encouragement"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Обсуждайте и устанавливайте границы",
+        "Учитесь говорить 'нет' и принимать отказы"
+      ]
     },
     {
       "id": 7,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Maintaining individuality enhances relationship satisfaction.",
-      "full": "Maintaining your individuality while being in a relationship is crucial for long-term satisfaction. It allows you to grow as a person and brings fresh perspectives into the relationship. Balancing togetherness with personal space can lead to a healthier and more fulfilling partnership.",
+      "short": "Развитие навыков эмпатии в отношениях.",
+      "full": "Эмпатия позволяет глубже понимать чувства и переживания партнёра. Умение поставить себя на место другого способствует более тёплым и поддерживающим отношениям. Важно проявлять искренний интерес и заботу. Это укрепляет эмоциональную связь и доверие между партнёрами.",
+      "tags": [
+        "эмпатия",
+        "понимание",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Personal growth",
-        "Fresh perspectives"
+        "Понимание",
+        "Поддержка",
+        "Доверие"
       ],
       "challenges": [
-        "Finding balance",
-        "Fear of growing apart"
+        "Эгоцентризм",
+        "Непонимание чувств партнёра"
       ],
       "actionable": [
-        "Pursue personal hobbies and interests",
-        "Respect each other's need for space"
-      ],
-      "tags": [
-        "individuality",
-        "personal growth",
-        "balance"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Практикуйте активное слушание",
+        "Старайтесь понять чувства партнёра"
+      ]
     },
     {
       "id": 8,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Shared values create a strong relationship foundation.",
-      "full": "Having shared values is fundamental to building a strong and lasting relationship foundation. It aligns your life goals and decision-making processes, reducing conflicts. While differences can enrich a relationship, core values compatibility is key to long-term harmony and understanding.",
+      "short": "Совместное планирование будущего в отношениях.",
+      "full": "Совместное планирование будущего укрепляет отношения и создаёт общие цели. Обсуждение ожиданий и мечт помогает лучше понять друг друга. Важно учитывать интересы и желания обоих партнёров. Это способствует созданию прочного фундамента для долгосрочных отношений.",
+      "tags": [
+        "планирование",
+        "будущее",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Reduced conflicts",
-        "Aligned life goals"
+        "Общие цели",
+        "Понимание",
+        "Прочность"
       ],
       "challenges": [
-        "Navigating differences",
-        "Compromise"
+        "Разные ожидания",
+        "Нежелание идти на компромисс"
       ],
       "actionable": [
-        "Discuss your core values early on",
-        "Find common ground in decision-making"
-      ],
-      "tags": [
-        "shared values",
-        "foundation",
-        "harmony"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Регулярно обсуждайте ваши планы и мечты",
+        "Учитывайте интересы друг друга"
+      ]
     },
     {
       "id": 9,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Emotional availability deepens intimacy in relationships.",
-      "full": "Being emotionally available is essential for deepening intimacy in relationships. It means being open to sharing your feelings and receptive to your partner's emotions. This vulnerability fosters a safe space for both partners to express themselves fully, enhancing the connection.",
+      "short": "Умение прощать и отпускать обиды в отношениях.",
+      "full": "Умение прощать и отпускать обиды важно для здоровых и долгосрочных отношений. Затаённые обиды могут разрушать связь изнутри. Важно выражать свои чувства и работать над разрешением конфликтов. Это способствует эмоциональному освобождению и укреплению отношений.",
+      "tags": [
+        "прощение",
+        "обиды",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Deeper intimacy",
-        "Safe emotional space"
+        "Эмоциональное освобождение",
+        "Укрепление связей",
+        "Гармония"
       ],
       "challenges": [
-        "Fear of vulnerability",
-        "Emotional barriers"
+        "Затаённые обиды",
+        "Нежелание прощать"
       ],
       "actionable": [
-        "Practice sharing your feelings more openly",
-        "Encourage emotional expression in your partner"
-      ],
-      "tags": [
-        "emotional availability",
-        "intimacy",
-        "vulnerability"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Выражайте свои чувства конструктивно",
+        "Работайте над разрешением конфликтов"
+      ]
     },
     {
       "id": 10,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Adapting to change together strengthens your bond.",
-      "full": "Life is full of changes, and adapting to them together can significantly strengthen your relationship. It requires flexibility, understanding, and mutual support. Facing challenges as a team not only brings you closer but also builds resilience in your partnership.",
+      "short": "Поддержание интереса и разнообразия в повседневной жизни.",
+      "full": "Поддержание интереса и разнообразия помогает избежать рутины в отношениях. Новые совместные впечатления и опыт обогащают жизнь пары. Важно находить время для необычных занятий и приключений. Это вносит свежесть и радость в повседневность.",
+      "tags": [
+        "интерес",
+        "разнообразие",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Increased resilience",
-        "Stronger bond"
+        "Свежесть",
+        "Радость",
+        "Обогащение"
       ],
       "challenges": [
-        "Resistance to change",
-        "Stress"
+        "Рутина",
+        "Недостаток времени"
       ],
       "actionable": [
-        "Discuss how to handle changes as a team",
-        "Stay flexible and supportive during transitions"
-      ],
-      "tags": [
-        "adaptability",
-        "resilience",
-        "mutual support"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Пробуйте новые виды деятельности вместе",
+        "Планируйте необычные свидания"
+      ]
     },
     {
       "id": 11,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Practicing forgiveness is essential for relationship healing.",
-      "full": "Forgiveness plays a critical role in healing and maintaining healthy relationships. It allows you to move past grievances without holding onto resentment. While forgiveness doesn't mean forgetting, it opens the door to rebuilding trust and moving forward together.",
+      "short": "Укрепление дружеской основы в романтических отношениях.",
+      "full": "Дружеская основа делает романтические отношения более прочными и доверительными. Совместный смех и поддержка в трудные моменты укрепляют связь. Важно ценить и развивать дружеские аспекты отношений. Это создаёт дополнительный уровень близости и понимания.",
+      "tags": [
+        "дружба",
+        "романтика",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Healing",
-        "Rebuilt trust"
+        "Доверие",
+        "Поддержка",
+        "Близость"
       ],
       "challenges": [
-        "Letting go of hurt",
-        "Fear of recurrence"
+        "Потеря дружеской связи",
+        "Недостаток общих интересов"
       ],
       "actionable": [
-        "Work on letting go of past grievances",
-        "Communicate your needs for moving forward"
-      ],
-      "tags": [
-        "forgiveness",
-        "healing",
-        "trust"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Находите время для совместного отдыха и развлечений",
+        "Поддерживайте друг друга в трудные моменты"
+      ]
     },
     {
       "id": 12,
       "key": "life.relationships",
       "type": "life_area",
-      "short": "Keeping romance alive requires effort and creativity.",
-      "full": "Maintaining romance in a long-term relationship requires consistent effort and creativity. Small gestures, surprises, and dedicating time to connect can keep the spark alive. It's about continuing to court each other and appreciate the love you share, no matter how long you've been together.",
+      "short": "Развитие терпимости и принятия различий в отношениях.",
+      "full": "Терпимость и принятие различий способствуют гармонии в отношениях. Уважение к индивидуальности партнёра обогащает совместную жизнь. Важно учиться ценить уникальность друг друга. Это создаёт атмосферу взаимного уважения и понимания.",
+      "tags": [
+        "терпимость",
+        "принятие",
+        "отношения"
+      ],
+      "audience": "взрослые",
+      "lang": "ru",
+      "version": "1.0",
+      "needs_review": false,
       "strengths": [
-        "Sustained connection",
-        "Kept spark alive"
+        "Уважение",
+        "Гармония",
+        "Обогащение"
       ],
       "challenges": [
-        "Complacency",
-        "Routine"
+        "Непонимание",
+        "Неприятие различий"
       ],
       "actionable": [
-        "Plan surprise dates or gestures",
-        "Regularly express your love and appreciation"
-      ],
-      "tags": [
-        "romance",
-        "connection",
-        "love"
-      ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
-      "needs_review": false
+        "Учитесь ценить уникальность партнёра",
+        "Практикуйте уважение к различиям"
+      ]
     }
   ],
   "career": [
@@ -342,192 +354,192 @@
       "id": 1,
       "key": "life.career",
       "type": "life_area",
-      "short": "Exploring new career paths can lead to unexpected opportunities and growth.",
-      "full": "Exploring new career paths is a journey that can open doors to unexpected opportunities and personal growth. It's about aligning your passions with your skills to find fulfillment. While the path may not always be clear, each step forward is a chance to learn more about yourself and what you truly desire in your professional life.",
+      "short": "Развитие карьеры требует постоянного обучения и адаптации.",
+      "full": "В современном мире карьера — это путь постоянного роста и адаптации. Успех зависит от вашей способности обучаться новому и применять знания на практике. Важно быть открытым к изменениям и готовым к вызовам, которые предлагает профессиональная среда.",
       "tags": [
-        "career change",
-        "growth",
-        "opportunities"
+        "карьера",
+        "развитие",
+        "обучение"
       ],
-      "audience": "adults",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 2,
       "key": "life.career",
       "type": "life_area",
-      "short": "Building a strong professional network is key to unlocking career opportunities.",
-      "full": "Building a strong professional network is essential for unlocking new career opportunities and gaining insights into your industry. It's not just about who you know, but also about who knows you and your work. Cultivating these relationships can provide support, advice, and open doors to possibilities you might not have discovered on your own.",
+      "short": "Сетевые возможности могут значительно ускорить карьерный рост.",
+      "full": "Создание и поддержание профессиональных связей открывает двери к новым возможностям. Сетевые взаимодействия могут предоставить доступ к знаниям, ресурсам и поддержке, которые трудно получить в одиночку. Активное участие в профессиональных сообществах может стать ключом к вашему следующему карьерному шагу.",
       "tags": [
-        "networking",
-        "opportunities",
-        "professional growth"
+        "сети",
+        "карьера",
+        "возможности"
       ],
-      "audience": "professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 3,
       "key": "life.career",
       "type": "life_area",
-      "short": "Continuous learning keeps you competitive and fulfilled in your career.",
-      "full": "Continuous learning is a cornerstone of staying competitive and fulfilled in your career. Whether through formal education, online courses, or self-study, expanding your knowledge and skills can lead to new opportunities and personal satisfaction. Embracing a mindset of growth and curiosity can transform challenges into stepping stones for advancement.",
+      "short": "Баланс между работой и личной жизнью важен для долгосрочного успеха.",
+      "full": "Достижение баланса между профессиональными и личными обязательствами способствует не только личному благополучию, но и повышению продуктивности на работе. Умение расставлять приоритеты и находить время для отдыха и семьи делает карьеру более устойчивой и удовлетворяющей.",
       "tags": [
-        "learning",
-        "growth",
-        "career advancement"
+        "баланс",
+        "карьера",
+        "продуктивность"
       ],
-      "audience": "all ages",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 4,
       "key": "life.career",
       "type": "life_area",
-      "short": "Setting clear career goals provides direction and motivation.",
-      "full": "Setting clear career goals is a powerful way to provide direction and motivation in your professional life. Goals act as a roadmap, helping you to focus your efforts and make decisions that align with your long-term aspirations. Remember, flexibility is key; being open to adjusting your goals as you grow and learn can lead to even greater fulfillment.",
+      "short": "Лидерские качества могут открыть новые карьерные перспективы.",
+      "full": "Развитие лидерских навыков позволяет не только эффективно управлять командой, но и вдохновлять коллег на достижение общих целей. Лидерство — это также о способности принимать решения и брать на себя ответственность, что ценится в любой профессиональной среде.",
       "tags": [
-        "goal setting",
-        "motivation",
-        "career planning"
+        "лидерство",
+        "карьера",
+        "развитие"
       ],
-      "audience": "young professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 5,
       "key": "life.career",
       "type": "life_area",
-      "short": "Work-life balance is essential for long-term career satisfaction.",
-      "full": "Achieving a healthy work-life balance is crucial for long-term career satisfaction and personal well-being. It's about finding the right mix that allows you to be productive and successful at work while also enjoying time for yourself and your loved ones. Prioritizing balance can prevent burnout and keep you motivated and engaged in your career.",
+      "short": "Гибкость в подходе к карьере помогает преодолевать неожиданные вызовы.",
+      "full": "Способность адаптироваться к изменениям и находить нестандартные решения делает профессионала более устойчивым к кризисам. Гибкость позволяет видеть возможности там, где другие видят только препятствия, открывая путь к инновациям и росту.",
       "tags": [
-        "work-life balance",
-        "well-being",
-        "career satisfaction"
+        "гибкость",
+        "карьера",
+        "адаптация"
       ],
-      "audience": "working adults",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 6,
       "key": "life.career",
       "type": "life_area",
-      "short": "Embracing challenges can lead to significant career growth.",
-      "full": "Embracing challenges in your career can lead to significant personal and professional growth. Each obstacle is an opportunity to learn, adapt, and become more resilient. Facing difficulties with a positive mindset can open up new pathways for advancement and deepen your understanding of your own capabilities and potential.",
+      "short": "Самомотивация — ключевой фактор в достижении карьерных целей.",
+      "full": "Внутренняя мотивация подпитывает стремление к профессиональному развитию даже в отсутствие внешних стимулов. Умение ставить перед собой четкие цели и находить радость в процессе их достижения делает карьерный путь более осмысленным и продуктивным.",
       "tags": [
-        "challenges",
-        "growth",
-        "resilience"
+        "мотивация",
+        "карьера",
+        "цели"
       ],
-      "audience": "professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 7,
       "key": "life.career",
       "type": "life_area",
-      "short": "Mentorship can accelerate your career development and confidence.",
-      "full": "Mentorship is a valuable tool for accelerating your career development and building confidence. A mentor can offer guidance, share experiences, and provide feedback that helps you navigate your professional journey. Whether you're seeking a mentor or becoming one, these relationships can enrich your career and personal growth in meaningful ways.",
+      "short": "Эффективное управление временем повышает продуктивность на работе.",
+      "full": "Освоение навыков тайм-менеджмента позволяет более эффективно распределять рабочее время, снижая уровень стресса и повышая качество выполняемой работы. Приоритизация задач и умение концентрироваться на важном — ключевые аспекты профессионального успеха.",
       "tags": [
-        "mentorship",
-        "development",
-        "confidence"
+        "тайм-менеджмент",
+        "карьера",
+        "продуктивность"
       ],
-      "audience": "young professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 8,
       "key": "life.career",
       "type": "life_area",
-      "short": "Adaptability is a key skill in today's ever-changing job market.",
-      "full": "Adaptability is a crucial skill in navigating today's ever-changing job market. Being open to new technologies, roles, and ways of working can set you apart and make you more resilient in the face of uncertainty. Cultivating flexibility and a willingness to learn can help you seize opportunities and thrive in any professional environment.",
+      "short": "Постоянное обучение делает профессионала более конкурентоспособным.",
+      "full": "В условиях быстро меняющегося рынка труда непрерывное обучение становится необходимостью. Освоение новых навыков и технологий не только расширяет профессиональные горизонты, но и увеличивает вашу ценность как специалиста.",
       "tags": [
-        "adaptability",
-        "resilience",
-        "job market"
+        "обучение",
+        "карьера",
+        "конкурентоспособность"
       ],
-      "audience": "all professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 9,
       "key": "life.career",
       "type": "life_area",
-      "short": "Personal branding can enhance your visibility and career opportunities.",
-      "full": "Developing a strong personal brand can significantly enhance your visibility and open up new career opportunities. It's about clearly communicating your unique skills, values, and professional identity. A well-crafted personal brand can attract the right opportunities and help you stand out in a competitive job market.",
+      "short": "Умение работать в команде способствует профессиональному росту.",
+      "full": "Способность эффективно взаимодействовать с коллегами, учитывать разные точки зрения и вносить вклад в общее дело — важные навыки для любого профессионала. Командная работа не только ускоряет достижение целей, но и обогащает личный опыт.",
       "tags": [
-        "personal branding",
-        "visibility",
-        "career opportunities"
+        "команда",
+        "карьера",
+        "взаимодействие"
       ],
-      "audience": "professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 10,
       "key": "life.career",
       "type": "life_area",
-      "short": "Time management skills can boost productivity and career satisfaction.",
-      "full": "Effective time management skills are essential for boosting productivity and enhancing career satisfaction. By prioritizing tasks, setting realistic goals, and minimizing distractions, you can achieve more in less time. Mastering these skills can lead to a more balanced, fulfilling professional life and reduce stress.",
+      "short": "Креативность помогает находить уникальные решения рабочих задач.",
+      "full": "В профессиональной деятельности креативность позволяет выходить за рамки стандартных подходов и находить инновационные решения сложных проблем. Развитие творческого мышления делает работу более увлекательной и результативной.",
       "tags": [
-        "time management",
-        "productivity",
-        "career satisfaction"
+        "креативность",
+        "карьера",
+        "инновации"
       ],
-      "audience": "working adults",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 11,
       "key": "life.career",
       "type": "life_area",
-      "short": "Emotional intelligence plays a critical role in career success.",
-      "full": "Emotional intelligence is a critical factor in achieving career success. It involves understanding and managing your emotions, as well as recognizing and influencing the emotions of others. High emotional intelligence can improve communication, leadership, and teamwork, making it a valuable skill in any professional setting.",
+      "short": "Эмоциональный интеллект улучшает взаимодействие на рабочем месте.",
+      "full": "Понимание и управление своими эмоциями, а также способность эмпатировать коллегам, создает более гармоничную и продуктивную рабочую атмосферу. Эмоциональный интеллект — ключевой навык для эффективного лидерства и командной работы.",
       "tags": [
-        "emotional intelligence",
-        "success",
-        "communication"
+        "эмоциональный интеллект",
+        "карьера",
+        "взаимодействие"
       ],
-      "audience": "professionals",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 12,
       "key": "life.career",
       "type": "life_area",
-      "short": "Volunteering can expand your skills and professional network.",
-      "full": "Volunteering offers a unique opportunity to expand your skills, gain experience, and grow your professional network. It can provide a sense of fulfillment while also enhancing your resume. Engaging in volunteer work can open doors to new career paths and connections that might not have been accessible otherwise.",
+      "short": "Стратегическое мышление помогает в долгосрочном планировании карьеры.",
+      "full": "Способность видеть общую картину и планировать свои действия с учетом долгосрочных целей делает профессиональный путь более осознанным и направленным. Стратегическое мышление позволяет предвидеть изменения и готовиться к ним заранее.",
       "tags": [
-        "volunteering",
-        "skills development",
-        "networking"
+        "стратегия",
+        "карьера",
+        "планирование"
       ],
-      "audience": "all ages",
-      "lang": "en",
-      "version": 1,
+      "audience": "все",
+      "lang": "ru",
+      "version": "1.0",
       "needs_review": false
     }
   ],
@@ -536,277 +548,192 @@
       "id": 1,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Управление личными финансами требует дисциплины и планирования.",
-      "full": "Эффективное управление личными финансами начинается с осознания своих доходов и расходов. Создание бюджета помогает контролировать финансовые потоки и избегать ненужных трат. Важно также учитывать непредвиденные расходы и иметь финансовую подушку безопасности. Инвестирование в свои знания и навыки может увеличить доходы в будущем.",
-      "strengths": [
-        "дисциплина",
-        "планирование",
-        "контроль расходов"
-      ],
-      "challenges": [
-        "импульсивные покупки",
-        "непредвиденные расходы"
-      ],
-      "actionable": [
-        "Начните вести учёт доходов и расходов.",
-        "Создайте финансовую подушку безопасности."
+      "short": "Управление личными финансами требует осознанности и планирования.",
+      "full": "Эффективное управление личными финансами начинается с понимания своих доходов и расходов. Создание бюджета помогает контролировать финансовые потоки и избегать ненужных трат. Важно также учитывать долгосрочные цели, такие как накопления или инвестиции, чтобы обеспечить финансовую стабильность в будущем.",
+      "tags": [
+        "финансы",
+        "бюджет",
+        "накопления"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 2,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Инвестиции могут быть инструментом роста вашего капитала.",
-      "full": "Инвестиции требуют понимания рисков и потенциальной доходности. Начните с изучения основ финансовых рынков и различных инструментов инвестирования. Диверсификация портфеля помогает снизить риски. Помните, что инвестиции — это долгосрочная стратегия, и важно не поддаваться эмоциям при колебаниях рынка.",
-      "strengths": [
-        "потенциальный рост капитала",
-        "диверсификация"
-      ],
-      "challenges": [
-        "риски",
-        "эмоциональное принятие решений"
-      ],
-      "actionable": [
-        "Изучите основы инвестирования.",
-        "Начните с небольших сумм для минимизации рисков."
+      "short": "Инвестиции могут быть инструментом для роста капитала при грамотном подходе.",
+      "full": "Инвестирование требует не только начального капитала, но и знаний о рынках и рисках. Диверсификация портфеля помогает снизить потенциальные потери. Важно начинать с малого и постепенно увеличивать инвестиции, обучаясь на собственном опыте и консультируясь с экспертами.",
+      "tags": [
+        "инвестиции",
+        "капитал",
+        "риски"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 3,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Сбережения помогают достигать долгосрочных финансовых целей.",
-      "full": "Регулярные сбережения — это ключ к финансовой стабильности и достижению долгосрочных целей. Определите свои финансовые приоритеты и начните откладывать определённую сумму каждый месяц. Автоматизация сбережений может упростить этот процесс. Важно также учитывать инфляцию при планировании сбережений.",
-      "strengths": [
-        "финансовая стабильность",
-        "достижение целей"
-      ],
-      "challenges": [
-        "инфляция",
-        "дисциплина"
-      ],
-      "actionable": [
-        "Определите ежемесячную сумму для сбережений.",
-        "Автоматизируйте процесс сбережений."
+      "short": "Создание резервного фонда — первый шаг к финансовой безопасности.",
+      "full": "Резервный фонд служит финансовой подушкой безопасности на случай непредвиденных обстоятельств. Рекомендуется накопить сумму, покрывающую 3-6 месяцев жизни. Это позволяет чувствовать себя увереннее и избегать долгов при возникновении непредвиденных ситуаций.",
+      "tags": [
+        "резервный фонд",
+        "финансовая безопасность",
+        "накопления"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 4,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Кредиты могут быть полезны, если используются разумно.",
-      "full": "Кредиты могут помочь в достижении важных финансовых целей, таких как покупка жилья или образование. Однако важно оценивать свою способность к погашению кредита и сравнивать предложения разных банков. Избегайте кредитов на повседневные расходы, чтобы не попасть в долговую яму.",
-      "strengths": [
-        "достижение целей",
-        "финансовая гибкость"
-      ],
-      "challenges": [
-        "долговая нагрузка",
-        "проценты"
-      ],
-      "actionable": [
-        "Оцените свою платёжеспособность перед взятием кредита.",
-        "Сравните условия разных кредитных предложений."
+      "short": "Погашение долгов должно быть приоритетом для улучшения финансового здоровья.",
+      "full": "Наличие долгов может значительно ограничивать финансовую свободу. Разработка стратегии погашения, начиная с самых высоких процентов, помогает быстрее снизить общую задолженность. Важно также избегать новых долгов, сосредоточившись на текущих обязательствах.",
+      "tags": [
+        "долги",
+        "финансовое здоровье",
+        "стратегия"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 5,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Финансовая грамотность — основа принятия обоснованных решений.",
-      "full": "Финансовая грамотность позволяет понимать, как работают деньги, и принимать обоснованные финансовые решения. Она включает в себя знание о бюджетировании, инвестировании, кредитах и налогах. Повышение своей финансовой грамотности может значительно улучшить качество жизни и снизить уровень стресса, связанного с деньгами.",
-      "strengths": [
-        "осознанность",
-        "уверенность в решениях"
-      ],
-      "challenges": [
-        "недостаток знаний",
-        "мифы о финансах"
-      ],
-      "actionable": [
-        "Читайте книги и статьи о финансах.",
-        "Посещайте семинары по финансовой грамотности."
+      "short": "Финансовая грамотность — основа для принятия обоснованных решений.",
+      "full": "Понимание основных финансовых концепций, таких как проценты, инфляция и налоги, позволяет делать более осознанные выборы. Образование в этой области можно получить через книги, курсы и консультации с профессионалами. Это инвестиция в себя, которая окупается на протяжении всей жизни.",
+      "tags": [
+        "финансовая грамотность",
+        "образование",
+        "решения"
       ],
       "audience": "все",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 6,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Пенсионное планирование важно для обеспечения комфортной старости.",
-      "full": "Раннее начало пенсионного планирования позволяет накопить достаточную сумму для комфортной жизни в старости. Рассмотрите различные варианты пенсионных накоплений, включая государственные и частные пенсионные фонды. Учитывайте инфляцию и возможные изменения в законодательстве при планировании своих пенсионных сбережений.",
-      "strengths": [
-        "долгосрочная финансовая безопасность",
-        "спокойствие"
-      ],
-      "challenges": [
-        "инфляция",
-        "неопределённость будущего"
-      ],
-      "actionable": [
-        "Начните откладывать на пенсию как можно раньше.",
-        "Изучите варианты пенсионных накоплений."
+      "short": "Планирование пенсии важно для обеспечения комфортной жизни в будущем.",
+      "full": "Раннее начало пенсионных накоплений позволяет использовать преимущества сложных процентов. Разнообразие инструментов, таких как пенсионные фонды и индивидуальные инвестиционные счета, предлагает гибкость в планировании. Регулярные взносы, даже небольшие, могут значительно увеличить будущий капитал.",
+      "tags": [
+        "пенсия",
+        "накопления",
+        "инвестиции"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 7,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Страхование защищает от непредвиденных финансовых потерь.",
-      "full": "Страхование является важным инструментом финансовой защиты от непредвиденных событий, таких как болезни, аварии или стихийные бедствия. Выбор правильных страховых продуктов зависит от индивидуальных потребностей и рисков. Регулярный пересмотр страхового покрытия помогает убедиться, что оно соответствует текущей жизненной ситуации.",
-      "strengths": [
-        "финансовая защита",
-        "спокойствие"
-      ],
-      "challenges": [
-        "выбор подходящих продуктов",
-        "стоимость страховки"
-      ],
-      "actionable": [
-        "Оцените свои риски и потребности в страховании.",
-        "Регулярно пересматривайте своё страховое покрытие."
+      "short": "Страхование — это способ защиты от непредвиденных финансовых потерь.",
+      "full": "Выбор правильных страховых продуктов может предотвратить значительные финансовые трудности в случае болезни, аварии или потери имущества. Важно оценить свои риски и подобрать страховку, которая покрывает наиболее вероятные и серьезные угрозы.",
+      "tags": [
+        "страхование",
+        "защита",
+        "риски"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 8,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Налоговое планирование помогает оптимизировать финансовые обязательства.",
-      "full": "Понимание налоговой системы и использование законных способов оптимизации налогов может значительно снизить финансовую нагрузку. Налоговое планирование включает в себя выбор оптимальной налоговой схемы, учёт налоговых вычетов и льгот. Важно следить за изменениями в налоговом законодательстве, чтобы своевременно адаптировать свои финансовые стратегии.",
-      "strengths": [
-        "снижение налоговой нагрузки",
-        "эффективное использование ресурсов"
-      ],
-      "challenges": [
-        "сложность налоговой системы",
-        "изменения в законодательстве"
-      ],
-      "actionable": [
-        "Изучите налоговые вычеты и льготы, доступные вам.",
-        "Консультируйтесь с налоговым специалистом."
+      "short": "Оптимизация налогов позволяет законно уменьшить финансовую нагрузку.",
+      "full": "Знание налогового законодательства и доступных льгот может помочь в уменьшении суммы налогов. Использование налоговых вычетов и кредитов требует внимания к деталям и, иногда, консультации со специалистом. Это важная часть финансового планирования.",
+      "tags": [
+        "налоги",
+        "оптимизация",
+        "планирование"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 9,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Финансовая независимость достигается через осознанное управление ресурсами.",
-      "full": "Финансовая независимость подразумевает способность покрывать свои потребности без необходимости постоянной работы. Достижение этой цели требует дисциплины, планирования и инвестирования. Важно определить свои финансовые цели и разработать стратегию их достижения, учитывая при этом возможные риски и изменения в доходах.",
-      "strengths": [
-        "свобода выбора",
-        "уверенность в будущем"
-      ],
-      "challenges": [
-        "дисциплина",
-        "неопределённость доходов"
-      ],
-      "actionable": [
-        "Определите свои финансовые цели.",
-        "Разработайте стратегию достижения финансовой независимости."
+      "short": "Пассивный доход создает основу для финансовой независимости.",
+      "full": "Создание источников пассивного дохода, таких как аренда, дивиденды или роялти, требует начальных усилий и инвестиций. Однако, в долгосрочной перспективе, это может обеспечить стабильный приток средств, уменьшая зависимость от основной работы.",
+      "tags": [
+        "пассивный доход",
+        "независимость",
+        "инвестиции"
       ],
       "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 10,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Бюджетирование помогает контролировать финансовые потоки.",
-      "full": "Бюджетирование — это процесс планирования доходов и расходов, который помогает жить по средствам и избегать долгов. Оно позволяет выявить ненужные траты и перераспределить ресурсы на более важные цели. Регулярное ведение бюджета способствует финансовой дисциплине и осознанности.",
-      "strengths": [
-        "контроль над финансами",
-        "осознанность трат"
-      ],
-      "challenges": [
-        "дисциплина",
-        "учёт всех расходов"
-      ],
-      "actionable": [
-        "Начните вести бюджет с помощью приложений или таблиц.",
-        "Анализируйте свои траты регулярно."
+      "short": "Финансовые цели помогают направлять и мотивировать к действиям.",
+      "full": "Постановка конкретных, измеримых и достижимых финансовых целей создает четкий план действий. Будь то покупка жилья, образование детей или ранний выход на пенсию, цели служат ориентиром для принятия решений и распределения ресурсов.",
+      "tags": [
+        "цели",
+        "мотивация",
+        "планирование"
       ],
       "audience": "все",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 11,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Пассивный доход создаёт финансовую устойчивость.",
-      "full": "Пассивный доход, такой как доход от инвестиций, аренды или авторских прав, может значительно повысить финансовую устойчивость. Создание источников пассивного дохода требует начальных вложений или усилий, но в долгосрочной перспективе обеспечивает дополнительную финансовую безопасность и свободу.",
-      "strengths": [
-        "финансовая устойчивость",
-        "свобода"
+      "short": "Контроль над импульсивными покупками сохраняет бюджет.",
+      "full": "Импульсивные покупки могут значительно нарушить финансовые планы. Развитие осознанного потребления, составление списков покупок и установление лимитов помогают избежать ненужных трат. Это способствует более рациональному использованию средств.",
+      "tags": [
+        "покупки",
+        "бюджет",
+        "контроль"
       ],
-      "challenges": [
-        "начальные вложения",
-        "поиск подходящих источников"
-      ],
-      "actionable": [
-        "Изучите возможности создания пассивного дохода.",
-        "Начните с небольших инвестиций."
-      ],
-      "audience": "взрослые",
+      "audience": "все",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     },
     {
       "id": 12,
       "key": "life.finance",
       "type": "life_area",
-      "short": "Экономия на повседневных расходах увеличивает сбережения.",
-      "full": "Экономия на повседневных расходах, таких как коммунальные услуги, питание и транспорт, может значительно увеличить ваши сбережения. Использование скидок, покупка товаров оптом и отказ от ненужных трат помогают снизить ежемесячные расходы. Важно находить баланс между экономией и качеством жизни.",
-      "strengths": [
-        "увеличение сбережений",
-        "осознанное потребление"
+      "short": "Совместное управление финансами в семье укрепляет доверие.",
+      "full": "Открытое обсуждение финансовых вопросов и совместное принятие решений способствует гармонии в семье. Это включает в себя планирование общих целей, распределение расходов и обсуждение стратегий накопления. Взаимопонимание в финансовых вопросах уменьшает конфликты.",
+      "tags": [
+        "семья",
+        "доверие",
+        "планирование"
       ],
-      "challenges": [
-        "изменение привычек",
-        "поиск баланса"
-      ],
-      "actionable": [
-        "Анализируйте свои повседневные траты на предмет возможной экономии.",
-        "Используйте скидки и спецпредложения."
-      ],
-      "audience": "все",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": 1,
+      "version": "1.0",
       "needs_review": false
     }
   ],
@@ -815,276 +742,192 @@
       "id": 1,
       "key": "life.health",
       "type": "life_area",
-      "short": "Приоритет здоровья в повседневной жизни может значительно улучшить качество жизни.",
-      "full": "Сосредоточение на здоровье как приоритете помогает не только предотвращать заболевания, но и повышает общее благополучие. Регулярные физические упражнения, сбалансированное питание и достаточный сон являются ключевыми элементами. Осознание важности психического здоровья также играет критическую роль в поддержании баланса.",
-      "strengths": [
-        "Улучшение качества жизни",
-        "Профилактика заболеваний"
+      "short": "Поддержание физического здоровья через регулярные упражнения и сбалансированное питание.",
+      "full": "Физическое здоровье требует внимания к ежедневным привычкам, таким как регулярные упражнения и сбалансированное питание. Это не только улучшает общее самочувствие, но и повышает уровень энергии. Важно находить виды активности, которые приносят удовольствие, чтобы поддерживать мотивацию.",
+      "tags": [
+        "физическое здоровье",
+        "упражнения",
+        "питание"
       ],
-      "challenges": [
-        "Нехватка времени",
-        "Сложности в изменении привычек"
-      ],
-      "actionable": [
-        "Начните с малого, например, 10-минутной зарядки утром.",
-        "Попробуйте вести дневник питания для осознания привычек."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 2,
       "key": "life.health",
       "type": "life_area",
-      "short": "Эмоциональное благополучие так же важно, как и физическое здоровье.",
-      "full": "Забота о эмоциональном благополучии способствует устойчивости к стрессу и улучшает отношения с окружающими. Практики осознанности и медитации могут быть полезными инструментами. Важно находить время для деятельности, которая приносит радость и удовлетворение.",
-      "strengths": [
-        "Устойчивость к стрессу",
-        "Улучшение отношений"
+      "short": "Ментальное здоровье можно улучшить через практики осознанности и регулярный отдых.",
+      "full": "Забота о ментальном здоровье включает в себя практики осознанности, такие как медитация, и обеспечение достаточного времени для отдыха. Эти методы помогают снизить уровень стресса и улучшить качество сна, что в свою очередь положительно влияет на общее самочувствие.",
+      "tags": [
+        "ментальное здоровье",
+        "осознанность",
+        "отдых"
       ],
-      "challenges": [
-        "Сложности в выделении времени для себя",
-        "Недостаток знаний о методах релаксации"
-      ],
-      "actionable": [
-        "Выделите 5 минут в день для глубокого дыхания.",
-        "Запланируйте время для хобби или деятельности, которая вам нравится."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 3,
       "key": "life.health",
       "type": "life_area",
-      "short": "Регулярные медицинские осмотры помогают вовремя выявить потенциальные проблемы со здоровьем.",
-      "full": "Профилактические медицинские осмотры позволяют выявить заболевания на ранних стадиях, когда они легче поддаются лечению. Это также возможность получить профессиональные рекомендации по поддержанию здоровья. Не стоит пренебрегать визитами к врачу, даже если нет явных симптомов.",
-      "strengths": [
-        "Раннее выявление заболеваний",
-        "Профессиональные рекомендации"
+      "short": "Здоровый сон — основа хорошего самочувствия и продуктивности.",
+      "full": "Качественный сон играет ключевую роль в поддержании здоровья, влияя на настроение, уровень энергии и когнитивные функции. Создание комфортных условий для сна и соблюдение режима могут значительно улучшить его качество.",
+      "tags": [
+        "сон",
+        "здоровье",
+        "продуктивность"
       ],
-      "challenges": [
-        "Страх перед посещением врача",
-        "Нехватка времени"
-      ],
-      "actionable": [
-        "Запланируйте ежегодный осмотр у терапевта.",
-        "Составьте список вопросов к врачу перед визитом."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 4,
       "key": "life.health",
       "type": "life_area",
-      "short": "Сбалансированное питание является основой крепкого здоровья и энергии.",
-      "full": "Правильное питание обеспечивает организм необходимыми питательными веществами для оптимального функционирования. Включение разнообразных продуктов в рацион помогает покрыть все потребности организма. Важно также учитывать индивидуальные особенности и возможные ограничения.",
-      "strengths": [
-        "Оптимальное функционирование организма",
-        "Улучшение энергетического уровня"
+      "short": "Гидратация организма важна для поддержания энергии и здоровья кожи.",
+      "full": "Достаточное потребление воды необходимо для оптимального функционирования организма, включая поддержание уровня энергии и здоровья кожи. Рекомендуется выпивать не менее 8 стаканов воды в день, чтобы избежать обезвоживания.",
+      "tags": [
+        "гидратация",
+        "вода",
+        "здоровье"
       ],
-      "challenges": [
-        "Сложности в изменении пищевых привычек",
-        "Недостаток информации о правильном питании"
-      ],
-      "actionable": [
-        "Добавьте больше овощей и фруктов в каждый прием пищи.",
-        "Попробуйте новые рецепты для разнообразия рациона."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 5,
       "key": "life.health",
       "type": "life_area",
-      "short": "Физическая активность улучшает не только физическое, но и психическое здоровье.",
-      "full": "Регулярная физическая активность способствует укреплению сердечно-сосудистой системы, улучшает настроение и снижает уровень стресса. Даже умеренные упражнения, такие как ходьба, могут иметь значительные положительные эффекты. Важно найти вид активности, который приносит удовольствие.",
-      "strengths": [
-        "Укрепление сердечно-сосудистой системы",
-        "Улучшение настроения"
+      "short": "Регулярные медицинские обследования помогают вовремя выявить потенциальные проблемы со здоровьем.",
+      "full": "Профилактические медицинские обследования позволяют выявить потенциальные проблемы со здоровьем на ранних стадиях, что значительно увеличивает шансы на успешное лечение. Важно не пренебрегать регулярными визитами к врачу, даже при отсутствии симптомов.",
+      "tags": [
+        "медицинские обследования",
+        "профилактика",
+        "здоровье"
       ],
-      "challenges": [
-        "Нехватка мотивации",
-        "Отсутствие времени"
-      ],
-      "actionable": [
-        "Начните с коротких прогулок в течение дня.",
-        "Попробуйте разные виды активности, чтобы найти то, что вам нравится."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 6,
       "key": "life.health",
       "type": "life_area",
-      "short": "Достаточный сон критически важен для восстановления организма и психического здоровья.",
-      "full": "Качественный сон играет ключевую роль в физическом восстановлении, когнитивной функции и эмоциональном благополучии. Создание комфортных условий для сна и соблюдение режима могут значительно улучшить его качество. Избегание стимуляторов перед сном также способствует лучшему отдыху.",
-      "strengths": [
-        "Физическое восстановление",
-        "Улучшение когнитивной функции"
+      "short": "Сбалансированное питание обеспечивает организм необходимыми витаминами и минералами.",
+      "full": "Сбалансированное питание, богатое фруктами, овощами, белками и цельными злаками, обеспечивает организм всеми необходимыми витаминами и минералами. Это способствует укреплению иммунитета и поддержанию здорового веса.",
+      "tags": [
+        "питание",
+        "витамины",
+        "здоровье"
       ],
-      "challenges": [
-        "Бессонница",
-        "Нарушение режима сна"
-      ],
-      "actionable": [
-        "Создайте ритуал перед сном для расслабления.",
-        "Старайтесь ложиться и вставать в одно и то же время."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 7,
       "key": "life.health",
       "type": "life_area",
-      "short": "Управление стрессом помогает сохранить психическое и физическое здоровье.",
-      "full": "Эффективное управление стрессом снижает риск развития многих заболеваний и улучшает качество жизни. Техники релаксации, такие как глубокое дыхание и медитация, могут быть очень полезными. Важно также находить время для отдыха и занятий, которые приносят удовольствие.",
-      "strengths": [
-        "Снижение риска заболеваний",
-        "Улучшение качества жизни"
+      "short": "Активный образ жизни способствует долголетию и улучшению качества жизни.",
+      "full": "Регулярная физическая активность, будь то ходьба, плавание или йога, способствует укреплению сердечно-сосудистой системы, улучшению гибкости и выносливости. Это ключевой фактор для долголетия и повышения качества жизни.",
+      "tags": [
+        "активный образ жизни",
+        "физическая активность",
+        "долголетие"
       ],
-      "challenges": [
-        "Сложности в применении техник релаксации",
-        "Недостаток времени для отдыха"
-      ],
-      "actionable": [
-        "Практикуйте глубокое дыхание в стрессовых ситуациях.",
-        "Выделите время в своем расписании для отдыха."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 8,
       "key": "life.health",
       "type": "life_area",
-      "short": "Гидратация играет ключевую роль в поддержании здоровья и энергии.",
-      "full": "Достаточное потребление воды необходимо для нормального функционирования всех систем организма. Вода участвует в процессах пищеварения, регуляции температуры тела и выведении токсинов. Недостаток гидратации может привести к усталости и снижению концентрации.",
-      "strengths": [
-        "Поддержание функций организма",
-        "Улучшение концентрации"
+      "short": "Управление стрессом через техники релаксации улучшает психическое и физическое здоровье.",
+      "full": "Эффективное управление стрессом с помощью техник релаксации, таких как глубокое дыхание или йога, может значительно улучшить как психическое, так и физическое здоровье. Это помогает снизить риск развития хронических заболеваний, связанных со стрессом.",
+      "tags": [
+        "стресс",
+        "релаксация",
+        "здоровье"
       ],
-      "challenges": [
-        "Забывчивость",
-        "Недостаточное потребление воды"
-      ],
-      "actionable": [
-        "Носите с собой бутылку воды в течение дня.",
-        "Установите напоминания о необходимости пить воду."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 9,
       "key": "life.health",
       "type": "life_area",
-      "short": "Социальные связи влияют на продолжительность и качество жизни.",
-      "full": "Крепкие социальные связи способствуют эмоциональному благополучию и могут даже влиять на физическое здоровье. Поддержание отношений с друзьями и семьей, участие в общественной деятельности могут снизить чувство одиночества. Важно находить время для общения и построения новых связей.",
-      "strengths": [
-        "Эмоциональное благополучие",
-        "Снижение чувства одиночества"
+      "short": "Отказ от вредных привычек, таких как курение, улучшает общее состояние здоровья.",
+      "full": "Отказ от вредных привычек, включая курение и чрезмерное употребление алкоголя, приводит к значительному улучшению общего состояния здоровья. Это снижает риск развития многих заболеваний и повышает качество жизни.",
+      "tags": [
+        "вредные привычки",
+        "курение",
+        "здоровье"
       ],
-      "challenges": [
-        "Нехватка времени для общения",
-        "Трудности в построении новых связей"
-      ],
-      "actionable": [
-        "Запланируйте регулярные встречи с друзьями или семьей.",
-        "Попробуйте присоединиться к клубам или группам по интересам."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 10,
       "key": "life.health",
       "type": "life_area",
-      "short": "Отказ от вредных привычек улучшает здоровье и качество жизни.",
-      "full": "Преодоление вредных привычек, таких как курение или чрезмерное употребление алкоголя, может значительно улучшить физическое и психическое здоровье. Это также снижает риск развития многих заболеваний. Поддержка со стороны близких или профессионалов может быть очень полезной в этом процессе.",
-      "strengths": [
-        "Улучшение физического и психического здоровья",
-        "Снижение риска заболеваний"
+      "short": "Социальные связи и поддержка важны для эмоционального и физического благополучия.",
+      "full": "Крепкие социальные связи и поддержка со стороны друзей и семьи играют важную роль в эмоциональном и физическом благополучии. Они помогают справляться со стрессом и повышают чувство принадлежности и счастья.",
+      "tags": [
+        "социальные связи",
+        "поддержка",
+        "благополучие"
       ],
-      "challenges": [
-        "Зависимость",
-        "Недостаток мотивации"
-      ],
-      "actionable": [
-        "Поставьте конкретные, достижимые цели для изменения привычек.",
-        "Ищите поддержку у друзей, семьи или специалистов."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 11,
       "key": "life.health",
       "type": "life_area",
-      "short": "Психическое здоровье требует такого же внимания, как и физическое.",
-      "full": "Забота о психическом здоровье включает в себя управление стрессом, поддержание баланса между работой и отдыхом, и обращение за помощью при необходимости. Психическое здоровье влияет на все аспекты жизни, включая отношения и продуктивность. Важно не игнорировать свои эмоциональные потребности.",
-      "strengths": [
-        "Улучшение качества жизни",
-        "Улучшение отношений"
+      "short": "Позитивное мышление и благодарность способствуют улучшению психического здоровья.",
+      "full": "Практика позитивного мышления и выражение благодарности могут значительно улучшить психическое здоровье, снижая уровень стресса и повышая удовлетворенность жизнью. Это простые, но мощные инструменты для улучшения общего благополучия.",
+      "tags": [
+        "позитивное мышление",
+        "благодарность",
+        "психическое здоровье"
       ],
-      "challenges": [
-        "Стигма вокруг психического здоровья",
-        "Недостаток ресурсов"
-      ],
-      "actionable": [
-        "Практикуйте техники релаксации ежедневно.",
-        "Не стесняйтесь обращаться за профессиональной помощью."
-      ],
-      "audience": "general",
+      "audience": "все",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     },
     {
       "id": 12,
       "key": "life.health",
       "type": "life_area",
-      "short": "Здоровье окружающей среды напрямую связано с личным здоровьем.",
-      "full": "Чистота воздуха, воды и почвы, а также доступ к зеленым зонам влияют на физическое и психическое здоровье. Забота об окружающей среде, такая как сокращение отходов и использование экологически чистых продуктов, также способствует личному благополучию. Осознание этой связи может мотивировать к более экологичному образу жизни.",
-      "strengths": [
-        "Улучшение физического и психического здоровья",
-        "Содействие экологическому благополучию"
+      "short": "Регулярные перерывы в работе помогают предотвратить выгорание и улучшить продуктивность.",
+      "full": "Сделать регулярные перерывы во время работы — это эффективный способ предотвратить выгорание и сохранить высокий уровень продуктивности. Короткие паузы для растяжки или прогулки могут значительно улучшить концентрацию и снизить усталость.",
+      "tags": [
+        "перерывы",
+        "выгорание",
+        "продуктивность"
       ],
-      "challenges": [
-        "Ограниченный доступ к зеленым зонам",
-        "Сложности в изменении привычек"
-      ],
-      "actionable": [
-        "Сократите использование одноразовых пластиковых изделий.",
-        "Проводите больше времени на природе."
-      ],
-      "audience": "general",
+      "audience": "взрослые",
       "lang": "ru",
-      "version": "1.0",
+      "version": 1,
       "needs_review": false
     }
   ],
@@ -1093,336 +936,336 @@
       "id": 1,
       "key": "life.family",
       "type": "life_area",
-      "short": "Создание крепких семейных связей через открытое общение и взаимное уважение.",
-      "full": "Открытое общение и взаимное уважение являются основой крепких семейных связей. Эти принципы помогают преодолевать разногласия и укреплять доверие между членами семьи. Важно находить время для совместных мероприятий, которые способствуют сближению.",
+      "short": "Семья - это основа, где мы находим поддержку и понимание.",
+      "full": "Семья играет ключевую роль в нашей жизни, предоставляя нам чувство принадлежности и безопасности. Это место, где мы можем быть самими собой, делиться своими радостями и печалями. Взаимная поддержка и любовь укрепляют семейные узы, делая их источником силы в трудные времена.",
       "tags": [
-        "общение",
-        "доверие",
-        "семейные ценности"
+        "семья",
+        "поддержка",
+        "любовь"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Открытое общение",
-        "Взаимное уважение"
+        "взаимопонимание",
+        "поддержка"
       ],
       "challenges": [
-        "Разногласия",
-        "Недостаток времени"
+        "конфликты",
+        "недостаток времени"
       ],
       "actionable": [
-        "Планируйте регулярные семейные встречи",
-        "Практикуйте активное слушание"
+        "уделяйте время семейным ужинам",
+        "обсуждайте планы и мечты вместе"
       ]
     },
     {
       "id": 2,
       "key": "life.family",
       "type": "life_area",
-      "short": "Укрепление семейных отношений через совместные традиции и ритуалы.",
-      "full": "Совместные традиции и ритуалы играют ключевую роль в укреплении семейных отношений. Они создают чувство принадлежности и единства, обогащая повседневную жизнь семьи. Важно адаптировать традиции под изменяющиеся потребности семьи.",
+      "short": "Семья учит нас терпению и безусловной любви.",
+      "full": "В семье мы учимся самым важным жизненным урокам: терпению, прощению и безусловной любви. Эти качества помогают нам строить крепкие отношения не только внутри семьи, но и за её пределами. Семья - это первый социальный институт, который формирует нашу личность и мировоззрение.",
       "tags": [
-        "традиции",
-        "ритуалы",
-        "единство"
+        "семья",
+        "любовь",
+        "развитие"
       ],
-      "audience": "all",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Чувство принадлежности",
-        "Единство"
+        "безусловная любовь",
+        "личное развитие"
       ],
       "challenges": [
-        "Изменяющиеся потребности",
-        "Поиск времени"
+        "различия во взглядах",
+        "эмоциональные нагрузки"
       ],
       "actionable": [
-        "Создайте новую семейную традицию",
-        "Обсуждайте и адаптируйте существующие ритуалы"
+        "практикуйте активное слушание",
+        "выражайте благодарность ежедневно"
       ]
     },
     {
       "id": 3,
       "key": "life.family",
       "type": "life_area",
-      "short": "Поддержка индивидуального роста каждого члена семьи в гармонии с семейными целями.",
-      "full": "Поддержка индивидуального роста каждого члена семьи способствует гармонии и удовлетворению в семейных отношениях. Важно находить баланс между личными устремлениями и общими семейными целями, создавая среду взаимной поддержки.",
+      "short": "Семейные традиции создают уникальную связь между поколениями.",
+      "full": "Семейные традиции и ритуалы играют важную роль в укреплении связей между членами семьи. Они создают чувство единства и принадлежности, передавая ценности и истории из поколения в поколение. Эти моменты становятся драгоценными воспоминаниями, которые мы храним всю жизнь.",
       "tags": [
-        "индивидуальный рост",
-        "гармония",
-        "поддержка"
+        "традиции",
+        "семья",
+        "наследие"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Гармония",
-        "Взаимная поддержка"
+        "чувство единства",
+        "передача ценностей"
       ],
       "challenges": [
-        "Баланс личных и семейных целей",
-        "Разные уровни роста"
+        "поддержание традиций",
+        "временные затраты"
       ],
       "actionable": [
-        "Поощряйте личные увлечения каждого",
-        "Регулярно обсуждайте семейные цели"
+        "создавайте новые семейные традиции",
+        "делитесь семейными историями"
       ]
     },
     {
       "id": 4,
       "key": "life.family",
       "type": "life_area",
-      "short": "Развитие эмоциональной близости через выражение чувств и эмпатию.",
-      "full": "Эмоциональная близость в семье развивается через открытое выражение чувств и практику эмпатии. Это укрепляет связи и помогает членам семьи чувствовать себя понятыми и ценными. Важно создавать безопасное пространство для выражения эмоций.",
+      "short": "Семья - это команда, где каждый играет свою уникальную роль.",
+      "full": "В семье, как в команде, каждый член вносит свой уникальный вклад, создавая гармонию и баланс. Понимание и уважение к индивидуальности каждого укрепляет семейные отношения, делая их более гибкими и устойчивыми к внешним вызовам. Совместные цели и мечты объединяют семью, направляя её к общему успеху.",
       "tags": [
-        "эмоциональная близость",
-        "эмпатия",
-        "чувства"
+        "команда",
+        "гармония",
+        "уважение"
       ],
-      "audience": "all",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Понимание",
-        "Ценность"
+        "гармония",
+        "устойчивость"
       ],
       "challenges": [
-        "Создание безопасного пространства",
-        "Выражение эмоций"
+        "баланс индивидуальности и единства",
+        "внешние вызовы"
       ],
       "actionable": [
-        "Практикуйте активное слушание",
-        "Выражайте признательность регулярно"
+        "определите общие семейные цели",
+        "уважайте личное пространство каждого"
       ]
     },
     {
       "id": 5,
       "key": "life.family",
       "type": "life_area",
-      "short": "Управление конфликтами в семье через конструктивный диалог и компромисс.",
-      "full": "Конструктивный диалог и готовность к компромиссу являются ключевыми в управлении семейными конфликтами. Эти подходы помогают находить решения, удовлетворяющие всех, и укрепляют отношения. Важно избегать обвинений и сосредотачиваться на решении.",
+      "short": "Семья - это безопасная гавань в мире неопределённости.",
+      "full": "В мире полном неопределённости и перемен, семья остаётся нашей безопасной гаванью, где мы можем найти утешение и поддержку. Это место, где нас принимают такими, какие мы есть, без условий и ожиданий. Такая безусловная поддержка даёт нам силы и уверенность в себе.",
       "tags": [
-        "конфликты",
-        "диалог",
-        "компромисс"
+        "безопасность",
+        "поддержка",
+        "принятие"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Решение конфликтов",
-        "Укрепление отношений"
+        "безусловное принятие",
+        "уверенность"
       ],
       "challenges": [
-        "Избегание обвинений",
-        "Нахождение компромисса"
+        "стресс и неопределённость",
+        "эмоциональные потребности"
       ],
       "actionable": [
-        "Используйте 'я-высказывания'",
-        "Ищите решения, выгодные для всех"
+        "создавайте ритуалы для снятия стресса",
+        "поддерживайте открытое общение"
       ]
     },
     {
       "id": 6,
       "key": "life.family",
       "type": "life_area",
-      "short": "Создание здоровых границ в семье для уважения личного пространства и автономии.",
-      "full": "Здоровые границы в семье способствуют уважению личного пространства и автономии каждого члена. Они помогают предотвращать конфликты и поддерживать гармонию. Важно обсуждать и уважать границы, установленные каждым.",
+      "short": "Семья помогает нам расти и развиваться через любовь и заботу.",
+      "full": "Семья - это первая школа жизни, где через любовь и заботу мы учимся самым важным социальным и эмоциональным навыкам. Эти уроки формируют нашу способность любить, сочувствовать и взаимодействовать с окружающим миром. Семья поддерживает нас на каждом этапе нашего роста и развития.",
       "tags": [
-        "границы",
-        "личное пространство",
-        "автономия"
+        "развитие",
+        "любовь",
+        "забота"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Уважение",
-        "Гармония"
+        "эмоциональное развитие",
+        "социальные навыки"
       ],
       "challenges": [
-        "Установление границ",
-        "Предотвращение конфликтов"
+        "различия в темпах развития",
+        "эмоциональные перегрузки"
       ],
       "actionable": [
-        "Обсуждайте личные границы открыто",
-        "Уважайте потребности каждого"
+        "поощряйте открытое выражение чувств",
+        "уделяйте время совместному обучению"
       ]
     },
     {
       "id": 7,
       "key": "life.family",
       "type": "life_area",
-      "short": "Формирование позитивной семейной атмосферы через благодарность и позитивное общение.",
-      "full": "Благодарность и позитивное общение создают теплую и поддерживающую атмосферу в семье. Эти практики усиливают чувство принадлежности и счастья. Важно выражать признательность и сосредотачиваться на положительных аспектах.",
+      "short": "Семья - это зеркало, отражающее наши лучшие и сложные стороны.",
+      "full": "Семья служит зеркалом, в котором мы видим отражение наших лучших качеств и тех сторон, над которыми стоит работать. Эти отражения помогают нам лучше понять себя и свои отношения с окружающими. Взаимная обратная связь в семье способствует личностному росту и улучшению отношений.",
       "tags": [
-        "благодарность",
-        "позитивное общение",
-        "атмосфера"
+        "самопознание",
+        "рост",
+        "отношения"
       ],
-      "audience": "all",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Поддержка",
-        "Счастье"
+        "самопознание",
+        "личностный рост"
       ],
       "challenges": [
-        "Выражение признательности",
-        "Сосредоточение на позитиве"
+        "конфронтация с собой",
+        "необходимость изменений"
       ],
       "actionable": [
-        "Заведите ритуал благодарности",
-        "Избегайте негативных высказываний"
+        "практикуйте конструктивную обратную связь",
+        "работайте над личными границами"
       ]
     },
     {
       "id": 8,
       "key": "life.family",
       "type": "life_area",
-      "short": "Поддержание баланса между работой и семейной жизнью для общего благополучия.",
-      "full": "Баланс между работой и семейной жизнью важен для общего благополучия семьи. Это требует осознанного планирования и приоритезации. Важно находить время для семьи, не забывая о личных потребностях.",
+      "short": "Семья учит нас ценить моменты и создавать воспоминания.",
+      "full": "Семья напоминает нам о важности ценить каждый момент и создавать воспоминания, которые будут согревать нас в будущем. Совместные переживания, будь то радость или печаль, укрепляют наши связи и делают нас ближе. Эти моменты становятся фундаментом нашей общей истории.",
       "tags": [
-        "баланс",
-        "работа",
-        "благополучие"
+        "воспоминания",
+        "моменты",
+        "история"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Благополучие",
-        "Гармония"
+        "общие воспоминания",
+        "укрепление связей"
       ],
       "challenges": [
-        "Планирование",
-        "Приоритезация"
+        "нахождение времени",
+        "разные интересы"
       ],
       "actionable": [
-        "Установите границы работы",
-        "Планируйте семейное время заранее"
+        "планируйте регулярные семейные мероприятия",
+        "создавайте фотоальбомы или дневники"
       ]
     },
     {
       "id": 9,
       "key": "life.family",
       "type": "life_area",
-      "short": "Развитие финансовой грамотности в семье для обеспечения стабильности и доверия.",
-      "full": "Финансовая грамотность в семье способствует стабильности и укрепляет доверие между членами. Открытое обсуждение финансовых вопросов и совместное планирование помогают достигать общих целей. Важно обучаться и принимать информированные решения.",
+      "short": "Семья - это источник вдохновения и мотивации в нашей жизни.",
+      "full": "Семья часто становится нашим главным источником вдохновения и мотивации, побуждая нас стремиться к лучшему и преодолевать трудности. Поддержка и вера близких дают нам силы идти вперёд, даже когда путь кажется непростым. Их успехи и радости вдохновляют нас на собственные достижения.",
       "tags": [
-        "финансовая грамотность",
-        "стабильность",
-        "доверие"
+        "вдохновение",
+        "мотивация",
+        "поддержка"
       ],
-      "audience": "adults",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Стабильность",
-        "Доверие"
+        "мотивация",
+        "вдохновение"
       ],
       "challenges": [
-        "Обсуждение финансов",
-        "Совместное планирование"
+        "давление ожиданий",
+        "страх разочаровать"
       ],
       "actionable": [
-        "Проводите семейные финансовые встречи",
-        "Изучайте основы финансовой грамотности"
+        "делитесь своими целями с семьёй",
+        "отмечайте совместные достижения"
       ]
     },
     {
       "id": 10,
       "key": "life.family",
       "type": "life_area",
-      "short": "Поддержание здоровья и благополучия семьи через совместные занятия и здоровые привычки.",
-      "full": "Совместные занятия и здоровые привычки играют ключевую роль в поддержании здоровья и благополучия семьи. Они способствуют физическому и эмоциональному здоровью, укрепляя семейные узы. Важно вдохновлять друг друга на здоровый образ жизни.",
+      "short": "Семья учит нас искусству компромисса и взаимопонимания.",
+      "full": "В семье мы осваиваем искусство компромисса и взаимопонимания, которые являются ключом к гармоничным отношениям. Умение слушать и учитывать потребности других, не забывая о своих, помогает разрешать конфликты и укреплять доверие. Эти навыки бесценны во всех аспектах жизни.",
       "tags": [
-        "здоровье",
-        "благополучие",
-        "привычки"
+        "компромисс",
+        "взаимопонимание",
+        "гармония"
       ],
-      "audience": "all",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Физическое здоровье",
-        "Эмоциональное здоровье"
+        "гармоничные отношения",
+        "разрешение конфликтов"
       ],
       "challenges": [
-        "Внедрение привычек",
-        "Совместные занятия"
+        "различия в потребностях",
+        "эмоциональные конфликты"
       ],
       "actionable": [
-        "Планируйте семейные спортивные мероприятия",
-        "Вводите здоровые привычки постепенно"
+        "практикуйте эмпатию в общении",
+        "ищите решения, учитывающие всех"
       ]
     },
     {
       "id": 11,
       "key": "life.family",
       "type": "life_area",
-      "short": "Создание поддерживающей сети родственников и друзей для расширения семейного круга.",
-      "full": "Поддерживающая сеть родственников и друзей обогащает семейную жизнь, предоставляя дополнительные источники поддержки и радости. Это расширяет семейный круг и укрепляет социальные связи. Важно поддерживать эти отношения и быть открытыми к новым знакомствам.",
+      "short": "Семья - это фундамент, на котором строится наша идентичность.",
+      "full": "Семья играет ключевую роль в формировании нашей идентичности, передавая нам культурные, моральные и социальные ценности. Эти основы помогают нам понимать, кто мы есть и как мы относимся к миру. Семейные корни дают нам чувство принадлежности и устойчивости в меняющемся мире.",
       "tags": [
-        "поддержка",
-        "социальные связи",
-        "расширение круга"
+        "идентичность",
+        "ценности",
+        "принадлежность"
       ],
-      "audience": "all",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Дополнительная поддержка",
-        "Социальные связи"
+        "чувство принадлежности",
+        "устойчивость"
       ],
       "challenges": [
-        "Поддержание отношений",
-        "Открытость к новым знакомствам"
+        "конфликт ценностей",
+        "поиск себя"
       ],
       "actionable": [
-        "Организуйте семейные встречи с друзьями",
-        "Будьте активны в социальных мероприятиях"
+        "изучайте семейную историю",
+        "обсуждайте семейные ценности"
       ]
     },
     {
       "id": 12,
       "key": "life.family",
       "type": "life_area",
-      "short": "Воспитание детей в атмосфере любви, уважения и понимания их индивидуальности.",
-      "full": "Атмосфера любви, уважения и понимания индивидуальности каждого ребенка способствует их гармоничному развитию. Это основа для формирования уверенности в себе и здоровых отношений в будущем. Важно слушать и поддерживать детей в их интересах и потребностях.",
+      "short": "Семья напоминает нам о важности заботы и благодарности.",
+      "full": "Семья учит нас ценить заботу и проявлять благодарность за поддержку и любовь, которые мы получаем. Эти чувства укрепляют наши отношения и создают атмосферу взаимного уважения и признательности. Проявление заботы и благодарности делает нашу жизнь более наполненной и осмысленной.",
       "tags": [
-        "воспитание",
-        "любовь",
-        "индивидуальность"
+        "забота",
+        "благодарность",
+        "любовь"
       ],
-      "audience": "parents",
+      "audience": "взрослые",
       "lang": "ru",
       "version": "1.0",
       "needs_review": false,
       "strengths": [
-        "Гармоничное развитие",
-        "Уверенность в себе"
+        "взаимное уважение",
+        "осмысленность"
       ],
       "challenges": [
-        "Понимание индивидуальности",
-        "Поддержка интересов"
+        "привыкание к заботе",
+        "выражение благодарности"
       ],
       "actionable": [
-        "Практикуйте активное слушание с детьми",
-        "Поощряйте их увлечения и таланты"
+        "выражайте благодарность ежедневно",
+        "практикуйте маленькие акты заботы"
       ]
     }
   ],
@@ -1431,15 +1274,15 @@
       "id": 1,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Exploring new creative outlets can refresh your perspective and energy.",
-      "full": "Engaging in different forms of creativity, such as painting, writing, or music, can serve as a powerful outlet for expression and stress relief. It encourages a break from routine, offering a fresh perspective that can rejuvenate your mind and spirit. Creativity isn't about perfection but about the joy and discovery in the process.",
+      "short": "Раскройте свой творческий потенциал через ежедневные практики.",
+      "full": "Творчество — это не врождённый дар, а навык, который можно развивать. Начните с малого: выделяйте 15 минут в день на творческие упражнения, будь то рисование, письмо или музыка. Это поможет вам постепенно раскрыть свой потенциал и найти новые способы самовыражения.",
       "tags": [
-        "expression",
-        "stress relief",
-        "joy"
+        "творчество",
+        "развитие",
+        "самовыражение"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто интересуется творчеством",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1447,15 +1290,15 @@
       "id": 2,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Creativity flourishes in environments where curiosity is encouraged.",
-      "full": "Creating a space that nurtures curiosity and allows for experimentation can significantly enhance your creative abilities. Whether it's through reading, exploring nature, or engaging in discussions, these activities feed your imagination and inspire innovative ideas. Remember, creativity thrives on diversity of experience and thought.",
+      "short": "Исследуйте новые формы искусства для вдохновения.",
+      "full": "Выход за рамки привычного может значительно расширить ваш творческий горизонт. Попробуйте посетить выставку, концерт или мастер-класс по незнакомому вам виду искусства. Это откроет новые перспективы и вдохновит на собственные проекты.",
       "tags": [
-        "curiosity",
-        "innovation",
-        "diversity"
+        "вдохновение",
+        "искусство",
+        "новые горизонты"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "творческие люди",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1463,15 +1306,15 @@
       "id": 3,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Setting aside regular time for creative pursuits can enhance well-being.",
-      "full": "Dedicating time each week to engage in creative activities can have a profound impact on your mental and emotional health. It's not about the outcome but the process of creation that offers a sense of accomplishment and joy. Even small creative acts can lead to significant personal growth and happiness.",
+      "short": "Создайте пространство, способствующее творчеству.",
+      "full": "Окружающая среда играет ключевую роль в творческом процессе. Организуйте своё рабочее место так, чтобы оно вдохновляло вас: добавьте элементы, которые вас мотивируют, и уберите отвлекающие факторы. Это поможет вам сосредоточиться на творчестве.",
       "tags": [
-        "well-being",
-        "growth",
-        "happiness"
+        "пространство",
+        "вдохновение",
+        "организация"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто работает в творческой сфере",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1479,15 +1322,15 @@
       "id": 4,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Collaboration can open new avenues for creative expression.",
-      "full": "Working with others on creative projects can introduce you to new ideas and techniques, broadening your creative horizons. Collaboration fosters a sense of community and shared purpose, making the creative process more enriching and enjoyable. It's a reminder that creativity often grows in the soil of shared experiences.",
+      "short": "Используйте ограничения как стимул для творчества.",
+      "full": "Ограничения могут стать мощным катализатором творческого мышления. Попробуйте установить себе определённые рамки в проекте, например, ограниченное количество цветов или слов. Это может привести к неожиданным и оригинальным решениям.",
       "tags": [
-        "collaboration",
-        "community",
-        "shared experiences"
+        "ограничения",
+        "креативность",
+        "решения"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "дизайнеры, писатели, художники",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1495,15 +1338,15 @@
       "id": 5,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Overcoming creative blocks requires patience and self-compassion.",
-      "full": "Facing a creative block can be frustrating, but it's a natural part of the creative process. Approaching it with patience and kindness towards yourself can help you navigate through it. Sometimes, stepping away and engaging in completely different activities can provide the breakthrough you need.",
+      "short": "Ведите дневник идей для творческих проектов.",
+      "full": "Идеи приходят в самые неожиданные моменты. Заведите дневник или используйте приложение для записи своих мыслей и вдохновения. Это поможет вам не упустить потенциально великие идеи и вернуться к ним, когда будете готовы к реализации.",
       "tags": [
-        "patience",
-        "self-compassion",
-        "breakthrough"
+        "идеи",
+        "вдохновение",
+        "организация"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "креативные профессионалы и любители",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1511,15 +1354,15 @@
       "id": 6,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Documenting your creative journey can offer insights and inspiration.",
-      "full": "Keeping a journal or portfolio of your creative work allows you to track your progress and reflect on your growth over time. It can be a source of motivation during times of doubt and a reminder of how far you've come. This practice celebrates the process, not just the outcomes, of your creative endeavors.",
+      "short": "Сотрудничайте с другими для обмена идеями.",
+      "full": "Творческое сотрудничество может открыть новые горизонты и вдохнуть жизнь в ваши проекты. Ищите единомышленников, участвуйте в мастер-классах или онлайн-сообществах. Обмен идеями и опытом может значительно обогатить ваш творческий процесс.",
       "tags": [
-        "journaling",
-        "progress",
-        "motivation"
+        "сотрудничество",
+        "обмен идеями",
+        "сообщество"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто ищет вдохновение",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1527,15 +1370,15 @@
       "id": 7,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Limitations can surprisingly fuel creativity rather than hinder it.",
-      "full": "Working within constraints, whether they're time, materials, or themes, can push you to think outside the box and come up with innovative solutions. Limitations force you to focus and often lead to more creative outcomes than unlimited freedom. Embracing constraints can be a powerful catalyst for creativity.",
+      "short": "Экспериментируйте с разными медиа для самовыражения.",
+      "full": "Не бойтесь выходить за пределы привычных вам форм творчества. Попробуйте что-то новое, будь то цифровое искусство, скульптура или перформанс. Эксперименты могут помочь вам обнаружить новые таланты и способы самовыражения.",
       "tags": [
-        "constraints",
-        "innovation",
-        "focus"
+        "эксперименты",
+        "новые медиа",
+        "самовыражение"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "художники и творческие личности",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1543,15 +1386,15 @@
       "id": 8,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Nature can be a profound source of creative inspiration.",
-      "full": "Spending time in nature, observing its patterns, colors, and rhythms, can spark creativity in unexpected ways. The natural world offers endless examples of beauty, resilience, and adaptation, serving as a rich source of ideas and metaphors for creative projects. Nature reminds us of the interconnectedness of all things.",
+      "short": "Найдите время для отдыха и перезагрузки.",
+      "full": "Творчество требует энергии и вдохновения, которые часто приходят в моменты покоя. Уделяйте время отдыху, медитации или прогулкам на природе. Это поможет вам восстановить силы и вернуться к работе с новыми идеями.",
       "tags": [
-        "nature",
-        "inspiration",
-        "beauty"
+        "отдых",
+        "вдохновение",
+        "перезагрузка"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто занимается творчеством",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1559,15 +1402,15 @@
       "id": 9,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Experimenting without fear of failure is key to creative growth.",
-      "full": "Viewing each creative attempt as an experiment removes the pressure of perfection and opens the door to learning and discovery. Failure becomes not an endpoint but a valuable part of the journey. This mindset encourages risk-taking and innovation, essential components of creative development.",
+      "short": "Изучайте работы мастеров для вдохновения.",
+      "full": "Знакомство с творчеством великих художников, писателей или музыкантов может стать мощным источником вдохновения. Анализируйте их работы, изучайте техники и подходы. Это не только расширит ваш кругозор, но и обогатит ваш собственный стиль.",
       "tags": [
-        "experimentation",
-        "learning",
-        "risk-taking"
+        "вдохновение",
+        "изучение",
+        "мастера"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "начинающие и опытные творцы",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1575,15 +1418,15 @@
       "id": 10,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Creative routines can provide structure without stifling spontaneity.",
-      "full": "Establishing a routine for your creative practice can help you maintain momentum, even when inspiration seems elusive. While routines provide structure, they should also allow for flexibility and spontaneity. Finding the right balance can make your creative time both productive and enjoyable.",
+      "short": "Принимайте неудачи как часть творческого процесса.",
+      "full": "Неудачи — неизбежная часть любого творческого пути. Вместо того чтобы расстраиваться, используйте их как возможность для обучения и роста. Анализируйте, что пошло не так, и как можно улучшить ваш подход в будущем.",
       "tags": [
-        "routine",
-        "structure",
-        "spontaneity"
+        "неудачи",
+        "обучение",
+        "рост"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто сталкивается с творческими кризисами",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1591,15 +1434,15 @@
       "id": 11,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Sharing your creative work can build confidence and community.",
-      "full": "Presenting your creations to others, whether through exhibitions, performances, or online platforms, can be a vulnerable but rewarding experience. It offers opportunities for feedback, connection, and growth. Sharing your work celebrates your creativity and can inspire others to explore their own.",
+      "short": "Установите регулярный график для творческой работы.",
+      "full": "Дисциплина так же важна для творчества, как и вдохновение. Попробуйте выделять определённое время каждый день или неделю для творческой работы. Это поможет вам сохранять продуктивность и постепенно развивать свои навыки.",
       "tags": [
-        "sharing",
-        "confidence",
-        "community"
+        "дисциплина",
+        "график",
+        "продуктивность"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "профессионалы и любители творчества",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     },
@@ -1607,15 +1450,15 @@
       "id": 12,
       "key": "life.creativity",
       "type": "life_area",
-      "short": "Diverse experiences enrich your creative palette and perspective.",
-      "full": "Seeking out new experiences, cultures, and knowledge can dramatically expand your creative resources. Exposure to different ways of thinking and living introduces fresh ideas and perspectives into your work. Diversity in experience is a cornerstone of originality and depth in creativity.",
+      "short": "Ищите вдохновение в повседневной жизни.",
+      "full": "Вдохновение можно найти в самых обычных вещах: в разговорах, природе, архитектуре или даже в настроении. Будьте открыты к миру вокруг вас, и вы обнаружите, что идеи приходят из самых неожиданных источников.",
       "tags": [
-        "diversity",
-        "experiences",
-        "originality"
+        "вдохновение",
+        "повседневность",
+        "наблюдение"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто ищет новые идеи",
+      "lang": "ru",
       "version": "1.0",
       "needs_review": false
     }
@@ -1625,15 +1468,15 @@
       "id": 1,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Exploring spirituality can bring deeper meaning and connection to your life.",
-      "full": "Engaging with your spiritual side offers a pathway to understanding your place in the universe and fostering a sense of peace. It encourages mindfulness, gratitude, and a deeper connection with others. Whether through meditation, nature, or religious practices, spirituality can be a source of comfort and strength during challenging times.",
+      "short": "Исследуйте глубины своей души через медитацию и саморефлексию.",
+      "full": "Медитация и саморефлексия открывают двери к глубокому пониманию себя и своих духовных потребностей. Эти практики помогают найти внутренний покой и гармонию, способствуя личностному росту. Регулярные занятия могут усилить связь с внутренним я, предлагая ясность и направление в жизни.",
       "tags": [
-        "mindfulness",
-        "gratitude",
-        "meditation"
+        "медитация",
+        "саморефлексия",
+        "духовность"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, интересующиеся духовным развитием",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1641,15 +1484,15 @@
       "id": 2,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spirituality nurtures resilience and emotional well-being.",
-      "full": "Spirituality provides a foundation for resilience, helping individuals navigate life's ups and downs with grace. It promotes emotional well-being by encouraging practices that foster inner peace, such as prayer, yoga, or journaling. Connecting with something greater than oneself can offer perspective and reduce feelings of isolation.",
+      "short": "Связь с природой как путь к духовному пробуждению.",
+      "full": "Проведение времени на природе может стать мощным инструментом для духовного пробуждения и обновления. Это позволяет ощутить единство со вселенной, перезагрузить ум и найти вдохновение в простых вещах. Природа напоминает нам о цикличности жизни и важности гармонии.",
       "tags": [
-        "resilience",
-        "emotional well-being",
-        "yoga"
+        "природа",
+        "духовное пробуждение",
+        "гармония"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "любители природы и духовных практик",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1657,15 +1500,15 @@
       "id": 3,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "A spiritual practice can enhance self-awareness and personal growth.",
-      "full": "Developing a spiritual practice encourages self-reflection and awareness, leading to personal growth. It invites questions about purpose and values, guiding individuals toward more fulfilling lives. Techniques like meditation or mindful walking can deepen this journey, offering clarity and insight into one's true self.",
+      "short": "Духовные практики в повседневной жизни для внутреннего баланса.",
+      "full": "Включение духовных практик в повседневную жизнь помогает поддерживать внутренний баланс и спокойствие. Даже небольшие моменты осознанности или благодарности могут значительно улучшить качество жизни, создавая основу для глубокой духовной связи и удовлетворения.",
       "tags": [
-        "self-awareness",
-        "personal growth",
-        "meditation"
+        "духовные практики",
+        "осознанность",
+        "баланс"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "те, кто ищет способы интеграции духовности в ежедневную рутину",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1673,15 +1516,15 @@
       "id": 4,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spirituality connects us to the present moment and inner peace.",
-      "full": "Spirituality teaches the value of living in the present, cultivating inner peace amidst life's chaos. Practices like deep breathing, gratitude journaling, or spending time in nature can anchor us in the now, reducing stress and enhancing overall happiness. This connection fosters a serene mind and a joyful heart.",
+      "short": "Изучение различных религий и философий для расширения кругозора.",
+      "full": "Знакомство с различными религиями и философскими учениями обогащает духовный мир, предлагая новые перспективы и понимание жизни. Это исследование способствует терпимости, уважению к другим культурам и глубокому осознанию универсальных истин.",
       "tags": [
-        "present moment",
-        "inner peace",
-        "gratitude"
+        "религии",
+        "философия",
+        "духовное развитие"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "люди, интересующиеся культурным и духовным разнообразием",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1689,15 +1532,15 @@
       "id": 5,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Finding spirituality can lead to a more compassionate and empathetic life.",
-      "full": "Spirituality often opens the heart to greater compassion and empathy towards others. By recognizing the interconnectedness of all beings, individuals may find themselves more inclined to acts of kindness and understanding. This shift not only benefits personal relationships but also contributes to a more harmonious world.",
+      "short": "Творчество как выражение духовного пути и внутреннего мира.",
+      "full": "Творчество служит мощным каналом для выражения духовных поисков и внутренних переживаний. Через искусство, музыку или письмо можно исследовать глубины души, делиться своими открытиями и вдохновлять других на их собственный путь самопознания.",
       "tags": [
-        "compassion",
-        "empathy",
-        "interconnectedness"
+        "творчество",
+        "самовыражение",
+        "духовный путь"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "творческие личности, ищущие духовного выражения",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1705,15 +1548,15 @@
       "id": 6,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spiritual exploration encourages letting go of ego and embracing humility.",
-      "full": "The journey into spirituality often involves shedding the ego's constraints, embracing humility and openness. This process can liberate individuals from the need for external validation, fostering a sense of freedom and authenticity. Practices that promote surrender, such as meditation or service to others, can facilitate this transformative experience.",
+      "short": "Практика благодарности для укрепления духовного благополучия.",
+      "full": "Регулярная практика благодарности способствует укреплению духовного благополучия, фокусируя внимание на позитивных аспектах жизни. Это простое, но мощное упражнение помогает развить удовлетворенность, оптимизм и более глубокую связь с окружающим миром.",
       "tags": [
-        "ego",
-        "humility",
-        "authenticity"
+        "благодарность",
+        "духовное благополучие",
+        "позитив"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "все, кто стремится к более осознанной и удовлетворенной жизни",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1721,15 +1564,15 @@
       "id": 7,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spirituality offers tools for coping with loss and grief.",
-      "full": "In times of loss, spirituality can provide solace and a framework for understanding life's impermanence. Rituals, prayer, or community support can offer comfort, helping individuals navigate grief with grace. This spiritual perspective can transform sorrow into a deeper appreciation for life and its fleeting beauty.",
+      "short": "Йога как инструмент для физического и духовного единения.",
+      "full": "Йога предлагает уникальный синтез физических упражнений и духовных практик, способствуя гармонии тела и духа. Регулярные занятия йогой могут улучшить гибкость, снизить стресс и открыть новые пути для духовного исследования и роста.",
       "tags": [
-        "loss",
-        "grief",
-        "solace"
+        "йога",
+        "гармония",
+        "духовный рост"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "практикующие йогу и интересующиеся духовными аспектами физических практик",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1737,15 +1580,15 @@
       "id": 8,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spiritual practices can enhance creativity and inspiration.",
-      "full": "Engaging in spiritual practices can unlock new levels of creativity and inspiration by quieting the mind and opening the heart. Activities like meditation, spending time in nature, or engaging in artistic expression can serve as conduits for divine inspiration, leading to innovative ideas and profound artistic expressions.",
+      "short": "Тишина и уединение как источники духовного вдохновения.",
+      "full": "Тишина и уединение предоставляют редкую возможность услышать свой внутренний голос и получить духовное вдохновение. Вдали от шума и суеты можно обнаружить ясность мыслей, глубинные желания и истинные ценности, ведущие к осмысленной жизни.",
       "tags": [
-        "creativity",
-        "inspiration",
-        "meditation"
+        "тишина",
+        "уединение",
+        "вдохновение"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "те, кто ценит моменты одиночества для духовного обновления",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1753,15 +1596,15 @@
       "id": 9,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spirituality fosters a sense of belonging and community.",
-      "full": "Spirituality often brings people together, creating a sense of belonging and shared purpose. Whether through organized religion, meditation groups, or spiritual retreats, these communities offer support, understanding, and a shared journey toward enlightenment. This collective energy can amplify individual spiritual growth and foster deep connections.",
+      "short": "Духовные книги и тексты как проводники к мудрости.",
+      "full": "Чтение духовных книг и священных текстов открывает доступ к вековой мудрости и духовным истинам. Эти произведения могут служить проводниками на пути личного развития, предлагая ответы на глубокие вопросы и вдохновляя на дальнейшие поиски.",
       "tags": [
-        "belonging",
-        "community",
-        "shared purpose"
+        "духовные книги",
+        "мудрость",
+        "личностное развитие"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "любители чтения, ищущие духовного наставничества",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1769,15 +1612,15 @@
       "id": 10,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "A spiritual outlook can simplify life and clarify priorities.",
-      "full": "Adopting a spiritual perspective often leads to a simpler, more intentional way of living. By focusing on what truly matters—love, connection, service—individuals can shed unnecessary distractions and align their actions with their deepest values. This clarity brings peace and fulfillment, making life's journey more meaningful.",
+      "short": "Общение с единомышленниками для духовного обогащения.",
+      "full": "Общение с людьми, разделяющими ваши духовные интересы, может значительно обогатить ваш внутренний мир. Такие взаимодействия способствуют обмену идеями, поддержке и вдохновению, укрепляя вашу веру и понимание духовных практик.",
       "tags": [
-        "simplicity",
-        "intentional living",
-        "values"
+        "общение",
+        "единомышленники",
+        "духовное обогащение"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "те, кто ищет духовное сообщество для обмена опытом",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1785,15 +1628,15 @@
       "id": 11,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spirituality encourages acceptance and letting go of control.",
-      "full": "Spirituality teaches the power of acceptance and the freedom found in letting go of the need to control every outcome. Through practices like mindfulness or surrender meditations, individuals learn to trust the flow of life, finding peace in uncertainty. This acceptance can lead to a more relaxed and joyful existence.",
+      "short": "Ведение дневника как метод духовной саморефлексии.",
+      "full": "Ведение дневника предоставляет уникальную возможность для духовной саморефлексии и документирования личного роста. Этот процесс помогает осознать свои мысли, чувства и духовные открытия, создавая ценную перспективу на пройденный путь и будущие устремления.",
       "tags": [
-        "acceptance",
-        "letting go",
-        "mindfulness"
+        "дневник",
+        "саморефлексия",
+        "духовный рост"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "те, кто предпочитает письменные практики для самопознания",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     },
@@ -1801,15 +1644,15 @@
       "id": 12,
       "key": "life.spirituality",
       "type": "life_area",
-      "short": "Spiritual growth involves embracing both light and shadow within.",
-      "full": "True spiritual growth requires acknowledging and integrating all parts of oneself, including the shadow aspects. This holistic approach fosters wholeness and self-acceptance, leading to genuine transformation. Practices like shadow work or reflective journaling can illuminate these hidden parts, allowing for healing and greater self-understanding.",
+      "short": "Музыка и звуки как средства духовного исцеления и подъема.",
+      "full": "Музыка и звуки обладают уникальной способностью влиять на наше духовное состояние, предлагая исцеление, утешение и подъем. Слушая или создавая музыку, можно достичь глубокого медитативного состояния, способствующего духовному пробуждению и гармонии.",
       "tags": [
-        "shadow work",
-        "self-acceptance",
-        "transformation"
+        "музыка",
+        "звуки",
+        "духовное исцеление"
       ],
-      "audience": "general",
-      "lang": "en",
+      "audience": "любители музыки, ищущие духовного опыта через звук",
+      "lang": "ru",
       "version": 1,
       "needs_review": false
     }
