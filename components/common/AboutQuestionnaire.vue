@@ -51,8 +51,9 @@
 </template>
 
 <script setup>
-  import scrollLock from '@/composables/scrollLock.js';
   import { modalStore } from '@/stores/modal';
+
+  const { lock, unlock } = useBodyScrollLock();
 
   import stars from '~/assets/js/questionnaireStars';
 
@@ -69,7 +70,7 @@
   const modal = modalStore();
 
   const openModalHandler = () => {
-    scrollLock(false);
+    lock();
     modal.openModal();
   };
 
@@ -162,6 +163,7 @@
 
   onUnmounted(() => {
     clearInterval(animationInterval);
+    unlock();
   });
 </script>
 

@@ -23,18 +23,20 @@ const DEFAULT_MODEL = 'deepseek-chat'; // поставь свой model
 
 // Reference lists
 const PLANETS = [
-  // 'sun',
-  // 'moon',
-  // 'mercury',
-  // 'venus',
-  // 'mars',
-  // 'jupiter',
-  // 'saturn',
-  // 'uranus',
+  'sun',
+  'moon',
+  'mercury',
+  'venus',
+  'mars',
+  'jupiter',
+  'saturn',
+  'uranus',
   'neptune',
   'pluto',
-  // 'asc',
 ];
+
+/** Сущности для planet_sign и planet_house: планеты + Асцендент */
+const ENTITIES_SIGN_AND_HOUSE = [...PLANETS, 'asc'];
 const SIGNS = [
   'aries',
   'taurus',
@@ -220,8 +222,8 @@ async function generatePlanetSignAll(opts: {
 
   await ensureDir(outDir);
 
-  // We'll generate per planet — each planet loop produces a file with all signs
-  for (const planet of PLANETS) {
+  // We'll generate per planet — each planet loop produces a file with all signs (including asc)
+  for (const planet of ENTITIES_SIGN_AND_HOUSE) {
     const planetResults: Record<string, any[]> = {};
     for (const sign of SIGNS) {
       const prompt = promptForPlanetSign(planet, sign, variants);
@@ -305,7 +307,7 @@ async function generatePlanetHouseAll(opts: {
   const outDir = opts.outDir ?? path.join(DATA_DIR, 'planet_house');
   await ensureDir(outDir);
 
-  for (const planet of PLANETS) {
+  for (const planet of ENTITIES_SIGN_AND_HOUSE) {
     const planetResults: Record<string, any[]> = {};
     for (const house of HOUSES) {
       const prompt = promptForPlanetHouse(planet, house, variants);
@@ -342,7 +344,7 @@ async function generatePlanetHouseDirectly(opts: {
   const delayMs = opts.delayMs ?? DEFAULT_DELAY_MS;
   const variants = opts.variants ?? 8;
   const outDir = opts.outDir ?? path.join(DATA_DIR, 'planet_house');
-  const planets = opts.planets || PLANETS;
+  const planets = opts.planets || ENTITIES_SIGN_AND_HOUSE;
   const houses = opts.houses || HOUSES;
 
   await ensureDir(outDir);
@@ -549,9 +551,52 @@ async function generateSignPairCombosAll(opts: {
   }
 }
 
+async function generateSignPairCombosDirectly(opts: {
+  delayMs?: number;
+  variants?: number;
+  outDir?: string;
+  pairs?: [string, string][]; // e.g. [['jupiter', 'saturn']]
+}) {
+  const delayMs = opts.delayMs ?? DEFAULT_DELAY_MS;
+  const variants = opts.variants ?? 6;
+  const outDir = opts.outDir ?? path.join(DATA_DIR, 'sign_pair_combos');
+  const pairs = opts.pairs ?? [['jupiter', 'saturn']];
+  await ensureDir(outDir);
+
+  for (const [p1, p2] of pairs) {
+    const pairName = `${p1}_${p2}`;
+    const pairResults: Record<string, any[]> = {};
+    for (const s1 of SIGNS) {
+      for (const s2 of SIGNS) {
+        const prompt = promptForSignPairCombo(pairName, s1, s2, variants);
+        console.log(`Generating sign-pair for ${pairName} : ${s1}-${s2} ...`);
+        const raw = await callModel(prompt);
+        try {
+          if (!raw) {
+            console.error(`Failed to parse sign-pair ${pairName}:${s1}-${s2}`);
+            return;
+          }
+          const parsed = tryParseJsonStrict(raw);
+          pairResults[`${s1}_${s2}`] = parsed;
+          console.log(`Parsed ${parsed.length} items for ${pairName}:${s1}-${s2}`);
+        } catch (err) {
+          console.error(`Failed to parse sign-pair ${pairName}:${s1}-${s2}:`, err);
+          await saveJsonToFile(path.join(outDir, 'raw'), `${pairName}_${s1}_${s2}_raw.txt`, raw);
+          pairResults[`${s1}_${s2}`] = [];
+        }
+        await sleep(delayMs);
+      }
+    }
+    await saveJsonToFile(outDir, `${pairName}.json`, pairResults);
+    console.log(`Saved sign-pair file: ${pairName}.json`);
+  }
+}
+
 // --------- Main handler ----------
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
+  console.log('🚀 ~ body:', body);
+
   // body: { action: 'generate', category: 'planet_sign'|'planet_house'|'aspects'|'life_areas'|'sign_pair'|'runAll', options: {...} }
   const { action = 'generate', category = 'runAll', options = {} } = body;
 
@@ -575,6 +620,15 @@ export default defineEventHandler(async (event) => {
     if (category === 'sign_pair') {
       await generateSignPairCombosAll({ delayMs: options.delayMs, variants: options.variants });
       return { ok: true, message: 'sign_pair generation finished' };
+    }
+    if (category === 'sign_pair_directly') {
+      await generateSignPairCombosDirectly({
+        delayMs: options.delayMs,
+        variants: options.variants,
+        outDir: options.outDir,
+        pairs: options.pairs, // [['jupiter', 'saturn']]
+      });
+      return { ok: true, message: 'sign_pair_directly generation finished' };
     }
     if (category === 'aspect_directly') {
       await generateAspectDirectly({

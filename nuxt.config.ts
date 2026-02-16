@@ -155,8 +155,10 @@ export default defineNuxtConfig({
     },
   ],
   vite: {
+    assetsInclude: ['**/*.wasm'], // Чтобы Vite обрабатывал WASM
     optimizeDeps: {
       include: ['gsap'], // Для правильного дерева зависимостей
+      exclude: ['swisseph-wasm'], // Исключаем из предоптимизации
     },
   },
   devtools: { enabled: true },

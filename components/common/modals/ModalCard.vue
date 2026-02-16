@@ -44,7 +44,7 @@
 </template>
 
 <script setup>
-  import scrollLock from '@/composables/scrollLock.js';
+  const { lock, unlock } = useBodyScrollLock();
 
   const props = defineProps({
     isOpen: {
@@ -60,7 +60,7 @@
   const emit = defineEmits(['close']);
 
   const closeModal = () => {
-    scrollLock(false);
+    unlock();
     emit('close');
   };
 
@@ -68,14 +68,10 @@
     () => props.isOpen,
     (newValue) => {
       if (newValue) {
-        scrollLock(true);
+        lock();
       }
     }
   );
-
-  onUnmounted(() => {
-    scrollLock(false);
-  });
 </script>
 
 <style scoped>

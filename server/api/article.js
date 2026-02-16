@@ -4,6 +4,7 @@ const articles = [
     title: 'Астрология и её влияние на жизнь',
     img: '/img/articles/astrology.webp',
     position: 'top',
+    textPosition: 'left',
     description:
       'Узнайте, как звезды становятся вашим персональным компасом для принятия важных решений и раскрытия потенциала.',
     content: `
@@ -23,6 +24,7 @@ const articles = [
     id: 2,
     title: 'Тайны натальной карты',
     img: '/img/articles/mystic.webp',
+    textPosition: 'left',
     description:
       'Ваш персональный ключ к успеху скрыт в расположении планет - узнайте, как его использовать!',
     content: `
@@ -49,6 +51,7 @@ const articles = [
     title: 'Значение планет в гороскопе',
     img: '/img/articles/planets.webp',
     description: '10 планет управляют вашей судьбой - узнайте, как включить их силу на 100%!',
+    textPosition: 'left',
     content: `
       <p>Планеты в астрологии - как кнопки управления вашей жизнью. Когда вы понимаете их язык, вы перестаёте плыть по течению и начинаете управлять своей судьбой!</p>
       <p><strong>Главная тройка влияния:</strong></p>

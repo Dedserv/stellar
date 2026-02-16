@@ -1,18 +1,9 @@
-// export default function scrollLock(isLocked) {
-//   const lockPage = useScrollLock(document.body);
-//   lockPage.value = isLocked;
-
-//   return {
-//     lockPage,
-//   };
-// }
-
 import { useScrollLock } from '@vueuse/core';
 import { ref, onMounted } from 'vue';
 
 let lockRef = null;
 
-export function scrollLock() {
+export function useBodyScrollLock() {
   const ready = ref(false);
 
   onMounted(() => {

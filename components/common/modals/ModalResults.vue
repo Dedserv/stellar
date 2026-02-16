@@ -27,8 +27,8 @@
 </template>
 
 <script setup>
-  import scrollLock from '@/composables/scrollLock.js';
   import { modalStore } from '@/stores/modal';
+  const { unlock } = useBodyScrollLock();
 
   const emit = defineEmits(['closeModal']);
   const props = defineProps({
@@ -62,7 +62,7 @@
   };
 
   const clickExitButton = () => {
-    scrollLock(false);
+    unlock();
     questionStores.setSlideIndex(0);
     modal.closeModal();
   };

@@ -53,10 +53,11 @@
 </template>
 
 <script setup>
-  import scrollLock from '@/composables/scrollLock.js';
   import { modalStore } from '@/stores/modal';
   import { questionsStore } from '@/stores/questions';
   import NatalQuestions from '../NatalQuestions.vue';
+
+  const { lock, unlock } = useBodyScrollLock();
 
   const modal = modalStore();
   const questionStores = questionsStore();
@@ -83,14 +84,14 @@
   };
 
   onMounted(() => {
-    scrollLock(true);
+    lock();
   });
 
   const { data } = await useFetch('/api/questions');
   const finalResult = ref([]);
 
   const clickExitButton = () => {
-    scrollLock(false);
+    unlock();
     questionStores.setSlideIndex(0);
     modal.closeModal();
   };
