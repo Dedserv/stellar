@@ -13,6 +13,7 @@ import {
   getAspectDescription,
   loadJsonFile,
 } from '~/server/utils/jsonLoader.js';
+import { buildHighlights } from '~/server/utils/insights/index.js';
 
 /** Fallback для аспекта, когда описание не найдено в данных */
 const ASPECT_DESCRIPTION_FALLBACK = {
@@ -330,8 +331,9 @@ export default defineEventHandler(async (event) => {
       life_areas: lifeAreas,
     };
 
+    const highlights = buildHighlights(result);
     swe.close();
-    return result;
+    return { ...result, highlights };
   } catch (error) {
     console.error('Error calculating natal chart:', error);
 

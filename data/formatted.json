@@ -1,0 +1,3102 @@
+{
+    "chart": {
+        "date": {
+            "year": 1990,
+            "month": 5,
+            "day": 15,
+            "hour": 14,
+            "minute": 30,
+            "timezone": 3
+        },
+        "location": {
+            "latitude": 55.75,
+            "longitude": 37.62
+        },
+        "julianDay": 2448026.97917
+    },
+    "ascendant": {
+        "longitude": 30.12,
+        "sign": "taurus",
+        "signIndex": 1,
+        "description": {
+            "sign": {
+                "type": "sign",
+                "description": {
+                    "id": 5,
+                    "key": "planet.asc.sign.taurus",
+                    "type": "planet_sign",
+                    "short": "Восходящий Телец формирует образ человека с сильным чувством собственности и стремлением к накоплению ресурсов.",
+                    "full": "С восходящим Тельцом ваш образ может ассоциироваться с сильным чувством собственности и желанием накапливать ресурсы. Вы производите впечатление человека, который ценит долгосрочные вложения и избегает неоправданных рисков. Это положение подчёркивает важность финансовой стабильности и умение создавать уютную атмосферу вокруг себя. Люди видят в вас надёжного партнёра, способного к верности.",
+                    "tags": ["собственность", "ресурсы", "стабильность"],
+                    "audience": "novice",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            },
+            "house": {
+                "type": "house",
+                "description": {
+                    "id": "asc_house_1_1",
+                    "key": "planet_house.asc.house_1",
+                    "type": "planet_house",
+                    "short": "Асцендент в первом доме усиливает самовыражение и личное присутствие в мире.",
+                    "full": "Асцендент в первом доме создаёт сильную связь между вашей внешней личностью и внутренним я. Это положение подчёркивает важность первого впечатления и того, как вы проецируете себя в мир. Вы можете обладать естественной харизмой и осознанием своего физического образа. Такое расположение способствует развитию самопознания через взаимодействие с окружающими, помогая лучше понимать свои реакции и мотивации.",
+                    "tags": ["асцендент", "первый дом", "личность", "самовыражение"],
+                    "audience": "novice",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false,
+                    "strengths": [
+                        "Усиленное самовыражение и харизма",
+                        "Чёткое осознание личного образа и присутствия",
+                        "Спонтанность в реакциях и поведении"
+                    ],
+                    "challenges": [
+                        "Возможная чрезмерная сосредоточенность на внешнем восприятии",
+                        "Сложности в отделении личных потребностей от ожиданий окружения"
+                    ],
+                    "actionable": [
+                        "Практикуйте осознанность в повседневных взаимодействиях, отмечая свои реакции.",
+                        "Экспериментируйте с разными способами самопрезентации в безопасной среде."
+                    ]
+                }
+            }
+        }
+    },
+    "planets": [
+        {
+            "name": "sun",
+            "longitude": 54.38,
+            "sign": "taurus",
+            "signIndex": 1,
+            "positionInSign": 24.38,
+            "speed": 0.9642,
+            "house": 1,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 2,
+                        "key": "planet.sun.sign.taurus",
+                        "type": "planet_sign",
+                        "short": "Тельцы с Солнцем в знаке ценят практичность и надежность.",
+                        "full": "Солнце в Тельце делает вас практичным и надежным человеком. Вы предпочитаете конкретные результаты и материальные блага. Ваша сила в умении терпеливо работать ради долгосрочных целей, наслаждаясь процессом.",
+                        "tags": ["практичность", "надежность"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 3,
+                        "key": "planet_house.sun.house_1",
+                        "type": "planet_house",
+                        "short": "Солнце в первом доме подчеркивает вашу уникальность.",
+                        "full": "Солнце в первом доме выделяет вашу уникальность и индивидуальность. Вы можете чувствовать сильную потребность выражать себя и быть признанным. Однако, иногда это может привести к чувству изоляции, если другие не понимают вашу уникальность. Важно находить способы самовыражения, которые объединяют, а не разделяют.",
+                        "tags": ["солнце", "первый дом", "уникальность"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["уникальность", "самовыражение", "признание"],
+                        "challenges": ["изоляция", "непонимание"],
+                        "actionable": [
+                            "Ищите общие интересы с другими.",
+                            "Практикуйте открытость к разным точкам зрения."
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "moon",
+            "longitude": 296.9,
+            "sign": "capricorn",
+            "signIndex": 9,
+            "positionInSign": 26.9,
+            "speed": 12.3497,
+            "house": 9,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 11,
+                        "key": "planet.moon.sign.capricorn",
+                        "type": "planet_sign",
+                        "short": "Луна в Козероге: контроль и дисциплина в эмоциях.",
+                        "full": "Луна в Козероге отражает контроль и дисциплину в эмоциях. Люди с такой позицией часто стремятся к порядку в эмоциональной жизни и могут быть осторожными в проявлении чувств. Их поддержка и забота проявляются через практичные действия.",
+                        "tags": ["контроль", "дисциплина"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 1,
+                        "key": "planet_house.moon.house_9",
+                        "type": "planet_house",
+                        "short": "Луна в 9 доме усиливает интуицию и тягу к путешествиям.",
+                        "full": "Луна в 9 доме символизирует глубокую эмоциональную связь с философией, духовными поисками и дальними путешествиями. Это положение может указывать на сильную интуицию и способность чувствовать культурные и духовные течения. Важно осознавать, как эмоции влияют на ваши убеждения.",
+                        "tags": ["луна", "9 дом", "интуиция", "путешествия"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": [
+                            "Глубокая интуиция",
+                            "Эмоциональная связь с духовными темами",
+                            "Открытость к новым культурам"
+                        ],
+                        "challenges": ["Эмоциональная нестабильность в убеждениях", "Склонность к идеализации"],
+                        "actionable": [
+                            "Исследуйте, как ваши эмоции влияют на убеждения.",
+                            "Практикуйте медитацию для усиления интуиции."
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "mercury",
+            "longitude": 38.01,
+            "sign": "taurus",
+            "signIndex": 1,
+            "positionInSign": 8.01,
+            "speed": -0.1219,
+            "house": 1,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 12,
+                        "key": "planet.mercury.sign.taurus",
+                        "type": "planet_sign",
+                        "short": "Меркурий в Тельце подчеркивает ценность медленного, но верного прогресса.",
+                        "full": "При Меркурии в Тельце вы цените медленный, но верный прогресс в обучении и общении. Для вас важнее качество и надежность, чем скорость.",
+                        "tags": ["прогресс", "надежность"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 2,
+                        "key": "planet_house.mercury.house_1",
+                        "type": "planet_house",
+                        "short": "Меркурий в 1 доме способствует ясности мышления и самовыражения.",
+                        "full": "Наличие Меркурия в 1 доме способствует ясности мышления и легкости в самовыражении. Человек с таким положением часто обладает живым умом и способностью быстро адаптироваться к новым ситуациям. Важно следить за тем, чтобы быстрота мышления не приводила к поспешным решениям.",
+                        "tags": ["ясность мышления", "самовыражение", "адаптивность"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["Ясность мышления", "Легкость в самовыражении", "Адаптивность"],
+                        "challenges": ["Поспешные решения", "Недостаток терпения"],
+                        "actionable": [
+                            "Уделяйте время размышлениям перед принятием решений.",
+                            "Развивайте терпение через медитацию."
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "venus",
+            "longitude": 0,
+            "sign": "aries",
+            "signIndex": 0,
+            "positionInSign": 0,
+            "speed": 1.1406,
+            "house": 11,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 5,
+                        "key": "planet.venus.sign.aries",
+                        "type": "planet_sign",
+                        "short": "Венера в Овне делает любовь приключением.",
+                        "full": "Для людей с Венерой в Овне любовь — это прежде всего приключение и возможность проявить свою смелость. Они наслаждаются процессом завоевания и ценят партнёров, которые могут удивить их.",
+                        "tags": ["приключения", "любовь"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 7,
+                        "key": "planet_house.venus.house_11",
+                        "type": "planet_house",
+                        "short": "Венера в 11 доме способствует гармоничному разрешению групповых конфликтов.",
+                        "full": "С Венерой в 11 доме вы обладаете уникальной способностью смягчать групповые конфликты и находить гармоничные решения. Ваш подход к общению может способствовать миру и пониманию. Сильные стороны — это миролюбие и эмпатия. Сложности могут быть связаны с избеганием сложных тем. Полезно будет развивать уверенность в выражении своих взглядов и практиковать активное слушание.",
+                        "tags": ["конфликты", "гармония", "эмпатия"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["миролюбие", "эмпатия"],
+                        "challenges": ["избегание сложных тем"],
+                        "actionable": [
+                            "развивать уверенность в выражении своих взглядов",
+                            "практиковать активное слушание"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "mars",
+            "longitude": 348.32,
+            "sign": "pisces",
+            "signIndex": 11,
+            "positionInSign": 18.32,
+            "speed": 0.7427,
+            "house": 11,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 3,
+                        "key": "planet.mars.sign.pisces",
+                        "type": "planet_sign",
+                        "short": "Марс в Рыбах раскрывает чувствительность и художественный талант.",
+                        "full": "Марс в Рыбах усиливает чувствительность и способность к художественному выражению. Это положение способствует развитию творческих способностей и умению передавать эмоции через искусство. Люди с такой комбинацией часто находят себя в творческих профессиях.",
+                        "tags": ["чувствительность", "искусство"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 4,
+                        "key": "planet_house.mars.house_11",
+                        "type": "planet_house",
+                        "short": "Марс в 11 доме усиливает желание быть частью значимых социальных изменений.",
+                        "full": "Марс в 11 доме может проявляться как сильное желание участвовать в значимых социальных изменениях и движениях. Это положение указывает на энергию и решимость, направленные на улучшение общества. Однако важно действовать с уважением к разнообразию мнений и подходов.",
+                        "tags": ["Марс", "11 дом", "социальные изменения", "решимость"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": [
+                            "Решимость в социальных вопросах",
+                            "Энергия для коллективных действий",
+                            "Стремление к справедливости"
+                        ],
+                        "challenges": ["Нетерпимость к другим точкам зрения", "Импульсивность в действиях"],
+                        "actionable": [
+                            "Изучайте разные перспективы",
+                            "Планируйте действия совместно с единомышленниками"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "jupiter",
+            "longitude": 99.54,
+            "sign": "cancer",
+            "signIndex": 3,
+            "positionInSign": 9.54,
+            "speed": 0.1892,
+            "house": 3,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 5,
+                        "key": "planet.jupiter.sign.cancer",
+                        "type": "planet_sign",
+                        "short": "Юпитер в Раке способствует семейному благополучию и уюту.",
+                        "full": "Нахождение Юпитера в Раке благоприятствует созданию атмосферы семейного благополучия и уюта. Это время для того, чтобы уделить внимание домашним делам и отношениям с близкими.",
+                        "tags": ["семья", "уют"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 4,
+                        "key": "planet_house.jupiter.house_3",
+                        "type": "planet_house",
+                        "short": "Юпитер в 3 доме усиливает любознательность и социальные связи.",
+                        "full": "Люди с Юпитером в 3 доме обладают естественной любознательностью и стремлением к постоянному обучению. Их социальные связи часто играют ключевую роль в их развитии, принося возможности для роста. Важно балансировать между количеством и качеством общения.",
+                        "tags": ["любознательность", "социальные связи", "обучение"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["Любознательность", "Широкий круг общения", "Стремление к росту"],
+                        "challenges": ["Поверхностность в общении", "Зависимость от мнения окружающих"],
+                        "actionable": [
+                            "Углубляйте отношения с близкими по духу людьми.",
+                            "Выбирайте качественные источники информации."
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "saturn",
+            "longitude": 295.25,
+            "sign": "capricorn",
+            "signIndex": 9,
+            "positionInSign": 25.25,
+            "speed": -0.0169,
+            "house": 9,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 2,
+                        "key": "planet.saturn.sign.capricorn",
+                        "type": "planet_sign",
+                        "short": "Сатурн в Козероге способствует практичности и реализму.",
+                        "full": "Сатурн в Козероге помогает видеть мир таким, какой он есть, без розовых очков. Это положение поощряет прагматичный подход к жизни и умение трезво оценивать свои возможности. Люди с такой комбинацией ценят стабильность и безопасность.",
+                        "tags": ["практичность", "реализм"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 1,
+                        "key": "planet_house.saturn.house_9",
+                        "type": "planet_house",
+                        "short": "Сатурн в 9 доме указывает на серьёзный подход к философии и образованию.",
+                        "full": "Сатурн в 9 доме подчёркивает ваше стремление к структурированному пониманию мира через образование и философию. Вы можете находить утешение в систематическом изучении культур и религий, что помогает вам формировать устойчивую систему ценностей. Однако, важно не замыкаться в своих убеждениях и оставаться открытым к новым идеям.",
+                        "tags": ["Сатурн", "9 дом", "философия", "образование"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": [
+                            "Глубокое понимание сложных концепций",
+                            "Способность к дисциплинированному обучению"
+                        ],
+                        "challenges": ["Ригидность в убеждениях", "Страх перед неизвестным"],
+                        "actionable": [
+                            "Изучайте новые культуры с открытым умом",
+                            "Практикуйте медитацию для расширения сознания"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "name": "uranus",
+            "longitude": 279.18,
+            "sign": "capricorn",
+            "signIndex": 9,
+            "positionInSign": 9.18,
+            "speed": -0.0246,
+            "house": 9,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 7,
+                        "key": "planet.uranus.sign.capricorn",
+                        "type": "planet_sign",
+                        "short": "Уран в Козероге вдохновляет на структурные изменения.",
+                        "full": "Уран в Козероге символизирует возможность структурных изменений через инновационные идеи. Это положение может побуждать к пересмотру и модернизации подходов к карьере и личным обязательствам. Оно показывает, как революционные идеи могут быть реализованы в рамках существующих систем.",
+                        "tags": ["изменения", "структура"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 5,
+                        "key": "planet_house.uranus.house_9",
+                        "type": "planet_house",
+                        "short": "Уран в 9 доме способствует революционным идеям в философии.",
+                        "full": "Уран в 9 доме может вдохновить вас на разработку революционных философских идей или теорий. Это положение способствует критическому мышлению и желанию бросить вызов традиционным убеждениям. Важно выражать свои идеи, даже если они идут вразрез с общепринятыми.",
+                        "strengths": [
+                            "Критическое мышление",
+                            "Способность к инновационным идеям",
+                            "Смелость в выражении убеждений"
+                        ],
+                        "challenges": ["Конфликты из-за нетрадиционных взглядов", "Изоляция от традиционных кругов"],
+                        "actionable": [
+                            "Разрабатывайте свои философские теории.",
+                            "Ищите платформы для выражения идей."
+                        ],
+                        "tags": ["Уран", "9 дом", "философия", "революционные идеи"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "neptune",
+            "longitude": 284.35,
+            "sign": "capricorn",
+            "signIndex": 9,
+            "positionInSign": 14.35,
+            "speed": -0.0147,
+            "house": 9,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 3,
+                        "key": "planet.neptune.sign.capricorn",
+                        "type": "planet_sign",
+                        "short": "Нептун в Козероге объединяет мечты и реальность.",
+                        "full": "Нептун в Козероге символизирует мост между мечтами и реальностью. Люди с этой комбинацией могут обладать уникальной способностью воплощать свои видения в практические проекты. Их творчество часто направлено на достижение конкретных целей, что делает их мечтателями с твёрдой почвой под ногами.",
+                        "tags": ["мечты", "реализация"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 2,
+                        "key": "planet_house.neptune.house_9",
+                        "type": "planet_house",
+                        "short": "Neptune in the 9th house blends dreams with the quest for knowledge.",
+                        "full": "Neptune's presence in the 9th house merges the mystical with the intellectual, leading you to seek truth through both study and intuition. You may find traditional education limiting, preferring paths that allow for spiritual and creative expression. This placement can gift you with visionary ideas but also poses the challenge of distinguishing fantasy from reality in your beliefs. Strengths lie in your ability to inspire others with your ideals. Challenges include over-idealism in philosophical pursuits. Actionable steps: Journal to clarify thoughts; explore art or music as spiritual practice.",
+                        "tags": ["mysticism", "education", "creativity"],
+                        "audience": "novice",
+                        "lang": "en",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["Ability to inspire", "Visionary ideas"],
+                        "challenges": ["Over-idealism", "Distinguishing fantasy from reality"],
+                        "actionable": ["Journal to clarify thoughts", "Explore art or music as spiritual practice"]
+                    }
+                }
+            }
+        },
+        {
+            "name": "pluto",
+            "longitude": 226.17,
+            "sign": "scorpio",
+            "signIndex": 7,
+            "positionInSign": 16.17,
+            "speed": -0.0277,
+            "house": 7,
+            "description": {
+                "sign": {
+                    "type": "sign",
+                    "description": {
+                        "id": 11,
+                        "key": "planet.pluto.sign.scorpio",
+                        "type": "planet_sign",
+                        "short": "Плутон в Скорпионе — путь к внутренней силе.",
+                        "full": "Плутон в Скорпионе открывает путь к внутренней силе и устойчивости. Это положение помогает преодолевать страхи и находить ресурсы для личностного роста. Люди с такой комбинацией часто обладают глубокой мудростью.",
+                        "tags": ["внутренняя сила", "мудрость"],
+                        "audience": "novice",
+                        "lang": "ru",
+                        "version": 1,
+                        "needs_review": false
+                    }
+                },
+                "house": {
+                    "type": "house",
+                    "description": {
+                        "id": 5,
+                        "key": "planet_house.pluto.house_7",
+                        "type": "planet_house",
+                        "short": "Pluto in the 7th house encourages facing shadows in love.",
+                        "full": "Having Pluto in the 7th house means that relationships will often bring your shadows to light, challenging you to face and integrate them. This placement is about finding strength in vulnerability and learning that true connection comes from authenticity.",
+                        "tags": ["shadows", "vulnerability", "authenticity"],
+                        "audience": "novice",
+                        "lang": "en",
+                        "version": 1,
+                        "needs_review": false,
+                        "strengths": ["Emotional bravery", "Deep relational insights"],
+                        "challenges": ["Confronting inner fears", "Resisting change"],
+                        "actionable": [
+                            "Acknowledge your fears in relationships.",
+                            "Embrace your authentic self with partners."
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "houses": [
+        {
+            "number": 1,
+            "cusp": 30.12,
+            "sign": "taurus",
+            "signIndex": 1
+        },
+        {
+            "number": 2,
+            "cusp": 60.12,
+            "sign": "gemini",
+            "signIndex": 2
+        },
+        {
+            "number": 3,
+            "cusp": 90.12,
+            "sign": "cancer",
+            "signIndex": 3
+        },
+        {
+            "number": 4,
+            "cusp": 120.12,
+            "sign": "leo",
+            "signIndex": 4
+        },
+        {
+            "number": 5,
+            "cusp": 150.12,
+            "sign": "virgo",
+            "signIndex": 5
+        },
+        {
+            "number": 6,
+            "cusp": 180.12,
+            "sign": "libra",
+            "signIndex": 6
+        },
+        {
+            "number": 7,
+            "cusp": 210.12,
+            "sign": "scorpio",
+            "signIndex": 7
+        },
+        {
+            "number": 8,
+            "cusp": 240.12,
+            "sign": "sagittarius",
+            "signIndex": 8
+        },
+        {
+            "number": 9,
+            "cusp": 270.12,
+            "sign": "capricorn",
+            "signIndex": 9
+        },
+        {
+            "number": 10,
+            "cusp": 300.12,
+            "sign": "aquarius",
+            "signIndex": 10
+        },
+        {
+            "number": 11,
+            "cusp": 330.12,
+            "sign": "pisces",
+            "signIndex": 11
+        },
+        {
+            "number": 12,
+            "cusp": 0.12,
+            "sign": "aries",
+            "signIndex": 0
+        }
+    ],
+    "aspects": [
+        {
+            "planet1": "sun",
+            "planet2": "moon",
+            "angle": 117.5,
+            "rawAngle": 117.47,
+            "type": "trine",
+            "orb": 2.5,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "capricorn",
+            "description": {
+                "type": "fallback",
+                "description": {
+                    "short": "Описание скоро появится",
+                    "full": "Мы добавим интерпретацию для этой пары планет",
+                    "needs_review": true
+                }
+            }
+        },
+        {
+            "planet1": "sun",
+            "planet2": "venus",
+            "angle": 54.4,
+            "rawAngle": 54.38,
+            "type": "sextile",
+            "orb": 5.6,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "aries",
+            "description": {
+                "type": "sign_combo",
+                "description": {
+                    "id": 1,
+                    "key": "signpair.sun_venus.taurus_aries",
+                    "type": "sign_pair_combo",
+                    "short": "Тельцы и Овны сочетают упорство и страсть, создавая динамичные отношения.",
+                    "full": "Солнце в Тельце и Венера в Овне создают уникальную комбинацию стабильности и импульсивности. Тельцы привносят в отношения терпение и надежность, в то время как Овны добавляют страсть и энергию. Это сочетание может привести к гармонии, если оба партнера научатся ценить различия друг друга.",
+                    "tags": ["таурус", "овен", "отношения", "астрология"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "sun",
+            "planet2": "saturn",
+            "angle": 119.1,
+            "rawAngle": 119.13,
+            "type": "trine",
+            "orb": 0.9,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "capricorn",
+            "description": {
+                "type": "fallback",
+                "description": {
+                    "short": "Описание скоро появится",
+                    "full": "Мы добавим интерпретацию для этой пары планет",
+                    "needs_review": true
+                }
+            }
+        },
+        {
+            "planet1": "moon",
+            "planet2": "venus",
+            "angle": 63.1,
+            "rawAngle": 63.1,
+            "type": "sextile",
+            "orb": 3.1,
+            "exact": false,
+            "sign1": "capricorn",
+            "sign2": "aries",
+            "description": {
+                "type": "sign_combo",
+                "description": {
+                    "id": 6,
+                    "key": "signpair.moon_venus.capricorn_aries",
+                    "type": "sign_pair_combo",
+                    "short": "Консервативность Луны в Козероге и новаторство Венеры в Овне.",
+                    "full": "Консервативный подход Луны в Козероге к эмоциям может быть разбавлен новаторским и экспериментальным подходом Венеры в Овне. Это открывает новые пути в выражении чувств.",
+                    "tags": ["консервативность", "новаторство", "эксперименты"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "moon",
+            "planet2": "saturn",
+            "angle": 1.7,
+            "rawAngle": 1.65,
+            "type": "conjunction",
+            "orb": 1.7,
+            "exact": false,
+            "sign1": "capricorn",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 3,
+                    "key": "aspect.moon_saturn.conjunction",
+                    "type": "aspect_pair",
+                    "short": "Эмоциональная зрелость и ответственность выделяются при этом соединении.",
+                    "full": "Соединение Луны и Сатурна часто символизирует эмоциональную зрелость и чувство долга. Люди с таким аспектом могут проявлять большую ответственность за своих близких и стремиться к созданию надежной эмоциональной основы. Их чувства обычно глубоки и продуманны.",
+                    "tags": ["зрелость", "долг", "эмоции"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "mercury",
+            "planet2": "jupiter",
+            "angle": 61.5,
+            "rawAngle": 61.52,
+            "type": "sextile",
+            "orb": 1.5,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "cancer",
+            "description": {
+                "type": "fallback",
+                "description": {
+                    "short": "Описание скоро появится",
+                    "full": "Мы добавим интерпретацию для этой пары планет",
+                    "needs_review": true
+                }
+            }
+        },
+        {
+            "planet1": "mercury",
+            "planet2": "uranus",
+            "angle": 118.8,
+            "rawAngle": 118.83,
+            "type": "trine",
+            "orb": 1.2,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 2,
+                    "key": "aspect.mercury_uranus.trine",
+                    "type": "aspect_pair",
+                    "short": "Спонтанность и интеллектуальная свобода в общении.",
+                    "full": "Трин между Меркурием и Ураном создает благоприятные условия для спонтанного и свободного обмена мыслями. Это сочетание поощряет интеллектуальную независимость и способность видеть вещи под необычным углом.",
+                    "tags": ["спонтанность", "свобода", "интеллект"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "mercury",
+            "planet2": "neptune",
+            "angle": 113.7,
+            "rawAngle": 113.66,
+            "type": "trine",
+            "orb": 6.3,
+            "exact": false,
+            "sign1": "taurus",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 5,
+                    "key": "aspect.mercury_neptune.trine",
+                    "type": "aspect_pair",
+                    "short": "Интуитивное понимание символов и метафор в общении.",
+                    "full": "Этот аспект даёт способность глубоко понимать и использовать символы и метафоры, обогащая общение и творческое выражение.",
+                    "tags": ["символизм", "метафоры", "интуиция"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "venus",
+            "planet2": "saturn",
+            "angle": 64.8,
+            "rawAngle": 64.75,
+            "type": "sextile",
+            "orb": 4.8,
+            "exact": false,
+            "sign1": "aries",
+            "sign2": "capricorn",
+            "description": {
+                "type": "fallback",
+                "description": {
+                    "short": "Описание скоро появится",
+                    "full": "Мы добавим интерпретацию для этой пары планет",
+                    "needs_review": true
+                }
+            }
+        },
+        {
+            "planet1": "mars",
+            "planet2": "neptune",
+            "angle": 64,
+            "rawAngle": 63.97,
+            "type": "sextile",
+            "orb": 4,
+            "exact": false,
+            "sign1": "pisces",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 1,
+                    "key": "aspect.mars_neptune.sextile",
+                    "type": "aspect_pair",
+                    "short": "Гармоничное сочетание энергии Марса и интуиции Нептуна.",
+                    "full": "Секстиль между Марсом и Нептуном способствует гармоничному сочетанию энергии и интуиции. Это может помочь в творческих начинаниях, где требуется как действие, так и вдохновение. Люди с таким аспектом часто находят баланс между решительностью и чувствительностью.",
+                    "tags": ["гармония", "творчество", "баланс"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "mars",
+            "planet2": "pluto",
+            "angle": 122.2,
+            "rawAngle": 122.15,
+            "type": "trine",
+            "orb": 2.2,
+            "exact": false,
+            "sign1": "pisces",
+            "sign2": "scorpio",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 5,
+                    "key": "aspect.mars_pluto.trine",
+                    "type": "aspect_pair",
+                    "short": "Трин Марса и Плутона усиливает волю и способность к изменениям.",
+                    "full": "При трине Марса и Плутона воля и способность к глубоким изменениям усиливаются, создавая благоприятные условия для личностного роста. Этот аспект способствует гармоничному взаимодействию между желанием действовать и необходимостью трансформации, позволяя эффективно использовать кризисы как возможности для развития. Он поддерживает устойчивость и адаптивность в меняющихся условиях.",
+                    "tags": ["Марс", "Плутон", "трин", "воля", "адаптивность"],
+                    "audience": "astrology_enthusiasts",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "jupiter",
+            "planet2": "uranus",
+            "angle": 179.6,
+            "rawAngle": 179.65,
+            "type": "opposition",
+            "orb": 0.4,
+            "exact": false,
+            "sign1": "cancer",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 4,
+                    "key": "aspect.jupiter_uranus.opposition",
+                    "type": "aspect_pair",
+                    "short": "Динамика между расширением Юпитера и революцией Урана.",
+                    "full": "Оппозиция Юпитера и Урана создаёт уникальную динамику между стремлением к расширению и росту (Юпитер) и революционными, освобождающими энергиями Урана. Этот аспект может вдохновлять на смелые шаги, но также требует осознания последствий таких действий.",
+                    "tags": ["Юпитер", "Уран", "оппозиция", "динамика", "революция"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": 1,
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "jupiter",
+            "planet2": "neptune",
+            "angle": 175.2,
+            "rawAngle": 175.18,
+            "type": "opposition",
+            "orb": 4.8,
+            "exact": false,
+            "sign1": "cancer",
+            "sign2": "capricorn",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 5,
+                    "key": "aspect.jupiter_neptune.opposition",
+                    "type": "aspect_pair",
+                    "short": "Юпитер и Нептун в оппозиции: баланс между мечтой и реальностью.",
+                    "full": "Оппозиция Юпитера и Нептуна в натальной карте подчёркивает необходимость баланса между высокими идеалами и практической реальностью. Этот аспект побуждает к интеграции духовных ценностей в повседневную жизнь.",
+                    "tags": ["Юпитер", "Нептун", "оппозиция", "мечта", "реальность"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "jupiter",
+            "planet2": "pluto",
+            "angle": 126.6,
+            "rawAngle": 126.63,
+            "type": "trine",
+            "orb": 6.6,
+            "exact": false,
+            "sign1": "cancer",
+            "sign2": "scorpio",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 5,
+                    "key": "aspect.jupiter_pluto.trine",
+                    "type": "aspect_pair",
+                    "short": "Трин Юпитера и Плутона поддерживает исследование тайн жизни.",
+                    "full": "Трин Юпитера и Плутона благоприятствует исследованию тайн жизни и вселенной. Юпитер стимулирует любознательность, а Плутон даёт доступ к скрытым знаниям, вместе они способствуют глубокому пониманию существования.",
+                    "tags": ["mystery", "curiosity", "hidden knowledge"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        },
+        {
+            "planet1": "uranus",
+            "planet2": "neptune",
+            "angle": 5.2,
+            "rawAngle": 5.17,
+            "type": "conjunction",
+            "orb": 5.2,
+            "exact": false,
+            "sign1": "capricorn",
+            "sign2": "capricorn",
+            "description": {
+                "type": "fallback",
+                "description": {
+                    "short": "Описание скоро появится",
+                    "full": "Мы добавим интерпретацию для этой пары планет",
+                    "needs_review": true
+                }
+            }
+        },
+        {
+            "planet1": "neptune",
+            "planet2": "pluto",
+            "angle": 58.2,
+            "rawAngle": 58.19,
+            "type": "sextile",
+            "orb": 1.8,
+            "exact": false,
+            "sign1": "capricorn",
+            "sign2": "scorpio",
+            "description": {
+                "type": "aspect",
+                "description": {
+                    "id": 6,
+                    "key": "aspect.neptune_pluto.sextile",
+                    "type": "aspect_pair",
+                    "short": "Аспект усиливает способность к эмпатии и глубоким эмоциональным связям.",
+                    "full": "Секстиль между Нептуном и Плутоном углубляет способность к эмпатии, позволяя устанавливать глубокие эмоциональные связи с другими. Этот аспект поддерживает понимание и сочувствие, облегчая процессы эмоционального обмена и взаимопонимания в отношениях.",
+                    "tags": ["эмпатия", "эмоции", "отношения"],
+                    "audience": "general",
+                    "lang": "ru",
+                    "version": "1.0",
+                    "needs_review": false
+                }
+            }
+        }
+    ],
+    "life_areas": {
+        "relationships": [
+            {
+                "id": 1,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Укрепление доверия и взаимопонимания в отношениях.",
+                "full": "Доверие и взаимопонимание являются фундаментом крепких отношений. Работа над открытостью и честностью помогает углубить связь между партнёрами. Важно слушать и слышать друг друга, чтобы преодолевать недопонимания. Регулярное обсуждение чувств и ожиданий способствует гармонии.",
+                "tags": ["доверие", "взаимопонимание", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Открытость", "Честность", "Готовность к диалогу"],
+                "challenges": ["Недопонимание", "Страх уязвимости"],
+                "actionable": ["Практикуйте активное слушание", "Регулярно обсуждайте ваши чувства и ожидания"]
+            },
+            {
+                "id": 2,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Развитие эмоциональной близости с партнёром.",
+                "full": "Эмоциональная близость позволяет чувствовать себя в безопасности и быть принятым. Совместные переживания и поддержка в трудные моменты укрепляют связь. Важно делиться своими мыслями и чувствами, не боясь осуждения. Это создаёт основу для глубоких и удовлетворяющих отношений.",
+                "tags": ["эмоциональная близость", "поддержка", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Безопасность", "Принятие", "Поддержка"],
+                "challenges": ["Страх осуждения", "Нежелание открываться"],
+                "actionable": ["Делитесь своими переживаниями", "Поддерживайте партнёра в трудные моменты"]
+            },
+            {
+                "id": 3,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Баланс между личным пространством и совместным времяпрепровождением.",
+                "full": "Сохранение баланса между личным пространством и временем, проведённым вместе, важно для здоровых отношений. Уважение к индивидуальности каждого способствует гармонии. Совместные интересы и увлечения обогащают отношения, а личное время позволяет сохранить свою идентичность.",
+                "tags": ["баланс", "личное пространство", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Уважение", "Гармония", "Индивидуальность"],
+                "challenges": ["Потеря идентичности", "Недостаток личного времени"],
+                "actionable": ["Находите время для своих увлечений", "Планируйте совместные мероприятия"]
+            },
+            {
+                "id": 4,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Эффективное разрешение конфликтов в отношениях.",
+                "full": "Конфликты являются естественной частью отношений, но их разрешение требует навыков. Важно подходить к спорам с желанием понять, а не победить. Использование 'я-высказываний' и избегание обвинений способствует конструктивному диалогу. Это укрепляет отношения, а не разрушает их.",
+                "tags": ["конфликты", "разрешение", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Понимание", "Конструктивность", "Укрепление связей"],
+                "challenges": ["Эмоциональные всплески", "Нежелание идти на компромисс"],
+                "actionable": ["Используйте 'я-высказывания'", "Стремитесь к пониманию, а не к победе"]
+            },
+            {
+                "id": 5,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Поддержание страсти и романтики в долгосрочных отношениях.",
+                "full": "Сохранение страсти и романтики требует усилий и творчества. Небольшие жесты внимания и неожиданные сюрпризы могут оживить чувства. Важно помнить о значимости физической и эмоциональной близости. Регулярное выделение времени на романтические моменты помогает поддерживать огонь в отношениях.",
+                "tags": ["страсть", "романтика", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Творчество", "Внимание", "Близость"],
+                "challenges": ["Рутина", "Потеря интереса"],
+                "actionable": ["Планируйте романтические свидания", "Делайте неожиданные жесты внимания"]
+            },
+            {
+                "id": 6,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Построение здоровых границ в отношениях.",
+                "full": "Здоровые границы позволяют сохранить уважение и индивидуальность в отношениях. Чёткое обозначение своих потребностей и уважение к потребностям партнёра способствует гармонии. Важно уметь говорить 'нет' и принимать отказы без обид. Это создаёт основу для равноправных и уважительных отношений.",
+                "tags": ["границы", "уважение", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Уважение", "Индивидуальность", "Гармония"],
+                "challenges": ["Страх отказа", "Непонимание потребностей"],
+                "actionable": ["Обсуждайте и устанавливайте границы", "Учитесь говорить 'нет' и принимать отказы"]
+            },
+            {
+                "id": 7,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Развитие навыков эмпатии в отношениях.",
+                "full": "Эмпатия позволяет глубже понимать чувства и переживания партнёра. Умение поставить себя на место другого способствует более тёплым и поддерживающим отношениям. Важно проявлять искренний интерес и заботу. Это укрепляет эмоциональную связь и доверие между партнёрами.",
+                "tags": ["эмпатия", "понимание", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Понимание", "Поддержка", "Доверие"],
+                "challenges": ["Эгоцентризм", "Непонимание чувств партнёра"],
+                "actionable": ["Практикуйте активное слушание", "Старайтесь понять чувства партнёра"]
+            },
+            {
+                "id": 8,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Совместное планирование будущего в отношениях.",
+                "full": "Совместное планирование будущего укрепляет отношения и создаёт общие цели. Обсуждение ожиданий и мечт помогает лучше понять друг друга. Важно учитывать интересы и желания обоих партнёров. Это способствует созданию прочного фундамента для долгосрочных отношений.",
+                "tags": ["планирование", "будущее", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Общие цели", "Понимание", "Прочность"],
+                "challenges": ["Разные ожидания", "Нежелание идти на компромисс"],
+                "actionable": ["Регулярно обсуждайте ваши планы и мечты", "Учитывайте интересы друг друга"]
+            },
+            {
+                "id": 9,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Умение прощать и отпускать обиды в отношениях.",
+                "full": "Умение прощать и отпускать обиды важно для здоровых и долгосрочных отношений. Затаённые обиды могут разрушать связь изнутри. Важно выражать свои чувства и работать над разрешением конфликтов. Это способствует эмоциональному освобождению и укреплению отношений.",
+                "tags": ["прощение", "обиды", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Эмоциональное освобождение", "Укрепление связей", "Гармония"],
+                "challenges": ["Затаённые обиды", "Нежелание прощать"],
+                "actionable": ["Выражайте свои чувства конструктивно", "Работайте над разрешением конфликтов"]
+            },
+            {
+                "id": 10,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Поддержание интереса и разнообразия в повседневной жизни.",
+                "full": "Поддержание интереса и разнообразия помогает избежать рутины в отношениях. Новые совместные впечатления и опыт обогащают жизнь пары. Важно находить время для необычных занятий и приключений. Это вносит свежесть и радость в повседневность.",
+                "tags": ["интерес", "разнообразие", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Свежесть", "Радость", "Обогащение"],
+                "challenges": ["Рутина", "Недостаток времени"],
+                "actionable": ["Пробуйте новые виды деятельности вместе", "Планируйте необычные свидания"]
+            },
+            {
+                "id": 11,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Укрепление дружеской основы в романтических отношениях.",
+                "full": "Дружеская основа делает романтические отношения более прочными и доверительными. Совместный смех и поддержка в трудные моменты укрепляют связь. Важно ценить и развивать дружеские аспекты отношений. Это создаёт дополнительный уровень близости и понимания.",
+                "tags": ["дружба", "романтика", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Доверие", "Поддержка", "Близость"],
+                "challenges": ["Потеря дружеской связи", "Недостаток общих интересов"],
+                "actionable": [
+                    "Находите время для совместного отдыха и развлечений",
+                    "Поддерживайте друг друга в трудные моменты"
+                ]
+            },
+            {
+                "id": 12,
+                "key": "life.relationships",
+                "type": "life_area",
+                "short": "Развитие терпимости и принятия различий в отношениях.",
+                "full": "Терпимость и принятие различий способствуют гармонии в отношениях. Уважение к индивидуальности партнёра обогащает совместную жизнь. Важно учиться ценить уникальность друг друга. Это создаёт атмосферу взаимного уважения и понимания.",
+                "tags": ["терпимость", "принятие", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["Уважение", "Гармония", "Обогащение"],
+                "challenges": ["Непонимание", "Неприятие различий"],
+                "actionable": ["Учитесь ценить уникальность партнёра", "Практикуйте уважение к различиям"]
+            }
+        ],
+        "career": [
+            {
+                "id": 1,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Развитие карьеры требует постоянного обучения и адаптации.",
+                "full": "В современном мире карьера — это путь постоянного роста и адаптации. Успех зависит от вашей способности обучаться новому и применять знания на практике. Важно быть открытым к изменениям и готовым к вызовам, которые предлагает профессиональная среда.",
+                "tags": ["карьера", "развитие", "обучение"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 2,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Сетевые возможности могут значительно ускорить карьерный рост.",
+                "full": "Создание и поддержание профессиональных связей открывает двери к новым возможностям. Сетевые взаимодействия могут предоставить доступ к знаниям, ресурсам и поддержке, которые трудно получить в одиночку. Активное участие в профессиональных сообществах может стать ключом к вашему следующему карьерному шагу.",
+                "tags": ["сети", "карьера", "возможности"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 3,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Баланс между работой и личной жизнью важен для долгосрочного успеха.",
+                "full": "Достижение баланса между профессиональными и личными обязательствами способствует не только личному благополучию, но и повышению продуктивности на работе. Умение расставлять приоритеты и находить время для отдыха и семьи делает карьеру более устойчивой и удовлетворяющей.",
+                "tags": ["баланс", "карьера", "продуктивность"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 4,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Лидерские качества могут открыть новые карьерные перспективы.",
+                "full": "Развитие лидерских навыков позволяет не только эффективно управлять командой, но и вдохновлять коллег на достижение общих целей. Лидерство — это также о способности принимать решения и брать на себя ответственность, что ценится в любой профессиональной среде.",
+                "tags": ["лидерство", "карьера", "развитие"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 5,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Гибкость в подходе к карьере помогает преодолевать неожиданные вызовы.",
+                "full": "Способность адаптироваться к изменениям и находить нестандартные решения делает профессионала более устойчивым к кризисам. Гибкость позволяет видеть возможности там, где другие видят только препятствия, открывая путь к инновациям и росту.",
+                "tags": ["гибкость", "карьера", "адаптация"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 6,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Самомотивация — ключевой фактор в достижении карьерных целей.",
+                "full": "Внутренняя мотивация подпитывает стремление к профессиональному развитию даже в отсутствие внешних стимулов. Умение ставить перед собой четкие цели и находить радость в процессе их достижения делает карьерный путь более осмысленным и продуктивным.",
+                "tags": ["мотивация", "карьера", "цели"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 7,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Эффективное управление временем повышает продуктивность на работе.",
+                "full": "Освоение навыков тайм-менеджмента позволяет более эффективно распределять рабочее время, снижая уровень стресса и повышая качество выполняемой работы. Приоритизация задач и умение концентрироваться на важном — ключевые аспекты профессионального успеха.",
+                "tags": ["тайм-менеджмент", "карьера", "продуктивность"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 8,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Постоянное обучение делает профессионала более конкурентоспособным.",
+                "full": "В условиях быстро меняющегося рынка труда непрерывное обучение становится необходимостью. Освоение новых навыков и технологий не только расширяет профессиональные горизонты, но и увеличивает вашу ценность как специалиста.",
+                "tags": ["обучение", "карьера", "конкурентоспособность"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 9,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Умение работать в команде способствует профессиональному росту.",
+                "full": "Способность эффективно взаимодействовать с коллегами, учитывать разные точки зрения и вносить вклад в общее дело — важные навыки для любого профессионала. Командная работа не только ускоряет достижение целей, но и обогащает личный опыт.",
+                "tags": ["команда", "карьера", "взаимодействие"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 10,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Креативность помогает находить уникальные решения рабочих задач.",
+                "full": "В профессиональной деятельности креативность позволяет выходить за рамки стандартных подходов и находить инновационные решения сложных проблем. Развитие творческого мышления делает работу более увлекательной и результативной.",
+                "tags": ["креативность", "карьера", "инновации"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 11,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Эмоциональный интеллект улучшает взаимодействие на рабочем месте.",
+                "full": "Понимание и управление своими эмоциями, а также способность эмпатировать коллегам, создает более гармоничную и продуктивную рабочую атмосферу. Эмоциональный интеллект — ключевой навык для эффективного лидерства и командной работы.",
+                "tags": ["эмоциональный интеллект", "карьера", "взаимодействие"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 12,
+                "key": "life.career",
+                "type": "life_area",
+                "short": "Стратегическое мышление помогает в долгосрочном планировании карьеры.",
+                "full": "Способность видеть общую картину и планировать свои действия с учетом долгосрочных целей делает профессиональный путь более осознанным и направленным. Стратегическое мышление позволяет предвидеть изменения и готовиться к ним заранее.",
+                "tags": ["стратегия", "карьера", "планирование"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            }
+        ],
+        "finance": [
+            {
+                "id": 1,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Управление личными финансами требует осознанности и планирования.",
+                "full": "Эффективное управление личными финансами начинается с понимания своих доходов и расходов. Создание бюджета помогает контролировать финансовые потоки и избегать ненужных трат. Важно также учитывать долгосрочные цели, такие как накопления или инвестиции, чтобы обеспечить финансовую стабильность в будущем.",
+                "tags": ["финансы", "бюджет", "накопления"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 2,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Инвестиции могут быть инструментом для роста капитала при грамотном подходе.",
+                "full": "Инвестирование требует не только начального капитала, но и знаний о рынках и рисках. Диверсификация портфеля помогает снизить потенциальные потери. Важно начинать с малого и постепенно увеличивать инвестиции, обучаясь на собственном опыте и консультируясь с экспертами.",
+                "tags": ["инвестиции", "капитал", "риски"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 3,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Создание резервного фонда — первый шаг к финансовой безопасности.",
+                "full": "Резервный фонд служит финансовой подушкой безопасности на случай непредвиденных обстоятельств. Рекомендуется накопить сумму, покрывающую 3-6 месяцев жизни. Это позволяет чувствовать себя увереннее и избегать долгов при возникновении непредвиденных ситуаций.",
+                "tags": ["резервный фонд", "финансовая безопасность", "накопления"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 4,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Погашение долгов должно быть приоритетом для улучшения финансового здоровья.",
+                "full": "Наличие долгов может значительно ограничивать финансовую свободу. Разработка стратегии погашения, начиная с самых высоких процентов, помогает быстрее снизить общую задолженность. Важно также избегать новых долгов, сосредоточившись на текущих обязательствах.",
+                "tags": ["долги", "финансовое здоровье", "стратегия"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 5,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Финансовая грамотность — основа для принятия обоснованных решений.",
+                "full": "Понимание основных финансовых концепций, таких как проценты, инфляция и налоги, позволяет делать более осознанные выборы. Образование в этой области можно получить через книги, курсы и консультации с профессионалами. Это инвестиция в себя, которая окупается на протяжении всей жизни.",
+                "tags": ["финансовая грамотность", "образование", "решения"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 6,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Планирование пенсии важно для обеспечения комфортной жизни в будущем.",
+                "full": "Раннее начало пенсионных накоплений позволяет использовать преимущества сложных процентов. Разнообразие инструментов, таких как пенсионные фонды и индивидуальные инвестиционные счета, предлагает гибкость в планировании. Регулярные взносы, даже небольшие, могут значительно увеличить будущий капитал.",
+                "tags": ["пенсия", "накопления", "инвестиции"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 7,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Страхование — это способ защиты от непредвиденных финансовых потерь.",
+                "full": "Выбор правильных страховых продуктов может предотвратить значительные финансовые трудности в случае болезни, аварии или потери имущества. Важно оценить свои риски и подобрать страховку, которая покрывает наиболее вероятные и серьезные угрозы.",
+                "tags": ["страхование", "защита", "риски"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 8,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Оптимизация налогов позволяет законно уменьшить финансовую нагрузку.",
+                "full": "Знание налогового законодательства и доступных льгот может помочь в уменьшении суммы налогов. Использование налоговых вычетов и кредитов требует внимания к деталям и, иногда, консультации со специалистом. Это важная часть финансового планирования.",
+                "tags": ["налоги", "оптимизация", "планирование"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 9,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Пассивный доход создает основу для финансовой независимости.",
+                "full": "Создание источников пассивного дохода, таких как аренда, дивиденды или роялти, требует начальных усилий и инвестиций. Однако, в долгосрочной перспективе, это может обеспечить стабильный приток средств, уменьшая зависимость от основной работы.",
+                "tags": ["пассивный доход", "независимость", "инвестиции"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 10,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Финансовые цели помогают направлять и мотивировать к действиям.",
+                "full": "Постановка конкретных, измеримых и достижимых финансовых целей создает четкий план действий. Будь то покупка жилья, образование детей или ранний выход на пенсию, цели служат ориентиром для принятия решений и распределения ресурсов.",
+                "tags": ["цели", "мотивация", "планирование"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 11,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Контроль над импульсивными покупками сохраняет бюджет.",
+                "full": "Импульсивные покупки могут значительно нарушить финансовые планы. Развитие осознанного потребления, составление списков покупок и установление лимитов помогают избежать ненужных трат. Это способствует более рациональному использованию средств.",
+                "tags": ["покупки", "бюджет", "контроль"],
+                "audience": "все",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 12,
+                "key": "life.finance",
+                "type": "life_area",
+                "short": "Совместное управление финансами в семье укрепляет доверие.",
+                "full": "Открытое обсуждение финансовых вопросов и совместное принятие решений способствует гармонии в семье. Это включает в себя планирование общих целей, распределение расходов и обсуждение стратегий накопления. Взаимопонимание в финансовых вопросах уменьшает конфликты.",
+                "tags": ["семья", "доверие", "планирование"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            }
+        ],
+        "health": [
+            {
+                "id": 1,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Поддержание физического здоровья через регулярные упражнения и сбалансированное питание.",
+                "full": "Физическое здоровье требует внимания к ежедневным привычкам, таким как регулярные упражнения и сбалансированное питание. Это не только улучшает общее самочувствие, но и повышает уровень энергии. Важно находить виды активности, которые приносят удовольствие, чтобы поддерживать мотивацию.",
+                "tags": ["физическое здоровье", "упражнения", "питание"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 2,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Ментальное здоровье можно улучшить через практики осознанности и регулярный отдых.",
+                "full": "Забота о ментальном здоровье включает в себя практики осознанности, такие как медитация, и обеспечение достаточного времени для отдыха. Эти методы помогают снизить уровень стресса и улучшить качество сна, что в свою очередь положительно влияет на общее самочувствие.",
+                "tags": ["ментальное здоровье", "осознанность", "отдых"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 3,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Здоровый сон — основа хорошего самочувствия и продуктивности.",
+                "full": "Качественный сон играет ключевую роль в поддержании здоровья, влияя на настроение, уровень энергии и когнитивные функции. Создание комфортных условий для сна и соблюдение режима могут значительно улучшить его качество.",
+                "tags": ["сон", "здоровье", "продуктивность"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 4,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Гидратация организма важна для поддержания энергии и здоровья кожи.",
+                "full": "Достаточное потребление воды необходимо для оптимального функционирования организма, включая поддержание уровня энергии и здоровья кожи. Рекомендуется выпивать не менее 8 стаканов воды в день, чтобы избежать обезвоживания.",
+                "tags": ["гидратация", "вода", "здоровье"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 5,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Регулярные медицинские обследования помогают вовремя выявить потенциальные проблемы со здоровьем.",
+                "full": "Профилактические медицинские обследования позволяют выявить потенциальные проблемы со здоровьем на ранних стадиях, что значительно увеличивает шансы на успешное лечение. Важно не пренебрегать регулярными визитами к врачу, даже при отсутствии симптомов.",
+                "tags": ["медицинские обследования", "профилактика", "здоровье"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 6,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Сбалансированное питание обеспечивает организм необходимыми витаминами и минералами.",
+                "full": "Сбалансированное питание, богатое фруктами, овощами, белками и цельными злаками, обеспечивает организм всеми необходимыми витаминами и минералами. Это способствует укреплению иммунитета и поддержанию здорового веса.",
+                "tags": ["питание", "витамины", "здоровье"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 7,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Активный образ жизни способствует долголетию и улучшению качества жизни.",
+                "full": "Регулярная физическая активность, будь то ходьба, плавание или йога, способствует укреплению сердечно-сосудистой системы, улучшению гибкости и выносливости. Это ключевой фактор для долголетия и повышения качества жизни.",
+                "tags": ["активный образ жизни", "физическая активность", "долголетие"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 8,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Управление стрессом через техники релаксации улучшает психическое и физическое здоровье.",
+                "full": "Эффективное управление стрессом с помощью техник релаксации, таких как глубокое дыхание или йога, может значительно улучшить как психическое, так и физическое здоровье. Это помогает снизить риск развития хронических заболеваний, связанных со стрессом.",
+                "tags": ["стресс", "релаксация", "здоровье"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 9,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Отказ от вредных привычек, таких как курение, улучшает общее состояние здоровья.",
+                "full": "Отказ от вредных привычек, включая курение и чрезмерное употребление алкоголя, приводит к значительному улучшению общего состояния здоровья. Это снижает риск развития многих заболеваний и повышает качество жизни.",
+                "tags": ["вредные привычки", "курение", "здоровье"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 10,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Социальные связи и поддержка важны для эмоционального и физического благополучия.",
+                "full": "Крепкие социальные связи и поддержка со стороны друзей и семьи играют важную роль в эмоциональном и физическом благополучии. Они помогают справляться со стрессом и повышают чувство принадлежности и счастья.",
+                "tags": ["социальные связи", "поддержка", "благополучие"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 11,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Позитивное мышление и благодарность способствуют улучшению психического здоровья.",
+                "full": "Практика позитивного мышления и выражение благодарности могут значительно улучшить психическое здоровье, снижая уровень стресса и повышая удовлетворенность жизнью. Это простые, но мощные инструменты для улучшения общего благополучия.",
+                "tags": ["позитивное мышление", "благодарность", "психическое здоровье"],
+                "audience": "все",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 12,
+                "key": "life.health",
+                "type": "life_area",
+                "short": "Регулярные перерывы в работе помогают предотвратить выгорание и улучшить продуктивность.",
+                "full": "Сделать регулярные перерывы во время работы — это эффективный способ предотвратить выгорание и сохранить высокий уровень продуктивности. Короткие паузы для растяжки или прогулки могут значительно улучшить концентрацию и снизить усталость.",
+                "tags": ["перерывы", "выгорание", "продуктивность"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            }
+        ],
+        "family": [
+            {
+                "id": 1,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это основа, где мы находим поддержку и понимание.",
+                "full": "Семья играет ключевую роль в нашей жизни, предоставляя нам чувство принадлежности и безопасности. Это место, где мы можем быть самими собой, делиться своими радостями и печалями. Взаимная поддержка и любовь укрепляют семейные узы, делая их источником силы в трудные времена.",
+                "tags": ["семья", "поддержка", "любовь"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["взаимопонимание", "поддержка"],
+                "challenges": ["конфликты", "недостаток времени"],
+                "actionable": ["уделяйте время семейным ужинам", "обсуждайте планы и мечты вместе"]
+            },
+            {
+                "id": 2,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья учит нас терпению и безусловной любви.",
+                "full": "В семье мы учимся самым важным жизненным урокам: терпению, прощению и безусловной любви. Эти качества помогают нам строить крепкие отношения не только внутри семьи, но и за её пределами. Семья - это первый социальный институт, который формирует нашу личность и мировоззрение.",
+                "tags": ["семья", "любовь", "развитие"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["безусловная любовь", "личное развитие"],
+                "challenges": ["различия во взглядах", "эмоциональные нагрузки"],
+                "actionable": ["практикуйте активное слушание", "выражайте благодарность ежедневно"]
+            },
+            {
+                "id": 3,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семейные традиции создают уникальную связь между поколениями.",
+                "full": "Семейные традиции и ритуалы играют важную роль в укреплении связей между членами семьи. Они создают чувство единства и принадлежности, передавая ценности и истории из поколения в поколение. Эти моменты становятся драгоценными воспоминаниями, которые мы храним всю жизнь.",
+                "tags": ["традиции", "семья", "наследие"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["чувство единства", "передача ценностей"],
+                "challenges": ["поддержание традиций", "временные затраты"],
+                "actionable": ["создавайте новые семейные традиции", "делитесь семейными историями"]
+            },
+            {
+                "id": 4,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это команда, где каждый играет свою уникальную роль.",
+                "full": "В семье, как в команде, каждый член вносит свой уникальный вклад, создавая гармонию и баланс. Понимание и уважение к индивидуальности каждого укрепляет семейные отношения, делая их более гибкими и устойчивыми к внешним вызовам. Совместные цели и мечты объединяют семью, направляя её к общему успеху.",
+                "tags": ["команда", "гармония", "уважение"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["гармония", "устойчивость"],
+                "challenges": ["баланс индивидуальности и единства", "внешние вызовы"],
+                "actionable": ["определите общие семейные цели", "уважайте личное пространство каждого"]
+            },
+            {
+                "id": 5,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это безопасная гавань в мире неопределённости.",
+                "full": "В мире полном неопределённости и перемен, семья остаётся нашей безопасной гаванью, где мы можем найти утешение и поддержку. Это место, где нас принимают такими, какие мы есть, без условий и ожиданий. Такая безусловная поддержка даёт нам силы и уверенность в себе.",
+                "tags": ["безопасность", "поддержка", "принятие"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["безусловное принятие", "уверенность"],
+                "challenges": ["стресс и неопределённость", "эмоциональные потребности"],
+                "actionable": ["создавайте ритуалы для снятия стресса", "поддерживайте открытое общение"]
+            },
+            {
+                "id": 6,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья помогает нам расти и развиваться через любовь и заботу.",
+                "full": "Семья - это первая школа жизни, где через любовь и заботу мы учимся самым важным социальным и эмоциональным навыкам. Эти уроки формируют нашу способность любить, сочувствовать и взаимодействовать с окружающим миром. Семья поддерживает нас на каждом этапе нашего роста и развития.",
+                "tags": ["развитие", "любовь", "забота"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["эмоциональное развитие", "социальные навыки"],
+                "challenges": ["различия в темпах развития", "эмоциональные перегрузки"],
+                "actionable": ["поощряйте открытое выражение чувств", "уделяйте время совместному обучению"]
+            },
+            {
+                "id": 7,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это зеркало, отражающее наши лучшие и сложные стороны.",
+                "full": "Семья служит зеркалом, в котором мы видим отражение наших лучших качеств и тех сторон, над которыми стоит работать. Эти отражения помогают нам лучше понять себя и свои отношения с окружающими. Взаимная обратная связь в семье способствует личностному росту и улучшению отношений.",
+                "tags": ["самопознание", "рост", "отношения"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["самопознание", "личностный рост"],
+                "challenges": ["конфронтация с собой", "необходимость изменений"],
+                "actionable": ["практикуйте конструктивную обратную связь", "работайте над личными границами"]
+            },
+            {
+                "id": 8,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья учит нас ценить моменты и создавать воспоминания.",
+                "full": "Семья напоминает нам о важности ценить каждый момент и создавать воспоминания, которые будут согревать нас в будущем. Совместные переживания, будь то радость или печаль, укрепляют наши связи и делают нас ближе. Эти моменты становятся фундаментом нашей общей истории.",
+                "tags": ["воспоминания", "моменты", "история"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["общие воспоминания", "укрепление связей"],
+                "challenges": ["нахождение времени", "разные интересы"],
+                "actionable": ["планируйте регулярные семейные мероприятия", "создавайте фотоальбомы или дневники"]
+            },
+            {
+                "id": 9,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это источник вдохновения и мотивации в нашей жизни.",
+                "full": "Семья часто становится нашим главным источником вдохновения и мотивации, побуждая нас стремиться к лучшему и преодолевать трудности. Поддержка и вера близких дают нам силы идти вперёд, даже когда путь кажется непростым. Их успехи и радости вдохновляют нас на собственные достижения.",
+                "tags": ["вдохновение", "мотивация", "поддержка"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["мотивация", "вдохновение"],
+                "challenges": ["давление ожиданий", "страх разочаровать"],
+                "actionable": ["делитесь своими целями с семьёй", "отмечайте совместные достижения"]
+            },
+            {
+                "id": 10,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья учит нас искусству компромисса и взаимопонимания.",
+                "full": "В семье мы осваиваем искусство компромисса и взаимопонимания, которые являются ключом к гармоничным отношениям. Умение слушать и учитывать потребности других, не забывая о своих, помогает разрешать конфликты и укреплять доверие. Эти навыки бесценны во всех аспектах жизни.",
+                "tags": ["компромисс", "взаимопонимание", "гармония"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["гармоничные отношения", "разрешение конфликтов"],
+                "challenges": ["различия в потребностях", "эмоциональные конфликты"],
+                "actionable": ["практикуйте эмпатию в общении", "ищите решения, учитывающие всех"]
+            },
+            {
+                "id": 11,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья - это фундамент, на котором строится наша идентичность.",
+                "full": "Семья играет ключевую роль в формировании нашей идентичности, передавая нам культурные, моральные и социальные ценности. Эти основы помогают нам понимать, кто мы есть и как мы относимся к миру. Семейные корни дают нам чувство принадлежности и устойчивости в меняющемся мире.",
+                "tags": ["идентичность", "ценности", "принадлежность"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["чувство принадлежности", "устойчивость"],
+                "challenges": ["конфликт ценностей", "поиск себя"],
+                "actionable": ["изучайте семейную историю", "обсуждайте семейные ценности"]
+            },
+            {
+                "id": 12,
+                "key": "life.family",
+                "type": "life_area",
+                "short": "Семья напоминает нам о важности заботы и благодарности.",
+                "full": "Семья учит нас ценить заботу и проявлять благодарность за поддержку и любовь, которые мы получаем. Эти чувства укрепляют наши отношения и создают атмосферу взаимного уважения и признательности. Проявление заботы и благодарности делает нашу жизнь более наполненной и осмысленной.",
+                "tags": ["забота", "благодарность", "любовь"],
+                "audience": "взрослые",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false,
+                "strengths": ["взаимное уважение", "осмысленность"],
+                "challenges": ["привыкание к заботе", "выражение благодарности"],
+                "actionable": ["выражайте благодарность ежедневно", "практикуйте маленькие акты заботы"]
+            }
+        ],
+        "creativity": [
+            {
+                "id": 1,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Раскройте свой творческий потенциал через ежедневные практики.",
+                "full": "Творчество — это не врождённый дар, а навык, который можно развивать. Начните с малого: выделяйте 15 минут в день на творческие упражнения, будь то рисование, письмо или музыка. Это поможет вам постепенно раскрыть свой потенциал и найти новые способы самовыражения.",
+                "tags": ["творчество", "развитие", "самовыражение"],
+                "audience": "все, кто интересуется творчеством",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 2,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Исследуйте новые формы искусства для вдохновения.",
+                "full": "Выход за рамки привычного может значительно расширить ваш творческий горизонт. Попробуйте посетить выставку, концерт или мастер-класс по незнакомому вам виду искусства. Это откроет новые перспективы и вдохновит на собственные проекты.",
+                "tags": ["вдохновение", "искусство", "новые горизонты"],
+                "audience": "творческие люди",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 3,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Создайте пространство, способствующее творчеству.",
+                "full": "Окружающая среда играет ключевую роль в творческом процессе. Организуйте своё рабочее место так, чтобы оно вдохновляло вас: добавьте элементы, которые вас мотивируют, и уберите отвлекающие факторы. Это поможет вам сосредоточиться на творчестве.",
+                "tags": ["пространство", "вдохновение", "организация"],
+                "audience": "все, кто работает в творческой сфере",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 4,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Используйте ограничения как стимул для творчества.",
+                "full": "Ограничения могут стать мощным катализатором творческого мышления. Попробуйте установить себе определённые рамки в проекте, например, ограниченное количество цветов или слов. Это может привести к неожиданным и оригинальным решениям.",
+                "tags": ["ограничения", "креативность", "решения"],
+                "audience": "дизайнеры, писатели, художники",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 5,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Ведите дневник идей для творческих проектов.",
+                "full": "Идеи приходят в самые неожиданные моменты. Заведите дневник или используйте приложение для записи своих мыслей и вдохновения. Это поможет вам не упустить потенциально великие идеи и вернуться к ним, когда будете готовы к реализации.",
+                "tags": ["идеи", "вдохновение", "организация"],
+                "audience": "креативные профессионалы и любители",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 6,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Сотрудничайте с другими для обмена идеями.",
+                "full": "Творческое сотрудничество может открыть новые горизонты и вдохнуть жизнь в ваши проекты. Ищите единомышленников, участвуйте в мастер-классах или онлайн-сообществах. Обмен идеями и опытом может значительно обогатить ваш творческий процесс.",
+                "tags": ["сотрудничество", "обмен идеями", "сообщество"],
+                "audience": "все, кто ищет вдохновение",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 7,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Экспериментируйте с разными медиа для самовыражения.",
+                "full": "Не бойтесь выходить за пределы привычных вам форм творчества. Попробуйте что-то новое, будь то цифровое искусство, скульптура или перформанс. Эксперименты могут помочь вам обнаружить новые таланты и способы самовыражения.",
+                "tags": ["эксперименты", "новые медиа", "самовыражение"],
+                "audience": "художники и творческие личности",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 8,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Найдите время для отдыха и перезагрузки.",
+                "full": "Творчество требует энергии и вдохновения, которые часто приходят в моменты покоя. Уделяйте время отдыху, медитации или прогулкам на природе. Это поможет вам восстановить силы и вернуться к работе с новыми идеями.",
+                "tags": ["отдых", "вдохновение", "перезагрузка"],
+                "audience": "все, кто занимается творчеством",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 9,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Изучайте работы мастеров для вдохновения.",
+                "full": "Знакомство с творчеством великих художников, писателей или музыкантов может стать мощным источником вдохновения. Анализируйте их работы, изучайте техники и подходы. Это не только расширит ваш кругозор, но и обогатит ваш собственный стиль.",
+                "tags": ["вдохновение", "изучение", "мастера"],
+                "audience": "начинающие и опытные творцы",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 10,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Принимайте неудачи как часть творческого процесса.",
+                "full": "Неудачи — неизбежная часть любого творческого пути. Вместо того чтобы расстраиваться, используйте их как возможность для обучения и роста. Анализируйте, что пошло не так, и как можно улучшить ваш подход в будущем.",
+                "tags": ["неудачи", "обучение", "рост"],
+                "audience": "все, кто сталкивается с творческими кризисами",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 11,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Установите регулярный график для творческой работы.",
+                "full": "Дисциплина так же важна для творчества, как и вдохновение. Попробуйте выделять определённое время каждый день или неделю для творческой работы. Это поможет вам сохранять продуктивность и постепенно развивать свои навыки.",
+                "tags": ["дисциплина", "график", "продуктивность"],
+                "audience": "профессионалы и любители творчества",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            },
+            {
+                "id": 12,
+                "key": "life.creativity",
+                "type": "life_area",
+                "short": "Ищите вдохновение в повседневной жизни.",
+                "full": "Вдохновение можно найти в самых обычных вещах: в разговорах, природе, архитектуре или даже в настроении. Будьте открыты к миру вокруг вас, и вы обнаружите, что идеи приходят из самых неожиданных источников.",
+                "tags": ["вдохновение", "повседневность", "наблюдение"],
+                "audience": "все, кто ищет новые идеи",
+                "lang": "ru",
+                "version": "1.0",
+                "needs_review": false
+            }
+        ],
+        "spirituality": [
+            {
+                "id": 1,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Исследуйте глубины своей души через медитацию и саморефлексию.",
+                "full": "Медитация и саморефлексия открывают двери к глубокому пониманию себя и своих духовных потребностей. Эти практики помогают найти внутренний покой и гармонию, способствуя личностному росту. Регулярные занятия могут усилить связь с внутренним я, предлагая ясность и направление в жизни.",
+                "tags": ["медитация", "саморефлексия", "духовность"],
+                "audience": "все, интересующиеся духовным развитием",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 2,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Связь с природой как путь к духовному пробуждению.",
+                "full": "Проведение времени на природе может стать мощным инструментом для духовного пробуждения и обновления. Это позволяет ощутить единство со вселенной, перезагрузить ум и найти вдохновение в простых вещах. Природа напоминает нам о цикличности жизни и важности гармонии.",
+                "tags": ["природа", "духовное пробуждение", "гармония"],
+                "audience": "любители природы и духовных практик",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 3,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Духовные практики в повседневной жизни для внутреннего баланса.",
+                "full": "Включение духовных практик в повседневную жизнь помогает поддерживать внутренний баланс и спокойствие. Даже небольшие моменты осознанности или благодарности могут значительно улучшить качество жизни, создавая основу для глубокой духовной связи и удовлетворения.",
+                "tags": ["духовные практики", "осознанность", "баланс"],
+                "audience": "те, кто ищет способы интеграции духовности в ежедневную рутину",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 4,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Изучение различных религий и философий для расширения кругозора.",
+                "full": "Знакомство с различными религиями и философскими учениями обогащает духовный мир, предлагая новые перспективы и понимание жизни. Это исследование способствует терпимости, уважению к другим культурам и глубокому осознанию универсальных истин.",
+                "tags": ["религии", "философия", "духовное развитие"],
+                "audience": "люди, интересующиеся культурным и духовным разнообразием",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 5,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Творчество как выражение духовного пути и внутреннего мира.",
+                "full": "Творчество служит мощным каналом для выражения духовных поисков и внутренних переживаний. Через искусство, музыку или письмо можно исследовать глубины души, делиться своими открытиями и вдохновлять других на их собственный путь самопознания.",
+                "tags": ["творчество", "самовыражение", "духовный путь"],
+                "audience": "творческие личности, ищущие духовного выражения",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 6,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Практика благодарности для укрепления духовного благополучия.",
+                "full": "Регулярная практика благодарности способствует укреплению духовного благополучия, фокусируя внимание на позитивных аспектах жизни. Это простое, но мощное упражнение помогает развить удовлетворенность, оптимизм и более глубокую связь с окружающим миром.",
+                "tags": ["благодарность", "духовное благополучие", "позитив"],
+                "audience": "все, кто стремится к более осознанной и удовлетворенной жизни",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 7,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Йога как инструмент для физического и духовного единения.",
+                "full": "Йога предлагает уникальный синтез физических упражнений и духовных практик, способствуя гармонии тела и духа. Регулярные занятия йогой могут улучшить гибкость, снизить стресс и открыть новые пути для духовного исследования и роста.",
+                "tags": ["йога", "гармония", "духовный рост"],
+                "audience": "практикующие йогу и интересующиеся духовными аспектами физических практик",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 8,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Тишина и уединение как источники духовного вдохновения.",
+                "full": "Тишина и уединение предоставляют редкую возможность услышать свой внутренний голос и получить духовное вдохновение. Вдали от шума и суеты можно обнаружить ясность мыслей, глубинные желания и истинные ценности, ведущие к осмысленной жизни.",
+                "tags": ["тишина", "уединение", "вдохновение"],
+                "audience": "те, кто ценит моменты одиночества для духовного обновления",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 9,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Духовные книги и тексты как проводники к мудрости.",
+                "full": "Чтение духовных книг и священных текстов открывает доступ к вековой мудрости и духовным истинам. Эти произведения могут служить проводниками на пути личного развития, предлагая ответы на глубокие вопросы и вдохновляя на дальнейшие поиски.",
+                "tags": ["духовные книги", "мудрость", "личностное развитие"],
+                "audience": "любители чтения, ищущие духовного наставничества",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 10,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Общение с единомышленниками для духовного обогащения.",
+                "full": "Общение с людьми, разделяющими ваши духовные интересы, может значительно обогатить ваш внутренний мир. Такие взаимодействия способствуют обмену идеями, поддержке и вдохновению, укрепляя вашу веру и понимание духовных практик.",
+                "tags": ["общение", "единомышленники", "духовное обогащение"],
+                "audience": "те, кто ищет духовное сообщество для обмена опытом",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 11,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Ведение дневника как метод духовной саморефлексии.",
+                "full": "Ведение дневника предоставляет уникальную возможность для духовной саморефлексии и документирования личного роста. Этот процесс помогает осознать свои мысли, чувства и духовные открытия, создавая ценную перспективу на пройденный путь и будущие устремления.",
+                "tags": ["дневник", "саморефлексия", "духовный рост"],
+                "audience": "те, кто предпочитает письменные практики для самопознания",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            },
+            {
+                "id": 12,
+                "key": "life.spirituality",
+                "type": "life_area",
+                "short": "Музыка и звуки как средства духовного исцеления и подъема.",
+                "full": "Музыка и звуки обладают уникальной способностью влиять на наше духовное состояние, предлагая исцеление, утешение и подъем. Слушая или создавая музыку, можно достичь глубокого медитативного состояния, способствующего духовному пробуждению и гармонии.",
+                "tags": ["музыка", "звуки", "духовное исцеление"],
+                "audience": "любители музыки, ищущие духовного опыта через звук",
+                "lang": "ru",
+                "version": 1,
+                "needs_review": false
+            }
+        ]
+    },
+    "highlights": {
+        "version": "1.0",
+        "lang": "ru",
+        "top": [
+            {
+                "id": "aspect_jupiter_uranus_opposition",
+                "title": "Сильная оппозиция jupiter–uranus",
+                "summary": "Динамика между расширением Юпитера и революцией Урана.",
+                "why": "оппозиция, орб 0.4° — один из самых сильных аспектов карты.",
+                "tone": "neutral",
+                "tags": ["аспект", "оппозиция", "Юпитер", "Уран"],
+                "tags_ui": ["аспект", "оппозиция", "Юпитер", "Уран"],
+                "tags_sys": ["aspect:opposition", "planet:jupiter", "planet:uranus"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "jupiter",
+                        "planet2": "uranus",
+                        "type": "opposition",
+                        "orb": 0.4
+                    }
+                ],
+                "related": {
+                    "planets": ["jupiter", "uranus"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "jupiter",
+                            "planet2": "uranus",
+                            "type": "opposition"
+                        }
+                    ],
+                    "lifeAreas": ["career", "spirituality", "creativity"]
+                }
+            },
+            {
+                "id": "dominant_house_9",
+                "title": "Акцент на 9 доме",
+                "summary": "Мировоззрение, обучение, поиск смысла.",
+                "why": "В 9 доме: Луна, Сатурн, Уран, Нептун (суммарный вес 5.0).",
+                "tone": "practical",
+                "tags": ["дом", "9 дом"],
+                "tags_ui": ["дом", "9 дом"],
+                "tags_sys": ["house:9"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "house_9",
+                        "value": 5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "moon",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "saturn",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "uranus",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "neptune",
+                        "sign": "capricorn",
+                        "house": 9
+                    }
+                ],
+                "related": {
+                    "planets": ["moon", "saturn", "uranus", "neptune"],
+                    "points": [],
+                    "aspects": [],
+                    "lifeAreas": ["spirituality", "career"]
+                }
+            },
+            {
+                "id": "dominant_element_earth",
+                "title": "Доминанта Земли",
+                "summary": "В карте выражена стихия земли: практичность, устойчивость и внимание к материальному.",
+                "why": "Земля: 9.5 из 13.5 (70%).",
+                "tone": "supportive",
+                "tags": ["стихия", "земля"],
+                "tags_ui": ["стихия", "земля"],
+                "tags_sys": ["element:earth"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "element_share",
+                        "value": 0.7037037037037037
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "element_share_pct",
+                        "value": 70
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "element_weight",
+                        "value": 9.5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "sun",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "moon",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "mercury",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "saturn",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "uranus",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "neptune",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "ascendant",
+                        "sign": "taurus"
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "moon", "mercury", "saturn", "uranus", "neptune"],
+                    "points": ["ascendant"],
+                    "aspects": [],
+                    "lifeAreas": ["finance", "career", "health"]
+                }
+            },
+            {
+                "id": "aspect_moon_saturn_conjunction",
+                "title": "Сильное соединение moon–saturn",
+                "summary": "Эмоциональная зрелость и ответственность выделяются при этом соединении.",
+                "why": "соединение, орб 1.7° — один из самых сильных аспектов карты.",
+                "tone": "supportive",
+                "tags": ["аспект", "соединение", "Луна", "Сатурн"],
+                "tags_ui": ["аспект", "соединение", "Луна", "Сатурн"],
+                "tags_sys": ["aspect:conjunction", "planet:moon", "planet:saturn"],
+                "status": "ready",
+                "score": 91.6,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "moon",
+                        "planet2": "saturn",
+                        "type": "conjunction",
+                        "orb": 1.7
+                    }
+                ],
+                "related": {
+                    "planets": ["moon", "saturn"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "moon",
+                            "planet2": "saturn",
+                            "type": "conjunction"
+                        }
+                    ],
+                    "lifeAreas": ["family", "relationships", "health"]
+                }
+            },
+            {
+                "id": "dominant_house_1",
+                "title": "Акцент на 1 доме",
+                "summary": "Личность, самовыражение, первое впечатление.",
+                "why": "В 1 доме: Солнце, Меркурий, Асцендент (суммарный вес 4.5).",
+                "tone": "practical",
+                "tags": ["дом", "1 дом"],
+                "tags_ui": ["дом", "1 дом"],
+                "tags_sys": ["house:1"],
+                "status": "ready",
+                "score": 87.5,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "house_1",
+                        "value": 4.5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "sun",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "mercury",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "ascendant",
+                        "sign": "taurus"
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "mercury"],
+                    "points": ["ascendant"],
+                    "aspects": [],
+                    "lifeAreas": ["career", "relationships", "health"]
+                }
+            }
+        ],
+        "all": [
+            {
+                "id": "aspect_jupiter_uranus_opposition",
+                "title": "Сильная оппозиция jupiter–uranus",
+                "summary": "Динамика между расширением Юпитера и революцией Урана.",
+                "why": "оппозиция, орб 0.4° — один из самых сильных аспектов карты.",
+                "tone": "neutral",
+                "tags": ["аспект", "оппозиция", "Юпитер", "Уран"],
+                "tags_ui": ["аспект", "оппозиция", "Юпитер", "Уран"],
+                "tags_sys": ["aspect:opposition", "planet:jupiter", "planet:uranus"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "jupiter",
+                        "planet2": "uranus",
+                        "type": "opposition",
+                        "orb": 0.4
+                    }
+                ],
+                "related": {
+                    "planets": ["jupiter", "uranus"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "jupiter",
+                            "planet2": "uranus",
+                            "type": "opposition"
+                        }
+                    ],
+                    "lifeAreas": ["career", "spirituality", "creativity"]
+                }
+            },
+            {
+                "id": "dominant_house_9",
+                "title": "Акцент на 9 доме",
+                "summary": "Мировоззрение, обучение, поиск смысла.",
+                "why": "В 9 доме: Луна, Сатурн, Уран, Нептун (суммарный вес 5.0).",
+                "tone": "practical",
+                "tags": ["дом", "9 дом"],
+                "tags_ui": ["дом", "9 дом"],
+                "tags_sys": ["house:9"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "house_9",
+                        "value": 5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "moon",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "saturn",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "uranus",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "neptune",
+                        "sign": "capricorn",
+                        "house": 9
+                    }
+                ],
+                "related": {
+                    "planets": ["moon", "saturn", "uranus", "neptune"],
+                    "points": [],
+                    "aspects": [],
+                    "lifeAreas": ["spirituality", "career"]
+                }
+            },
+            {
+                "id": "dominant_element_earth",
+                "title": "Доминанта Земли",
+                "summary": "В карте выражена стихия земли: практичность, устойчивость и внимание к материальному.",
+                "why": "Земля: 9.5 из 13.5 (70%).",
+                "tone": "supportive",
+                "tags": ["стихия", "земля"],
+                "tags_ui": ["стихия", "земля"],
+                "tags_sys": ["element:earth"],
+                "status": "ready",
+                "score": 95,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "element_share",
+                        "value": 0.7037037037037037
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "element_share_pct",
+                        "value": 70
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "element_weight",
+                        "value": 9.5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "sun",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "moon",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "mercury",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "saturn",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "uranus",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "neptune",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "ascendant",
+                        "sign": "taurus"
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "moon", "mercury", "saturn", "uranus", "neptune"],
+                    "points": ["ascendant"],
+                    "aspects": [],
+                    "lifeAreas": ["finance", "career", "health"]
+                }
+            },
+            {
+                "id": "aspect_moon_saturn_conjunction",
+                "title": "Сильное соединение moon–saturn",
+                "summary": "Эмоциональная зрелость и ответственность выделяются при этом соединении.",
+                "why": "соединение, орб 1.7° — один из самых сильных аспектов карты.",
+                "tone": "supportive",
+                "tags": ["аспект", "соединение", "Луна", "Сатурн"],
+                "tags_ui": ["аспект", "соединение", "Луна", "Сатурн"],
+                "tags_sys": ["aspect:conjunction", "planet:moon", "planet:saturn"],
+                "status": "ready",
+                "score": 91.6,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "moon",
+                        "planet2": "saturn",
+                        "type": "conjunction",
+                        "orb": 1.7
+                    }
+                ],
+                "related": {
+                    "planets": ["moon", "saturn"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "moon",
+                            "planet2": "saturn",
+                            "type": "conjunction"
+                        }
+                    ],
+                    "lifeAreas": ["family", "relationships", "health"]
+                }
+            },
+            {
+                "id": "dominant_house_1",
+                "title": "Акцент на 1 доме",
+                "summary": "Личность, самовыражение, первое впечатление.",
+                "why": "В 1 доме: Солнце, Меркурий, Асцендент (суммарный вес 4.5).",
+                "tone": "practical",
+                "tags": ["дом", "1 дом"],
+                "tags_ui": ["дом", "1 дом"],
+                "tags_sys": ["house:1"],
+                "status": "ready",
+                "score": 87.5,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "house_1",
+                        "value": 4.5
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "sun",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "mercury",
+                        "sign": "taurus",
+                        "house": 1
+                    },
+                    {
+                        "kind": "ascendant",
+                        "sign": "taurus"
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "mercury"],
+                    "points": ["ascendant"],
+                    "aspects": [],
+                    "lifeAreas": ["career", "relationships", "health"]
+                }
+            },
+            {
+                "id": "dominant_modality_cardinal",
+                "title": "Инициатор",
+                "summary": "Кардинальная энергия в карте поддерживает инициативу и начало новых дел.",
+                "why": "В карте преобладают кардинальные знаки (7.0 весов).",
+                "tone": "supportive",
+                "tags": ["модальность", "кардинальный"],
+                "tags_ui": ["модальность", "кардинальный"],
+                "tags_sys": ["modality:cardinal"],
+                "status": "ready",
+                "score": 85,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "modality_share",
+                        "value": 0.5185185185185185
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "modality_share_pct",
+                        "value": 52
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "modality_weight",
+                        "value": 7
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "moon",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "venus",
+                        "sign": "aries",
+                        "house": 11
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "jupiter",
+                        "sign": "cancer",
+                        "house": 3
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "saturn",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "uranus",
+                        "sign": "capricorn",
+                        "house": 9
+                    },
+                    {
+                        "kind": "planet",
+                        "planet": "neptune",
+                        "sign": "capricorn",
+                        "house": 9
+                    }
+                ],
+                "related": {
+                    "planets": ["moon", "venus", "jupiter", "saturn", "uranus", "neptune"],
+                    "points": [],
+                    "aspects": [],
+                    "lifeAreas": ["career", "creativity", "relationships"]
+                }
+            },
+            {
+                "id": "tension_axis_low",
+                "title": "Гармоничные связи",
+                "summary": "В карте много гармоничных связей: легче находить баланс и опору.",
+                "why": "Преобладают гармоничные аспекты (трины и секстили).",
+                "tone": "supportive",
+                "tags": ["аспекты", "гармония"],
+                "tags_ui": ["аспекты", "гармония"],
+                "tags_sys": ["tension:low"],
+                "status": "ready",
+                "score": 74.2,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "tensionScore",
+                        "value": 18
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "aspect_counts",
+                        "value": {
+                            "harmonious": 12,
+                            "tense": 2,
+                            "neutral": 2
+                        }
+                    },
+                    {
+                        "kind": "computed",
+                        "metric": "harmonious_ratio",
+                        "value": 75
+                    }
+                ],
+                "related": {
+                    "planets": [],
+                    "points": [],
+                    "aspects": [],
+                    "lifeAreas": ["health", "relationships", "career"]
+                }
+            },
+            {
+                "id": "tag_themes",
+                "title": "Ключевые темы карты",
+                "summary": "Повторяющиеся темы по знакам, домам и аспектам.",
+                "why": "По частоте тегов в описаниях позиций и аспектов.",
+                "tone": "practical",
+                "tags": ["9 дом", "практичность", "надежность", "интуиция", "адаптивность"],
+                "tags_ui": ["9 дом", "практичность", "надежность", "интуиция", "адаптивность"],
+                "tags_sys": ["tag:9_dom", "tag:praktichnost", "tag:nadezhnost", "tag:intuitsiya", "tag:adaptivnost"],
+                "status": "ready",
+                "score": 69,
+                "evidence": [
+                    {
+                        "kind": "computed",
+                        "metric": "top_tags",
+                        "value": [
+                            {
+                                "tag_id": "9_dom",
+                                "label": "9 дом",
+                                "count": 3,
+                                "weight": 0.03
+                            },
+                            {
+                                "tag_id": "praktichnost",
+                                "label": "практичность",
+                                "count": 2,
+                                "weight": 0.02
+                            },
+                            {
+                                "tag_id": "nadezhnost",
+                                "label": "надежность",
+                                "count": 2,
+                                "weight": 0.02
+                            },
+                            {
+                                "tag_id": "intuitsiya",
+                                "label": "интуиция",
+                                "count": 2,
+                                "weight": 0.02
+                            },
+                            {
+                                "tag_id": "adaptivnost",
+                                "label": "адаптивность",
+                                "count": 2,
+                                "weight": 0.02
+                            }
+                        ]
+                    }
+                ],
+                "related": {
+                    "planets": [],
+                    "points": [],
+                    "aspects": [],
+                    "lifeAreas": ["creativity", "relationships", "career"]
+                }
+            },
+            {
+                "id": "strong_fallback_aspect_mercury_jupiter_sextile",
+                "title": "Сильный аспект Mercury–Jupiter (описание готовится)",
+                "summary": "Интерпретация этого аспекта будет добавлена позже.",
+                "why": "Аспект в пределах орба, описание в разработке.",
+                "tone": "neutral",
+                "tags": ["аспект", "в разработке"],
+                "tags_ui": ["аспект", "в разработке"],
+                "tags_sys": ["aspect:fallback", "planet:mercury", "planet:jupiter"],
+                "status": "draft",
+                "score": 65,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "mercury",
+                        "planet2": "jupiter",
+                        "type": "sextile",
+                        "orb": 1.5
+                    }
+                ],
+                "related": {
+                    "planets": ["mercury", "jupiter"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "mercury",
+                            "planet2": "jupiter",
+                            "type": "sextile"
+                        }
+                    ],
+                    "lifeAreas": ["career", "creativity", "spirituality"]
+                }
+            },
+            {
+                "id": "strong_fallback_aspect_sun_saturn_trine",
+                "title": "Сильный аспект Sun–Saturn (описание готовится)",
+                "summary": "Интерпретация этого аспекта будет добавлена позже.",
+                "why": "Аспект в пределах орба, описание в разработке.",
+                "tone": "neutral",
+                "tags": ["аспект", "в разработке"],
+                "tags_ui": ["аспект", "в разработке"],
+                "tags_sys": ["aspect:fallback", "planet:sun", "planet:saturn"],
+                "status": "draft",
+                "score": 65,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "sun",
+                        "planet2": "saturn",
+                        "type": "trine",
+                        "orb": 0.9
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "saturn"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "sun",
+                            "planet2": "saturn",
+                            "type": "trine"
+                        }
+                    ],
+                    "lifeAreas": ["career", "creativity", "health"]
+                }
+            },
+            {
+                "id": "strong_fallback_aspect_sun_moon_trine",
+                "title": "Сильный аспект Sun–Moon (описание готовится)",
+                "summary": "Интерпретация этого аспекта будет добавлена позже.",
+                "why": "Аспект в пределах орба, описание в разработке.",
+                "tone": "neutral",
+                "tags": ["аспект", "в разработке"],
+                "tags_ui": ["аспект", "в разработке"],
+                "tags_sys": ["aspect:fallback", "planet:sun", "planet:moon"],
+                "status": "draft",
+                "score": 65,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "sun",
+                        "planet2": "moon",
+                        "type": "trine",
+                        "orb": 2.5
+                    }
+                ],
+                "related": {
+                    "planets": ["sun", "moon"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "sun",
+                            "planet2": "moon",
+                            "type": "trine"
+                        }
+                    ],
+                    "lifeAreas": ["career", "creativity", "family"]
+                }
+            },
+            {
+                "id": "fallback_aspect_uranus_neptune_conjunction",
+                "title": "Описание скоро появится",
+                "summary": "Интерпретация этого аспекта будет добавлена позже.",
+                "why": "Аспект в пределах орба, описание в разработке.",
+                "tone": "neutral",
+                "tags": ["аспект", "в разработке"],
+                "tags_ui": ["аспект", "в разработке"],
+                "tags_sys": ["aspect:fallback", "planet:uranus", "planet:neptune"],
+                "status": "missing_copy",
+                "score": 25,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "uranus",
+                        "planet2": "neptune",
+                        "type": "conjunction",
+                        "orb": 5.2
+                    }
+                ],
+                "related": {
+                    "planets": ["uranus", "neptune"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "uranus",
+                            "planet2": "neptune",
+                            "type": "conjunction"
+                        }
+                    ],
+                    "lifeAreas": []
+                }
+            },
+            {
+                "id": "fallback_aspect_venus_saturn_sextile",
+                "title": "Описание скоро появится",
+                "summary": "Интерпретация этого аспекта будет добавлена позже.",
+                "why": "Аспект в пределах орба, описание в разработке.",
+                "tone": "neutral",
+                "tags": ["аспект", "в разработке"],
+                "tags_ui": ["аспект", "в разработке"],
+                "tags_sys": ["aspect:fallback", "planet:venus", "planet:saturn"],
+                "status": "missing_copy",
+                "score": 25,
+                "evidence": [
+                    {
+                        "kind": "aspect",
+                        "planet1": "venus",
+                        "planet2": "saturn",
+                        "type": "sextile",
+                        "orb": 4.8
+                    }
+                ],
+                "related": {
+                    "planets": ["venus", "saturn"],
+                    "points": [],
+                    "aspects": [
+                        {
+                            "planet1": "venus",
+                            "planet2": "saturn",
+                            "type": "sextile"
+                        }
+                    ],
+                    "lifeAreas": []
+                }
+            }
+        ],
+        "metrics": {
+            "elementCounts": {
+                "fire": 1,
+                "earth": 9.5,
+                "air": 0,
+                "water": 3
+            },
+            "modalityCounts": {
+                "cardinal": 7,
+                "fixed": 5.5,
+                "mutable": 1
+            },
+            "signCounts": {
+                "taurus": 4.5,
+                "capricorn": 5,
+                "aries": 1,
+                "pisces": 1,
+                "cancer": 1,
+                "scorpio": 1
+            },
+            "houseCounts": {
+                "house_1": 4.5,
+                "house_2": 0,
+                "house_3": 1,
+                "house_4": 0,
+                "house_5": 0,
+                "house_6": 0,
+                "house_7": 1,
+                "house_8": 0,
+                "house_9": 5,
+                "house_10": 0,
+                "house_11": 2,
+                "house_12": 0
+            },
+            "strongAspects": [
+                {
+                    "planet1": "jupiter",
+                    "planet2": "uranus",
+                    "type": "opposition",
+                    "orb": 0.4,
+                    "weight": 0.95
+                },
+                {
+                    "planet1": "sun",
+                    "planet2": "saturn",
+                    "type": "trine",
+                    "orb": 0.9,
+                    "weight": 0.8
+                },
+                {
+                    "planet1": "moon",
+                    "planet2": "saturn",
+                    "type": "conjunction",
+                    "orb": 1.7,
+                    "weight": 0.79
+                },
+                {
+                    "planet1": "mercury",
+                    "planet2": "uranus",
+                    "type": "trine",
+                    "orb": 1.2,
+                    "weight": 0.77
+                },
+                {
+                    "planet1": "mars",
+                    "planet2": "pluto",
+                    "type": "trine",
+                    "orb": 2.2,
+                    "weight": 0.65
+                },
+                {
+                    "planet1": "sun",
+                    "planet2": "moon",
+                    "type": "trine",
+                    "orb": 2.5,
+                    "weight": 0.62
+                },
+                {
+                    "planet1": "mercury",
+                    "planet2": "jupiter",
+                    "type": "sextile",
+                    "orb": 1.5,
+                    "weight": 0.57
+                },
+                {
+                    "planet1": "neptune",
+                    "planet2": "pluto",
+                    "type": "sextile",
+                    "orb": 1.8,
+                    "weight": 0.54
+                },
+                {
+                    "planet1": "moon",
+                    "planet2": "venus",
+                    "type": "sextile",
+                    "orb": 3.1,
+                    "weight": 0.43
+                },
+                {
+                    "planet1": "jupiter",
+                    "planet2": "neptune",
+                    "type": "opposition",
+                    "orb": 4.8,
+                    "weight": 0.4
+                },
+                {
+                    "planet1": "mars",
+                    "planet2": "neptune",
+                    "type": "sextile",
+                    "orb": 4,
+                    "weight": 0.35
+                },
+                {
+                    "planet1": "uranus",
+                    "planet2": "neptune",
+                    "type": "conjunction",
+                    "orb": 5.2,
+                    "weight": 0.35
+                },
+                {
+                    "planet1": "venus",
+                    "planet2": "saturn",
+                    "type": "sextile",
+                    "orb": 4.8,
+                    "weight": 0.28
+                },
+                {
+                    "planet1": "sun",
+                    "planet2": "venus",
+                    "type": "sextile",
+                    "orb": 5.6,
+                    "weight": 0.21
+                }
+            ],
+            "tensionScore": 18,
+            "aspect_counts": {
+                "harmonious": 12,
+                "tense": 2,
+                "neutral": 2
+            },
+            "harmonious_ratio": 75,
+            "top_tags_sources": [
+                {
+                    "kind": "planet",
+                    "planet": "moon",
+                    "blockKey": "house"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "saturn",
+                    "blockKey": "house"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "uranus",
+                    "blockKey": "house"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "sun",
+                    "blockKey": "sign"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "saturn",
+                    "blockKey": "sign"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "mercury",
+                    "blockKey": "sign"
+                },
+                {
+                    "kind": "aspect",
+                    "planet1": "mercury",
+                    "planet2": "neptune",
+                    "type": "trine"
+                },
+                {
+                    "kind": "planet",
+                    "planet": "mercury",
+                    "blockKey": "house"
+                },
+                {
+                    "kind": "aspect",
+                    "planet1": "mars",
+                    "planet2": "pluto",
+                    "type": "trine"
+                }
+            ]
+        },
+        "debug": {
+            "warnings": ["missing ru content: planet neptune house", "missing ru content: planet pluto house"]
+        }
+    }
+}
