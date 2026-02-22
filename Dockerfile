@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Устанавливаем зависимости
-RUN npm ci --only=production && npm cache clean --force
+RUN npm ci && npm cache clean --force
 
 # Копируем весь проект
 COPY . .
