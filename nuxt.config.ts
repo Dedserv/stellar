@@ -129,8 +129,8 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    yaKey: process.env.YA_API,
-    deepseekApiKey: process.env.DEEPSEEK_API,
+    yaKey: process.env.NUXT_YA_API,
+    deepseekApiKey: process.env.NUXT_DEEPSEEK_API_KEY,
     public: {
       NUXT_SITE_URL: 'https://www.stellara.ru',
       NUXT_SITE_NAME: 'Stellara',
