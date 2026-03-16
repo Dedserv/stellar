@@ -1,9 +1,11 @@
 services:
-  sobaka-site:
-    image: nginx:stable
-    container_name: sobakasobaka-site
+  nuxt-app:
+    build: .
+    container_name: stellar-nuxt
     restart: unless-stopped
-    volumes:
-      - ./dist:/usr/share/nginx/html:ro
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
     ports:
-      - '127.0.0.1:3002:80'
+      - '127.0.0.1:3001:3000'
