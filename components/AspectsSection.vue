@@ -1,5 +1,5 @@
 <template>
-  <section class="aspects">
+  <section :id="sectionId" class="aspects">
     <h2 class="aspects__title">Аспекты</h2>
     <p class="aspects__subtitle">
       Связи между планетами и их напряжение/поддержка.
@@ -132,7 +132,10 @@ import type {
 
 const props = defineProps<{
   data: AstroApiResponse;
+  id?: string;
 }>();
+
+const sectionId = computed(() => props.id);
 
 const emit = defineEmits<{
   (e: 'select-planet', payload: { name: string; label: string }): void;

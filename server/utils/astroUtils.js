@@ -151,3 +151,88 @@ export function normalizeLongitude(longitude) {
   return normalized;
 }
 
+/** Код системы домов Placidus для swe_houses ('P') */
+const HOUSE_SYSTEM_PLACIDUS = 80;
+
+/**
+ * Локальное время → UTC-компоненты (календарная коррекция через Date.UTC).
+ */
+export function localToUtcParts(year, month, day, hour, minute, timezone) {
+  const totalMinutes = Math.round(hour * 60 + minute - timezone * 60);
+  const base = Date.UTC(year, month - 1, day, 0, 0, 0);
+  const shifted = new Date(base + totalMinutes * 60000);
+  return {
+    year: shifted.getUTCFullYear(),
+    month: shifted.getUTCMonth() + 1,
+    day: shifted.getUTCDate(),
+    hour: shifted.getUTCHours(),
+    minute: shifted.getUTCMinutes(),
+  };
+}
+
+/**
+ * Юлианская дата UT из локального времени и часового пояса (часы от UTC).
+ */
+export function localTimeToJulianDay(swe, year, month, day, hour, minute, timezone) {
+  const utc = localToUtcParts(year, month, day, hour, minute, timezone);
+  if (typeof swe.utc_to_jd === 'function') {
+    const result = swe.utc_to_jd(
+      utc.year,
+      utc.month,
+      utc.day,
+      utc.hour,
+      utc.minute,
+      0,
+      swe.SE_GREG_CAL
+    );
+    return result?.julianDayUT ?? result?.julianDay ?? swe.julday(utc.year, utc.month, utc.day, utc.hour + utc.minute / 60);
+  }
+  return swe.julday(utc.year, utc.month, utc.day, utc.hour + utc.minute / 60);
+}
+
+/**
+ * Placidus: куспиды домов и угловые точки через swe_houses (обход сломанной обёртки WASM).
+ * @returns {{ houseCusps: number[], ascendant: number, mc: number }}
+ */
+export function computePlacidusHouses(swe, julianDay, latitude, longitude) {
+  const cuspsPtr = swe.SweModule._malloc(13 * Float64Array.BYTES_PER_ELEMENT);
+  const ascmcPtr = swe.SweModule._malloc(10 * Float64Array.BYTES_PER_ELEMENT);
+
+  try {
+    const retFlag = swe.SweModule.ccall(
+      'swe_houses',
+      'number',
+      ['number', 'number', 'number', 'number', 'pointer', 'pointer'],
+      [julianDay, latitude, longitude, HOUSE_SYSTEM_PLACIDUS, cuspsPtr, ascmcPtr]
+    );
+
+    if (retFlag < 0) {
+      throw new Error(`swe_houses failed with code ${retFlag}`);
+    }
+
+    const cuspsRaw = new Float64Array(swe.SweModule.HEAPF64.buffer, cuspsPtr, 13);
+    const ascmcRaw = new Float64Array(swe.SweModule.HEAPF64.buffer, ascmcPtr, 10);
+
+    const houseCusps = [0];
+    for (let i = 1; i <= 12; i++) {
+      houseCusps[i] = normalizeLongitude(cuspsRaw[i]);
+    }
+
+    return {
+      houseCusps,
+      ascendant: normalizeLongitude(ascmcRaw[0]),
+      mc: normalizeLongitude(ascmcRaw[1]),
+    };
+  } finally {
+    swe.SweModule._free(cuspsPtr);
+    swe.SweModule._free(ascmcPtr);
+  }
+}
+
+/**
+ * Оценка часового пояса (часы от UTC) по долготе — fallback для geocoder MVP.
+ */
+export function estimateTimezoneFromLongitude(longitude) {
+  return Math.max(-12, Math.min(14, Math.round(longitude / 15)));
+}
+

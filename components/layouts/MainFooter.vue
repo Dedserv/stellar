@@ -4,10 +4,14 @@
       <nav class="footer__navigation">
         <li><a href="#">Политика конфиденциальности</a></li>
       </nav>
-      <span>©2025 Stellar</span>
+      <span>©{{ currentYear }} Stellar</span>
     </div>
   </footer>
 </template>
+
+<script setup>
+  const currentYear = computed(() => new Date().getFullYear());
+</script>
 
 <style scoped>
   @import '~/assets/css/variables.css';

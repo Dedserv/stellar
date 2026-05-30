@@ -125,10 +125,26 @@
     }
   };
 
+  function formatAnswerValue(values) {
+    if (Array.isArray(values)) {
+      return values.join(',');
+    }
+    return String(values ?? '');
+  }
+
+  function collectAllAnswers() {
+    return props.questions.map((question, idx) => ({
+      name: question.name,
+      title: question.title,
+      value: formatAnswerValue(model[idx]),
+    }));
+  }
+
   // Экспортируем методы для доступа из родителя
   defineExpose({
     nextSlide,
     prevSlide,
+    collectAllAnswers,
   });
 </script>
 

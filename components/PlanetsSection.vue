@@ -1,5 +1,5 @@
 <template>
-  <section class="planets">
+  <section :id="sectionId" class="planets">
     <h2 class="planets__title">Планеты</h2>
     <p class="planets__subtitle">
       Как распределены акценты по планетам вашей карты.
@@ -220,7 +220,10 @@ import { canShowFullDescription } from '~/types/natal';
 
 const props = defineProps<{
   data: AstroApiResponse;
+  id?: string;
 }>();
+
+const sectionId = computed(() => props.id);
 
 const emit = defineEmits<{
   (e: 'select-planet', payload: { name: string; label: string }): void;

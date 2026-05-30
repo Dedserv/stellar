@@ -7,11 +7,12 @@ import {
   getAspect,
   getHouseForPlanet,
   normalizeLongitude,
+  localTimeToJulianDay,
+  computePlacidusHouses,
 } from '~/server/utils/astroUtils.js';
 import {
   getPlanetDescription,
   getAspectDescription,
-  loadJsonFile,
 } from '~/server/utils/jsonLoader.js';
 import { buildHighlights } from '~/server/utils/insights/index.js';
 
@@ -40,7 +41,8 @@ export default defineEventHandler(async (event) => {
     const minute = parseFloat(query.minute) || 0;
     const latitude = parseFloat(query.latitude) || 0;
     const longitude = parseFloat(query.longitude) || 0;
-    const timezone = parseFloat(query.timezone) || 0; // Часовой пояс в часах
+    const timezone = parseFloat(query.timezone) || 0;
+    const city = typeof query.city === 'string' ? query.city.trim() : '';
 
     // Валидация входных данных
     if (year < 1900 || year > 2100) {
@@ -67,45 +69,7 @@ export default defineEventHandler(async (event) => {
     await swe.initSwissEph();
     swe.set_ephe_path('@/data/ephe');
 
-    // Преобразуем время в UTC (вычитаем часовой пояс)
-    // Swiss Ephemeris требует UTC время в формате: час + минуты/60
-    let utcHour = hour - timezone;
-    let utcDay = day;
-    let utcMonth = month;
-    let utcYear = year;
-
-    // Обрабатываем переход через границы дня
-    if (utcHour < 0) {
-      utcHour += 24;
-      utcDay--;
-      if (utcDay < 1) {
-        utcMonth--;
-        if (utcMonth < 1) {
-          utcMonth = 12;
-          utcYear--;
-        }
-        // Упрощенная проверка дней в месяце (для точности нужна более сложная логика)
-        utcDay = 31;
-      }
-    } else if (utcHour >= 24) {
-      utcHour -= 24;
-      utcDay++;
-      // Упрощенная проверка дней в месяце
-      if (utcDay > 31) {
-        utcDay = 1;
-        utcMonth++;
-        if (utcMonth > 12) {
-          utcMonth = 1;
-          utcYear++;
-        }
-      }
-    }
-
-    const utcDecimalTime = utcHour + minute / 60;
-
-    // Рассчитываем юлианскую дату
-    const jd = swe.julday(utcYear, utcMonth, utcDay, utcDecimalTime);
-    const jdUt = jd; // Universal Time
+    const jdUt = localTimeToJulianDay(swe, year, month, day, hour, minute, timezone);
 
     // Флаги для расчетов
     const iflag = swe.SEFLG_SWIEPH | swe.SEFLG_SPEED;
@@ -124,59 +88,30 @@ export default defineEventHandler(async (event) => {
 
         const signInfo = getSignFromLongitude(longitude);
 
+        const speed = result.length > 3 ? parseFloat(result[3].toFixed(4)) : 0;
+
         planets[planetName] = {
           name: planetName,
-          longitude: parseFloat(longitude.toFixed(2)), // Округляем до 0.01°
+          longitude: parseFloat(longitude.toFixed(2)),
           sign: signInfo.sign,
           signIndex: signInfo.signIndex,
           positionInSign: parseFloat(signInfo.positionInSign.toFixed(2)),
-          speed: result.length > 3 ? parseFloat(result[3].toFixed(4)) : 0,
+          speed,
+          retrograde: speed < 0,
         };
       }
     }
 
-    // Рассчитываем Асцендент и дома (система Плацидус)
-    // В swisseph-wasm метод houses() возвращает код ошибки, поэтому вычисляем вручную
-
-    // Рассчитываем sidereal time
-    const sidTime = swe.sidtime(jdUt);
-
-    // Преобразуем sidereal time в градусы (1 час = 15 градусов)
-    const armc = (sidTime * 15) % 360; // ARMC (Ascendant Right Ascension of Midheaven)
-
-    // Рассчитываем наклон эклиптики (obliquity)
-    // Используем более точное значение или вычисляем через среднюю точку
-    const obliquity = 23.4392911 * (Math.PI / 180); // в радианах
-
-    // Вычисляем Асцендент через формулы сферической тригонометрии
-    const latRad = latitude * (Math.PI / 180);
-    const armcRad = armc * (Math.PI / 180);
-
-    // Формула для Асцендента: tan(ASC) = sin(ARMC) / (cos(ARMC) * cos(obliquity) + tan(latitude) * sin(obliquity))
-    const ascendantRad = Math.atan2(
-      Math.sin(armcRad),
-      Math.cos(armcRad) * Math.cos(obliquity) + Math.tan(latRad) * Math.sin(obliquity)
+    // Placidus через swe_houses (см. computePlacidusHouses)
+    const { houseCusps, ascendant: ascendantLongitude, mc: mcLongitude } = computePlacidusHouses(
+      swe,
+      jdUt,
+      latitude,
+      longitude
     );
 
-    const ascendantLongitude = normalizeLongitude(ascendantRad * (180 / Math.PI));
-
-    // Рассчитываем куспиды домов Плацидуса
-    // Система Плацидуса основана на делении небесной сферы на 12 равных домов
-    // Каждый дом занимает 30 градусов эклиптики, но куспиды вычисляются через пересечения
-    // Для упрощения используем формулу: каждый следующий дом смещен на 30 градусов от предыдущего
-    // Более точный расчет требует итеративных вычислений
-
-    const houseCusps = [0]; // cusps[0] не используется
-    houseCusps[1] = ascendantLongitude; // Первый дом начинается с Асцендента
-
-    // Для системы Плацидуса используем приближенный расчет через равнодомную систему
-    // Более точный расчет требует решения уравнения Плацидуса для каждого дома
-    for (let i = 2; i <= 12; i++) {
-      // Равнодомная система как приближение (можно улучшить позже)
-      houseCusps[i] = normalizeLongitude(ascendantLongitude + (i - 1) * 30);
-    }
-
     const ascendantSign = getSignFromLongitude(ascendantLongitude);
+    const mcSign = getSignFromLongitude(mcLongitude);
 
     // Определяем дома для каждой планеты
     for (const planetName of PLANET_NAMES) {
@@ -294,13 +229,8 @@ export default defineEventHandler(async (event) => {
       console.error('Error loading ascendant description:', err);
     }
 
-    // Жизненные сферы (life_areas.json)
-    let lifeAreas = null;
-    try {
-      lifeAreas = await loadJsonFile('life_areas', 'life_areas.json');
-    } catch (err) {
-      console.error('Error loading life_areas:', err);
-    }
+    // Жизненные сферы — Phase 1: персонализация отложена
+    const lifeAreas = {};
 
     // Формируем финальный ответ
     const result = {
@@ -316,6 +246,7 @@ export default defineEventHandler(async (event) => {
         location: {
           latitude,
           longitude,
+          ...(city ? { city } : {}),
         },
         julianDay: parseFloat(jdUt.toFixed(5)),
       },
@@ -324,6 +255,11 @@ export default defineEventHandler(async (event) => {
         sign: ascendantSign.sign,
         signIndex: ascendantSign.signIndex,
         description: ascendantDescription,
+      },
+      mc: {
+        longitude: parseFloat(mcLongitude.toFixed(2)),
+        sign: mcSign.sign,
+        signIndex: mcSign.signIndex,
       },
       planets: planetsWithDescriptions.filter((p) => p !== null),
       houses: houses,

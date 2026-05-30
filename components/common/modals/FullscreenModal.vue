@@ -1,52 +1,38 @@
 <template>
   <Teleport to="#teleports">
     <Transition>
-      <div class="modal" :class="{ 'modal--show-result': isShowedResults }">
+      <div class="modal">
         <div class="container">
-          <Transition>
-            <div v-if="!isShowedResults" :key="`${isShowedResults}_modal`">
-              <ModalHeader
-                :count="data.length"
-                :currentSlideIndex="questionStores?.currentSlide || 0"
-                @close-modal="clickExitButton"
-              />
-              <div class="modal__wrapper">
-                <h3 class="modal__title">{{ currentTitle }}</h3>
-                <NatalQuestions
-                  ref="natalQuestionsRef"
-                  class="modal__questions"
-                  :questions="data"
-                  @getQuestionData="getQuestionData"
-                />
-                <VButton
-                  class="modal__button"
-                  size="s"
-                  type="transparent"
-                  color="gray"
-                  withoutIconMargin
-                  hover
-                  :disabled="!questionStores.isCompleted"
-                  @click="changeSlideHandler"
-                >
-                  {{ buttonTitle }}
-                  <UseIcon class="modal__arrow" name="arrow" :width="10" :height="0.8" />
-                </VButton>
-              </div>
-            </div>
-            <ModalResults
-              v-else
-              :key="`${isShowedResults}_result`"
-              :natalResult="natalCard"
-              :loadingProgress="loadingProgress"
-              @close-modal="clickExitButton"
+          <ModalHeader
+            :count="data.length"
+            :currentSlideIndex="questionStores?.currentSlide || 0"
+            @close-modal="clickExitButton"
+          />
+          <div class="modal__wrapper">
+            <h3 class="modal__title">{{ currentTitle }}</h3>
+            <NatalQuestions
+              ref="natalQuestionsRef"
+              class="modal__questions"
+              :questions="data"
+              @getQuestionData="getQuestionData"
             />
-          </Transition>
+            <VButton
+              class="modal__button"
+              size="s"
+              type="transparent"
+              color="gray"
+              withoutIconMargin
+              hover
+              :disabled="!questionStores.isCompleted || isSubmitting"
+              @click="changeSlideHandler"
+            >
+              {{ buttonTitle }}
+              <UseIcon class="modal__arrow" name="arrow" :width="10" :height="0.8" />
+            </VButton>
+            <p v-if="submitError" class="modal__error">{{ submitError }}</p>
+          </div>
         </div>
-        <ModalMobileMenu
-          v-if="!isShowedResults"
-          :questions-length="data.length"
-          @changeSlideHandler="changeSlideHandler"
-        ></ModalMobileMenu>
+        <ModalMobileMenu :questions-length="data.length" @changeSlideHandler="changeSlideHandler" />
       </div>
     </Transition>
   </Teleport>
@@ -58,30 +44,14 @@
   import NatalQuestions from '../NatalQuestions.vue';
 
   const { lock, unlock } = useBodyScrollLock();
+  const { buildFromAnswers } = useChartQuery();
 
   const modal = modalStore();
   const questionStores = questionsStore();
   const natalQuestionsRef = ref(null);
 
-  const isShowedResults = ref(false);
-  const natalCard = ref('');
-  const loadingProgress = ref(0);
-  const progressInterval = ref(null);
-
-  const startProgressAnimation = () => {
-    loadingProgress.value = 0;
-    let currentProgress = 0;
-
-    // Первая секция - 15 секунд до 25%
-    progressInterval.value = setInterval(() => {
-      if (currentProgress < 99) {
-        currentProgress += 0.5;
-        loadingProgress.value = currentProgress;
-      } else {
-        clearInterval(progressInterval.value);
-      }
-    }, 300);
-  };
+  const isSubmitting = ref(false);
+  const submitError = ref('');
 
   onMounted(() => {
     lock();
@@ -100,87 +70,44 @@
     finalResult.value[index] = { ...data.value, value: data.value.value.join() };
   };
 
-  const getQuestionsResultData = () => {
-    return finalResult.value
-      .map((item) => {
-        let formattedValue = item.value;
-
-        if (item.name === 'Birthday') {
-          const [day, month, year] = item.value.split(',');
-          formattedValue = `${day.padStart(2, '0')}.${month.padStart(2, '0')}.${year}`;
-        }
-
-        if (item.name === 'Time') {
-          const [hours, minutes] = item.value.split(',');
-          formattedValue = `${hours.padStart(2, '0')}:${minutes.padStart(2, '0')}`;
-        }
-
-        return `${item.title}: ${formattedValue}`;
-      })
-      .join(', ');
-  };
-
-  const getNatalCard = async () => {
-    const questionsResultData = getQuestionsResultData();
-    let fullResponse = '';
-    startProgressAnimation();
-
-    const sections = ['basics', 'personality', 'forecasting', 'personalization'];
-
-    try {
-      // Разбиваем секции на группы по 2
-      for (let i = 0; i < sections.length; i += 2) {
-        const chunk = sections.slice(i, i + 2);
-
-        // Создаем массив промисов для текущей группы
-        const promises = chunk.map((section) =>
-          $fetch('/api/deepseek', {
-            method: 'POST',
-            body: {
-              message: questionsResultData,
-              section,
-            },
-          })
-        );
-
-        const responses = await Promise.all(promises);
-
-        responses.forEach((res) => {
-          fullResponse += res + '\n\n';
-        });
-      }
-    } catch (error) {
-      console.error('Ошибка в группе запросов:', error);
-    }
-
-    natalCard.value = fullResponse.trim();
-  };
-
   const changeSlideHandler = async (next) => {
-    if (natalQuestionsRef.value) {
-      if (isLastSlide.value) {
-        isShowedResults.value = true;
-        await getNatalCard();
-        return;
-      }
+    if (!natalQuestionsRef.value) return;
 
-      const { nextSlide, prevSlide } = natalQuestionsRef.value;
-      next ? nextSlide() : prevSlide();
+    submitError.value = '';
+
+    if (isLastSlide.value) {
+      isSubmitting.value = true;
+      try {
+        const answers = natalQuestionsRef.value.collectAllAnswers();
+        const query = await buildFromAnswers(answers);
+
+        unlock();
+        questionStores.setSlideIndex(0);
+        modal.closeModal();
+
+        await navigateTo({ path: '/natalchart', query });
+      } catch (error) {
+        submitError.value =
+          error?.data?.message ||
+          error?.message ||
+          'Не удалось определить город. Попробуйте ещё раз.';
+      } finally {
+        isSubmitting.value = false;
+      }
+      return;
     }
+
+    const { nextSlide, prevSlide } = natalQuestionsRef.value;
+    next ? nextSlide() : prevSlide();
   };
 
   const currentTitle = computed(() => data.value[questionStores.currentSlide].title);
 
   const isLastSlide = computed(() => questionStores.currentSlide === data.value.length - 1);
 
-  const buttonTitle = computed(() =>
-    data.value.length === isLastSlide.value ? 'Получить результат' : 'Продолжить'
-  );
-
-  onUnmounted(() => {
-    if (progressInterval.value) {
-      clearInterval(progressInterval.value);
-    }
+  const buttonTitle = computed(() => {
+    if (isSubmitting.value) return 'Загрузка…';
+    return isLastSlide.value ? 'Получить результат' : 'Продолжить';
   });
 </script>
 
@@ -199,10 +126,6 @@
     background-color: $blackBlue;
     z-index: 9999;
     overflow: hidden;
-
-    &--show-result {
-      padding: 1.2rem 0;
-    }
 
     @mixin tablet {
       padding: 4rem 1.6rem;
@@ -263,6 +186,18 @@
     &__arrow {
       color: $softOrange;
       transform: rotate(180deg);
+    }
+
+    &__error {
+      width: 100%;
+      margin: 1.2rem 0 0;
+      font-size: 1.4rem;
+      color: $softOrange;
+      text-align: center;
+
+      @mixin desktop {
+        text-align: left;
+      }
     }
   }
 </style>

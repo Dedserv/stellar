@@ -52,11 +52,18 @@ export type Planet = {
   signIndex: number;
   positionInSign: number;
   speed: number;
+  retrograde: boolean;
   house: number;
   description: {
     sign: NestedDescription;
     house: NestedDescription;
   };
+};
+
+export type AnglePoint = {
+  longitude: number;
+  sign: string;
+  signIndex: number;
 };
 
 export type PlanetViewModel = {
@@ -120,6 +127,7 @@ export type ChartDate = {
 export type ChartLocation = {
   latitude: number;
   longitude: number;
+  city?: string;
 };
 
 export type ChartResponse = {
@@ -129,6 +137,7 @@ export type ChartResponse = {
     julianDay: number;
   };
   ascendant: Ascendant;
+  mc?: AnglePoint;
   planets: Planet[];
   houses: Array<{ number: number; cusp: number; sign: string; signIndex: number }>;
   aspects: Aspect[];
