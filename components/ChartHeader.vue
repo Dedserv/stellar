@@ -15,26 +15,14 @@
       </VButton>
     </template>
     <template v-else-if="data">
-      <div v-if="metaLine" class="chart-header__meta">{{ metaLine }}</div>
-      <div class="chart-header__big-three">
-        <article
-          v-for="item in bigThree"
-          :key="item.key"
-          class="chart-header__card"
-        >
-          <h2 class="chart-header__label">{{ item.label }}</h2>
-          <p class="chart-header__sign">{{ item.signLabel }}</p>
-          <p v-if="item.short" class="chart-header__short">{{ item.short }}</p>
-          <p v-else class="chart-header__placeholder">Описание появится позже</p>
-        </article>
-      </div>
+      <h1 v-if="metaLine" class="chart-header__meta">{{ metaLine }}</h1>
+      <ChartShareButton class="chart-header__share" />
     </template>
   </header>
 </template>
 
 <script setup lang="ts">
-import type { AstroApiResponse, NestedDescription } from '~/types/natal';
-import { canShowFullDescription } from '~/types/natal';
+import type { AstroApiResponse } from '~/types/natal';
 import { modalStore } from '@/stores/modal';
 
 const props = defineProps<{
@@ -61,26 +49,6 @@ const MONTHS_RU = [
   'декабря',
 ];
 
-const SIGN_LABELS_RU: Record<string, string> = {
-  aries: 'Овен',
-  taurus: 'Телец',
-  gemini: 'Близнецы',
-  cancer: 'Рак',
-  leo: 'Лев',
-  virgo: 'Дева',
-  libra: 'Весы',
-  scorpio: 'Скорпион',
-  sagittarius: 'Стрелец',
-  capricorn: 'Козерог',
-  aquarius: 'Водолей',
-  pisces: 'Рыбы',
-};
-
-function signLabel(sign?: string) {
-  if (!sign) return '';
-  return SIGN_LABELS_RU[sign.toLowerCase()] ?? sign;
-}
-
 const metaLine = computed(() => {
   const chart = props.data?.chart;
   if (!chart?.date) return '';
@@ -96,107 +64,29 @@ const metaLine = computed(() => {
   return cityName ? `${dateTime} · ${cityName}` : dateTime;
 });
 
-const bigThree = computed(() => {
-  const data = props.data;
-  if (!data) return [];
-
-  const sun = data.planets?.find((p) => p.name === 'sun');
-  const moon = data.planets?.find((p) => p.name === 'moon');
-  const asc = data.ascendant;
-
-  function buildItem(
-    key: string,
-    label: string,
-    sign?: string,
-    description?: { sign?: NestedDescription | null; house?: NestedDescription | null } | null
-  ) {
-    const signNested = description?.sign;
-    const short =
-      signNested && canShowFullDescription(signNested)
-        ? signNested.description?.short
-        : undefined;
-
-    return {
-      key,
-      label,
-      signLabel: signLabel(sign),
-      short,
-    };
-  }
-
-  return [
-    buildItem('sun', 'Солнце', sun?.sign, sun?.description),
-    buildItem('moon', 'Луна', moon?.sign, moon?.description),
-    buildItem('asc', 'Асцендент', asc?.sign, asc?.description),
-  ];
-});
-
 function openQuestionnaire() {
   lock();
   modal.openModal();
 }
 </script>
 
-<style scoped lang="scss">
-$lightGrayOrange: #e0d9d4;
-$gray: #bebec9;
-$softOrange: #e9a87c;
+<style scoped>
+@import '~/assets/css/variables.css';
 
 .chart-header {
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 .chart-header__meta {
-  margin: 0 0 1.6rem;
+  margin: 0;
   font-size: 1.4rem;
+  font-weight: 400;
   color: $gray;
   text-align: center;
 }
 
-.chart-header__big-three {
-  display: grid;
-  gap: 1.2rem;
-  grid-template-columns: 1fr;
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.chart-header__card {
-  padding: 1.6rem;
-  border-radius: 1.2rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.chart-header__label {
-  margin: 0 0 0.4rem;
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: $softOrange;
-}
-
-.chart-header__sign {
-  margin: 0 0 0.8rem;
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: $lightGrayOrange;
-}
-
-.chart-header__short,
-.chart-header__placeholder {
-  margin: 0;
-  font-size: 1.4rem;
-  line-height: 1.5;
-}
-
-.chart-header__short {
-  color: $lightGrayOrange;
-}
-
-.chart-header__placeholder {
-  color: $gray;
+.chart-header__share {
+  margin-top: 1.2rem;
 }
 
 .chart-header__empty {

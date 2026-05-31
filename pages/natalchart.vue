@@ -1,30 +1,43 @@
 <template>
   <div class="natalchart page">
-    <div class="container layout-upper">
-      <h1 class="title">Натальная карта</h1>
+    <div class="layout-upper">
+      <h1 v-if="!navEnabled" class="title">Натальная карта</h1>
+      <NavChips
+        v-if="navEnabled"
+        :active-section="activeId ?? 'portrait'"
+        @navigate="scrollToSection"
+      />
 
-      <ChartHeader :data="data" :city="cityLabel" :show-empty="!hasParams" />
+      <ChartHeader v-if="!hasParams" :show-empty="true" />
 
       <p v-if="!hasParams" class="natalchart__empty">
         Укажите параметры карты в адресной строке или пройдите тест выше.
       </p>
 
+      <ChartSkeleton v-else-if="pending" :progress="loadingProgress" />
+
       <template v-else-if="data">
-        <ChartOverviewPortrait :data="data" />
-        <TopInsightsSection :data="data" @select-evidence="onSelectEvidence" />
-        <PlanetsSection id="planets" :data="data" @select-planet="onSelectPlanet" />
-        <AspectsSection
-          id="aspects"
-          :data="data"
-          @select-planet="onSelectPlanet"
-          @select-aspect="onSelectAspect"
-        />
+        <ChartAtmosphericHero class="natalchart__hero">
+          <ChartHeader :data="data" :city="cityLabel" />
+          <ChartWheel :data="data" @select-planet="onSelectPlanet" />
+          <ChartBigThree :data="data" />
+        </ChartAtmosphericHero>
+        <div>
+          <ChartOverviewPortrait id="portrait" :data="data" />
+          <TopInsightsSection id="insights" :data="data" @select-evidence="onSelectEvidence" />
+          <PlanetsSection id="planets" :data="data" @select-planet="onSelectPlanet" />
+          <AspectsSection
+            id="aspects"
+            :data="data"
+            @select-planet="onSelectPlanet"
+            @select-aspect="onSelectAspect"
+          />
+        </div>
       </template>
 
       <p v-else-if="error" class="natalchart__error">
         Не удалось загрузить данные карты. Проверьте параметры запроса.
       </p>
-      <p v-else-if="pending" class="natalchart__empty">Загрузка…</p>
     </div>
   </div>
 </template>
@@ -58,13 +71,49 @@
   const { data, pending, error } = await useFetch<AstroApiResponse>('/api/astro', {
     query: chartQuery,
     watch: [chartQuery],
+    lazy: true,
   });
 
-  function scrollToSection(id: string) {
-    if (!import.meta.client) return;
-    const el = document.getElementById(id);
-    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
+  const SECTION_ITEMS = [
+    { id: 'portrait', label: 'Обзор' },
+    { id: 'insights', label: 'Инсайты' },
+    { id: 'planets', label: 'Планеты' },
+    { id: 'aspects', label: 'Аспекты' },
+  ];
+
+  const navEnabled = computed(() => Boolean(data.value) && !pending.value);
+
+  const loadingProgress = ref(0);
+  let loadingTimer: ReturnType<typeof setInterval> | null = null;
+
+  watch(
+    pending,
+    (isPending) => {
+      if (loadingTimer) {
+        clearInterval(loadingTimer);
+        loadingTimer = null;
+      }
+      if (!isPending) {
+        loadingProgress.value = 100;
+        return;
+      }
+      loadingProgress.value = 12;
+      loadingTimer = setInterval(() => {
+        if (loadingProgress.value < 88) {
+          loadingProgress.value += 4 + Math.random() * 6;
+        }
+      }, 400);
+    },
+    { immediate: true }
+  );
+
+  onUnmounted(() => {
+    if (loadingTimer) clearInterval(loadingTimer);
+  });
+
+  const { activeId = 'portrait', scrollToSection } = useSectionNav(SECTION_ITEMS, {
+    enabled: navEnabled,
+  });
 
   function onSelectEvidence(ev: InsightEvidence) {
     if (ev.type === 'aspect') {
@@ -107,6 +156,23 @@
 </script>
 
 <style scoped>
+  @import '~/assets/css/variables.css';
+
+  .natalchart .container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-inline: 1.6rem;
+    overflow-x: clip;
+
+    @mixin tablet {
+      padding-inline: 1.6rem;
+    }
+  }
+
+  .natalchart__hero {
+    padding: 8.2rem 1.6rem 4rem;
+  }
+
   .natalchart__empty,
   .natalchart__error {
     margin: 2rem 0;

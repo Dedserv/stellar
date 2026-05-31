@@ -1,39 +1,82 @@
 ---
-description: 
+description: Core coding rules for Stellara — Nuxt 3, Vue 3, TypeScript, PostCSS
 globs: 
 alwaysApply: true
 ---
 
-      You have extensive expertise in Vue 3, Nuxt 3, javascript, Node.js, Vite, Vue Router, Pinia, VueUse, Nuxt Icon, CSS, postcss. You possess a deep knowledge of best practices and performance optimization techniques across these technologies.
+You have extensive expertise in Vue 3, Nuxt 3, TypeScript, JavaScript, Node.js, Vite, Vue Router, Pinia, VueUse, Nuxt Icon, CSS, PostCSS. You possess a deep knowledge of best practices and performance optimization techniques across these technologies.
 
-      Code Style and Structure
-      - Write clean, maintainable, and technically accurate javascript code.
-      - Prioritize functional and declarative programming patterns; avoid using classes.
-      - Emphasize iteration and modularization to follow DRY principles and minimize code duplication.
-      - Prefer Composition API <script setup> style.
-      - Use Composables to encapsulate and share reusable client-side logic or state across multiple components in your Nuxt application.
+## Code Style and Structure
+- Write clean, maintainable, and technically accurate TypeScript/JavaScript code.
+- Prioritize functional and declarative programming patterns; avoid using classes.
+- Emphasize iteration and modularization to follow DRY principles and minimize code duplication.
+- Prefer Composition API `<script setup lang="ts">` style.
+- Use Composables to encapsulate and share reusable client-side logic or state.
 
-      Nuxt 3 Specifics
-      - Nuxt 3 provides auto imports, so theres no need to manually import 'ref', 'useState', or 'useRouter'.
-      - Take advantage of VueUse functions to enhance reactivity and performance (except for color mode management).
-      - Use the Server API (within the server/api directory) to handle server-side operations like database interactions, authentication, or processing sensitive data that must remain confidential.
-      - use useRuntimeConfig to access and manage runtime configuration variables that differ between environments and are needed both on the server and client sides.
-      - For SEO use useHead and useSeoMeta.
+## Nuxt 3 Specifics
+- Nuxt 3 provides auto imports — no need to manually import 'ref', 'useState', or 'useRouter'.
+- Use VueUse functions to enhance reactivity and performance.
+- Use the Server API (server/api directory) for server-side operations.
+- Use `useRuntimeConfig` for runtime configuration variables.
+- For SEO use `useHead` and `useSeoMeta`.
+- Components from `components/` are auto-imported — no manual imports needed.
 
-      Fetching Data
-      1. Use useFetch for standard data fetching in components that benefit from SSR, caching, and reactively updating based on URL changes. 
-      2. Use $fetch for client-side requests within event handlers or when SSR optimization is not needed.
-      3. Use useAsyncData when implementing complex data fetching logic like combining multiple API calls or custom caching and error handling.
-      4. Set server: false in useFetch or useAsyncData options to fetch data only on the client side, bypassing SSR.
-      5. Set lazy: true in useFetch or useAsyncData options to defer non-critical data fetching until after the initial render.
+## Fetching Data
+1. Use `useFetch` for standard data fetching with SSR, caching, and reactive URL updates.
+2. Use `$fetch` for client-side requests in event handlers.
+3. Use `useAsyncData` for complex multi-call or custom caching logic.
+4. Set `server: false` / `lazy: true` in options when appropriate.
 
-      Naming Conventions
-      - Utilize composables, naming them as use<MyComposable>.
-      - Use **PascalCase** for component file names (e.g., components/MyComponent.vue).
-      - Favor named exports for functions to maintain consistency and readability.
+## Naming Conventions
+- Composables: `use<Name>`
+- Component files: **PascalCase** (e.g., `MyComponent.vue`)
+- Favor named exports.
 
+## Component Styling (CRITICAL — follow exactly)
 
-      UI and Styling
-      - Use my components or write new UI components, or modify my components
-      - Use a mobile-first approach, and use my breakpoints, mixins, and other
-      
+### Style Block
+- Use `<style scoped>` (plain CSS, NOT `lang="scss"`)
+- Import variables: `@import '~/assets/css/variables.css';`
+- The project uses PostCSS with `postcss-simple-vars` and `postcss-mixins`
+- All `$variables` from `variables.css` are available globally
+
+### Media Queries
+- Mixins from `assets/css/mixins.css` (loaded globally via `postcss-mixins` in `nuxt.config.ts`)
+- Mobile-first: default = phone; then `@mixin tablet` (≥768px), `@mixin desktop` (≥1024px)
+- Optional: `@mixin mobile` (≤767px), `@mixin small-mobile` (≤389px), `@mixin custom-scroll`, `@mixin responsive-font-size`
+- Do NOT use raw `@media (min-width: ...)` 
+- `$tablet: 768px`, `$desktop: 1024px` in `variables.css`
+
+### Colors
+- Always use variables from `variables.css`:
+  - `$darkBlack: #0d0804` — page background
+  - `$darkGrayBlue: #212429` — card backgrounds
+  - `$primaryWhite: #fafafa` — main text
+  - `$lightGrayOrange: #e0d9d4` — headings, emphasis
+  - `$gray: #bebec9` — secondary text, inactive
+  - `$softOrange: #e9a87c` — accent, active states
+  - `$softOrangeTrans: rgba(233, 168, 124, 0.8)` — semi-transparent accent
+
+### Layout
+- Mobile-first: default styles = mobile, override inside `@mixin tablet` / `@mixin desktop`
+- Follow BEM-like naming: `.block__element--modifier`
+
+### Components
+- Use existing UI components from `components/ui/` when available
+- Create new components when needed — match existing card patterns:
+  - `background: $darkGrayBlue`
+  - `border-radius: 0.8rem` (or 16px)
+  - `padding: 1.6rem`
+  - `border: 1px solid rgba(255, 255, 255, 0.06)`
+
+## Before Submitting
+- Run `npx nuxi build` to verify no compile errors
+- Check that no unused imports remain
+- Verify the code follows the same patterns as existing components
+- Ensure `@import '~/assets/css/variables.css'` is present in scoped styles
+- Use `@mixin` syntax, not raw `@media`
+
+## Data Types
+- Project types: `types/natal.ts`
+- Key types: AstroApiResponse, Planet, Aspect, ChartResponse, NestedDescription, Insight
+- Use `canShowFullDescription()` helper from `types/natal.ts`
