@@ -47,9 +47,8 @@
     position: sticky;
     top: 8.2rem;
     z-index: 9;
-    margin: 0 -1.6rem 2.4rem;
+    margin-bottom: 2.4rem;
     padding: 0.8rem 0;
-    background: rgba($darkBlack, 0.92);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);

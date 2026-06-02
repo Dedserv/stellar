@@ -170,7 +170,7 @@
   }
 
   .natalchart__hero {
-    padding: 8.2rem 1.6rem 4rem;
+    padding: 8.2rem 0 4rem;
   }
 
   .natalchart__empty,

@@ -69,17 +69,17 @@
 
   .circle--big {
     display: block;
-    width: 190vw;
-    height: 190vw;
-    top: 55%;
+    width: 150%;
+    height: 150%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
-    opacity: 0.1;
+    opacity: 0.2;
 
     @mixin tablet {
       width: 132vw;
       height: 132vw;
-      top: 51%;
+      top: 55%;
       opacity: 0.2;
     }
 
@@ -90,9 +90,9 @@
   }
 
   .circle--small {
-    width: 150vw;
-    height: 150vw;
-    top: 59%;
+    width: 155%;
+    height: 155%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);
     opacity: 0.3;
@@ -100,7 +100,7 @@
     @mixin tablet {
       width: 82.4vw;
       height: 82.4vw;
-      top: 51.2%;
+      top: 44.2%;
       opacity: 0.28;
     }
 
