@@ -129,7 +129,7 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    yaKey: '',
+    yaApi: '',
     yaGeocodeApi: '',
     deepseekApiKey: '',
     public: {

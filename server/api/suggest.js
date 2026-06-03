@@ -1,16 +1,14 @@
+const config = useRuntimeConfig();
+
+const initialParams = {
+  apikey: config.yaApi || process.env.YA_API,
+  lang: 'ru_RU',
+  type: 'geo',
+  results: 10,
+  types: 'locality',
+};
+
 export default defineEventHandler(async (event) => {
-  const config = useRuntimeConfig();
-
-  const initialParams = {
-    apikey: config.yaKey || process.env.YA_API,
-    lang: 'ru_RU',
-    type: 'geo',
-    results: 10,
-    types: 'locality',
-  };
-
-  console.log(useRuntimeConfig());
-
   const params = getQuery(event);
 
   if (!params) {
