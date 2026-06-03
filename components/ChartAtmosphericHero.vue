@@ -13,7 +13,8 @@
 
   .chart-atmospheric-hero {
     position: relative;
-    overflow: hidden;
+    overflow-x: clip;
+    overflow-y: visible;
     margin-bottom: 2.4rem;
     padding: 7rem 1.6rem 2.4rem;
     min-height: 28rem;

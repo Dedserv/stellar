@@ -4,7 +4,7 @@
 >
 > **Для человека:** открой этот файл — видно, где мы и что сказать в чате.
 
-**Обновлено:** 2026-05-31
+**Обновлено:** 2026-06-03
 
 ---
 
@@ -13,7 +13,8 @@
 | Цель | Напиши в чат |
 |------|----------------|
 | Только план/аудит | `/pm-ux-designer проанализируй /natalchart` или «обнови план» |
-| **Реализация этапа** (Dev→Test→PM sign-off) | `Реализуй этап NC-01` — агент **сам** запускает Tester + PM review |
+| **Реализация этапа** (Dev→Test→PM sign-off) | `Реализуй этап NC-12` — агент **сам** запускает Tester + PM review |
+| Онбординг колеса | `Реализуй этап NC-12` затем `NC-13` (тур → легенда) |
 | То же + PM-спека с нуля | `Полный цикл: NC-01` |
 | Только код (без QA) | `Реализуй этап NC-01 только код` / `без QA` |
 | Только QA | `Проверь этап NC-01` / `/stellara-tester` |
@@ -29,7 +30,8 @@
 | **Этап** | — (очередь NC завершена) |
 | **Статус** | `done` |
 | **Блокер** | — |
-| **Следующий после NC-03** | `NC-04` Hero Big Three |
+| **Следующий** | — |
+| **Спека-источник** | `wheel-onboarding-spec.md` (workspace), PM-план 2026-06-03 |
 
 ---
 
@@ -50,6 +52,8 @@
 - [x] NC-09 — Atmospheric hero (HoroCircle + ChartAtmosphericHero)
 - [x] NC-10 — Share URL (copy + Web Share, ChartShareButton)
 - [x] NC-11 — Filter chips вместо select (FilterChips, contain scroll fix)
+- [x] NC-12 — Онбординг-тур колеса (highlight, tour sheet/panel, «?», guide, toast, legend stub)
+- [x] NC-13 — Легенда символов (accordion, carousel, hover→wheel desktop)
 
 ---
 
@@ -70,8 +74,12 @@
 | NC-09 | P1 | Atmospheric hero (HoroCircle) | `done` | ChartAtmosphericHero wrapper |
 | NC-10 | P2 | Share URL | `done` | useChartShareUrl + ChartShareButton |
 | NC-11 | P2 | Filter chips вместо select | `done` | FilterChips.vue, mobile scroll fix |
+| **NC-12** | P0 | Онбординг-тур колеса | `done` | ChartWheelGuide, useChartWheelTour, build ok |
+| **NC-13** | P0 | Легенда символов колеса | `done` | ChartWheelLegend, useChartWheelLegend |
 
-**Рекомендуемый порядок:** NC-01 → NC-02 → NC-03 → NC-04 → NC-05 …
+**Рекомендуемый порядок:** NC-01 … NC-11 → **NC-12** → **NC-13**
+
+> Старый план из 8 подзадач (highlight, composable, sheet, «?», toast, legend, hover, wiring) свёрнут в **NC-12 + NC-13** — один TASK = один прогон pipeline.
 
 ---
 
@@ -163,7 +171,98 @@
 
 ---
 
-*(NC-06 … NC-11 — детали в PM-аудите; дополнять при старте этапа.)*
+### NC-12 — Онбординг-тур колеса
+
+**Приоритет:** P0 | **Сложность:** High
+
+**Проблема:** колесо (`ChartWheel`) непонятно новому пользователю; нет guided tour, кнопки «?», подсветки элементов и персистентности «тур пройден».
+
+**Решение (всё в одном этапе):**
+
+1. **Инфраструктура подсветки** в `ChartWheel.vue` (тот же SVG `viewBox 400×400`):
+   - Props: `highlightTarget`, `dimmed`
+   - Targets: `wheel` | `sun` | `moon` | `ascendant` (+ задел под legend в NC-13)
+   - Dim `rgba(13,8,4,0.55)`; pulse 1.8s (gold sun `#d4a853`, moon `$lightGray`, ASC `$primaryWhite`, rim `$softOrangeTrans`)
+   - Overlay `pointer-events: none`; `select-planet` не ломать
+   - `prefers-reduced-motion` → статичное кольцо
+
+2. **Константы и типы:** `constants/chartWheelSymbols.ts`, `types/chartWheel.ts` — вынести icons/labels из `ChartWheel` / переиспользовать `SIGN_LABELS_RU` из `ChartBigThree` для заголовков шагов.
+
+3. **`useChartWheelTour.ts`:** 4 шага (круг → Солнце → Луна → Асцендент); dynamic titles («Солнце в ♊ Близнецах» из API).
+   - localStorage: `stellara:natalchart:wheel-tour:v1` → `{ completed: true }`
+   - Auto-start ~500ms после `data` если не completed; повторный визит — без auto
+   - Manual «?» не сбрасывает ключ
+
+4. **UI тура:**
+   - Mobile: `ChartWheelTourSheet` — bottom sheet, swipe, dots, «Далее» / «Пропустить» / «Готово»
+   - Desktop (`@mixin desktop`): `ChartWheelTourPanel` справа, flex row ~55/45, ← → Escape
+   - **Non-modal:** не `FullscreenModal`, не full `useBodyScrollLock` на body
+
+5. **Кнопка «?»** `ChartWheelHelpButton` — top-right wheel wrapper, disabled при active tour
+
+6. **Обёртка `ChartWheelGuide.vue`:** HelpButton + ChartWheel + TourSheet/Panel + Toast; замена в `natalchart.vue`:
+   ```vue
+   <ChartWheelGuide :data="data" @select-planet="onSelectPlanet" />
+   ```
+   Только при `data && !pending`. `ChartBigThree` — sibling после guide (порядок hero: header → guide → big three).
+
+7. **Toast после complete:** 3s «Подробная легенда — ниже ↓», scroll к `#chart-wheel-legend` offset ~134px. Skip → scroll без toast. *(Якорь легенды добавится в NC-13; в NC-12 — id на placeholder-section или пустой `ChartWheelLegend` stub с `id`.)*
+
+**Файлы:** `ChartWheel.vue`, `pages/natalchart.vue`, `composables/useChartWheelTour.ts`, `constants/chartWheelTourSteps.ts`, `constants/chartWheelSymbols.ts`, `types/chartWheel.ts`, `components/chart-wheel/ChartWheelGuide.vue`, `ChartWheelTourSheet.vue`, `ChartWheelTourPanel.vue`, `ChartWheelTourStep.vue`, `ChartWheelHelpButton.vue`, `ChartWheelTourToast.vue`
+
+**Design:** title `1.5rem` `$lightGrayOrange`; body `1.3rem` `$gray`; CTA `VButton bordered secondary rounded`; sheet `$darkGrayBlue`, radius `1.2rem 0 0`; z-index tour ~40, toast ~50.
+
+**Решения (зафиксировано):** skip без toast; сектора wheel по стихиям — не в scope (только в легенде NC-13).
+
+**Приёмка:**
+- [x] 375px: первый визит (очистить LS) → auto tour ~500ms, 4 шага, dim + pulse, sheet swipe/dots
+- [x] 1024px: side panel, keyboard ← → Escape
+- [x] «?» перезапускает тур; during tour — disabled
+- [x] Reload после complete — без auto; manual «?» работает
+- [x] Complete → toast 3s + scroll к `#chart-wheel-legend`
+- [x] Tap planet → `#planets` как сейчас
+- [x] `nuxi build` ok
+
+---
+
+### NC-13 — Легенда символов колеса
+
+**Приоритет:** P0 | **Сложность:** Medium
+
+**Проблема:** нет справочника «что значат символы»; нет связи легенда ↔ колесо на desktop.
+
+**Решение (всё в одном этапе):**
+
+1. **`ChartWheelLegend.vue`** в `ChartWheelGuide` — **между** wheel и `ChartBigThree`: wheel → legend → big three.
+   - Accordion «Что значат символы?» (паттерн `AspectsSection`), `id="chart-wheel-legend"`
+   - По умолчанию **всё свёрнуто**; состояние не в localStorage
+
+2. **Три группы** (из `chartWheelSymbols.ts`):
+   - Планеты — icon + RU + краткое описание
+   - Знаки — symbol + RU + chip стихии (цвета стихий в chips, не на секторах wheel)
+   - Аспекты — swatch линии = `.chart-wheel__aspect--harmonious|tense|conjunction`
+
+3. **Mobile:** horizontal carousel / `scroll-snap` внутри открытой группы
+4. **Desktop:** grid/row без carousel
+5. **`useChartWheelLegend.ts`:** expanded group, `scrollToLegend()` для NC-12 toast
+6. **Desktop hover (`@mixin desktop`):** hover item → `highlightTarget` на wheel (планета / знак / категория аспектов); mobile без hover
+
+**Файлы:** `ChartWheelLegend.vue`, `useChartWheelLegend.ts`, доработка `ChartWheelGuide.vue`, `ChartWheel.vue` (targets `planet`, `sign`, aspect category), `constants/chartWheelSymbols.ts`
+
+**Design:** card `$darkGrayBlue`, `padding 1.6rem`, `border-radius 0.8rem`; chips `$softOrange` 0.1 bg; hover item `rgba(233,168,124,0.08)`.
+
+**Приёмка:**
+- [x] 375px: accordion, swipe в группе, цвета аспектов = wheel
+- [x] 1024px: grid layout; hover «Марс» / «♌» / «Тригон» подсвечивает wheel
+- [x] Scroll из NC-12 toast попадает на видимую легенду
+- [x] Hero layout: meta → guide(wheel+legend) → big three без регрессий
+- [x] `nuxi build` ok
+
+**Зависимость:** NC-12 (highlight API + `ChartWheelGuide` shell).
+
+---
+
+*(NC-06 … NC-11 — детали в PM-аудите.)*
 
 ### NC-06 — Harmony tone progress bar
 
@@ -323,6 +422,10 @@ http://192.168.1.74:3000/natalchart?year=1990&month=5&day=15&hour=14&minute=30&l
 | 2026-05-31 | NC-10 done — share URL button, QA PASS WITH NOTES + PM sign-off |
 | 2026-05-31 | NC-11 done — filter chips, scroll fix, QA PASS + PM sign-off |
 | 2026-05-31 | Post-review polish — nav chip mobile fix, share copy, HoroCircle mobile, h1/meta, planet tags |
+| 2026-06-03 | PM: план онбординга колеса (`wheel-onboarding-spec.md`) — 8 подзадач свёрнуты в **NC-12** + **NC-13** |
+| 2026-06-03 | NC-12 done — ChartWheelGuide, highlight layer, tour composable, sheet/panel, help «?», toast, legend stub |
+| 2026-06-03 | NC-12 QA PASS (ref destructuring fix) + PM sign-off ✅ |
+| 2026-06-03 | NC-13 done — ChartWheelLegend, hover highlight, carousel/grid, stub removed |
 
 ---
 

@@ -69,8 +69,8 @@
 
   .circle--big {
     display: block;
-    width: 150%;
-    height: 150%;
+    width: 180%;
+    height: 180%;
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0deg);

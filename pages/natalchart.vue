@@ -19,7 +19,7 @@
       <template v-else-if="data">
         <ChartAtmosphericHero class="natalchart__hero">
           <ChartHeader :data="data" :city="cityLabel" />
-          <ChartWheel :data="data" @select-planet="onSelectPlanet" />
+          <ChartWheelGuide :data="data" @select-planet="onSelectPlanet" />
           <ChartBigThree :data="data" />
         </ChartAtmosphericHero>
         <div>

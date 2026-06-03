@@ -41,7 +41,7 @@
             <div class="planet-card__importance-bar">
               <div
                 class="planet-card__importance-fill"
-                :style="{ width: `${importanceDisplay(vm.importance)}%` }"
+                :style="{ width: `${importanceDisplay(vm.importance) * 10}%` }"
               />
             </div>
             <span class="planet-card__importance-value">
