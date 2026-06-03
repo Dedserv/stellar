@@ -103,12 +103,10 @@
                     <div
                       class="aspect-card__weight-fill"
                       :class="`aspect-card__weight-fill--${vm.category}`"
-                      :style="{ width: `${weightDisplay(vm.weight)}%` }"
+                      :style="{ width: `${weightDisplay(vm.weight) * 10}%` }"
                     />
                   </div>
-                  <span class="aspect-card__weight-value">
-                    {{ weightDisplay(vm.weight) * 10 }}/10
-                  </span>
+                  <span class="aspect-card__weight-value">{{ weightDisplay(vm.weight) }}/10</span>
                 </div>
                 <template v-if="vm.full">
                   <button
