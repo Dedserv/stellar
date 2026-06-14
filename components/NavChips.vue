@@ -1,6 +1,6 @@
 <template>
   <nav class="nav-chips" aria-label="Навигация по разделам карты">
-    <div class="nav-chips__inner container">
+    <div class="container">
       <ul class="nav-chips__list">
         <li v-for="chip in chips" :key="chip.id" class="nav-chips__item">
           <button
@@ -56,16 +56,6 @@
     @mixin tablet {
       margin-left: 0;
       margin-right: 0;
-    }
-  }
-
-  .nav-chips__inner {
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-
-    @mixin desktop {
-      padding-left: 0;
-      padding-right: 0;
     }
   }
 

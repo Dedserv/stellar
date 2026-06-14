@@ -45,6 +45,7 @@ export default defineEventHandler(async () => {
           bordered: true,
           size: 'small',
           rounded: true,
+          forceOpen: true,
         },
         {
           title: 'Мужской',
@@ -54,6 +55,7 @@ export default defineEventHandler(async () => {
           bordered: true,
           size: 'small',
           rounded: true,
+          forceOpen: true,
         },
       ],
       value: '',
@@ -96,6 +98,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
         {
           title: 'Помолвлен(а)',
@@ -104,6 +107,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
         {
           title: 'В отношениях',
@@ -112,6 +116,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
         {
           title: 'Запутано',
@@ -120,6 +125,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
         {
           title: 'Не в отношениях',
@@ -128,6 +134,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
         {
           title: 'В разводе',
@@ -136,6 +143,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           size: 'small',
           bordered: true,
+          forceOpen: true,
         },
       ],
       value: '',
@@ -153,6 +161,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Не составляла(а)',
@@ -161,6 +170,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
       ],
       value: '',
@@ -178,6 +188,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Карьера',
@@ -186,6 +197,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Любовь',
@@ -194,6 +206,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Здоровье',
@@ -202,6 +215,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Семейная жизнь',
@@ -210,6 +224,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
         {
           title: 'Друзья',
@@ -218,6 +233,7 @@ export default defineEventHandler(async () => {
           type: 'transparent',
           bordered: true,
           size: 'small',
+          forceOpen: true,
         },
       ],
       value: [],

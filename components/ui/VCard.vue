@@ -55,6 +55,11 @@
       default: '',
     },
 
+    forceOpen: {
+      type: Boolean,
+      default: false,
+    },
+
     description: {
       type: String,
       default: '',
@@ -110,12 +115,12 @@
   const emit = defineEmits(['cardClick']);
 
   const handleCardClick = (event) => {
-    if (props.link) {
+    if (props.link || props.forceOpen) {
       return;
     }
 
     const isMobile = window.innerWidth <= 1023;
-    if (!isMobile) {
+    if (!isMobile && props.forceOpen) {
       return;
     }
 

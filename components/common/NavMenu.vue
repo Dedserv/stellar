@@ -21,7 +21,13 @@
             key="navigation-menu"
           >
             <li v-for="(item, index) in navList" :key="`navigation_${index}`">
-              <NuxtLink :href="item.link">{{ item.title }}</NuxtLink>
+              <NuxtLink
+                class="navigation__link"
+                :to="item.link"
+                :class="{ 'navigation__link--exact': route.fullPath === item.link }"
+              >
+                {{ item.title }}
+              </NuxtLink>
             </li>
           </ul>
         </TransitionGroup>
@@ -31,17 +37,28 @@
 </template>
 
 <script setup>
+  const route = useRoute();
+
   const props = defineProps({
     navList: { type: Array, required: true },
     isShowMenu: { type: Boolean, default: false },
   });
 
-  const emits = defineEmits(['menuClick']);
+  const emit = defineEmits(['menuClick']);
   const { $isMobile } = useNuxtApp();
 
   const onButtonClickHandler = () => {
-    emits('menuClick', !props.isShowMenu);
+    emit('menuClick', !props.isShowMenu);
   };
+
+  watch(
+    () => route.fullPath,
+    (newRoute, oldRoute) => {
+      if (newRoute !== oldRoute) {
+        emit('menuClick', !props.isShowMenu);
+      }
+    }
+  );
 </script>
 
 <style scoped>
@@ -108,6 +125,14 @@
 
     .icon {
       color: $lightGrayOrange;
+    }
+  }
+
+  .navigation__link {
+    &--exact {
+      &::after {
+        width: 100%;
+      }
     }
   }
 
