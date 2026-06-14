@@ -55,7 +55,7 @@
     () => route.fullPath,
     (newRoute, oldRoute) => {
       if (newRoute !== oldRoute) {
-        emit('menuClick', !props.isShowMenu);
+        emit('menuClick', false);
       }
     }
   );
