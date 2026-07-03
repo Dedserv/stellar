@@ -13,6 +13,7 @@ import {
 import {
   getPlanetDescription,
   getAspectDescription,
+  getSignPairComboDescription,
 } from '~/server/utils/jsonLoader.js';
 import { buildHighlights } from '~/server/utils/insights/index.js';
 
@@ -164,16 +165,23 @@ export default defineEventHandler(async (event) => {
         const planet = planets[planetName];
         try {
           // Описания по знаку и по дому (оба в ответе)
-          const planetDesc = await getPlanetDescription(planetName, planet.sign, planet.house);
+          const [planetDesc, ascComboDesc] = await Promise.all([
+            getPlanetDescription(planetName, planet.sign, planet.house),
+            getSignPairComboDescription(planetName, 'asc', planet.sign, ascendantSign.sign),
+          ]);
           return {
             ...planet,
             description: planetDesc, // { sign: { type, description } | null, house: { type, description } | null }
+            ascCombo: ascComboDesc
+              ? { type: 'sign_combo', description: ascComboDesc }
+              : null,
           };
         } catch (error) {
           console.error(`Error loading descriptions for ${planetName}:`, error);
           return {
             ...planet,
             description: { sign: null, house: null },
+            ascCombo: null,
           };
         }
       })

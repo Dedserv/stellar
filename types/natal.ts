@@ -58,6 +58,7 @@ export type Planet = {
     sign: NestedDescription;
     house: NestedDescription;
   };
+  ascCombo: NestedDescription | null;
 };
 
 export type AnglePoint = {
