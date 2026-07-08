@@ -48,7 +48,7 @@
 
   .nav-chips {
     position: sticky;
-    top: 8.2rem;
+    top: 8rem;
     z-index: 9;
     margin-bottom: 2.4rem;
     padding: 0.8rem 0;
