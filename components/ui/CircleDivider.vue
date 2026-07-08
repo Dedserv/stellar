@@ -25,7 +25,7 @@
     activeIndex: { type: Number, default: 0 },
     radius: { type: Number, default: 100 },
     strokeColor: { type: String, default: '#3498db' },
-    inactiveColor: { type: String, default: 'transparent' },
+    inactiveColor: { type: String, default: '#3f3334' },
     borderWidth: { type: Number, default: 2 },
     gap: { type: Number, default: 8 },
   });
@@ -75,11 +75,11 @@
     padding: 1px;
     overflow-clip-margin: border-box;
     opacity: 0;
-    animation: fadeIn 0.8s ease-in-out forwards;
-    animation-delay: 4s; /* Задержка перед началом анимации */
+    animation: fadeIn 1.8s ease-in-out forwards;
+    animation-delay: 3.2s; /* Задержка перед началом анимации */
 
     &__segment {
-      transition: stroke 0.7s ease;
+      transition: stroke 0.8s ease;
     }
 
     @keyframes fadeIn {

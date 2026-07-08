@@ -1,5 +1,5 @@
 <template>
-  <div class="horo-circle" aria-hidden="true">
+  <div class="horo-circle" :class="{ 'horo-circle--compact': compact }" aria-hidden="true">
     <img
       ref="bigCircleRef"
       loading="lazy"
@@ -18,6 +18,15 @@
 </template>
 
 <script setup lang="ts">
+  withDefaults(
+    defineProps<{
+      compact?: boolean;
+    }>(),
+    {
+      compact: false,
+    }
+  );
+
   const { $gsap } = useNuxtApp();
   const bigCircleRef = ref<HTMLImageElement | null>(null);
   const smallCircleRef = ref<HTMLImageElement | null>(null);
@@ -105,10 +114,36 @@
     }
 
     @mixin desktop {
-      width: 83.4vw;
-      height: 83.4vw;
       top: 68.2%;
       opacity: 0.22;
+    }
+  }
+
+  .horo-circle--compact {
+    .circle--big {
+      width: 120%;
+      height: 120%;
+      top: 50%;
+      opacity: 0.14;
+
+      @mixin tablet {
+        width: 100%;
+        height: 100%;
+        top: 50%;
+      }
+    }
+
+    .circle--small {
+      width: 90%;
+      height: 90%;
+      top: 50%;
+      opacity: 0.18;
+
+      @mixin tablet {
+        width: 72%;
+        height: 72%;
+        top: 50%;
+      }
     }
   }
 </style>

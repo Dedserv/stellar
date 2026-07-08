@@ -3,8 +3,9 @@ const fs = require('fs').promises;
 const path = require('path');
 const franc = require('franc');
 
-const JSON_DIR = process.argv[2] || path.join(process.cwd(), 'data/generated/sign_pair_combos'); // можно передать путь первым аргументом
-const FIELDS_TO_CHECK = ['short', 'full', 'strengths']; // расширьте при необходимости
+const JSON_DIR =
+  process.argv[2] || path.join(process.cwd(), 'data/generated/personality-test');
+const FIELDS_TO_CHECK = ['portrait', 'love', 'career', 'selfDevelopment', 'cosmicAdvice'];
 const BACKUP_EXT = '.bak';
 
 function hasCyrillic(s) {

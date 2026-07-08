@@ -1,114 +1,161 @@
 <template>
   <Teleport to="#teleports">
     <Transition>
-      <div class="modal">
+      <div v-if="!isLoadingResult" class="modal">
         <div class="container">
           <ModalHeader
-            :count="data.length"
-            :currentSlideIndex="questionStores?.currentSlide || 0"
+            :count="totalSteps"
+            :current-slide-index="quizStore.step"
             @close-modal="clickExitButton"
           />
           <div class="modal__wrapper">
-            <h3 class="modal__title">{{ currentTitle }}</h3>
-            <NatalQuestions
-              ref="natalQuestionsRef"
+            <PersonalityQuiz
               class="modal__questions"
-              :questions="data"
-              @getQuestionData="getQuestionData"
+              :questions="flatQuestions"
+              :loading="isSubmitting"
+              @next="handleNext"
             />
-            <VButton
-              class="modal__button"
-              size="s"
-              type="transparent"
-              color="gray"
-              withoutIconMargin
-              hover
-              :disabled="!questionStores.isCompleted || isSubmitting"
-              @click="changeSlideHandler"
-            >
-              {{ buttonTitle }}
-              <UseIcon class="modal__arrow" name="arrow" :width="10" :height="0.8" />
-            </VButton>
             <p v-if="submitError" class="modal__error">{{ submitError }}</p>
           </div>
         </div>
-        <ModalMobileMenu :questions-length="data.length" @changeSlideHandler="changeSlideHandler" />
+        <ModalMobileMenu
+          :questions-length="totalSteps"
+          :can-proceed="quizStore.canProceed"
+          :is-submitting="isSubmitting"
+          :is-last-step="quizStore.isLastStep"
+          @change-slide-handler="handleMobileNav"
+        />
+      </div>
+      <div v-else class="modal modal--loading">
+        <div class="container">
+          <ChartSkeleton :progress="loadingProgress" />
+        </div>
       </div>
     </Transition>
   </Teleport>
 </template>
 
-<script setup>
+<script setup lang="ts">
   import { modalStore } from '@/stores/modal';
-  import { questionsStore } from '@/stores/questions';
-  import NatalQuestions from '../NatalQuestions.vue';
+  import { usePersonalityQuizStore } from '@/stores/personalityQuiz';
+  import type { QuizData } from '~/types/personality';
+  import type { PersonalityTestResponse } from '~/types/personality';
+  import { flattenQuizQuestions } from '~/composables/useQuizQuestions';
+
+  const PERSONALITY_RESULT_KEY = 'stellara:personality-result';
 
   const { lock, unlock } = useBodyScrollLock();
-  const { buildFromAnswers } = useChartQuery();
-
   const modal = modalStore();
-  const questionStores = questionsStore();
-  const natalQuestionsRef = ref(null);
+  const quizStore = usePersonalityQuizStore();
 
   const isSubmitting = ref(false);
+  const isLoadingResult = ref(false);
   const submitError = ref('');
+  const loadingProgress = ref(0);
+  let progressTimer: ReturnType<typeof setInterval> | null = null;
 
   onMounted(() => {
     lock();
   });
 
-  const { data } = await useFetch('/api/questions');
-  const finalResult = ref([]);
+  onBeforeUnmount(() => {
+    stopProgressTimer();
+  });
+
+  const { data: quizData } = await useFetch<QuizData>('/api/questions');
+  const flatQuestions = computed(() =>
+    quizData.value ? flattenQuizQuestions(quizData.value) : []
+  );
+  const totalSteps = 13;
+
+  const desktopButtonLabel = computed(() => {
+    if (isSubmitting.value) return 'Загрузка…';
+    return quizStore.isLastStep ? 'Получить результат' : 'Продолжить';
+  });
 
   const clickExitButton = () => {
     unlock();
-    questionStores.setSlideIndex(0);
+    quizStore.reset();
     modal.closeModal();
   };
 
-  const getQuestionData = (data, index) => {
-    finalResult.value[index] = { ...data.value, value: data.value.value.join() };
-  };
+  function stopProgressTimer() {
+    if (progressTimer) {
+      clearInterval(progressTimer);
+      progressTimer = null;
+    }
+  }
 
-  const changeSlideHandler = async (next) => {
-    if (!natalQuestionsRef.value) return;
+  function startProgressTimer() {
+    loadingProgress.value = 0;
+    progressTimer = setInterval(() => {
+      loadingProgress.value = Math.min(loadingProgress.value + 8, 92);
+    }, 180);
+  }
 
+  async function submitQuiz() {
+    if (!quizStore.formattedBirthDate) return;
+
+    isSubmitting.value = true;
+    isLoadingResult.value = true;
+    submitError.value = '';
+    startProgressTimer();
+
+    try {
+      const result = await $fetch<PersonalityTestResponse>('/api/personality-test', {
+        method: 'POST',
+        body: {
+          birthDate: quizStore.formattedBirthDate,
+          answers: quizStore.answers,
+        },
+      });
+
+      if (import.meta.client) {
+        sessionStorage.setItem(PERSONALITY_RESULT_KEY, JSON.stringify(result));
+      }
+
+      loadingProgress.value = 100;
+      stopProgressTimer();
+
+      unlock();
+      quizStore.reset();
+      modal.closeModal();
+
+      await navigateTo({
+        path: '/personality-result',
+        query: { archetypeId: result.archetypeId },
+      });
+    } catch (error: unknown) {
+      isLoadingResult.value = false;
+      stopProgressTimer();
+      const err = error as { data?: { statusMessage?: string }; message?: string };
+      submitError.value =
+        err?.data?.statusMessage ||
+        err?.message ||
+        'Не удалось получить результат. Попробуйте ещё раз.';
+    } finally {
+      isSubmitting.value = false;
+    }
+  }
+
+  async function handleNext() {
     submitError.value = '';
 
-    if (isLastSlide.value) {
-      isSubmitting.value = true;
-      try {
-        const answers = natalQuestionsRef.value.collectAllAnswers();
-        const query = await buildFromAnswers(answers);
-
-        unlock();
-        questionStores.setSlideIndex(0);
-        modal.closeModal();
-
-        await navigateTo({ path: '/natalchart', query });
-      } catch (error) {
-        submitError.value =
-          error?.data?.message ||
-          error?.message ||
-          'Не удалось определить город. Попробуйте ещё раз.';
-      } finally {
-        isSubmitting.value = false;
-      }
+    if (quizStore.isLastStep) {
+      await submitQuiz();
       return;
     }
 
-    const { nextSlide, prevSlide } = natalQuestionsRef.value;
-    next ? nextSlide() : prevSlide();
-  };
+    quizStore.nextStep();
+  }
 
-  const currentTitle = computed(() => data.value[questionStores.currentSlide].title);
-
-  const isLastSlide = computed(() => questionStores.currentSlide === data.value.length - 1);
-
-  const buttonTitle = computed(() => {
-    if (isSubmitting.value) return 'Загрузка…';
-    return isLastSlide.value ? 'Получить результат' : 'Продолжить';
-  });
+  function handleMobileNav(next?: boolean) {
+    if (next) {
+      handleNext();
+      return;
+    }
+    quizStore.prevStep();
+  }
 </script>
 
 <style scoped>
@@ -120,12 +167,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1.2rem 1.2rem;
+    padding: 1.2rem;
     width: 100%;
     height: 100%;
     background-color: $blackBlue;
     z-index: 9999;
-    overflow: hidden;
+    overflow-y: auto;
 
     @mixin tablet {
       padding: 4rem 1.6rem;
@@ -135,40 +182,34 @@
       padding: 4rem 10rem;
     }
 
+    &--loading {
+      display: flex;
+      align-items: center;
+    }
+
     &__wrapper {
       margin: auto;
       margin-top: 3.2rem;
+      max-width: 72rem;
 
       @mixin tablet {
-        margin-top: 8rem;
+        margin-top: 4rem;
       }
 
       @mixin desktop {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2.4rem;
+        max-width: none;
       }
     }
 
     &__questions {
+      width: 100%;
+
       @mixin desktop {
         max-width: 44.4vw;
-      }
-    }
-
-    &__title {
-      font-size: 2rem;
-      line-height: 1.4;
-      text-align: center;
-      font-weight: normal;
-      margin: 0;
-      margin-bottom: 2.4rem;
-      color: $gray;
-
-      @mixin desktop {
-        font-size: 3rem;
-        margin: 0;
-        width: 20.8vw;
-        text-align: left;
       }
     }
 
@@ -180,6 +221,7 @@
         width: 19vw;
         height: fit-content;
         gap: 0.6rem;
+        flex-shrink: 0;
       }
     }
 
@@ -194,10 +236,6 @@
       font-size: 1.4rem;
       color: $softOrange;
       text-align: center;
-
-      @mixin desktop {
-        text-align: left;
-      }
     }
   }
 </style>

@@ -2,7 +2,7 @@
   <div class="modal-header">
     <VButton
       class="modal-header__button"
-      size="s"
+      size="xs"
       type="transparent"
       color="gray"
       :withoutIconMargin="hasMargin"
@@ -44,7 +44,6 @@
         />
       </div>
     </div>
-    <div class="modal-header__counter">{{ questionsCounter }}</div>
   </div>
 </template>
 
@@ -64,8 +63,6 @@
     },
   });
 
-  const questionsCounter = computed(() => `${props.currentSlideIndex + 1} / ${props.count}`);
-
   const circle = ref(null);
   const star = ref(null);
   const iconSizes = {
@@ -77,7 +74,7 @@
   const isMobile = useMediaQuery('(max-width: 767px)', { ssrWidth: 395 });
   const iconName = computed(() => (isMobile.value ? 'exit' : 'arrow'));
   const iconSize = computed(() => iconSizes[iconName.value]);
-  const circleDividerRadius = computed(() => (isMobile.value ? 40 : 60));
+  const circleDividerRadius = computed(() => (isMobile.value ? 30 : 40));
   const circleSizeWrapper = computed(() => (isMobile.value ? 80 : 104));
   const circleSize = computed(() => (isMobile.value ? 39.5 : 50));
   const starSize = computed(() => (isMobile.value ? 5 : 8));
@@ -89,7 +86,7 @@
     $gsap.to(circle.value, {
       strokeDashoffset: 0, // Полностью отрисовываем круг
       duration: 2.2,
-      delay: 1.2,
+      delay: 2,
       ease: 'circ.in',
       opacity: 1,
     });
@@ -97,15 +94,13 @@
     $gsap.to(star.value, {
       opacity: 1,
       scale: 1,
-      duration: 1.6,
-      delay: 0.2,
+      duration: 1.4,
       ease: 'power3.in',
     });
 
     $gsap.to(star.value, {
       rotate: 360,
-      duration: 6,
-      delay: 0.4,
+      duration: 4.2,
       ease: 'easy.out',
     });
   });
@@ -119,7 +114,7 @@
     align-items: center;
     justify-content: space-between;
     color: $gray;
-    padding: 2.4rem 0 4.2rem;
+    padding: 3rem 0 3.2rem;
 
     &::after {
       content: '';
@@ -152,7 +147,7 @@
     }
 
     &__button {
-      opacity: 0.6;
+      opacity: 0.3;
 
       &:hover {
         opacity: 1;
@@ -188,19 +183,6 @@
         width: 12rem;
         height: 12rem;
         left: calc(50% - 2px);
-      }
-    }
-
-    &__counter {
-      visibility: hidden;
-      opacity: 0;
-      user-select: none;
-
-      @mixin tablet {
-        visibility: visible;
-        display: block;
-        padding: 0.6rem;
-        opacity: 1;
       }
     }
 

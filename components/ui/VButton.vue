@@ -27,7 +27,7 @@
     size: {
       type: String,
       default: 'm',
-      validator: (val) => ['s', 'm', 'default'].includes(val),
+      validator: (val) => ['xs', 's', 'm', 'default'].includes(val),
     },
 
     display: {
@@ -211,6 +211,18 @@
     }
 
     &__size {
+      &--xs {
+        font-size: 1.2rem;
+        gap: 0.4rem;
+        padding: 0.4rem;
+        line-height: 1.4;
+
+        @mixin tablet {
+          font-size: 1.4rem;
+          gap: 0.6rem;
+        }
+      }
+
       &--s {
         font-size: 1.4rem;
         font-weight: 400;

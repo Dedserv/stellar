@@ -21,7 +21,7 @@
       type="transparent"
       color="gray"
       withoutIconMargin
-      :disabled="!store.isCompleted"
+      :disabled="!canProceed || isSubmitting"
       @click="onChangeSlideHandler(true)"
     >
       <UseIcon
@@ -30,35 +30,31 @@
         :width="8"
         :height="0.8"
       />
-      <span class="modal-menu__text">Продолжить</span>
+      <span class="modal-menu__text">{{ isLastStep ? 'Результат' : 'Продолжить' }}</span>
     </VButton>
   </div>
 </template>
 
-<script setup>
-  import { questionsStore } from '@/stores/questions';
+<script setup lang="ts">
+  import { usePersonalityQuizStore } from '@/stores/personalityQuiz';
 
-  const store = questionsStore();
+  const quizStore = usePersonalityQuizStore();
 
   const emit = defineEmits(['changeSlideHandler']);
 
-  const onChangeSlideHandler = (value) => {
+  const props = defineProps<{
+    questionsLength: number;
+    canProceed: boolean;
+    isSubmitting?: boolean;
+    isLastStep?: boolean;
+  }>();
+
+  const questionsCounter = computed(() => `${quizStore.step + 1} / ${props.questionsLength}`);
+  const isFirstSlide = computed(() => quizStore.step === 0);
+
+  const onChangeSlideHandler = (value?: boolean) => {
     emit('changeSlideHandler', value);
   };
-
-  const props = defineProps({
-    questionsLength: {
-      type: Number,
-      required: true,
-    },
-  });
-
-  const currentSlideIndex = computed(() => store.currentSlide);
-  const questionsCounter = computed(
-    () => `${currentSlideIndex.value + 1} / ${props.questionsLength}`
-  );
-
-  const isFirstSlide = computed(() => currentSlideIndex.value === 0);
 </script>
 
 <style scoped>
@@ -68,13 +64,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 10;
     width: 100%;
     color: $gray;
     padding: 2.4rem 1rem;
+    background: linear-gradient(180deg, transparent, $blackBlue 30%);
 
     &::after {
       content: '';

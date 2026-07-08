@@ -8,6 +8,18 @@ export default defineNuxtConfig({
   sitemap: {
     urls: [
       {
+        loc: '/personality-test',
+        lastmod: new Date().toISOString(),
+        changefreq: 'weekly',
+        priority: 0.9,
+      },
+      {
+        loc: '/personality-result',
+        lastmod: new Date().toISOString(),
+        changefreq: 'weekly',
+        priority: 0.7,
+      },
+      {
         loc: '/article/1',
         lastmod: new Date().toISOString(),
         changefreq: 'monthly',
@@ -26,11 +38,22 @@ export default defineNuxtConfig({
         priority: 0.8,
       },
     ],
-    exclude: ['/generate', '/data/**', '/data/generated/**', '/data/generated/planet_sign/**'],
+    exclude: ['/generate', '/data/**', '/data/generated/**'],
+  },
+  nitro: {
+    serverAssets: [
+      {
+        baseName: 'personality-test',
+        dir: './data/generated/personality-test',
+      },
+    ],
+  },
+  routeRules: {
+    '/natalchart': { redirect: '/personality-test' },
   },
   app: {
     head: {
-      title: 'Stellara - Ваша персональная натальная карта',
+      title: 'Stellara — Астрологический тест личности',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -39,28 +62,28 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+            'Пройдите астрологический тест личности и узнайте свой архетип. 12 вопросов и дата рождения — персональный портрет, баланс стихий и космический совет.',
         },
         {
           hid: 'keywords',
           name: 'keywords',
           content:
-            'натальная карта, астрология, гороскоп, астрологический прогноз, составление натальной карты',
+            'астрологический тест, архетип личности, астрология, гороскоп, тест личности, стихии',
         },
-        { property: 'og:title', content: 'Stellara - Ваша персональная натальная карта' },
+        { property: 'og:title', content: 'Stellara — Астрологический тест личности' },
         {
           property: 'og:description',
           content:
-            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+            'Пройдите астрологический тест личности и узнайте свой архетип. 12 вопросов и дата рождения — персональный портрет, баланс стихий и космический совет.',
         },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://www.stellara.ru' },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Stellara - Ваша персональная натальная карта' },
+        { name: 'twitter:title', content: 'Stellara — Астрологический тест личности' },
         {
           name: 'twitter:description',
           content:
-            'Узнайте свою натальную карту и получите персональный астрологический прогноз. Составьте натальную карту онлайн и раскройте тайны своей судьбы.',
+            'Пройдите астрологический тест личности и узнайте свой архетип. 12 вопросов и дата рождения — персональный портрет, баланс стихий и космический совет.',
         },
         { name: 'robots', content: 'index, follow' },
         { name: 'author', content: 'Stellara' },
@@ -89,7 +112,7 @@ export default defineNuxtConfig({
             '@type': 'WebSite',
             name: 'Stellara',
             url: 'https://www.stellara.ru',
-            description: 'Ваша персональная натальная карта и астрологический прогноз',
+            description: 'Астрологический тест личности и персональный гороскоп',
             potentialAction: {
               '@type': 'SearchAction',
               target: 'https://www.stellara.ru/search?q={search_term_string}',
@@ -129,8 +152,6 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    yaApi: '',
-    yaGeocodeApi: '',
     deepseekApiKey: '',
     public: {
       NUXT_SITE_URL: 'https://www.stellara.ru',
@@ -156,10 +177,8 @@ export default defineNuxtConfig({
     },
   ],
   vite: {
-    assetsInclude: ['**/*.wasm'], // Чтобы Vite обрабатывал WASM
     optimizeDeps: {
-      include: ['gsap'], // Для правильного дерева зависимостей
-      exclude: ['swisseph-wasm'], // Исключаем из предоптимизации
+      include: ['gsap'],
     },
   },
   devtools: { enabled: true },

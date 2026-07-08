@@ -42,9 +42,9 @@
     },
   });
 
-  import { questionsStore } from '@/stores/questions';
+  import { usePersonalityQuizStore } from '@/stores/personalityQuiz';
 
-  const questionStores = questionsStore();
+  const quizStore = usePersonalityQuizStore();
 
   const modal = modalStore();
 
@@ -63,7 +63,7 @@
 
   const clickExitButton = () => {
     unlock();
-    questionStores.setSlideIndex(0);
+    quizStore.reset();
     modal.closeModal();
   };
 

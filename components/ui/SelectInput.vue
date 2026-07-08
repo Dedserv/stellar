@@ -81,9 +81,11 @@
         })) || [];
 
       isLoading.value = false;
-    } catch (error) {
-      console.error('Ошибка поиска адресов:', error);
+    } catch {
       suggestions.value = [];
+      isShowSuggestion.value = false;
+    } finally {
+      isLoading.value = false;
     }
   }, 300);
 
