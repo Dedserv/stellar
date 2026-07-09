@@ -5,6 +5,10 @@ import path from 'path';
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   modules: ['@vueuse/nuxt', '@pinia/nuxt', 'nuxt-swiper', '@nuxt/icon', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://www.stellara.ru',
+    name: 'Stellara',
+  },
   sitemap: {
     urls: [
       {
@@ -154,8 +158,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     deepseekApiKey: '',
     public: {
-      NUXT_SITE_URL: 'https://www.stellara.ru',
-      NUXT_SITE_NAME: 'Stellara',
+      siteUrl: 'https://www.stellara.ru',
+      siteName: 'Stellara',
     },
   },
   ssr: true,
