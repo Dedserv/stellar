@@ -4,7 +4,7 @@
 >
 > **Для человека:** текущее состояние миграции с натальной карты на астрологический тест личности.
 
-**Обновлено:** 2026-07-08
+**Обновлено:** 2026-07-15
 
 ---
 
@@ -12,10 +12,10 @@
 
 | Поле | Значение |
 |------|----------|
-| **Этап** | Sprint 06 — расширение платного контента |
-| **Статус** | `done` |
+| **Этап** | Result page redesign (V1) |
+| **Статус** | `done` — QA PASS WITH NOTES, PM Accepted with notes |
 | **Блокер** | — |
-| **Следующий** | P2 scroll-spy fix (опционально), вычитка контента астрологом, API paywall split, оплата |
+| **Следующий** | API paywall / оплата; P2 hydration (session vs SSR) опционально |
 
 ---
 
@@ -23,7 +23,7 @@
 
 1. Главная → модалка (дата рождения + 12 вопросов)
 2. `POST /api/personality-test` → sessionStorage → `/personality-result?archetypeId=...`
-3. Freemium: портрет, стихии, совет — бесплатно; 8 платных блоков скрыты через `v-if hasFullAccess` + PaywallBanner (клик = dev-разблокировка)
+3. Freemium: портрет + стихии + совет (full); strengths/love/career/self — **preview с fade**; paywall Nebula закрывает growth/conflicts/friendship/decisions; unlock = full + paid-only; `#share` внизу
 
 **Тестовый URL с результатом:** пройти квиз или открыть `/personality-result?archetypeId=leo-1` (без session — портрет + CTA вместо пустых стихий).
 
@@ -33,16 +33,27 @@
 
 ## Сделано
 
+### Result redesign V1 (2026-07-15)
+- [x] Freemium: 4 preview-блока + Nebula PaywallBanner + blurred stubs
+- [x] `ResultPreviewCard`, `CosmicAdvice`, `ResultSectionIcon`
+- [x] `ResultSection` — icon circle + title + subtitle
+- [x] NavChips: 9 locked (+ paid purple dot) / expanded unlocked
+- [x] ArchetypeHero glow + title shimmer; ElementsChart stagger + DS gradients
+- [x] Share: square 320×320 constellation PNG + `#share` section
+- [x] `$softPurple` в variables.css
+- [x] `nuxi build` OK
+- [x] QA 375px + 1024px — PASS WITH NOTES
+- [x] PM sign-off — Accepted with notes
+
 ### Sprint 06 (2026-07-08)
 - [x] 12 JSON архетипов расширены до 27 полей (22 content + 5 meta)
 - [x] `types/personality.ts` — полная схема платного контента
 - [x] `extractArchetypeContent` — spread всех content-полей
 - [x] `constants/archetypeMeta.ts` — метаданные для CompatibilityCards
 - [x] UI: `ResultCallout`, `StrengthCard`, `GrowthCard`, `CompatibilityCards`, `RolesGrid`, `ResultSubheading`
-- [x] PaywallBanner — текст про 8 блоков
 - [x] 8 платных секций на result page (strengths → decisions)
 - [x] `watch(archetypeId)` — сброс paywall при переходе по compatibility
-- [x] NavChips + `useResultReveal` — 3 новые секции
+- [x] NavChips + `useResultReveal`
 - [x] QA 375px + 1024px — PASS WITH NOTES (P2 scroll-spy at page top)
 - [x] PM sign-off — Accepted with notes
 - [x] `nuxi build` — OK
@@ -69,8 +80,8 @@
 - Вычитка 12 JSON редактором-астрологом
 - Split free/paid в API
 - Интеграция ЮKassa / оплаты
-- [x] UX polish result: HoroCircle hero, gradient title, GSAP reveal, share deep link, NavChips paid
-- Удаление неиспользуемых `.vue` (`ModalResults`, `SelectInput`, …)
+- Playfair Display (остаёмся на Alegreya Sans SC)
+- Telegram / PDF / radar из стороннего скрина
 - E2E-тесты
 - Fix `npm run build` tarot assets (отдельный блокер)
 
@@ -85,7 +96,8 @@
 ## Журнал
 
 | Дата | Событие |
-|------|---------|
+|------|----------|
+| 2026-07-15 | Result redesign V1: freemium previews, Nebula paywall, section icons, share square — build OK, QA PASS WITH NOTES, PM Accepted |
 | 2026-07-04 | Post-migration fixes |
 | 2026-07-04 | Housekeeping: SEO, orchestration, legacy cleanup, QA fixes |
 | 2026-07-07 | Подключены JSON архетипов: serverAssets, jsonLoader, SSR `/personality-result` |

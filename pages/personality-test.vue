@@ -19,8 +19,11 @@
     });
   });
 
+  const route = useRoute();
+
   watch(isModalShow, (isOpen) => {
-    if (!isOpen) {
+    // Only bounce home on dismiss — success flow already navigated to result
+    if (!isOpen && route.path === '/personality-test') {
       navigateTo('/');
     }
   });

@@ -6,7 +6,10 @@
           <button
             type="button"
             class="nav-chips__chip"
-            :class="{ 'nav-chips__chip--active': activeSection === chip.id }"
+            :class="{
+              'nav-chips__chip--active': activeSection === chip.id,
+              'nav-chips__chip--paid': chip.paid,
+            }"
             :aria-current="activeSection === chip.id ? 'location' : undefined"
             @click="onNavigate(chip.id)"
           >
@@ -22,6 +25,7 @@
   export interface NavChipItem {
     id: string;
     label: string;
+    paid?: boolean;
   }
 
   withDefaults(
@@ -64,7 +68,7 @@
 
   .nav-chips__list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.8rem;
     margin: 0;
     padding: 0;
@@ -76,6 +80,10 @@
     &::-webkit-scrollbar {
       display: none;
     }
+
+    @mixin tablet {
+      justify-content: center;
+    }
   }
 
   .nav-chips__item {
@@ -83,6 +91,7 @@
   }
 
   .nav-chips__chip {
+    position: relative;
     display: block;
     margin: 0;
     padding: 0.8rem 1.4rem;
@@ -99,18 +108,31 @@
     appearance: none;
     -webkit-appearance: none;
     transition:
-      color 0.2s ease,
-      border-color 0.2s ease,
-      background-color 0.2s ease;
+      color 0.25s ease,
+      border-color 0.25s ease,
+      background-color 0.25s ease;
 
     &:hover {
       color: $lightGrayOrange;
+      border-color: $softOrangeTrans;
+      background: rgba(233, 168, 124, 0.12);
     }
 
     &--active {
       color: $lightGrayOrange;
       border-color: $softOrangeTrans;
       background: rgba(233, 168, 124, 0.12);
+    }
+
+    &--paid::after {
+      content: '';
+      position: absolute;
+      top: 0.55rem;
+      right: 0.55rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $softPurple;
     }
   }
 </style>

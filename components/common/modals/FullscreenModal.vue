@@ -1,33 +1,33 @@
 <template>
   <Teleport to="#teleports">
-    <Transition>
-      <div v-if="!isLoadingResult" class="modal">
-        <div class="container">
-          <ModalHeader
-            :count="totalSteps"
-            :current-slide-index="quizStore.step"
-            @close-modal="clickExitButton"
-          />
-          <div class="modal__wrapper">
-            <PersonalityQuiz
-              class="modal__questions"
-              :questions="flatQuestions"
-              :loading="isSubmitting"
-              @next="handleNext"
+    <Transition name="fullscreen-modal" appear @after-leave="onAfterLeave">
+      <div v-if="isOverlayVisible" class="modal" :class="{ 'modal--loading': isLoadingResult }">
+        <template v-if="!isLoadingResult">
+          <div class="container">
+            <ModalHeader
+              :count="totalSteps"
+              :current-slide-index="quizStore.step"
+              @close-modal="clickExitButton"
             />
-            <p v-if="submitError" class="modal__error">{{ submitError }}</p>
+            <div class="modal__wrapper">
+              <PersonalityQuiz
+                class="modal__questions"
+                :questions="flatQuestions"
+                :loading="isSubmitting"
+                @next="handleNext"
+              />
+              <p v-if="submitError" class="modal__error">{{ submitError }}</p>
+            </div>
           </div>
-        </div>
-        <ModalMobileMenu
-          :questions-length="totalSteps"
-          :can-proceed="quizStore.canProceed"
-          :is-submitting="isSubmitting"
-          :is-last-step="quizStore.isLastStep"
-          @change-slide-handler="handleMobileNav"
-        />
-      </div>
-      <div v-else class="modal modal--loading">
-        <div class="container">
+          <ModalMobileMenu
+            :questions-length="totalSteps"
+            :can-proceed="quizStore.canProceed"
+            :is-submitting="isSubmitting"
+            :is-last-step="quizStore.isLastStep"
+            @change-slide-handler="handleMobileNav"
+          />
+        </template>
+        <div v-else class="container">
           <ChartSkeleton :progress="loadingProgress" />
         </div>
       </div>
@@ -48,11 +48,13 @@
   const modal = modalStore();
   const quizStore = usePersonalityQuizStore();
 
+  const isOverlayVisible = ref(true);
   const isSubmitting = ref(false);
   const isLoadingResult = ref(false);
   const submitError = ref('');
   const loadingProgress = ref(0);
   let progressTimer: ReturnType<typeof setInterval> | null = null;
+  let pendingExitCleanup = false;
 
   onMounted(() => {
     lock();
@@ -68,15 +70,30 @@
   );
   const totalSteps = 13;
 
-  const desktopButtonLabel = computed(() => {
-    if (isSubmitting.value) return 'Загрузка…';
-    return quizStore.isLastStep ? 'Получить результат' : 'Продолжить';
-  });
+  function waitForPaint() {
+    return new Promise<void>((resolve) => {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => resolve());
+      });
+    });
+  }
+
+  function dismissOverlay() {
+    isOverlayVisible.value = false;
+  }
+
+  function onAfterLeave() {
+    unlock();
+    if (pendingExitCleanup) {
+      quizStore.reset();
+      pendingExitCleanup = false;
+    }
+    modal.closeModal();
+  }
 
   const clickExitButton = () => {
-    unlock();
-    quizStore.reset();
-    modal.closeModal();
+    pendingExitCleanup = true;
+    dismissOverlay();
   };
 
   function stopProgressTimer() {
@@ -116,15 +133,19 @@
 
       loadingProgress.value = 100;
       stopProgressTimer();
-
-      unlock();
       quizStore.reset();
-      modal.closeModal();
 
+      // Result page mounts under the opaque overlay first
       await navigateTo({
         path: '/personality-result',
         query: { archetypeId: result.archetypeId },
+        replace: true,
       });
+      await nextTick();
+      await waitForPaint();
+
+      // Then fade out onto the already-ready result page
+      dismissOverlay();
     } catch (error: unknown) {
       isLoadingResult.value = false;
       stopProgressTimer();
@@ -237,5 +258,15 @@
       color: $softOrange;
       text-align: center;
     }
+  }
+
+  .fullscreen-modal-enter-active,
+  .fullscreen-modal-leave-active {
+    transition: opacity 0.4s ease;
+  }
+
+  .fullscreen-modal-enter-from,
+  .fullscreen-modal-leave-to {
+    opacity: 0;
   }
 </style>

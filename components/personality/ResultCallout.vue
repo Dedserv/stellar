@@ -82,8 +82,8 @@
   }
 
   .result-callout--ritual {
-    border-color: rgba(179, 136, 255, 0.25);
-    background: rgba(179, 136, 255, 0.08);
+    border-color: color-mix(in srgb, $softPurple 25%, transparent);
+    background: color-mix(in srgb, $softPurple 8%, transparent);
   }
 
   .result-callout--challenge {

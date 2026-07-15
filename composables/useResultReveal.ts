@@ -1,6 +1,8 @@
 import type { Ref } from 'vue';
 
-const DEFAULT_SELECTOR = '.archetype-hero, .result-section, .paywall';
+const DEFAULT_SELECTOR = '.archetype-hero, .result-section, .paywall-block, .share-section';
+const PAID_SELECTOR =
+  '#strengths, #growth, #love, #career, #self, #conflicts, #friendship, #decisions';
 
 export function useResultReveal(
   containerRef: Ref<HTMLElement | null>,
@@ -12,38 +14,75 @@ export function useResultReveal(
 ) {
   const { $gsap } = useNuxtApp();
   const selector = options?.selector ?? DEFAULT_SELECTOR;
+  let observer: IntersectionObserver | null = null;
 
-  function revealSections(customSelector?: string) {
-    if (!import.meta.client || !containerRef.value) return;
+  function cleanup() {
+    observer?.disconnect();
+    observer = null;
+  }
 
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const targets = containerRef.value.querySelectorAll(customSelector ?? selector);
+  function prefersReducedMotion() {
+    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
 
+  function animateIn(el: Element) {
+    $gsap.to(el, {
+      opacity: 1,
+      y: 0,
+      duration: 0.6,
+      ease: 'power2.out',
+      overwrite: 'auto',
+    });
+  }
+
+  function observeTargets(targets: Element[]) {
     if (!targets.length) return;
 
-    if (prefersReducedMotion) {
+    if (prefersReducedMotion()) {
       $gsap.set(targets, { opacity: 1, y: 0 });
       return;
     }
 
-    $gsap.fromTo(
-      targets,
-      { opacity: 0, y: 12 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.28,
-        stagger: 0.07,
-        ease: 'power2.out',
-      }
-    );
+    $gsap.set(targets, { opacity: 0, y: 20 });
+
+    if (!observer) {
+      observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            animateIn(entry.target);
+            observer?.unobserve(entry.target);
+          }
+        },
+        { threshold: 0.15 }
+      );
+    }
+
+    for (const el of targets) {
+      observer.observe(el);
+    }
+  }
+
+  function revealSections(customSelector?: string) {
+    if (!import.meta.client || !containerRef.value) return;
+
+    const targets = [
+      ...containerRef.value.querySelectorAll(customSelector ?? selector),
+    ];
+    observeTargets(targets);
+  }
+
+  function resetAndRevealAll() {
+    if (!import.meta.client || !containerRef.value) return;
+    cleanup();
+    revealSections();
   }
 
   watch(
     isReady,
     (ready) => {
       if (!ready) return;
-      nextTick(() => revealSections());
+      nextTick(() => resetAndRevealAll());
     },
     { immediate: true }
   );
@@ -51,11 +90,15 @@ export function useResultReveal(
   for (const triggerRef of options?.watchRefs ?? []) {
     watch(triggerRef, (active) => {
       if (!active || !isReady.value) return;
-      nextTick(() =>
-        revealSections(
-          '#strengths, #growth, #love, #career, #self, #conflicts, #friendship, #decisions'
-        )
-      );
+      nextTick(() => {
+        if (!containerRef.value) return;
+        const targets = [...containerRef.value.querySelectorAll(PAID_SELECTOR)];
+        observeTargets(targets);
+      });
     });
   }
+
+  onBeforeUnmount(() => {
+    cleanup();
+  });
 }
