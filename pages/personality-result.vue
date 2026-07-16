@@ -72,7 +72,7 @@
           <CosmicAdvice :text="result.content.cosmicAdvice" />
         </ResultSection>
 
-        <!-- Locked: preview teasers -->
+        <!-- Locked: A5 Layered Preview -->
         <template v-if="!hasFullAccess">
           <ResultSection
             id="strengths"
@@ -80,17 +80,16 @@
             subtitle="Твои главные дары"
             icon="check"
           >
-            <div class="preview-grid">
-              <ResultPreviewCard
-                v-for="(item, index) in strengthPreviews"
+            <div class="gift-grid">
+              <StrengthCard
+                v-for="(item, index) in result.content.strengths"
                 :key="item.title"
-                :label="`Дар ${index + 1}`"
-                :title="item.title"
-                :text="item.text"
-                :icon="index === 0 ? 'clock' : 'people'"
-                teaser
+                :item="item"
+                variant="gift"
+                :icon="giftIcons[index] ?? 'star'"
               />
             </div>
+            <PracticesPaywallHint @unlock-hint="scrollToPaywall" />
           </ResultSection>
 
           <ResultSection
@@ -99,20 +98,17 @@
             subtitle="Твой язык чувств и привязанности"
             icon="heart"
           >
-            <div class="preview-grid">
-              <ResultPreviewCard
-                label="Язык любви"
-                :title="loveLanguageTeaser.title"
-                :text="loveLanguageTeaser.text"
-                teaser
-              />
-              <ResultPreviewCard
-                label="Совместимость"
-                :title="compatibilityTeaser.title"
-                :text="compatibilityTeaser.text"
-                teaser
-              />
-            </div>
+            <ResultLayeredPreview @unlock-hint="scrollToPaywall">
+              <div class="layered-summary">
+                <ResultSubheading title="Язык любви" />
+                <p>{{ result.content.loveLanguage }}</p>
+                <template v-if="firstCompatibility">
+                  <ResultSubheading title="Совместимость" />
+                  <p class="layered-summary__emphasis">{{ firstCompatibility.archetype }}</p>
+                  <p>{{ firstCompatibility.why }}</p>
+                </template>
+              </div>
+            </ResultLayeredPreview>
           </ResultSection>
 
           <ResultSection
@@ -121,21 +117,17 @@
             subtitle="Где твой талант раскроется"
             icon="briefcase"
           >
-            <div class="preview-grid">
-              <ResultPreviewCard
-                label="Призвание"
-                :title="careerTeaser.title"
-                :text="careerTeaser.text"
-                :list="rolePreviewList"
-                teaser
-              />
-              <ResultPreviewCard
-                label="Деньги"
-                :title="moneyTeaser.title"
-                :text="moneyTeaser.text"
-                teaser
-              />
-            </div>
+            <ResultLayeredPreview @unlock-hint="scrollToPaywall">
+              <div class="layered-summary">
+                <p>{{ result.content.career }}</p>
+                <ResultCallout variant="money" :text="result.content.moneyMindset" />
+                <template v-if="firstIdealRole">
+                  <ResultSubheading title="Идеальная роль" />
+                  <p class="layered-summary__emphasis">{{ firstIdealRole.role }}</p>
+                  <p v-if="firstIdealRole.why">{{ firstIdealRole.why }}</p>
+                </template>
+              </div>
+            </ResultLayeredPreview>
           </ResultSection>
 
           <ResultSection
@@ -144,23 +136,15 @@
             subtitle="Твой путь роста"
             icon="chart"
           >
-            <div class="preview-grid">
-              <ResultPreviewCard
-                label="Утренний ритуал"
-                :title="ritualTeaser.title"
-                :text="ritualTeaser.text"
-                teaser
-              />
-              <ResultPreviewCard
-                label="Вызов на месяц"
-                :title="challengeTeaser.title"
-                :text="challengeTeaser.text"
-                teaser
-              />
-            </div>
+            <ResultLayeredPreview @unlock-hint="scrollToPaywall">
+              <div class="layered-summary">
+                <ResultCallout variant="ritual" :text="result.content.morningRitual" />
+                <ResultCallout variant="challenge" :text="result.content.monthlyChallenge" />
+              </div>
+            </ResultLayeredPreview>
           </ResultSection>
 
-          <PaywallBanner :stubs="paywallStubs" @purchase="handlePurchase" />
+          <PaywallBanner @purchase="handlePurchase" />
         </template>
 
         <!-- Unlocked: full content -->
@@ -324,10 +308,10 @@
 <script setup lang="ts">
   import type { PersonalityTestResponse } from '~/types/personality';
   import type { NavChipItem } from '~/components/shared/NavChips.vue';
-  import type { PaywallStub } from '~/components/personality/PaywallBanner.vue';
-  import { extractHook, splitTeaser, teaserBody, truncateText } from '~/utils/previewTeaser';
+  import type { ResultIconName } from '~/components/personality/ResultSectionIcon.vue';
 
   const PERSONALITY_RESULT_KEY = 'stellara:personality-result';
+  const giftIcons: ResultIconName[] = ['star', 'heart', 'check'];
 
   const route = useRoute();
   const router = useRouter();
@@ -444,83 +428,9 @@
     );
   }
 
-  const strengthPreviews = computed(() =>
-    (result.value?.content.strengths ?? []).slice(0, 2).map((item) => ({
-      title: item.title,
-      text: truncateText(item.description, 140),
-    }))
-  );
+  const firstCompatibility = computed(() => result.value?.content.compatibility?.[0] ?? null);
 
-  const loveLanguageTeaser = computed(() =>
-    splitTeaser(result.value?.content.loveLanguage ?? '', 48, 120)
-  );
-
-  const compatibilityTeaser = computed(() => {
-    const first = result.value?.content.compatibility?.[0];
-    if (!first) {
-      return { title: 'Совместимость', text: 'Раскроется в полном портрете.' };
-    }
-    return {
-      title: first.archetype,
-      text: truncateText(first.why, 120),
-    };
-  });
-
-  const careerTeaser = computed(() => {
-    const content = result.value?.content;
-    if (!content) return { title: '', text: '' };
-    const role = content.idealRoles[0];
-    if (role) {
-      return {
-        title: role.role,
-        text: truncateText(role.why || content.career, 120),
-      };
-    }
-    return splitTeaser(content.career, 48, 120);
-  });
-
-  const rolePreviewList = computed(() =>
-    (result.value?.content.idealRoles ?? []).slice(0, 3).map((role) => role.role)
-  );
-
-  const moneyTeaser = computed(() =>
-    splitTeaser(result.value?.content.moneyMindset ?? '', 48, 110)
-  );
-
-  const ritualTeaser = computed(() =>
-    splitTeaser(result.value?.content.morningRitual ?? '', 48, 110)
-  );
-
-  const challengeTeaser = computed(() =>
-    splitTeaser(result.value?.content.monthlyChallenge ?? '', 48, 110)
-  );
-
-  const paywallStubs = computed<PaywallStub[]>(() => {
-    const content = result.value?.content;
-    if (!content) return [];
-
-    const growth = content.growthAreas[0];
-    const conflictHook = extractHook(content.conflictTriggers, 42);
-    const friendshipHook = extractHook(content.friendshipStyle, 42);
-
-    return [
-      {
-        label: 'Зоны роста',
-        title: growth?.title ?? 'Зоны роста',
-        desc: truncateText(growth?.description ?? '', 80),
-      },
-      {
-        label: 'Конфликты',
-        title: conflictHook || 'Конфликты',
-        desc: teaserBody(content.conflictTriggers, conflictHook, 80),
-      },
-      {
-        label: 'Дружба',
-        title: friendshipHook || 'Дружба',
-        desc: teaserBody(content.friendshipStyle, friendshipHook, 80),
-      },
-    ];
-  });
+  const firstIdealRole = computed(() => result.value?.content.idealRoles?.[0] ?? null);
 
   const sectionChips = computed<NavChipItem[]>(() => {
     const chips: NavChipItem[] = [{ id: 'portrait', label: 'Портрет' }];
@@ -564,6 +474,10 @@
     offset: 134,
     ready: isContentReady,
   });
+
+  function scrollToPaywall() {
+    scrollToSection('paywall');
+  }
 
   const {
     buttonLabel: shareLabel,
@@ -656,14 +570,41 @@
     text-decoration: underline;
   }
 
-  .preview-grid {
-    display: grid;
-    gap: 1.2rem;
-    grid-template-columns: 1fr;
+  .gift-grid {
+    display: flex;
+    flex-direction: column;
+  }
 
-    @mixin tablet {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .layered-summary {
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    background: $darkGrayBlue;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    color: $lightGrayOrange;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .layered-summary :deep(p) {
+    margin: 0;
+  }
+
+  .layered-summary :deep(p + p) {
+    margin-top: 1.2rem;
+  }
+
+  .layered-summary :deep(.result-callout) {
+    margin-top: 1.2rem;
+  }
+
+  .layered-summary :deep(.result-callout:first-child) {
+    margin-top: 0;
+  }
+
+  .layered-summary__emphasis {
+    margin: 0.4rem 0 0.6rem !important;
+    font-weight: 500;
+    color: $softOrange;
   }
 
   .result-body-card {

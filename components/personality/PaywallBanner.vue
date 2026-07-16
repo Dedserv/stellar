@@ -3,6 +3,7 @@
     <div class="paywall">
       <div class="paywall__bg" aria-hidden="true" />
       <div class="paywall__nebula" aria-hidden="true" />
+      <div class="paywall__glow" aria-hidden="true" />
       <div class="paywall__stars" aria-hidden="true">
         <svg viewBox="0 0 400 300" width="400" height="300">
           <circle cx="60" cy="40" r="1" fill="#fafafa" opacity="0.6" />
@@ -19,12 +20,28 @@
       <div class="paywall__content">
         <div class="paywall__icon" aria-hidden="true">✦</div>
         <h2 class="paywall__title">Твой полный портрет</h2>
+        <p class="paywall__subtitle">299&nbsp;₽ · единоразово · без подписок</p>
         <p class="paywall__teaser">
           Ты видишь только начало. За этой дымкой —
           <span>зоны роста</span>, <span>стиль конфликтов</span>,
           <span>язык дружбы</span> и твой уникальный
           <span>стиль принятия решений</span>. Готов(а) узнать себя до конца?
         </p>
+
+        <div class="paywall__cards" aria-label="Что входит в полный портрет">
+          <article
+            v-for="card in valueCards"
+            :key="card.title"
+            class="paywall__card"
+          >
+            <div class="paywall__card-icon" aria-hidden="true">
+              <ResultSectionIcon :name="card.icon" />
+            </div>
+            <h3 class="paywall__card-title">{{ card.title }}</h3>
+            <p class="paywall__card-desc">{{ card.desc }}</p>
+          </article>
+        </div>
+
         <div class="paywall__cta">
           <button
             type="button"
@@ -32,27 +49,15 @@
             aria-label="Открыть полный портрет за 299 рублей"
             @click="$emit('purchase')"
           >
-            Открыть полный портрет
+            Открыть полный портрет · 299&nbsp;₽
           </button>
-          <span class="paywall__cta-price">разовый доступ · 299 ₽</span>
-        </div>
-        <div class="paywall__features">
-          <div v-for="feature in features" :key="feature" class="paywall__feature">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <polyline points="20 6 9 17 4 12" />
-            </svg>
-            {{ feature }}
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div v-if="stubs.length" class="paid-stubs" aria-hidden="true">
-      <div class="paid-stubs__grid">
-        <div v-for="stub in stubs" :key="stub.title" class="paid-stubs__card">
-          <p v-if="stub.label" class="paid-stubs__label">{{ stub.label }}</p>
-          <h4 class="paid-stubs__title">{{ stub.title }}</h4>
-          <p class="paid-stubs__desc">{{ stub.desc }}</p>
+          <p class="paywall__reassurance">
+            Оплата в один клик · без автопродлений · доступ навсегда
+          </p>
+          <p class="paywall__reassurance paywall__reassurance--secondary">
+            После оплаты ты получишь полный портрет на 12+ страниц с практическими
+            рекомендациями
+          </p>
         </div>
       </div>
     </div>
@@ -60,24 +65,32 @@
 </template>
 
 <script setup lang="ts">
-  export interface PaywallStub {
-    label?: string;
-    title: string;
-    desc: string;
-  }
-
-  withDefaults(
-    defineProps<{
-      stubs?: PaywallStub[];
-    }>(),
-    {
-      stubs: () => [],
-    }
-  );
+  import type { ResultIconName } from '~/components/personality/ResultSectionIcon.vue';
 
   defineEmits<{ purchase: [] }>();
 
-  const features = ['Зоны роста', 'Конфликты', 'Дружба', 'Стиль решений'];
+  const valueCards: { icon: ResultIconName; title: string; desc: string }[] = [
+    {
+      icon: 'growth',
+      title: 'Зоны роста',
+      desc: 'Узнай, какие сферы жизни готовы к прорыву уже сейчас',
+    },
+    {
+      icon: 'zap',
+      title: 'Конфликты',
+      desc: 'Пойми, откуда берутся трения с близкими и как их смягчить',
+    },
+    {
+      icon: 'people',
+      title: 'Дружба',
+      desc: 'Какие люди усиливают твою энергию, а какие — истощают',
+    },
+    {
+      icon: 'compass',
+      title: 'Стиль решений',
+      desc: 'Твой уникальный способ выбирать — и как перестать сомневаться',
+    },
+  ];
 </script>
 
 <style scoped>
@@ -89,7 +102,7 @@
 
   .paywall {
     position: relative;
-    padding: 4.8rem 1.6rem;
+    padding: 4rem 1.6rem;
     border-radius: 0.8rem;
     border: 1px solid rgba(179, 136, 255, 0.2);
     text-align: center;
@@ -119,6 +132,15 @@
       radial-gradient(ellipse 80% 50% at 50% 80%, rgba(179, 136, 255, 0.06), transparent);
   }
 
+  .paywall__glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(ellipse 45% 55% at 15% 50%, rgba(179, 136, 255, 0.08), transparent),
+      radial-gradient(ellipse 45% 55% at 85% 50%, rgba(233, 168, 124, 0.06), transparent);
+  }
+
   .paywall__stars {
     position: absolute;
     inset: 0;
@@ -141,22 +163,28 @@
   }
 
   .paywall__icon {
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.2rem;
     font-size: 3.2rem;
     line-height: 1;
     color: $softPurple;
   }
 
   .paywall__title {
-    margin: 0 0 1.2rem;
-    font-size: 2.4rem;
+    margin: 0 0 0.6rem;
+    font-size: 2rem;
     font-weight: 400;
-    color: $lightGrayOrange;
+    color: $softOrange;
+  }
+
+  .paywall__subtitle {
+    margin: 0 0 1.6rem;
+    font-size: 1.4rem;
+    color: rgba(240, 236, 228, 0.7);
   }
 
   .paywall__teaser {
-    max-width: 32rem;
-    margin: 0 auto 2rem;
+    max-width: 36rem;
+    margin: 0 auto 2.4rem;
     font-size: 1.4rem;
     line-height: 1.5;
     color: $gray;
@@ -166,11 +194,74 @@
     color: $softPurple;
   }
 
+  .paywall__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 96rem;
+    margin: 0 auto 2.4rem;
+    text-align: left;
+
+    @mixin desktop {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.6rem;
+    }
+  }
+
+  .paywall__card {
+    padding: 1.2rem 1rem;
+    border-radius: 1.4rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .paywall__card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-bottom: 0.8rem;
+    border-radius: 50%;
+    background: rgba(233, 168, 124, 0.1);
+    color: $softOrange;
+
+    @mixin desktop {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+
+  .paywall__card-icon :deep(.result-icon) {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .paywall__card-title {
+    margin: 0 0 0.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $softOrange;
+  }
+
+  .paywall__card-desc {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: rgba(240, 236, 228, 0.6);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
   .paywall__cta {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.8rem;
   }
 
   .paywall__cta-btn {
@@ -178,25 +269,25 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 28rem;
-    padding: 1.2rem 2.4rem;
+    max-width: 32rem;
+    padding: 1.4rem 2.8rem;
     border: none;
-    border-radius: 999px;
-    background: linear-gradient(135deg, $softPurple, $softOrange);
-    color: $primaryWhite;
+    border-radius: 2.4rem;
+    background: linear-gradient(135deg, $softOrange, #d4956a);
+    color: $blackBlue;
     font-family: inherit;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 500;
     cursor: pointer;
-    box-shadow: 0 4px 20px rgba(179, 136, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(233, 168, 124, 0.2);
     transition:
       box-shadow 0.3s ease,
       transform 0.3s ease;
   }
 
   .paywall__cta-btn:hover {
-    box-shadow: 0 6px 28px rgba(179, 136, 255, 0.35);
-    transform: translateY(-1px);
+    box-shadow: 0 6px 28px rgba(233, 168, 124, 0.35);
+    transform: scale(1.02);
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -209,85 +300,16 @@
     }
   }
 
-  .paywall__cta-price {
-    font-size: 1.1rem;
-    color: $grayDark;
-  }
-
-  .paywall__features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.2rem 2.4rem;
-    margin-top: 2rem;
-    padding-top: 1.6rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-  }
-
-  .paywall__feature {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    font-size: 1.1rem;
-    color: $grayDark;
-  }
-
-  .paywall__feature svg {
-    width: 14px;
-    height: 14px;
-    stroke: $softOrange;
-    fill: none;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
-  .paid-stubs {
-    position: relative;
-    margin-top: 1.6rem;
-    opacity: 0.35;
-    filter: blur(4px);
-    pointer-events: none;
-    user-select: none;
-  }
-
-  .paid-stubs__grid {
-    display: grid;
-    gap: 1.2rem;
-    grid-template-columns: 1fr;
-
-    @mixin tablet {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  .paid-stubs__card {
-    padding: 1.6rem;
-    border-radius: 0.8rem;
-    background: $darkGrayBlue;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    text-align: left;
-  }
-
-  .paid-stubs__label {
-    margin: 0 0 0.4rem;
-    font-size: 1.1rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: $softOrange;
-  }
-
-  .paid-stubs__title {
-    margin: 0 0 0.8rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: $lightGrayOrange;
-  }
-
-  .paid-stubs__desc {
+  .paywall__reassurance {
     margin: 0;
+    max-width: 32rem;
     font-size: 1.2rem;
-    line-height: 1.45;
-    color: $gray;
+    line-height: 1.4;
+    color: rgba(240, 236, 228, 0.4);
+  }
+
+  .paywall__reassurance--secondary {
+    font-size: 1.1rem;
+    color: rgba(240, 236, 228, 0.35);
   }
 </style>

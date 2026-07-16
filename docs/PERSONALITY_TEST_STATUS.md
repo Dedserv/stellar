@@ -4,7 +4,7 @@
 >
 > **Для человека:** текущее состояние миграции с натальной карты на астрологический тест личности.
 
-**Обновлено:** 2026-07-15
+**Обновлено:** 2026-07-16
 
 ---
 
@@ -12,18 +12,18 @@
 
 | Поле | Значение |
 |------|----------|
-| **Этап** | Result page redesign (V1) |
-| **Статус** | `done` — QA PASS WITH NOTES, PM Accepted with notes |
+| **Этап** | A5 Layered Preview |
+| **Статус** | `done` — QA PASS, PM Accepted |
 | **Блокер** | — |
-| **Следующий** | API paywall / оплата; P2 hydration (session vs SSR) опционально |
+| **Следующий** | API paywall / оплата; аналитика GA4/PostHog (вне A5 UX) |
 
 ---
 
 ## Flow
 
-1. Главная → модалка (дата рождения + 12 вопросов)
+1. Главная → модалка (дата рождения + freemium-плашка + 12 вопросов)
 2. `POST /api/personality-test` → sessionStorage → `/personality-result?archetypeId=...`
-3. Freemium: портрет + стихии + совет (full); strengths/love/career/self — **preview с fade**; paywall Nebula закрывает growth/conflicts/friendship/decisions; unlock = full + paid-only; `#share` внизу
+3. Freemium A5: портрет + стихии + совет (full); **3 дара** (gift-only) + practices lock; love/career/self — **Layered Preview** (саммари + fade + divider + мини-CTA); PaywallBanner с 4 информативными карточками; growth/conflicts/friendship/decisions — только после unlock; `#share` внизу
 
 **Тестовый URL с результатом:** пройти квиз или открыть `/personality-result?archetypeId=leo-1` (без session — портрет + CTA вместо пустых стихий).
 
@@ -32,6 +32,16 @@
 ---
 
 ## Сделано
+
+### A5 Layered Preview (2026-07-16)
+- [x] Freemium-плашка на экране даты (`QuizBirthDate`)
+- [x] `StrengthCard variant="gift"` — 3 дара полностью (без manifestation/howToAmplify)
+- [x] `PracticesPaywallHint` → scroll to `#paywall`
+- [x] `ResultLayeredPreview` для Любовь / Карьера / Саморазвитие
+- [x] `PaywallBanner` — 4 информативные карточки + reassurance (без blur stubs)
+- [x] `nuxi build` OK
+- [x] QA 375px + 1024px — PASS
+- [x] PM sign-off — Accepted
 
 ### Result redesign V1 (2026-07-15)
 - [x] Freemium: 4 preview-блока + Nebula PaywallBanner + blurred stubs
@@ -97,6 +107,7 @@
 
 | Дата | Событие |
 |------|----------|
+| 2026-07-16 | A5 Layered Preview: gifts + practices hint, layered preview, paywall cards, birth notice — build OK, QA PASS, PM Accepted |
 | 2026-07-15 | Result redesign V1: freemium previews, Nebula paywall, section icons, share square — build OK, QA PASS WITH NOTES, PM Accepted |
 | 2026-07-04 | Post-migration fixes |
 | 2026-07-04 | Housekeeping: SEO, orchestration, legacy cleanup, QA fixes |
