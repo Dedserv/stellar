@@ -11,6 +11,7 @@
             />
             <div class="modal__wrapper">
               <PersonalityQuiz
+                ref="quizRef"
                 class="modal__questions"
                 :questions="flatQuestions"
                 :loading="isSubmitting"
@@ -53,6 +54,9 @@
   const isLoadingResult = ref(false);
   const submitError = ref('');
   const loadingProgress = ref(0);
+  const quizRef = ref<{ requestNext: () => Promise<void>; requestBack: () => Promise<void> } | null>(
+    null
+  );
   let progressTimer: ReturnType<typeof setInterval> | null = null;
   let pendingExitCleanup = false;
 
@@ -170,12 +174,12 @@
     quizStore.nextStep();
   }
 
-  function handleMobileNav(next?: boolean) {
+  async function handleMobileNav(next?: boolean) {
     if (next) {
-      handleNext();
+      await quizRef.value?.requestNext();
       return;
     }
-    quizStore.prevStep();
+    await quizRef.value?.requestBack();
   }
 </script>
 

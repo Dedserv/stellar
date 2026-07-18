@@ -8,11 +8,7 @@
     <div class="layered-preview__footer">
       <div class="layered-preview__divider" aria-hidden="true" />
       <p class="layered-preview__microcopy">{{ microcopy }}</p>
-      <button
-        type="button"
-        class="layered-preview__cta"
-        @click="$emit('unlock-hint')"
-      >
+      <button type="button" class="layered-preview__cta" @click="$emit('unlock-hint')">
         {{ ctaLabel }}
       </button>
     </div>
@@ -52,13 +48,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 10rem;
+    height: 20rem;
     pointer-events: none;
     background: linear-gradient(
       to top,
-      $blackBlue 0%,
-      rgba(20, 21, 32, 0.85) 35%,
-      rgba(20, 21, 32, 0.4) 65%,
+      $blackBlue 8%,
+      rgba(20, 21, 32, 0.95) 36%,
+      rgba(20, 21, 32, 0.5) 65%,
       transparent 100%
     );
 
@@ -74,6 +70,11 @@
     gap: 1rem;
     padding: 0.4rem 0 0.8rem;
     text-align: center;
+    transform: translateY(-10px);
+
+    @mixin desktop {
+      transform: translateY(0);
+    }
   }
 
   .layered-preview__divider {

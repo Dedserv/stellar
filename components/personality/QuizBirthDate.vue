@@ -37,16 +37,6 @@
         </select>
       </label>
     </div>
-
-    <aside class="quiz-birth__notice" aria-label="Что входит бесплатно">
-      <div class="quiz-birth__notice-icon" aria-hidden="true">
-        <ResultSectionIcon name="star" />
-      </div>
-      <p class="quiz-birth__notice-text">
-        Базовый портрет и космический совет — бесплатно. Полный разбор личности (8 глубоких
-        блоков) — 299&nbsp;₽. Единоразовый платёж, без подписок.
-      </p>
-    </aside>
   </div>
 </template>
 
@@ -131,40 +121,5 @@
     font-family: inherit;
     font-size: 1.4rem;
     appearance: none;
-  }
-
-  .quiz-birth__notice {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.2rem;
-    margin-top: 1.6rem;
-    padding: 1.2rem 1.4rem;
-    border-radius: 0.8rem;
-    background: $blackBlue;
-    border: 1px solid rgba(233, 168, 124, 0.2);
-  }
-
-  .quiz-birth__notice-icon {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3.2rem;
-    height: 3.2rem;
-    border-radius: 50%;
-    background: rgba(233, 168, 124, 0.1);
-    color: $softOrange;
-  }
-
-  .quiz-birth__notice-icon :deep(.result-icon) {
-    width: 1.6rem;
-    height: 1.6rem;
-  }
-
-  .quiz-birth__notice-text {
-    margin: 0;
-    font-size: 1.3rem;
-    line-height: 1.45;
-    color: $gray;
   }
 </style>

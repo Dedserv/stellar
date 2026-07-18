@@ -4,8 +4,8 @@ export function getDaysInMonth(month: number, year: number) {
 }
 
 export function getBirthYearOptions() {
-  const currentYear = new Date().getFullYear();
-  return Array.from({ length: currentYear - 1900 + 1 }, (_, index) => currentYear - index);
+  const currentYear = new Date().getFullYear() - 12;
+  return Array.from({ length: currentYear - 1945 }, (_, index) => currentYear - index);
 }
 
 export function isValidBirthDate(day: number, month: number, year: number) {
@@ -13,9 +13,5 @@ export function isValidBirthDate(day: number, month: number, year: number) {
   const currentYear = new Date().getFullYear();
   if (year < 1900 || year > currentYear) return false;
   const date = new Date(year, month - 1, day);
-  return (
-    date.getFullYear() === year &&
-    date.getMonth() === month - 1 &&
-    date.getDate() === day
-  );
+  return date.getFullYear() === year && date.getMonth() === month - 1 && date.getDate() === day;
 }

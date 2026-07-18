@@ -100,11 +100,11 @@ export interface PersonalityTestResponse {
   content: ArchetypeContent;
 }
 
-export const OPTION_ICONS: Record<QuizAnswer, string> = {
-  A: '🔥',
-  B: '🌿',
-  C: '💨',
-  D: '🌊',
+export const OPTION_ELEMENTS: Record<QuizAnswer, ElementKey> = {
+  A: 'fire',
+  B: 'earth',
+  C: 'air',
+  D: 'water',
 };
 
 export const ELEMENT_LABELS_RU: Record<ElementKey, string> = {

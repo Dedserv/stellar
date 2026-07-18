@@ -4,7 +4,7 @@
 >
 > **Для человека:** текущее состояние миграции с натальной карты на астрологический тест личности.
 
-**Обновлено:** 2026-07-16
+**Обновлено:** 2026-07-18
 
 ---
 
@@ -12,10 +12,10 @@
 
 | Поле | Значение |
 |------|----------|
-| **Этап** | A5 Layered Preview |
+| **Этап** | Quiz Glyph Cards |
 | **Статус** | `done` — QA PASS, PM Accepted |
 | **Блокер** | — |
-| **Следующий** | API paywall / оплата; аналитика GA4/PostHog (вне A5 UX) |
+| **Следующий** | API paywall / оплата; аналитика GA4/PostHog |
 
 ---
 
@@ -32,6 +32,16 @@
 ---
 
 ## Сделано
+
+### Quiz Glyph Cards (2026-07-18)
+- [x] `ElementGlyph.vue` — SVG глифы fire/earth/air/water в круге 36×36
+- [x] `OPTION_ELEMENTS` (A–D → стихии); эмодзи `OPTION_ICONS` удалены
+- [x] `QuizOption` — answer-card states, метка стихии, ARIA radio
+- [x] `PersonalityQuiz` — radiogroup, GSAP stagger/glow/exit, keyboard, reduced-motion
+- [x] Токены карточек/глифов в `variables.css`
+- [x] `nuxi build` OK
+- [x] QA 375px + 1024px — PASS (1 fix loop: GSAP clearProps)
+- [x] PM sign-off — Accepted
 
 ### A5 Layered Preview (2026-07-16)
 - [x] Freemium-плашка на экране даты (`QuizBirthDate`)
@@ -107,6 +117,8 @@
 
 | Дата | Событие |
 |------|----------|
+| 2026-07-18 | Quiz Glyph Cards polish: nav lock/mobile parity, glow clip, radio div, GSAP onInterrupt, tokens — build OK |
+| 2026-07-18 | Quiz Glyph Cards: ElementGlyph + QuizOption refactor + GSAP/a11y — build OK, QA PASS, PM Accepted |
 | 2026-07-16 | A5 Layered Preview: gifts + practices hint, layered preview, paywall cards, birth notice — build OK, QA PASS, PM Accepted |
 | 2026-07-15 | Result redesign V1: freemium previews, Nebula paywall, section icons, share square — build OK, QA PASS WITH NOTES, PM Accepted |
 | 2026-07-04 | Post-migration fixes |
